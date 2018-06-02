@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{%  block extrastyle %}
+{% endblock %}
+
+{% block content %}
+    <div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">implemented in Python 3.5 and Django 2.0</h1>
+        <p class="splash-subhead">
+            Tools to aid development
+        </p>
+        <ol class="splash-subhead">
+            <li><a href="{% url 'feedmanager' %}">Feedmanager</a></li>
+            <li><a href="{% url 'audience-list' %}">Audiences</a></li>
+            <li><a href="{% url 'admin:users_pdpuser_changelist' %}">PDP User Admin</a></li>
+            <li><a href="{% url 'admin:contracts_io_changelist' %}">Insertion Order (Contract) Admin</a></li>
+            <li><a href="{% url 'cropper' %}">Cropper Test Harness</a></li>
+        </ol>
+        <p class="splash-subhead">
+            To Do
+        </p>
+        <ol class="splash-subhead">
+            <li>Testing</li>
+            <li>Documentation</li>
+        </ol>
+    </div>
+</div>
+{% endblock %}

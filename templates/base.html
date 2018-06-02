@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ahernp.com</title>
+        <style>
+            {% block extrastyle %}{% endblock %}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            {% block header %}
+                <h2>Header</h2>
+            {% endblock %}
+        </div>
+        <div id="content">
+            {% if messages %}
+                <ul class="messagelist">
+                    {% for message in messages %}
+                         <li class="{{ message.tags }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% block content %}
+                <h2>Content</h2>
+            {% endblock %}
+        </div>
+        <div class="footer">
+            {% block footer %}
+                <h2>Footer</h2>
+            {% endblock %}
+        </div>
+        <script type="text/javascript">
+            {% block extrascript %}{% endblock %}
+        </script>
+    </body>
+</html>
