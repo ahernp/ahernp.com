@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Pages{% endblock %}
+
+{% block extrastyle %}{% endblock %}
+
+{% block content %}
+	<h2>Pages</h2>
+	<table class="pure-table pure-table-odd pure-table-bordered">
+		<thead>
+			<tr><th>Title</th><th>Updated</th></tr>
+		</thead>
+		<tbody>
+		{% for page in object_list %}
+			<tr>
+				<td><a href="{% url 'page-detail'  page.slug %}">{{ page.title }}</a></td>
+				<td>{{ page.updated | date:"c" }}</td>
+			</tr>
+		{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}
+
+{% block extrascript %}{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Blog Page {{ object.name }} Details{% endblock %}
+
+{% block extrastyle %}{% endblock %}
+
+{% block content %}
+    <h2>{{ object.title }}</h2>
+    {% if object.published %}
+        <h2>{{ blogpage.published | date:"c" }}</h2>
+    {% endif %}
+    {{ object.content }}
+{% endblock %}
+
+{% block extrascript %}{% endblock %}
