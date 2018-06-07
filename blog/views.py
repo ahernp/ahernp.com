@@ -3,6 +3,7 @@ from django.views.generic.list import ListView
 
 from .models import BlogPage
 
+
 class BlogPageListView(ListView):
     model = BlogPage
 

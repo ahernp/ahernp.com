@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "markdown.apps.MarkdownConfig",
     "blog.apps.BlogConfig",
+    "core.apps.CoreConfig",
 ]
 
 MIDDLEWARE = [
@@ -83,3 +84,13 @@ USE_TZ = True
 STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, "static"))
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [os.path.normpath(os.path.join(BASE_DIR, "site_assets"))]
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "filters": {"require_debug_false": {"()": "django.utils.log.RequireDebugFalse"}},
+    "handlers": {"db_log": {"level": "INFO", "class": "core.log.DbLogHandler"}},
+    "loggers": {
+        "django": {"handlers": ["db_log"], "level": "ERROR", "propagate": True}
+    },
+}

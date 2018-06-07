@@ -8,17 +8,33 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-        ('markdown', '0001_initial'),
-    ]
+    dependencies = [("markdown", "0001_initial")]
 
     operations = [
         migrations.CreateModel(
-            name='BlogPage',
+            name="BlogPage",
             fields=[
-                ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='markdown.Page')),
-                ('published', models.DateField(blank=True, help_text='dd/mm/yyyy', null=True, verbose_name='Date Published')),
+                (
+                    "page_ptr",
+                    models.OneToOneField(
+                        auto_created=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        parent_link=True,
+                        primary_key=True,
+                        serialize=False,
+                        to="markdown.Page",
+                    ),
+                ),
+                (
+                    "published",
+                    models.DateField(
+                        blank=True,
+                        help_text="dd/mm/yyyy",
+                        null=True,
+                        verbose_name="Date Published",
+                    ),
+                ),
             ],
-            bases=('markdown.page',),
-        ),
+            bases=("markdown.page",),
+        )
     ]

@@ -9,6 +9,7 @@ class Page(models.Model):
     content = models.TextField(verbose_name="Page content", blank=True)
 
     class Meta:
+        app_label = "markdown"
         ordering = ["title"]
 
     def __str__(self):

@@ -30,7 +30,7 @@ class Page(models.Model):
     content = models.TextField(verbose_name="Page content", blank=True)
 
     class Meta:
-        ordering = ["title"]
+        ordering = ["id"]
 
     def __str__(self):
         return self.title

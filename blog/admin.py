@@ -14,7 +14,7 @@ class BlogPageAdmin(PageAdmin):
                     ("content",),
                     ("title", "parent"),
                     ("published", "updated"),
-                    ("slug")
+                    ("slug"),
                 )
             },
         ),
