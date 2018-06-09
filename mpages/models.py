@@ -4,7 +4,7 @@ from django.utils.safestring import mark_safe
 
 import markdown
 
-MARKDOWN_EXTENSIONS = ['extra', 'tables', 'toc']
+MARKDOWN_EXTENSIONS = ["extra", "tables", "toc"]
 
 
 class Page(models.Model):
@@ -16,9 +16,11 @@ class Page(models.Model):
 
     @property
     def content_as_html(self):
-        return mark_safe(markdown.markdown(force_text(self.content),
-                                           MARKDOWN_EXTENSIONS,
-safe_mode=False))
+        return mark_safe(
+            markdown.markdown(
+                force_text(self.content), MARKDOWN_EXTENSIONS, safe_mode=False
+            )
+        )
 
     class Meta:
         app_label = "mpages"

@@ -12,8 +12,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-HOMEPAGE_SLUG = 'ahernp-com'
-BLOG_ROOT_SLUG = 'blog'
+HOMEPAGE_SLUG = "ahernp-com"
+BLOG_ROOT_SLUG = "blog"
 
 
 def migrate_page(old_page, parent):
@@ -22,7 +22,7 @@ def migrate_page(old_page, parent):
         slug=old_page.slug,
         content=old_page.content,
         updated=old_page.updated,
-        parent=parent
+        parent=parent,
     )
     new_page.save()
     return new_page
@@ -69,8 +69,14 @@ class Command(BaseCommand):
                 continue
             if oldpage.content_type == "gallery":
                 page = convert_gallery_to_markdown(page)
-                new_pages_cache[page.slug] = migrate_page(page, new_pages_cache[HOMEPAGE_SLUG])
+                new_pages_cache[page.slug] = migrate_page(
+                    page, new_pages_cache[HOMEPAGE_SLUG]
+                )
             elif oldpage.parent.slug == BLOG_ROOT_SLUG:
-                new_blogpages_cache[page.slug] = migrate_page(page, new_pages_cache[BLOG_ROOT_SLUG])
+                new_blogpages_cache[page.slug] = migrate_page(
+                    page, new_pages_cache[BLOG_ROOT_SLUG]
+                )
             else:
-                new_pages_cache[page.slug] = migrate_page(page, new_pages_cache[HOMEPAGE_SLUG])
+                new_pages_cache[page.slug] = migrate_page(
+                    page, new_pages_cache[HOMEPAGE_SLUG]
+                )
