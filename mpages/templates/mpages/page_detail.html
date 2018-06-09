@@ -4,10 +4,27 @@
 
 {% block extrastyle %}{% endblock %}
 
-{% block content %}
-    <h2>{{ object.title }}</h2>
-    {{ object.content_as_html }}
-    {{ object.content }}
+{% block header %}
+	<p class="breadcrumbs">
+		{% if object.slug != "ahernp-com" %}
+			<a href="{% url "homepage" %}">ahernp.com</a>
+			›
+			{{ object.title }}
+		{% else %}
+			ahernp.com
+		{% endif %}
+	</p>
 {% endblock %}
 
+{% block content %}
+    {{ object.content_as_html }}
+{% endblock %}
+
+{% block footer %}
+	<p>
+		Updated {{ object.updated|date:"c" }};
+		<a href="{% url "page-detail" "markdown" %}">Markdown</a>;
+		<a href="{% url 'admin:mpages_page_change' object.id %}">Admin</a>.
+	</p>
+{% endblock %}
 {% block extrascript %}{% endblock %}

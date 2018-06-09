@@ -5,19 +5,20 @@
 	{% load static %}
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
-    	<link rel="shortcut icon" href="{% static "favicon.ico" %}" type="image/ico" />
-	<link rel="stylesheet" href="{% static "styles.css" %}">
+    	<link href="{% static "favicon.ico" %}" rel="shortcut icon" type="image/ico" />
+	<link href="{% static "pure-min.css" %}" rel="stylesheet" />
+	<link href="{% static "styles.css" %}" rel="stylesheet">
         <style>
             {% block extrastyle %}{% endblock %}
         </style>
     </head>
     <body>
-        <div class="header">
+        <div id="header">
             {% block header %}
                 <h2>Header</h2>
             {% endblock %}
         </div>
-        <div id="content">
+        <div id="content" class="pure-g">
             {% if messages %}
                 <ul class="messagelist">
                     {% for message in messages %}
@@ -29,7 +30,7 @@
                 <h2>Content</h2>
             {% endblock %}
         </div>
-        <div class="footer">
+        <div id="footer">
             {% block footer %}
                 <h2>Footer</h2>
             {% endblock %}

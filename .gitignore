@@ -1,5 +1,6 @@
 static/
 tags
+session.vim
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

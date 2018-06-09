@@ -10,7 +10,7 @@ MARKDOWN_EXTENSIONS = ['extra', 'tables', 'toc']
 class Page(models.Model):
     title = models.CharField(max_length=250)
     slug = models.SlugField(max_length=250, unique=True)
-    parent = models.ForeignKey("self", on_delete=models.SET_NULL, null=True)
+    parent = models.ForeignKey("self", on_delete=models.SET_NULL, null=True, blank=True)
     updated = models.DateTimeField(verbose_name="Time Updated", auto_now=True)
     content = models.TextField(verbose_name="Page content", blank=True)
 
