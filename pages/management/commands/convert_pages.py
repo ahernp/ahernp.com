@@ -5,7 +5,7 @@ import json
 from django.core.management.base import BaseCommand
 
 from pages.models import Page as OldPage
-from markdown.models import Page as NewPage
+from mpages.models import Page as NewPage
 from blog.models import Page as BlogPage
 
 import logging

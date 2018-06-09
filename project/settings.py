@@ -1,6 +1,6 @@
 import os
 
-BASE_DIR = "/opt/ahernp/"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 
@@ -16,7 +16,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "pages.apps.PagesConfig",
-    "markdown.apps.MarkdownConfig",
+    "mpages.apps.MpagesConfig",
     "blog.apps.BlogConfig",
     "core.apps.CoreConfig",
 ]

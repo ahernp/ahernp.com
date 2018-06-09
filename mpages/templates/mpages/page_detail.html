@@ -6,6 +6,7 @@
 
 {% block content %}
     <h2>{{ object.title }}</h2>
+    {{ object.content_as_html }}
     {{ object.content }}
 {% endblock %}
 

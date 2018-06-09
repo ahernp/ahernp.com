@@ -8,7 +8,7 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [("markdown", "0001_initial")]
+    dependencies = [("mpages", "0001_initial")]
 
     operations = [
         migrations.CreateModel(
@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                         parent_link=True,
                         primary_key=True,
                         serialize=False,
-                        to="markdown.Page",
+                        to="mpages.Page",
                     ),
                 ),
                 (
@@ -35,6 +35,6 @@ class Migration(migrations.Migration):
                     ),
                 ),
             ],
-            bases=("markdown.page",),
+            bases=("mpages.page",),
         )
     ]

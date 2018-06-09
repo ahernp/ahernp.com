@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from markdown.admin import PageAdmin
+from mpages.admin import PageAdmin
 from .models import BlogPage
 
 

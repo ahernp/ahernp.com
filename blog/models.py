@@ -1,6 +1,6 @@
 from django.db import models
 
-from markdown.models import Page
+from mpages.models import Page
 
 
 class BlogPage(Page):
