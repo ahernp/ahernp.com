@@ -8,4 +8,5 @@ urlpatterns = [
     path("api/pages/", include("pages.urls")),
     path("pages/", include("mpages.urls")),
     path("blog/", include("blog.urls")),
+    path("feedreader/", include("feedreader.urls")),
 ]

@@ -79,7 +79,7 @@ class Command(BaseCommand):
         if BLOG_ROOT_SLUG not in new_pages_cache:
             old_page = OldPage.objects.get(slug=BLOG_ROOT_SLUG)
             new_blogpages_cache[old_page.slug] = migrate_page(old_page, None)
-            blog_root = new_blogpages_cache[old_page.slug]
+            blog_root = new_pages_cache[old_page.slug]
             blog_root.parent = blog_root
             blog_root.save()
 
@@ -91,7 +91,7 @@ class Command(BaseCommand):
 
         parents = OldPage.objects.filter(id__in=parent_ids).select_related("parent")
 
-        # Add linux parent page first
+        # Add reference and linux parent pages first
         reference = OldPage.objects.get(slug="reference")
         update_caches(reference)
         linux = OldPage.objects.get(slug="linux")

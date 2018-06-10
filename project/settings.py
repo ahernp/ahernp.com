@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     "mpages.apps.MpagesConfig",
     "blog.apps.BlogConfig",
     "core.apps.CoreConfig",
+    "feedreader.apps.FeedreaderConfig",
 ]
 
 MIDDLEWARE = [
@@ -94,3 +95,11 @@ LOGGING = {
         "django": {"handlers": ["db_log"], "level": "ERROR", "propagate": True}
     },
 }
+
+# Dashboard
+LOG_ENTRIES_TO_SHOW = 10
+
+# Feedreader
+MAX_ENTRIES_SAVED = 100
+MAX_ENTRIES_SHOWN = 100
+MAX_DAYS_SHOWN = 1

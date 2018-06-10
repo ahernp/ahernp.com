@@ -1,0 +1,46 @@
+
+{% extends "base.html" %}
+
+{% block title %}Feedreader{% endblock %}
+
+{% block extrastyle %}
+.feed_entry {
+    padding: 0.2em 0.5em;
+    margin: 0.5em;
+    border: 1px solid #046;
+    border-radius: 1em;
+}
+{% endblock %}
+
+{% block header %}
+	<p class="breadcrumbs">
+		<a href="{% url "homepage" %}">ahernp.com</a> ›
+	    Feedreader
+	</p>
+{% endblock %}
+
+{% block content %}
+    <h1>Recent Entries</h1>
+    <div id="feedreader-entry-list">
+        {% for entry in object_list %}
+            <div class="feed_entry">
+                <h3 class="feed_entry_subtitle">
+                    From {{ entry.feed.title }} on {{ entry.published_time }}
+                    {% if not entry.read_flag %}
+                        (unread)
+                    {% endif %}
+                </h3>
+                <p><a href="{{ entry.link }}">{{ entry.title }}</a></p>
+                <p>{{ entry.description|safe }}</p>                                                                                                                                          </div>
+            {% endfor %}
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <p>
+        Generated {% now "Y-m-d H:i:s" %};
+        <a href="{% url 'admin:feedreader_feed_changelist' %}">Admin</a>.
+    </p>
+{% endblock %}
+
+{% block extrascript %}{% endblock %}

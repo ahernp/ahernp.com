@@ -32,10 +32,10 @@
         "title": "ahernp.com",
         "slug": "ahernp-com",
         "parent": 3,
-        "updated": "2018-01-11T15:45:20.460Z",
+        "updated": "2018-05-27T05:23:25.415Z",
         "published": null,
         "content_type": "homepage",
-        "content": "## External\n\nFavourite:\n[Dictionary](http://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](http://isabellebidou.com \"Isabelle Bidou\")\n[StartPage](https://startpage.com/uk/? \"Google Search Results, but with privacy\")\n\nApps:\n[Calibre](http://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](http://www.geany.org \"Text editor\")\n[Inkscape](http://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](http://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](http://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](http://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](http://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](http://oreilly.com/ebooks/ \"IT Books\")\n[PG](http://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](http://www.dilbert.com \"Today's Dilbert comic\")\n[Doonesbury](http://www.doonesbury.com \"Today's Doonesbury comic\")\n[Garfield](http://www.garfield.com/comic \"Today's Garfield comic\")\n[xkcd](http://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](http://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](http://www.gamersgate.co.uk \"GamersGate\")\n[GOG](http://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](http://store.steampowered.com \"Steam Shop\")\n\nMedia:\n[BBC](http://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](http://www.bbc.co.uk/iplayer/favourites)\n[RT](http://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](http://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com/feed/subscriptions)\n\nMisc:\n[AE](http://academicearth.org \"Academic Earth lectures\")\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](http://www.openstreetmap.org/)\n[MPS](http://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](http://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\n[TfL](http://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\n\nShopping:\n[Allwrite](http://www.allwrite.nl/ \"Pens\")\n[BM](http://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](http://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](http://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\n\nThis Site:\n[Angular](https://angular.io/docs/ts/latest/ \"Angular 2 with Typescript\")\n[Django](http://www.djangoproject.com/ \"Web development framework\")\n[GitHub](https://github.com/ahernp/angular-django)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](http://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](http://w3schools.com/ \"Web standards\")"
+        "content": "## External\n\nFavourite:\n[Dictionary](http://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](http://isabellebidou.com \"Isabelle Bidou\")\n[StartPage](https://startpage.com/uk/? \"Google Search Results, but with privacy\")\n\nApps:\n[Calibre](http://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](http://www.geany.org \"Text editor\")\n[Inkscape](http://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](http://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](http://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](http://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](http://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](http://oreilly.com/ebooks/ \"IT Books\")\n[PG](http://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](http://www.dilbert.com \"Today's Dilbert comic\")\n[Garfield](http://www.garfield.com/comic \"Today's Garfield comic\")\n[xkcd](http://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](http://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](http://www.gamersgate.co.uk \"GamersGate\")\n[GOG](http://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](http://store.steampowered.com \"Steam Shop\")\n\nMedia:\n[BBC](http://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](http://www.bbc.co.uk/iplayer/favourites)\n[RT](http://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](http://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com/feed/subscriptions)\n\nMisc:\n[AE](http://academicearth.org \"Academic Earth lectures\")\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](http://www.openstreetmap.org/)\n[MPS](http://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](http://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\n[TfL](http://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\n\nShopping:\n[Allwrite](http://www.allwrite.nl/ \"Pens\")\n[BM](http://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](http://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](http://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\n\nThis Site:\n[Angular](https://angular.io/docs/ts/latest/ \"Angular 2 with Typescript\")\n[Django](http://www.djangoproject.com/ \"Web development framework\")\n[GitHub](https://github.com/ahernp)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](http://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](http://w3schools.com/ \"Web standards\")"
     }
 },
 {
@@ -136,10 +136,10 @@
         "title": "Firefox",
         "slug": "firefox",
         "parent": 5,
-        "updated": "2017-09-25T07:44:10.670Z",
+        "updated": "2018-05-27T12:24:22.773Z",
         "published": null,
         "content_type": "markdown",
-        "content": "Download from [www.mozilla.org/firefox](http://www.mozilla.org/firefox).\n\n## Add-ons\n\n1. [CacheToggle](https://addons.mozilla.org/en-US/firefox/addon/cachetoggle/):\nDisable (and optionally clear) the browser cache.\n1. [ColorZilla](http://www.colorzilla.com/firefox/):\nAdvanced Eyedropper, Color Picker, Palette Viewer, etc.\n1. [Download Status Bar](https://addons.mozilla.org/en-GB/firefox/addon/download-status-bar/):\nShow download progress.\n1. [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug/):\nJavaScript debugger.\n1. [FireFTP](https://addons.mozilla.org/en-US/firefox/addon/fireftp/):\nFTP client.\n1. [Firesizer](https://addons.mozilla.org/en-us/firefox/addon/firesizer/):\nSet window to specific size.\n1. [Font Finder](https://addons.mozilla.org/en-GB/firefox/addon/font-inspect/):\nAnalyze the font information of any element on a page.\n1. [Foxclocks](https://addons.mozilla.org/en-US/firefox/addon/foxclocks/):\nTimes around the world in Status Bar.\n1. [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/):\nOverride site behaviour with Javascript.\n1. [LastPass](https://addons.mozilla.org/en-gb/firefox/addon/lastpass-password-manager/):\nPassword Manager.\n1. [Selenium IDE](http://seleniumhq.org/download/):\nRecord-and-playback of interactions with the browser.\n1. [sqlite-manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/):\nManage all your [SQLite](http://www.sqlite.org/) databases.\n1. [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/):\nApply themes to websites. (try [Solarized Dark Everywhere](https://userstyles.org/styles/98305/solarized-dark-everywhere))\n1. [TiddlyFox](https://addons.mozilla.org/en-US/firefox/addon/tiddlyfox/):\nAllow saving of TiddlyWikis.\n1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin):\nBlocks ads, trackers and malware sites.\n1. [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/):\nMany Web Developer tools.\n\n## Configuration\n\n* Deactivate New Tab: `about:config` > Find `browser.newtab.url` > Change `about:newtab` to `about:blank` to disable or to a URL to open a specific page.\n* Open links in same Tab/Window: `about:config` > `browser.link.open_newwindow` > Change value to 1.\n* Enable spell checking: `about:config` > `layout.spellcheckDefault` > Change value to 2\n\n## AwesomeBar Wildcards\n\nUse one of these wildcards (delimited by a space) in the Firefox AwesomeBar to filter the results.\n\nEnter the filter `browser.urlbar` in about:config to see them all.\n\n1. **#** Returns results that match the text in the title.\n2. **@** Returns results that match the text in the URL.\n3. ***** Returns only results that are from the bookmarks.\n4. **^** Returns only results that are from the browser's history.\n5. **+** Returns only results that have been tagged.\n\n## Clear Cache\n\n1. At the top of the Firefox window, click the History menu, and select Clear Recent History....\n1. In the Time range to clear field choose everything.\n1. Press the Details button if a list of tickboxes is not visible.\n1. Tick all the boxes.\n1. Press Clear Now button"
+        "content": "Download from [www.mozilla.org/firefox](http://www.mozilla.org/firefox).\n\n## Add-ons\n\n1. [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/):\nAdblocker.\n1. [CacheToggle](https://addons.mozilla.org/en-US/firefox/addon/cachetoggle/):\nDisable (and optionally clear) the browser cache.\n1. [ColorZilla](http://www.colorzilla.com/firefox/):\nAdvanced Eyedropper, Color Picker, Palette Viewer, etc.\n1. [Firesizer](https://addons.mozilla.org/en-us/firefox/addon/firesizer/):\nSet window to specific size.\n1. [Foxclocks](https://addons.mozilla.org/en-US/firefox/addon/foxclocks/):\nTimes around the world in Status Bar.\n1. [LastPass](https://addons.mozilla.org/en-gb/firefox/addon/lastpass-password-manager/):\nPassword Manager.\n1. [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/):\nJavascript React tools.\n1. [Redux Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/remotedev/):\nJavascript Redux tools.\n1. [Selenium IDE](http://seleniumhq.org/download/):\nRecord-and-playback of interactions with the browser.\n1. [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/):\nApply themes to websites. (try [Solarized Dark Everywhere](https://userstyles.org/styles/98305/solarized-dark-everywhere))\n1. [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin):\nBlocks ads, trackers and malware sites.\n\n\n## Configuration\n\n* Deactivate New Tab: `about:config` > Find `browser.newtab.url` > Change `about:newtab` to `about:blank` to disable or to a URL to open a specific page.\n* Open links in same Tab/Window: `about:config` > `browser.link.open_newwindow` > Change value to 1.\n* Enable spell checking: `about:config` > `layout.spellcheckDefault` > Change value to 2\n\n## AwesomeBar Wildcards\n\nUse one of these wildcards (delimited by a space) in the Firefox AwesomeBar to filter the results.\n\nEnter the filter `browser.urlbar` in about:config to see them all.\n\n1. **#** Returns results that match the text in the title.\n2. **@** Returns results that match the text in the URL.\n3. ***** Returns only results that are from the bookmarks.\n4. **^** Returns only results that are from the browser's history.\n5. **+** Returns only results that have been tagged.\n\n## Clear Cache\n\n1. At the top of the Firefox window, click the History menu, and select Clear Recent History....\n1. In the Time range to clear field choose everything.\n1. Press the Details button if a list of tickboxes is not visible.\n1. Tick all the boxes.\n1. Press Clear Now button"
     }
 },
 {
@@ -175,10 +175,10 @@
         "title": "Books",
         "slug": "books",
         "parent": 6,
-        "updated": "2018-02-04T15:57:30.042Z",
+        "updated": "2018-06-08T18:04:09.718Z",
         "published": null,
         "content_type": "table",
-        "content": "Catalogue of books in my library:\n\nSubject | Author | Location | Title\n---------|-------|--------|-----\nAlternate History | Various | Ebook | Worlds That Weren't \nAlternate History | Compton, Stoney | Ebook | Russian Amerika \nAlternate History | Conroy, Robert | Ebook | Himmler's War \nAlternate History | Turtledove, Harry | London | Hitler's War \nComputing | Abelson, Harold & Sussman, Gerald Jay & Sussman, Julie | London | Structure and Interpretation of Computer Programs \nComputing | Alchin, Marty | Rooska | Pro Django \nComputing | Beazley, David M. | London | Python Essential Reference \nComputing | Booch, Grady & Rumbaugh, James & Jacobson, Ivar | Rooska | The Unified Modelling Language User Guide \nComputing | Bullen, Stephen & Bovey, Rob & Green, John | Rooska | Professional Excel Development \nComputing | Castro, Elizabeth | Rooska | HTML with XHTML and CSS (Fifth Edition) \nComputing | Castro, Elizabeth | London | HTML with XHTML and CSS (Sixth Edition) \nComputing | Cohn, Mike | London | User Stories Applied: For Agile Software Development \nComputing | Crockford, Douglas | Rooska | Javascript: The Good Parts \nComputing | Deitel, H.M. & P.J. | Rooska | Java How to Program \nComputing | Deitel, H.M. & P.J. | Rooska | JavaScript for Programmers \nComputing | Flanagan, David | Rooska | JavaScript - The Definitive Guide (Fifth Edition) \nComputing | Friedman, Daniel P & Felleisen, Matthias | London | The Little Schemer \nComputing | Gollmann, Dieter | Rooska | Computer Security \nComputing | Granneman, Scott | London | Linux Phrasebook \nComputing | Greenfield, Daniel & Roy, Audrey | London | Two Scoops of Django \nComputing | Holovaty, Adrian & Kaplan-Moss, Jacob | Rooska | The Definitive Guide to Django \nComputing | Holzner, Steven | Rooska | Django \nComputing | Kirsanov, Dimitry | Rooska | The Book of Inkscape \nComputing | Jensen, Paul A. & Bard, Jonathan F. | Rooska | Operations Research Models and Methods \nComputing | Kelly, Julia | Rooska | Excel 2003 VBA Programming \nComputing | Kopka, Helmut & Daly, Patrick W. | Rooska | Guide to LaTeX \nComputing | Krug, Steve | Rooska | Don't Make Me Think \nComputing | Menezes, Alfred J. & van Oorschot, Paul C. & Vanstone, Scott A. | Rooska | Handbook of Applied Cryptography \nComputing | Mitchell, Tom M. | London | Machine Learning \nComputing | Souders, Steve | Rooska | High Performance Web Sites \nComputing | Stefanov, Stoyan | London | JavaScript Patterns \nComputing | Stephenson, Neal | Rooska | In the Beginning was the Command Line \nComputing | Ullmann, Larry | Rooska | PHP 6 and MySQL 5 \nComedy | Adams, Douglas | Rooska | The Hitch Hiker's Guide to the Galaxy (parts 1-4) \nComedy | Brooke-Taylor, Tim et al | Rooska | The New Uxbridge English Dictionary \nComedy | Cook, Rick | Ebook | Wizard's Bane \nComedy | Cook, Rick | Ebook | Wizardry Compiled \nComedy | Cook, Rick | Ebook | Wiz Biz II: Cursed and Consulted \nComedy | Fraser, George MacDonald | Ebook | The Flashman Papers \nComedy | Lynn, Jonathon & Jay, Antony | Rooska | Yes Minister\nComedy | Scott, Martin | Ebook | Thraxas \nComedy | Scott, Martin | Ebook | Thraxas and the Warrior Monks (Thraxas) \nComedy | Scott, Martin | Ebook | Thraxas at the Races (Death and Thraxas) \nComedy | Scott, Martin | Ebook | Thraxas and the Elvish Isles (Death and Thraxas) \nComedy | Scott, Martin | Ebook | Thraxas and the Sorcerers \nComedy | Scott, Martin | Ebook | Thraxas at War \nComedy | Scott, Martin | Ebook | Thraxas and the Dance of Death \nComedy | Scott, Martin | Ebook | Thraxas Under Siege \nComedy | Wodehouse, P.G. | Rooska | Blandings Castle and Elsewhere \nContemporary | Camilleri, Andrea | Ebook | The Shape of Water (Montalbano 1)\nContemporary | Camilleri, Andrea | Ebook | Excursion to Tindari (Montalbano 5)\nContemporary | Mankell, Henning | London | Faceless Killers (Wallander 1) \nContemporary | Walker, Jennie | Rooska | 24 for 3 \nFantasy | Cherryh, C.J. | Ebook | The Sword of Knowledge \nFantasy | Cook, Glen | Ebook | Sung in Blood \nFantasy | Cook, Glen | Rooska | Chronicles of the Black Company \nFantasy | Cook, Glen | Ebook | A Fortress in Shadow \nFantasy | Cook, Glen | Ebook | A Cruel Wind \nFantasy | Cook, Glen | Ebook | Reap the East Wind \nFantasy | Cook, Glen | Ebook | An Ill Fate Marshalling \nFantasy | Cook, Glen | Ebook | An Empire Unacquainted With Defeat \nFantasy | Cook, Glen | Ebook | The Swordbearer \nFantasy | Cook, Glen | Ebook | Darkwar \nFantasy | Cook, Glen | Ebook | A Path to Coldness of Heart \nFantasy | Cook, Hugh | Rooska | The Walrus and the Warwolf \nFantasy | Correia, Larry | Ebook | Hard Magic: Book I of the Grimnoir Chronicles \nFantasy | Correia, Larry | Ebook | Spellbound: Book II of the Grimnoir Chronicles \nFantasy | Drake, David | Ebook | Old Nathan \nFantasy | Drake, David | Ebook | Balefires \nFantasy | Duncan, Dave | Ebook | Past Imperative \nFantasy | Erikson, Steven | London | Malazan 1: Gardens of the Moon\nFantasy | Evans, Linda | Ebook | Sleipnir \nFantasy | Flint, Eric | Ebook | Forward the Mage \nFantasy | Gaiman, Neil | Rooska | Stardust \nFantasy | Howard, Robert E. | Rooska | The Complete Chronicles of Conan \nFantasy | Lackey, Mercedes | Ebook | The Shadow of the Lion \nFantasy | Lovecraft, H.P. | Rooska | Necronomicon: The Best Weird Tales of H.P. Lovecraft \nFantasy | Miller, Frank | Rooska | 300 \nFantasy | Tolkien, J.R.R. | Rooska | The Lord of the Rings \nFantasy | Tolkien, J.R.R. | Rooska | Pictures By J.R.R. Tolkien \nFantasy | Tolkien, J.R.R. | Rooska | The Silmarillion \nFantasy | Turtledove, Harry | Ebook | Wisdom of the Fox \nFantasy | Turtledove, Harry | Ebook | Sentry Peak \nFantasy | Turtledove, Harry | Ebook | Down in the Bottomlands \nFantasy | Turtledove, Harry | Ebook | After the Downfall \nFantasy | Vance, Jack | Rooska | Tales of the Dying Earth \nFantasy | Weber, David | Ebook | Oath of Swords \nFantasy | Weber, David | Ebook | War God's Own \nFantasy | Wolfe, Gene | Rooska | The Book of the New Sun 1: Shadow and Claw \nFantasy | Wolfe, Gene | Rooska | The Book of the New Sun 2: Sword and Citadel \nFantasy | Wynn Fonstad, Karen | Rooska | The Atlas of Middle Earth \nFantasy | Zelanzy, Roger | Rooska | The Great Book of Amber \nHistorical | Austin, Jane | Rooska | Pride and Prejudice \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Rifles \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Havoc \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Eagle \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Gold \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Company \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Sword \nHistorical | Cornwell, Bernard | Rooska | Sharpe's Waterloo \nHistorical | Cornwell, Bernard | Rooska | Azincourt \nHistorical | Davis, Lindsey | Rooska | The Course of Honour \nHistorical | Davis, Lindsey | Rooska | The Silver Pigs \nHistorical | Davis, Lindsey | Rooska | Shadows in Bronze \nHistorical | Davis, Lindsey | Rooska | Venus in Copper \nHistorical | Davis, Lindsey | Rooska | The Jupiter Myth \nHistorical | Davis, Lindsey | London | Master and God \nHistorical | Eastlake, William | Rooska | Castle Keep \nHistorical | Fabbri, Robert | Ebook | Vespasian: Tribune of Rome \nHistorical| Ford, Ford Maddox | London | Parade's End \nHistorical | Gentle, Mary | Rooska | Ash \nHistorical | Gentle, Mary | London | Cartomancy \nHistorical | Gentle, Mary | Ebook | The Black Opera \nHistorical | Grossman, Vasily | Rooska | Life and Fate \nHistorical | Harris, Robert | Rooska | Imperium \nHistorical | Harris, Robert | Rooska | Lustrum \nHistorical | Hassel, Sven | Rooska | Legion of the Damned \nHistorical | Heller, Joesph | Rooska | Catch-22 \nHistorical | Le Carre, John | Rooska | The Spy who came in from the Cold \nHistorical | Mantel, Hilary | Rooska | Wolf Hall \nHistorical | Mantel, Hilary | Rooska | Bring Up the Bodies \nHistorical | McCullough, Colleen | Rooska | The First Man in Rome \nHistorical | McCullough, Colleen | Rooska | The Grass Crown \nHistorical | McCullough, Colleen | Rooska | Fortune's Favourites \nHistorical | McCullough, Colleen | Rooska | Caesar's Women \nHistorical | McCullough, Colleen | Rooska | Caesar: Let the Dice Fly \nHistorical | McCullough, Colleen | Rooska | The October Horse \nHistorical | McCullough, Colleen | Rooska | Antony & Cleopatra \nHistorical | McCullough, Colleen | Ebook | Song of Troy \nHistorical | O'Brian, Patrick | Rooska | Master and Commander \nHistorical | Reynolds, Clay | Ebook | Franklin's Crossing \nHistorical | Stack, John | Rooska | Master of Rome \nHistorical | Turney, S.J.A. | Ebook | Marius' Mules: The Invasion of Gaul \nHistorical | Vidal, Gore | Rooska | Julian \nHistorical | Waugh, Evelyn | Rooska | The Sword of Honour Trilogy \nScience Fiction | Various | Ebook | The Best Science Fiction and Fantasy of the Year Volume VI \nScience Fiction | Anderson, Poul | Ebook | The High Crusade \nScience Fiction | Anderson, Poul | Ebook | The Van Rijn Method \nScience Fiction | Anderson, Poul | Ebook | Young Flandry \nScience Fiction | Anvil, Christopher | Ebook | Interstellar Patrol \nScience Fiction | Anvil, Christopher | Ebook | Pandora's Legions \nScience Fiction | Asimov, Issac | Rooska | I, Robot \nScience Fiction | Banks, Iain M. | Rooska | Consider Phlebas \nScience Fiction | Banks, Iain M. | Rooska | The Player of Games \nScience Fiction | Banks, Iain M. | Rooska | Use of Weapons \nScience Fiction | Banks, Iain M. | London | Feersum Endjinn \nScience Fiction | Banks, Iain M. | Rooska | Against a Dark Background \nScience Fiction | Banks, Iain M. | Rooska | Excession \nScience Fiction | Banks, Iain M. | Rooska | Inversions \nScience Fiction | Banks, Iain M. | Rooska | Look to windward \nScience Fiction | Banks, Iain M. | Rooska | The Algebraist \nScience Fiction | Banks, Iain M. | Rooska | Matter \nScience Fiction | Banks, Iain M. | Rooska | Surface Detail \nScience Fiction | Banks, Iain M. | Rooksa | The Hydrogen Sonata \nScience Fiction | Baxter, Stephen | Rooska | Xeelee omnibus \nScience Fiction | Baxter, Stephen | London | Reality Dust \nScience Fiction | Bester, Alfred | Rooska | The Demolished Man \nScience Fiction | Bester, Alfred | London | The Stars My Destination \nScience Fiction | Blish, James | London | Cities in Flight \nScience Fiction | Brunner, John | Rooska | Stand on Zanzibar \nScience Fiction | Bujold, Lois McMaster | Ebook | Cordelia's Honour \nScience Fiction | Bujold, Lois McMaster | Ebook | Young Miles \nScience Fiction | Bujold, Lois McMaster | Ebook | Miles, Mystery and Mayhem \nScience Fiction | Bujold, Lois McMaster | Ebook | Miles Errant \nScience Fiction | Bujold, Lois McMaster | Ebook | Diplomatic Immunity \nScience Fiction | Bujold, Lois McMaster | Ebook | Komarr \nScience Fiction | Bujold, Lois McMaster | Ebook | Cryoburn \nScience Fiction | Bujold, Lois McMaster | Ebook | Captain Vorpatril's Alliance \nScience Fiction | Campbell, Jack | Rooska | Dauntless - Lost Fleet 1 \nScience Fiction | Chalker, Jack L. | Ebook | Balshazzar's Serpent \nScience Fiction | Clarke, Arthur C. | Rooska | 2001: A Space Odyssey \nScience Fiction | Cole, Alan & Bunch, Chris | London | Sten Omnibus 1 (1-3) \nScience Fiction | Cole, Alan & Bunch, Chris | London | Sten Omnibus 2 (4-6) \nScience Fiction | Cole, Alan & Bunch, Chris | London | Sten Omnibus 3 (8-9) \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 1 - Sten \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 2 - The Wolf Worlds \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 3 - The Court of a Thousand Suns \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 4 - Fleet of the Damned \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 5 - Revenge of the Damned \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 6 - The Return of the Emperor \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 7 - Vortex \nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 8 - Empire's End \nScience Fiction | Cook, Glen | Ebook | Starfishers 1: Shadowline \nScience Fiction | Cook, Glen | Ebook | Starfishers 2: Starfishers \nScience Fiction | Cook, Glen | Ebook | Starfishers 3: Stars' End \nScience Fiction | Cook, Glen | Ebook | A Matter of Time \nScience Fiction | Cook, Glen | Ebook | Passage At Arms \nScience Fiction | Cook, Glen | Rooska | The Dragon Never Sleeps \nScience Fiction | Corey, James A. | London | Leviathan Wakes \nScience Fiction | Dick, Philip K. | Rooska | The Three Stigmata of Palmer Eldrich \nScience Fiction | Dick, Philip K. | Rooska | Martian Time-Slip \nScience Fiction | Dick, Philip K. | Rooska | Do androids Dream of Electric Sheep? \nScience Fiction | Dick, Philip K. | Rooska | Ubik \nScience Fiction | Dick, Philip K. | Rooska | A Scanner Darkly \nScience Fiction | Drake, David | Rooska | The Complete Hammer's Slammers - Volume 1 \nScience Fiction | Drake, David | Rooska | The Complete Hammer's Slammers - Volume 2 \nScience Fiction | Drake, David | Rooska | The Complete Hammer's Slammers - Volume 3 \nScience Fiction | Drake, David | Ebook | Cross the Stars \nScience Fiction | Drake, David | Ebook | An Oblique Approach \nScience Fiction | Drake, David | Ebook | In the Heart of Darkness \nScience Fiction | Drake, David | Ebook | Destiny's Shield \nScience Fiction | Drake, David | Ebook | Fortune's Stroke \nScience Fiction | Drake, David | Ebook | The Tide of Victory \nScience Fiction | Drake, David | Ebook | With the Lightnings \nScience Fiction | Drake, David | Ebook | Lt. Leary, Commanding \nScience Fiction | Drake, David | Ebook | The Far Side of The Stars \nScience Fiction | Drake, David | Ebook | The Way to Glory \nScience Fiction | Drake, David | Ebook | When the Tide Rises \nScience Fiction | Drake, David | Ebook | In the Stormy Red Sky \nScience Fiction | Drake, David | Ebook | What Distant Deeps \nScience Fiction | Drake, David | Ebook | The Road of Danger \nScience Fiction | Drake, David | Ebook | Northworld Trilogy \nScience Fiction | Drake, David | Ebook | Foreign Legions \nScience Fiction | Drake, David | Ebook | Redliners \nScience Fiction | Drake, David | Ebook | Seas of Venus \nScience Fiction | Drake, David | Ebook | Starliner \nScience Fiction | Drake, David | Ebook | Grimmer Than Hell \nScience Fiction | Drake, David & Flint, Eric | Ebook | The Tyrant \nScience Fiction | Drake, David & Flint, Eric | Rooska| The World Turned Upside Down\nScience Fiction | Egan, Greg | Ebook | Incandescence \nScience Fiction | Evans, Linda | Ebook | Far Edge of Darkness \nScience Fiction | Evans, Linda & Asprin, Robert | Ebook | For King and Country \nScience Fiction | Flint, Eric | Ebook | Mother of Demons \nScience Fiction | Flint, Eric | Ebook | Ring of Fire \nScience Fiction | Flint, Eric & Freer, David | Ebook | Pyramid Scheme \nScience Fiction | Flint, Eric & Freer, David | Ebook | Rats, Bats and Vats \nScience Fiction | Flint, Eric & Freer, David | Ebook | The Rats, The Bats and The Ugly \nScience Fiction | Flint, Eric & Weber, David | Ebook | 1632 \nScience Fiction | Flint, Eric & Weber, David | Ebook | 1633 \nScience Fiction | Flint, Eric & Weber, David | Ebook | 1634: The Baltic War \nScience Fiction | Flint, Eric & Dennis, Andrew | Ebook | 1634: The Galileo Affair \nScience Fiction | Flint, Eric & DeMarce, Virginia | Ebook | 1634: The Ram Rebellion \nScience Fiction | Flint, Eric & DeMarce, Virginia | Ebook | 1634: The Bavarian Crisis \nScience Fiction | Flint, Eric & Wentworth, K.D. | Ebook | The Course of Empire \nScience Fiction | Forward, Robert | Ebook | Indistinguishable From Magic \nScience Fiction | Haldeman, Joe | Rooska | Peace and War \nScience Fiction | Hamilton, Peter F. | Rooska | A Second Chance at Eden \nScience Fiction | Harrison, Harry | Rooska | The Stainless Steel Rat (Omnibus) \nScience Fiction | Hartwell, David G. Cramer, Kathryn | Rooska | The Space Opera Renaissance (anthology) \nScience Fiction | Heinlein, Robert A. | Ebook | Farnham's Freehold \nScience Fiction | Hemry, John G. | Ebook | Stark's War \nScience Fiction | Hemry, John G. | Ebook | Stark's Command \nScience Fiction | Hemry, John G. | Ebook | Stark's Crusade \nScience Fiction | Hemry, John G. | Ebook | A Just Determination \nScience Fiction | Hemry, John G. | Ebook | Burden of Proof \nScience Fiction | Hemry, John G. | Ebook | Rule of Evidence \nScience Fiction | Hemry, John G. | Ebook | Against All Enemies \nScience Fiction | Herbert, Frank | Rooska | The Great Dune Trilogy (Dune, Dune Messiah, Children of Dune) \nScience Fiction | Herbert, Frank | Rooska | God Emperor of Dune \nScience Fiction | Herbert, Frank | Rooska | Heretics of Dune \nScience Fiction | Herbert, Frank | Rooska | Chapter House Dune \nScience Fiction | Herbert, Frank | Rooska | Hellstrom's Hive \nScience Fiction | Herbert, Frank | Rooska | The Dosadi Experiment \nScience Fiction | Herbert, Brian & Anderson, Kevin J | Rooska | Paul of Dune \nScience Fiction | Herbert, Brian & Anderson, Kevin J | Rooska | Hunters of Dune \nScience Fiction | Ing, Dean | Ebook | Firefight Y2K \nScience Fiction | Keith, William H | Ebook | Bolo Strike \nScience Fiction | Lake, Jay | Rooska | Mainspring \nScience Fiction | Laumer, Keith | Ebook | A Plague of Deamons \nScience Fiction | Laumer, Keith | Ebook | Bolos I: Honor of the Regiment \nScience Fiction | Laumer, Keith | Ebook | Bolos VI: Cold Steel \nScience Fiction | Laumer, Keith | Ebook | Bolos V: Old Guard \nScience Fiction | Laumer, Keith | Ebook | Future Imperfect \nScience Fiction | Laumer, Keith | Ebook | Legions of Space \nScience Fiction | Laumer, Keith | Ebook | Odyssey \nScience Fiction | Laumer, Keith | Ebook | Retief! \nScience Fiction | Laumer, Keith | Ebook | The Lighter Side \nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Conflict of Honors \nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Agent of Change \nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Carpe Diem \nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Plan B \nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Local Custom \nScience Fiction | Leiber, Fritz | Ebook | Fritz Leiber: Selected Stories \nScience Fiction | Leinster, Murray | Ebook | Med Ship \nScience Fiction | MacLeod, Ken | Rooska | The Star Fraction \nScience Fiction | MacLeod, Ken | Rooska | The Cassini Division \nScience Fiction | MacLeod, Ken | London | The Corporation Wars: Dissidence \nScience Fiction | MacLeod, Ken | London | The Corporation Wars: Insurgence\nScience Fiction | Masamune, Shirow | Rooska | Ghost in the Shell \nScience Fiction | McAuley, Paul | London | Making History \nScience Fiction | McCaffrey, Anne | Ebook | Brain Ships \nScience Fiction | Moon, Elizabeth | Ebook | Heris Serrano \nScience Fiction | Moon, Elizabeth | Ebook | Once a Hero \nScience Fiction | Moon, Elizabeth | Ebook | Rules of Engagement \nScience Fiction | Moon, Elizabeth | Ebook | Change of Command \nScience Fiction | Niven, Larry | Ebook | Man-Kzin Wars XI \nScience Fiction | Niven, Larry | Ebook | Man-Kzin Wars XIII \nScience Fiction | Norton, Andre | Ebook | Star Soldiers \nScience Fiction | Norton, Andre | Ebook | Janus \nScience Fiction | Pohl, Frederik | Ebook | Black Star Rising \nScience Fiction | Pohl, Frederik | Ebook | Heechee Rendezvous \nScience Fiction | Pournelle, Jerry | Ebook | High Justice \nScience Fiction | Pournelle, Jerry | Ebook | West of Honor \nScience Fiction | Pournelle, Jerry | Ebook | The Mercenary \nScience Fiction | Pournelle, Jerry | Ebook | Prince of Mercenaries \nScience Fiction | Pournelle, Jerry Stirling, S.M. | Ebook | Go Tell the Spartans \nScience Fiction | Pournelle, Jerry Stirling, S.M. | Ebook | Prince of Sparta \nScience Fiction | Pournelle, Jerry | Ebook | King David's Spaceship \nScience Fiction | Pournelle, Jerry | Ebook | Footfall \nScience Fiction | Pournelle, Jerry | Ebook | Lucifer's Hammer \nScience Fiction | Pournelle, Jerry | Ebook | A Step Farther Out \nScience Fiction | Pournelle, Jerry | Ebook | Imperial Stars 1: The Stars at War \nScience Fiction | Pournelle, Jerry | Ebook | Imperial Stars 2: Republic and Empire \nScience Fiction | Pournelle, Jerry | Ebook | Imperial Stars 3: The Crash of Empire \nScience Fiction | Pournelle, Jerry | Ebook | Blood Feuds \nScience Fiction | Pournelle, Jerry | Ebook | Blood Vengeance \nScience Fiction | Pournelle, Jerry | Ebook | Red Heroin \nScience Fiction | Pournelle, Jerry | Ebook | Red Dragon \nScience Fiction | Pournelle, Jerry | Ebook | Janissaries \nScience Fiction | Pournelle, Jerry | Ebook | Tran \nScience Fiction | Pournelle, Jerry & Niven, Larry | Ebook | The Mote in God's Eye \nScience Fiction | Pournelle, Jerry & Niven, Larry | Ebook | The Gripping Hand \nScience Fiction | Rajaniemi, Hannu | Rooska | Quantum Thief \nScience Fiction | Reynolds, Alistair | Rooska | Revelation Space \nScience Fiction | Reynolds, Alistair | Rooska | Redemption Ark \nScience Fiction | Reynolds, Alistair | Rooska | Absolution Gap \nScience Fiction | Reynolds, Alistair | Rooska | Galactic North \nScience Fiction | Reynolds, Alistair | Rooska | The Prefect \nScience Fiction | Reynolds, Alistair | Rooska | House of Suns \nScience Fiction | Ringo, John | Ebook | A Hymn before Battle \nScience Fiction | Ringo, John | Ebook | Gust Front \nScience Fiction | Ringo, John | Ebook | When the Devil Dances \nScience Fiction | Ringo, John | Ebook | Hell's Faire \nScience Fiction | Ringo, John | Ebook | Watch on the Rhine \nScience Fiction | Ringo, John | Ebook | Yellow Eyes \nScience Fiction | Ringo, John | Ebook | Cally's War \nScience Fiction | Ringo, John | Ebook | Eye of the Storm \nScience Fiction | Ringo, John & Kratman, Tom | Ebook | The Tuloriad \nScience Fiction | Ringo, John | Ebook | The Hero \nScience Fiction | Ringo, John | Ebook | March Upcountry \nScience Fiction | Ringo, John | Ebook | March to the Sea \nScience Fiction | Ringo, John | Ebook | March to the Stars \nScience Fiction | Ringo, John | Ebook | We Few \nScience Fiction | Ringo, John | Ebook | There will be Dragons \nScience Fiction | Ringo, John | Ebook | Emerald Sea \nScience Fiction | Ringo, John | Ebook | Against the Tide \nScience Fiction | Ringo, John | Ebook | East of the Sun and West of the Moon \nScience Fiction | Ringo, John | Ebook | The Road to Damascus \nScience Fiction | Ringo, John | Ebook | Live Free or Die \nScience Fiction | Ringo, John | Ebook | Citadel \nScience Fiction | Ringo, John | Ebook | The Hot Gate \nScience Fiction | Sheffield, Charles | Ebook | Starfire \nScience Fiction | Shute, Nevil | Rooska | On The Beach \nScience Fiction | Simmons, Dan | Rooska | Hyperion \nScience Fiction | Simmons, Dan | Rooska | The Fall of Hyperion \nScience Fiction | Simmons, Dan | Rooska | Illium \nScience Fiction | Stapledon, Olaf | Ebook | Last and First Men \nScience Fiction | Stephenson, Neal | Rooska | Quicksilver \nScience Fiction | Stephenson, Neal | Rooska | The Confusion \nScience Fiction | Stephenson, Neal | Rooska | The System of the World \nScience Fiction | Stephenson, Neal | Rooska | Cryptonomicon \nScience Fiction | Stephenson, Neal | Rooska | Anathem \nScience Fiction | Stirling, S.M. | Ebook | Drakas! \nScience Fiction | Stirling, S.M. | Ebook | Ice, Iron and Gold \nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Forge (Warlord) \nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Hammer (Warlord) \nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Anvil (Conqueror) \nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Steel (Conqueror) \nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Sword (Conqueror) \nScience Fiction | Smith, Cordwainer | Ebook | We The Underpeople \nScience Fiction | Tanaka, Yoshiki | London | Legend of the Galactic Heroes 1: Dawn \nScience Fiction | Tanaka, Yoshiki | London | Legend of the Galactic Heroes 2: Ambition \nScience Fiction | Tanaka, Yoshiki  | London | Legend of the Galactic Heroes 3: Endurance\nScience Fiction | Tanaka, Yoshiki  | London | Legend of the Galactic Heroes 4: Stratagem\nScience Fiction | Tanaka, Yoshiki  | London | Legend of the Galactic Heroes 5: Mobilization\nScience Fiction | Turtledove, Harry | Ebook | 3xT \nScience Fiction | Weber, David | Rooska | On Basilisk Station \nScience Fiction | Weber, David | Ebook | The Honor of the Queen \nScience Fiction | Weber, David | Ebook | Field of Dishonor \nScience Fiction | Weber, David | Ebook | War of Honor \nScience Fiction | Weber, David | Ebook | At all Costs \nScience Fiction | Weber, David | Ebook | Changer of Worlds \nScience Fiction | Weber, David | Ebook | Crown of Slaves \nScience Fiction | Weber, David | Ebook | The Shadow of Saganami \nScience Fiction | Weber, David | Ebook | Mission of Honor \nScience Fiction | Weber, David | Ebook | A Rising Thunder \nScience Fiction | Weber, David | Ebook | Path of the Fury \nScience Fiction | Weber, David | Ebook | In Fury Born \nScience Fiction | Weber, David | Ebook | Mutineer's Moon \nScience Fiction | Weber, David | Ebook | Bolo! \nScience Fiction | Weber, David | Ebook | Old Soldiers \nScience Fiction | Weber, David | Ebook | The Apocalypse Troll \nScience Fiction | Weber, David | Ebook | The Excalibur Alternative \nScience Fiction | Weber, David & White, Steve | Ebook | Crusade \nScience Fiction | Weber, David & White, Steve | Ebook | The Shiva Option \nScience Fiction | Wentworth, K.D. | Ebook | Black on Black \nScience Fiction | Wentworth, K.D. | Ebook | Stars Over Stars \nScience Fiction | Whedon, Joss, Matthews, Brett & Conrad, Will | Rooska | Serenity - Those Left Behind \nScience Fiction | White Steve | Ebook | Exodus \nScience Fiction | White Steve | Ebook | Extremis \nScience Fiction | White Steve | Ebook | Blood of the Heros \nScience Fiction | Williamson, Michael Z. | Ebook | Freehold \nScience Fiction | Winterson, Jeanette | Rooska | The Stone Gods \nScience Fiction | Wyndham, John | Rooska | The Day of the Triffids \nScience Fiction | Zahn, Timothy | Ebook | The Cobra Trilogy \nHistory | Various | Rooska | World of Myths - Volume One \nHistory | Various | Rooska | World of Myths - Volume Two \nHistory | Various | Rooska | The Constitution of the United States \nHistory | Addey, Keith | Rooska | Napoleon \nHistory | Beevor, Antony | Rooska | Berlin - The Downfall 1945 \nHistory | Beevor, Antony | Rooska | D-Day - The Battle For Normandy \nHistory | Churchill, Winston S | Rooska | The World Crisis 1911-1918 (Abridged) \nHistory | Churchill, Winston S | Rooska | The Second World War \nHistory | Crowley, Roger | Rooska | Empires of the Sea \nHistory | Diamond, Jared| Rooska | Guns Germs and Steel \nHistory | Foote, Shelby | Rooska | The Civil War 1-3 \nHistory | Frankopan, Peter | Rooska | The Silk Roads: A New History of the World\nHistory | Fraser, Antonia | Rooska | Cromwell - Our Chief of Men \nHistory | Gibbon, Edward | London | Decline and Fall of the Roman Empire (Abridged) \nHistory | Gibbon, Edward | Rooska | Decline and Fall of the Roman Empire Volumes 1-6 \nHistory | Grant, Micheal | Rooska | The History of Rome \nHistory | Hague, William | Rooska | William Pitt The Younger \nHistory | Hastings, Max | Rooska | Retribution - The Battle for Japan 1944-45 \nHistory | Hayward, Joel | Rooska | Stopped at Stalingrad \nHistory | Heather, Peter | Rooska | The Fall of the Roman Empire: A New History \nHistory | Herodotus | Rooska | The Landmark Herodotus \nHistory | Herodotus | London | Histories \nHistory | Holland, Tom | Rooska | Persian Fire: The First World Empire, Battle for the West \nHistory | Holland, Tom | Rooska | In the Shadow of the Sword: The End of the Ancient World \nHistory | Holmes, Richard | Rooska | Marlborough \nHistory | Holmes, Richard | Rooska | Wellington \nHistory | Jenkins, Roy | Rooska | Franklin Delano Roosevelt \nHistory | Jungler, Ernst | Rooska | Storm of Steel \nHistory | Keay, John | Rooska | China \nHistory | Kennedy, Paul | Rooska | Engineers of Victory \nHistory | Kinder, Hermann & Hilgemann, Werner | Rooska | Altas of World History Volume 1 To French Revolution \nHistory | Kinder, Hermann & Hilgemann, Werner | Rooska | Altas of World History Volume 2 From French Revolution \nHistory | MacCulloch, Diarmaid | Rooska | A History of Christianity \nHistory | McPherson, James M. | Rooska | Battle Cry of Freedom \nHistory | Massie, Robert K. | Rooska | Dreadnought \nHistory | Massie, Robert K. | Rooska | Castles of Steel \nHistory | Meacham, Jon | Rooska | American Lion - Andrew Jackson in the White House \nHistory | Melvin, Mungo | Rooska | Manstein: Hitler's Greatest General \nHistory | Mortimer, Geoff | Rooska | Wallenstein, The Enigma of the Thirty Years War \nHistory | O'Toole, Fintan | Rooska | Ship of Fools \nHistory | Paget, Julian | Rooska | Wellington's Peninsular War \nHistory | Pakenham, Thomas | Rooska | The boer War \nHistory | Pakenham, Thomas | Rooska | The Scramble for Africa \nHistory | Pike, Francis | Ebook | Hirohito's War: The Pacific War, 1941-1945 ([Maps and Diagrams](http://francispike.org/show_maps.php))\nHistory | Reynolds, David | London | The Long Shadow - The Great War\nHistory | Shepherd, William Robert | Rooska | Historical Atlas \nHistory | Slim, William | Rooska | Defeat into Victory \nHistory | Schlosser, Eric | London | Command and Control\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 1: Trial By Battle\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 2: Trial By Fire\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 3: Divided Houses \nHistory | Sumption, Jonathan | London | Hundred Years War Vol 4: Cursed Kings \nHistory | Thucydides | Rooska | The Landmark Thucydides \nHistory | Tuchman, Barbara | London | The Guns of August\nHistory | Willis, Sam | Rooska | Fighting Ships 1850-1950 \nHistory | Wilkinson, Toby | Rooska | The Rise and Fall of Ancient Egypt \nHistory | Wilmot, Chester | Rooska | The Struggle for Europe \nHistory | Wilson, Peter H | Rooska | Europe's Tragedy - A History of the Thirty Years War \nLiterature | Various | London | A Leob Classical Library Reader \nLiterature | Various | London | Pocket Havamal\nLiterature | Various | Rooska | The Oxford Dictionary of Quotations \nLiterature | Browne, Janet | Rooska | Darwin's Origin of Species a biography \nLiterature | Caesar | London | Gallic War \nLiterature | Carroll, Lewis | Rooska | Alice in Wonderland \nLiterature | Cook, Claire Kehrwald | Rooska | Line by Line \nLiterature | Eagleman, David | Rooska | Sum: Tales from the Afterlives \nLiterature | Ellison, Harlan | Ebook | Watching \nLiterature | Gowers, Ernest | Rooska | Complete Plain Words \nLiterature | Grimm, Brothers | Rooska | Grimm's Fairy Tales \nLiterature | Homer | Rooska | The Odyssey \nLiterature | Kafka, Franz | London | The Essential Kafka \nLiterature | Keats, John | Rooska | The Complete Poems \nLiterature | Kipling, Rudyard | Rooska | The Complete Verse \nLiterature | Kipling, Rudyard | London | Collected Poems \nLiterature | Kipling, Rudyard | London | 100 Poems \nLiterature | Melville, Herman | Rooska | Moby Dick \nLiterature | Orwell, George | Rooska | Novels \nLiterature | Proust, Marcel | London | The Way by Swann's \nLiterature | Ricks, Christopher | Rooska | The Oxford Book of English Verse \nLiterature | Royal, Brandon | Rooska | The Little Red Writing Book \nLiterature | Saki | Rooska | The Best of Saki \nLiterature | Shakespear, William | Rooska | The Complete Works of William Shakespear \nLiterature | Shakespear, William | London | The Oxford Shakespear - Complete Works \nLiterature | Strunk, J.R. White, E.B. | Rooska | The Elements of Style \nLiterature | Tennyson, Alfred | Rooska | The Works of Tennyson \nLiterature | Virgil | Rooska | Eclogues, Georgics, Aeneid 1-6 \nLiterature | Virgil | Rooska | Aeneid 7-12 \nLiterature | Voltaire | London | Candide and other stories \nPhilosophy & Religion | Various | London | Holy Bible: King James Version (KJV) \nPhilosophy & Religion | Various | Rooska | King James Study Bible \nPhilosophy & Religion | Aurelius, Marcus | Rooska | Meditations \nPhilosophy & Religion | Blackburn, Simon | Rooska | Plato's Republic a biography \nPhilosophy & Religion | Dawkins, Richard | Rooska | The God Delusion \nPhilosophy & Religion | Eberl, Jason T | Rooska | Battlestar Galactica and Philosophy \nPhilosophy & Religion | Hitchens, Christopher | Rooska | Thomas Paine's Rights of Man a biography \nPhilosophy & Religion | Lawrence, Bruce | Rooska | The Qur'an a biography \nPhilosophy & Religion | Wheen, Francis | Rooska | Marx's Das Kapital a biography \nReference | Jackson, Albert  |Rooska | Collins Complete DIY Manual \nReference | Pastoureau, Michel | Rooska | Heraldry: Its Origins and Meaning \nReference | Pritchard, David | Ebook | The Right Way to Play Chess\nReference | Priestner, Andy | London | The Complete Secret Army\nReference | Various | London | AA the Highway Code\nReference | Various | London | Cambridge Latin Course, Book 1: Level 1 \nReference | Various | Rooska | Collins English Dictionary - Complete and Unabridged \nReference | Various | London | Collins Latin Dictionary and Grammar \nReference | Various | London | Collins Pocket Atlas London \nReference | Various | Rooska | Philip's World Traveller's Atlas \nReference | Various | London | The Times Atlas of the World (Mini Edition) \nReference | Allen, Philip | Rooska | The Atlas of Atlases \nReference | Hitchings, Henry | Rooska | The Secret Life of Words \nReference | Howard, Rachael & Nash, Bill | London | Secret London An Unusual Guide \nReference | Silman, Jeremy | London | How to Reassess Your Chess \nScience & Technology | Brinkley, Mark | Rooska | The Housebuilder's Bible \nScience & Technology | Darwin, Charles | Rooska | The Origin of Species \nScience & Technology | Macaulay, David | Rooska | The Way Things Work \nScience & Technology | McCloud, Kevin | Rooska | Grand Designs Abroad \nScience & Technology | Owen, Julian | Rooska | Self Build \nScience & Technology | Schneier, Bruce | Ebook | Liars and Outliers \nScience & Technology | Rose, Francis | Rooska | The Wild Flower Key \nScience & Technology | Roy, Rob | Rooska | Underground Houses"
+        "content": "Catalogue of books in my library:\r\n\r\nSubject | Author | Location | Title\r\n---------|-------|--------|-----\r\nAlternate History | Various | Ebook | Worlds That Weren't \r\nAlternate History | Compton, Stoney | Ebook | Russian Amerika \r\nAlternate History | Conroy, Robert | Ebook | Himmler's War \r\nAlternate History | Turtledove, Harry | London | Hitler's War \r\nComputing | Abelson, Harold & Sussman, Gerald Jay & Sussman, Julie | London | Structure and Interpretation of Computer Programs \r\nComputing | Alchin, Marty | Rooska | Pro Django \r\nComputing | Beazley, David M. | London | Python Essential Reference \r\nComputing | Booch, Grady & Rumbaugh, James & Jacobson, Ivar | Rooska | The Unified Modelling Language User Guide \r\nComputing | Bullen, Stephen & Bovey, Rob & Green, John | Rooska | Professional Excel Development \r\nComputing | Castro, Elizabeth | Rooska | HTML with XHTML and CSS (Fifth Edition) \r\nComputing | Castro, Elizabeth | London | HTML with XHTML and CSS (Sixth Edition) \r\nComputing | Cohn, Mike | London | User Stories Applied: For Agile Software Development \r\nComputing | Crockford, Douglas | Rooska | Javascript: The Good Parts \r\nComputing | Deitel, H.M. & P.J. | Rooska | Java How to Program \r\nComputing | Deitel, H.M. & P.J. | Rooska | JavaScript for Programmers \r\nComputing | Flanagan, David | Rooska | JavaScript - The Definitive Guide (Fifth Edition) \r\nComputing | Friedman, Daniel P & Felleisen, Matthias | London | The Little Schemer \r\nComputing | Gollmann, Dieter | Rooska | Computer Security \r\nComputing | Granneman, Scott | London | Linux Phrasebook \r\nComputing | Greenfield, Daniel & Roy, Audrey | London | Two Scoops of Django \r\nComputing | Holovaty, Adrian & Kaplan-Moss, Jacob | Rooska | The Definitive Guide to Django \r\nComputing | Holzner, Steven | Rooska | Django \r\nComputing | Kirsanov, Dimitry | Rooska | The Book of Inkscape \r\nComputing | Jensen, Paul A. & Bard, Jonathan F. | Rooska | Operations Research Models and Methods \r\nComputing | Kelly, Julia | Rooska | Excel 2003 VBA Programming \r\nComputing | Kopka, Helmut & Daly, Patrick W. | Rooska | Guide to LaTeX \r\nComputing | Krug, Steve | Rooska | Don't Make Me Think \r\nComputing | Menezes, Alfred J. & van Oorschot, Paul C. & Vanstone, Scott A. | Rooska | Handbook of Applied Cryptography \r\nComputing | Mitchell, Tom M. | London | Machine Learning \r\nComputing | Souders, Steve | Rooska | High Performance Web Sites \r\nComputing | Stefanov, Stoyan | London | JavaScript Patterns \r\nComputing | Stephenson, Neal | Rooska | In the Beginning was the Command Line \r\nComputing | Ullmann, Larry | Rooska | PHP 6 and MySQL 5 \r\nComedy | Adams, Douglas | Rooska | The Hitch Hiker's Guide to the Galaxy (parts 1-4) \r\nComedy | Brooke-Taylor, Tim et al | Rooska | The New Uxbridge English Dictionary \r\nComedy | Cook, Rick | Ebook | Wizard's Bane \r\nComedy | Cook, Rick | Ebook | Wizardry Compiled \r\nComedy | Cook, Rick | Ebook | Wiz Biz II: Cursed and Consulted \r\nComedy | Fraser, George MacDonald | Ebook | The Flashman Papers \r\nComedy | Lynn, Jonathon & Jay, Antony | Rooska | Yes Minister\r\nComedy | Scott, Martin | Ebook | Thraxas \r\nComedy | Scott, Martin | Ebook | Thraxas and the Warrior Monks (Thraxas) \r\nComedy | Scott, Martin | Ebook | Thraxas at the Races (Death and Thraxas) \r\nComedy | Scott, Martin | Ebook | Thraxas and the Elvish Isles (Death and Thraxas) \r\nComedy | Scott, Martin | Ebook | Thraxas and the Sorcerers \r\nComedy | Scott, Martin | Ebook | Thraxas at War \r\nComedy | Scott, Martin | Ebook | Thraxas and the Dance of Death \r\nComedy | Scott, Martin | Ebook | Thraxas Under Siege \r\nComedy | Wodehouse, P.G. | Rooska | Blandings Castle and Elsewhere \r\nContemporary | Camilleri, Andrea | Ebook | The Shape of Water (Montalbano 1)\r\nContemporary | Camilleri, Andrea | Ebook | Excursion to Tindari (Montalbano 5)\r\nContemporary | Mankell, Henning | London | Faceless Killers (Wallander 1) \r\nContemporary | Walker, Jennie | Rooska | 24 for 3 \r\nFantasy | Cherryh, C.J. | Ebook | The Sword of Knowledge \r\nFantasy | Cook, Glen | Ebook | Sung in Blood \r\nFantasy | Cook, Glen | Rooska | Chronicles of the Black Company \r\nFantasy | Cook, Glen | Ebook | A Fortress in Shadow \r\nFantasy | Cook, Glen | Ebook | A Cruel Wind \r\nFantasy | Cook, Glen | Ebook | Reap the East Wind \r\nFantasy | Cook, Glen | Ebook | An Ill Fate Marshalling \r\nFantasy | Cook, Glen | Ebook | An Empire Unacquainted With Defeat \r\nFantasy | Cook, Glen | Ebook | The Swordbearer \r\nFantasy | Cook, Glen | Ebook | Darkwar \r\nFantasy | Cook, Glen | Ebook | A Path to Coldness of Heart \r\nFantasy | Cook, Hugh | Rooska | The Walrus and the Warwolf \r\nFantasy | Correia, Larry | Ebook | Hard Magic: Book I of the Grimnoir Chronicles \r\nFantasy | Correia, Larry | Ebook | Spellbound: Book II of the Grimnoir Chronicles \r\nFantasy | Drake, David | Ebook | Old Nathan \r\nFantasy | Drake, David | Ebook | Balefires \r\nFantasy | Duncan, Dave | Ebook | Past Imperative \r\nFantasy | Erikson, Steven | London | Malazan 1: Gardens of the Moon\r\nFantasy | Evans, Linda | Ebook | Sleipnir \r\nFantasy | Flint, Eric | Ebook | Forward the Mage \r\nFantasy | Gaiman, Neil | Rooska | Stardust \r\nFantasy | Howard, Robert E. | Rooska | The Complete Chronicles of Conan \r\nFantasy | Lackey, Mercedes | Ebook | The Shadow of the Lion \r\nFantasy | Lovecraft, H.P. | Rooska | Necronomicon: The Best Weird Tales of H.P. Lovecraft \r\nFantasy | Miller, Frank | Rooska | 300 \r\nFantasy | Tolkien, J.R.R. | Rooska | The Lord of the Rings \r\nFantasy | Tolkien, J.R.R. | Rooska | Pictures By J.R.R. Tolkien \r\nFantasy | Tolkien, J.R.R. | Rooska | The Silmarillion \r\nFantasy | Turtledove, Harry | Ebook | Wisdom of the Fox \r\nFantasy | Turtledove, Harry | Ebook | Sentry Peak \r\nFantasy | Turtledove, Harry | Ebook | Down in the Bottomlands \r\nFantasy | Turtledove, Harry | Ebook | After the Downfall \r\nFantasy | Vance, Jack | Rooska | Tales of the Dying Earth \r\nFantasy | Weber, David | Ebook | Oath of Swords \r\nFantasy | Weber, David | Ebook | War God's Own \r\nFantasy | Wolfe, Gene | Rooska | The Book of the New Sun 1: Shadow and Claw \r\nFantasy | Wolfe, Gene | Rooska | The Book of the New Sun 2: Sword and Citadel \r\nFantasy | Wynn Fonstad, Karen | Rooska | The Atlas of Middle Earth \r\nFantasy | Zelanzy, Roger | Rooska | The Great Book of Amber \r\nHistorical | Austin, Jane | Rooska | Pride and Prejudice \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Rifles \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Havoc \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Eagle \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Gold \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Company \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Sword \r\nHistorical | Cornwell, Bernard | Rooska | Sharpe's Waterloo \r\nHistorical | Cornwell, Bernard | Rooska | Azincourt \r\nHistorical | Davis, Lindsey | Rooska | The Course of Honour \r\nHistorical | Davis, Lindsey | Rooska | The Silver Pigs \r\nHistorical | Davis, Lindsey | Rooska | Shadows in Bronze \r\nHistorical | Davis, Lindsey | Rooska | Venus in Copper \r\nHistorical | Davis, Lindsey | Rooska | The Jupiter Myth \r\nHistorical | Davis, Lindsey | London | Master and God \r\nHistorical | Eastlake, William | Rooska | Castle Keep \r\nHistorical | Fabbri, Robert | Ebook | Vespasian: Tribune of Rome \r\nHistorical| Ford, Ford Maddox | London | Parade's End \r\nHistorical | Gentle, Mary | Rooska | Ash \r\nHistorical | Gentle, Mary | London | Cartomancy \r\nHistorical | Gentle, Mary | Ebook | The Black Opera \r\nHistorical | Grossman, Vasily | Rooska | Life and Fate \r\nHistorical | Harris, Robert | Rooska | Imperium \r\nHistorical | Harris, Robert | Rooska | Lustrum \r\nHistorical | Hassel, Sven | Rooska | Legion of the Damned \r\nHistorical | Heller, Joesph | Rooska | Catch-22 \r\nHistorical | Le Carre, John | Rooska | The Spy who came in from the Cold \r\nHistorical | Mantel, Hilary | Rooska | Wolf Hall \r\nHistorical | Mantel, Hilary | Rooska | Bring Up the Bodies \r\nHistorical | McCullough, Colleen | Rooska | The First Man in Rome \r\nHistorical | McCullough, Colleen | Rooska | The Grass Crown \r\nHistorical | McCullough, Colleen | Rooska | Fortune's Favourites \r\nHistorical | McCullough, Colleen | Rooska | Caesar's Women \r\nHistorical | McCullough, Colleen | Rooska | Caesar: Let the Dice Fly \r\nHistorical | McCullough, Colleen | Rooska | The October Horse \r\nHistorical | McCullough, Colleen | Rooska | Antony & Cleopatra \r\nHistorical | McCullough, Colleen | Ebook | Song of Troy \r\nHistorical | O'Brian, Patrick | Rooska | Master and Commander \r\nHistorical | Reynolds, Clay | Ebook | Franklin's Crossing \r\nHistorical | Stack, John | Rooska | Master of Rome \r\nHistorical | Turney, S.J.A. | Ebook | Marius' Mules: The Invasion of Gaul \r\nHistorical | Vidal, Gore | Rooska | Julian \r\nHistorical | Waugh, Evelyn | Rooska | The Sword of Honour Trilogy \r\nScience Fiction | Various | Ebook | The Best Science Fiction and Fantasy of the Year Volume VI \r\nScience Fiction | Anderson, Poul | Ebook | The High Crusade \r\nScience Fiction | Anderson, Poul | Ebook | The Van Rijn Method \r\nScience Fiction | Anderson, Poul | Ebook | Young Flandry \r\nScience Fiction | Anvil, Christopher | Ebook | Interstellar Patrol \r\nScience Fiction | Anvil, Christopher | Ebook | Pandora's Legions \r\nScience Fiction | Asimov, Issac | Rooska | I, Robot \r\nScience Fiction | Banks, Iain M. | Rooska | Consider Phlebas \r\nScience Fiction | Banks, Iain M. | Rooska | The Player of Games \r\nScience Fiction | Banks, Iain M. | Rooska | Use of Weapons \r\nScience Fiction | Banks, Iain M. | London | Feersum Endjinn \r\nScience Fiction | Banks, Iain M. | Rooska | Against a Dark Background \r\nScience Fiction | Banks, Iain M. | Rooska | Excession \r\nScience Fiction | Banks, Iain M. | Rooska | Inversions \r\nScience Fiction | Banks, Iain M. | Rooska | Look to windward \r\nScience Fiction | Banks, Iain M. | Rooska | The Algebraist \r\nScience Fiction | Banks, Iain M. | Rooska | Matter \r\nScience Fiction | Banks, Iain M. | Rooska | Surface Detail \r\nScience Fiction | Banks, Iain M. | Rooksa | The Hydrogen Sonata \r\nScience Fiction | Baxter, Stephen | Rooska | Xeelee omnibus \r\nScience Fiction | Baxter, Stephen | London | Reality Dust \r\nScience Fiction | Bester, Alfred | Rooska | The Demolished Man \r\nScience Fiction | Bester, Alfred | London | The Stars My Destination \r\nScience Fiction | Blish, James | London | Cities in Flight \r\nScience Fiction | Brunner, John | Rooska | Stand on Zanzibar \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Cordelia's Honour \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Young Miles \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Miles, Mystery and Mayhem \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Miles Errant \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Diplomatic Immunity \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Komarr \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Cryoburn \r\nScience Fiction | Bujold, Lois McMaster | Ebook | Captain Vorpatril's Alliance \r\nScience Fiction | Campbell, Jack | Rooska | Dauntless - Lost Fleet 1 \r\nScience Fiction | Chalker, Jack L. | Ebook | Balshazzar's Serpent \r\nScience Fiction | Clarke, Arthur C. | Rooska | 2001: A Space Odyssey \r\nScience Fiction | Cole, Alan & Bunch, Chris | London | Sten Omnibus 1 (1-3) \r\nScience Fiction | Cole, Alan & Bunch, Chris | London | Sten Omnibus 2 (4-6) \r\nScience Fiction | Cole, Alan & Bunch, Chris | London | Sten Omnibus 3 (8-9) \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 1 - Sten \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 2 - The Wolf Worlds \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 3 - The Court of a Thousand Suns \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 4 - Fleet of the Damned \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 5 - Revenge of the Damned \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 6 - The Return of the Emperor \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 7 - Vortex \r\nScience Fiction | Cole, Alan & Bunch, Chris | Rooska | Sten 8 - Empire's End \r\nScience Fiction | Cook, Glen | Ebook | Starfishers 1: Shadowline \r\nScience Fiction | Cook, Glen | Ebook | Starfishers 2: Starfishers \r\nScience Fiction | Cook, Glen | Ebook | Starfishers 3: Stars' End \r\nScience Fiction | Cook, Glen | Ebook | A Matter of Time \r\nScience Fiction | Cook, Glen | Ebook | Passage At Arms \r\nScience Fiction | Cook, Glen | London | The Dragon Never Sleeps \r\nScience Fiction | Corey, James A. | London | Leviathan Wakes \r\nScience Fiction | Dick, Philip K. | Rooska | The Three Stigmata of Palmer Eldrich \r\nScience Fiction | Dick, Philip K. | Rooska | Martian Time-Slip \r\nScience Fiction | Dick, Philip K. | Rooska | Do androids Dream of Electric Sheep? \r\nScience Fiction | Dick, Philip K. | Rooska | Ubik \r\nScience Fiction | Dick, Philip K. | Rooska | A Scanner Darkly \r\nScience Fiction | Drake, David | Rooska | The Complete Hammer's Slammers - Volume 1 \r\nScience Fiction | Drake, David | Rooska | The Complete Hammer's Slammers - Volume 2 \r\nScience Fiction | Drake, David | Rooska | The Complete Hammer's Slammers - Volume 3 \r\nScience Fiction | Drake, David | Ebook | Cross the Stars \r\nScience Fiction | Drake, David | Ebook | An Oblique Approach \r\nScience Fiction | Drake, David | Ebook | In the Heart of Darkness \r\nScience Fiction | Drake, David | Ebook | Destiny's Shield \r\nScience Fiction | Drake, David | Ebook | Fortune's Stroke \r\nScience Fiction | Drake, David | Ebook | The Tide of Victory \r\nScience Fiction | Drake, David | Ebook | With the Lightnings \r\nScience Fiction | Drake, David | Ebook | Lt. Leary, Commanding \r\nScience Fiction | Drake, David | Ebook | The Far Side of The Stars \r\nScience Fiction | Drake, David | Ebook | The Way to Glory \r\nScience Fiction | Drake, David | Ebook | When the Tide Rises \r\nScience Fiction | Drake, David | Ebook | In the Stormy Red Sky \r\nScience Fiction | Drake, David | Ebook | What Distant Deeps \r\nScience Fiction | Drake, David | Ebook | The Road of Danger \r\nScience Fiction | Drake, David | Ebook | Northworld Trilogy \r\nScience Fiction | Drake, David | Ebook | Foreign Legions \r\nScience Fiction | Drake, David | Ebook | Redliners \r\nScience Fiction | Drake, David | Ebook | Seas of Venus \r\nScience Fiction | Drake, David | Ebook | Starliner \r\nScience Fiction | Drake, David | Ebook | Grimmer Than Hell \r\nScience Fiction | Drake, David & Flint, Eric | Ebook | The Tyrant \r\nScience Fiction | Drake, David & Flint, Eric | Rooska| The World Turned Upside Down\r\nScience Fiction | Egan, Greg | Ebook | Incandescence \r\nScience Fiction | Evans, Linda | Ebook | Far Edge of Darkness \r\nScience Fiction | Evans, Linda & Asprin, Robert | Ebook | For King and Country \r\nScience Fiction | Flint, Eric | Ebook | Mother of Demons \r\nScience Fiction | Flint, Eric | Ebook | Ring of Fire \r\nScience Fiction | Flint, Eric & Freer, David | Ebook | Pyramid Scheme \r\nScience Fiction | Flint, Eric & Freer, David | Ebook | Rats, Bats and Vats \r\nScience Fiction | Flint, Eric & Freer, David | Ebook | The Rats, The Bats and The Ugly \r\nScience Fiction | Flint, Eric & Weber, David | Ebook | 1632 \r\nScience Fiction | Flint, Eric & Weber, David | Ebook | 1633 \r\nScience Fiction | Flint, Eric & Weber, David | Ebook | 1634: The Baltic War \r\nScience Fiction | Flint, Eric & Dennis, Andrew | Ebook | 1634: The Galileo Affair \r\nScience Fiction | Flint, Eric & DeMarce, Virginia | Ebook | 1634: The Ram Rebellion \r\nScience Fiction | Flint, Eric & DeMarce, Virginia | Ebook | 1634: The Bavarian Crisis \r\nScience Fiction | Flint, Eric & Wentworth, K.D. | Ebook | The Course of Empire \r\nScience Fiction | Forward, Robert | Ebook | Indistinguishable From Magic \r\nScience Fiction | Haldeman, Joe | Rooska | Peace and War \r\nScience Fiction | Hamilton, Peter F. | Rooska | A Second Chance at Eden \r\nScience Fiction | Harrison, Harry | Rooska | The Stainless Steel Rat (Omnibus) \r\nScience Fiction | Hartwell, David G. Cramer, Kathryn | Rooska | The Space Opera Renaissance (anthology) \r\nScience Fiction | Heinlein, Robert A. | Ebook | Farnham's Freehold \r\nScience Fiction | Hemry, John G. | Ebook | Stark's War \r\nScience Fiction | Hemry, John G. | Ebook | Stark's Command \r\nScience Fiction | Hemry, John G. | Ebook | Stark's Crusade \r\nScience Fiction | Hemry, John G. | Ebook | A Just Determination \r\nScience Fiction | Hemry, John G. | Ebook | Burden of Proof \r\nScience Fiction | Hemry, John G. | Ebook | Rule of Evidence \r\nScience Fiction | Hemry, John G. | Ebook | Against All Enemies \r\nScience Fiction | Herbert, Frank | Rooska | The Great Dune Trilogy (Dune, Dune Messiah, Children of Dune) \r\nScience Fiction | Herbert, Frank | Rooska | God Emperor of Dune \r\nScience Fiction | Herbert, Frank | Rooska | Heretics of Dune \r\nScience Fiction | Herbert, Frank | Rooska | Chapter House Dune \r\nScience Fiction | Herbert, Frank | Rooska | Hellstrom's Hive \r\nScience Fiction | Herbert, Frank | Rooska | The Dosadi Experiment \r\nScience Fiction | Herbert, Brian & Anderson, Kevin J | Rooska | Paul of Dune \r\nScience Fiction | Herbert, Brian & Anderson, Kevin J | Rooska | Hunters of Dune \r\nScience Fiction | Ing, Dean | Ebook | Firefight Y2K \r\nScience Fiction | Keith, William H | Ebook | Bolo Strike \r\nScience Fiction | Lake, Jay | Rooska | Mainspring \r\nScience Fiction | Laumer, Keith | Ebook | A Plague of Deamons \r\nScience Fiction | Laumer, Keith | Ebook | Bolos I: Honor of the Regiment \r\nScience Fiction | Laumer, Keith | Ebook | Bolos VI: Cold Steel \r\nScience Fiction | Laumer, Keith | Ebook | Bolos V: Old Guard \r\nScience Fiction | Laumer, Keith | Ebook | Future Imperfect \r\nScience Fiction | Laumer, Keith | Ebook | Legions of Space \r\nScience Fiction | Laumer, Keith | Ebook | Odyssey \r\nScience Fiction | Laumer, Keith | Ebook | Retief! \r\nScience Fiction | Laumer, Keith | Ebook | The Lighter Side \r\nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Conflict of Honors \r\nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Agent of Change \r\nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Carpe Diem \r\nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Plan B \r\nScience Fiction | Lee, Sharon & Miller, Steve | Ebook | Local Custom \r\nScience Fiction | Leiber, Fritz | Ebook | Fritz Leiber: Selected Stories \r\nScience Fiction | Leinster, Murray | Ebook | Med Ship \r\nScience Fiction | MacLeod, Ken | Rooska | The Star Fraction \r\nScience Fiction | MacLeod, Ken | Rooska | The Cassini Division \r\nScience Fiction | MacLeod, Ken | London | The Corporation Wars: Dissidence \r\nScience Fiction | MacLeod, Ken | London | The Corporation Wars: Insurgence\r\nScience Fiction | Masamune, Shirow | Rooska | Ghost in the Shell \r\nScience Fiction | McAuley, Paul | London | Making History \r\nScience Fiction | McCaffrey, Anne | Ebook | Brain Ships \r\nScience Fiction | Moon, Elizabeth | Ebook | Heris Serrano \r\nScience Fiction | Moon, Elizabeth | Ebook | Once a Hero \r\nScience Fiction | Moon, Elizabeth | Ebook | Rules of Engagement \r\nScience Fiction | Moon, Elizabeth | Ebook | Change of Command \r\nScience Fiction | Niven, Larry | Ebook | Man-Kzin Wars XI \r\nScience Fiction | Niven, Larry | Ebook | Man-Kzin Wars XIII \r\nScience Fiction | Norton, Andre | Ebook | Star Soldiers \r\nScience Fiction | Norton, Andre | Ebook | Janus \r\nScience Fiction | Pohl, Frederik | Ebook | Black Star Rising \r\nScience Fiction | Pohl, Frederik | Ebook | Heechee Rendezvous \r\nScience Fiction | Pournelle, Jerry | Ebook | High Justice \r\nScience Fiction | Pournelle, Jerry | Ebook | West of Honor \r\nScience Fiction | Pournelle, Jerry | Ebook | The Mercenary \r\nScience Fiction | Pournelle, Jerry | Ebook | Prince of Mercenaries \r\nScience Fiction | Pournelle, Jerry Stirling, S.M. | Ebook | Go Tell the Spartans \r\nScience Fiction | Pournelle, Jerry Stirling, S.M. | Ebook | Prince of Sparta \r\nScience Fiction | Pournelle, Jerry | Ebook | King David's Spaceship \r\nScience Fiction | Pournelle, Jerry | Ebook | Footfall \r\nScience Fiction | Pournelle, Jerry | Ebook | Lucifer's Hammer \r\nScience Fiction | Pournelle, Jerry | Ebook | A Step Farther Out \r\nScience Fiction | Pournelle, Jerry | Ebook | Imperial Stars 1: The Stars at War \r\nScience Fiction | Pournelle, Jerry | Ebook | Imperial Stars 2: Republic and Empire \r\nScience Fiction | Pournelle, Jerry | Ebook | Imperial Stars 3: The Crash of Empire \r\nScience Fiction | Pournelle, Jerry | Ebook | Blood Feuds \r\nScience Fiction | Pournelle, Jerry | Ebook | Blood Vengeance \r\nScience Fiction | Pournelle, Jerry | Ebook | Red Heroin \r\nScience Fiction | Pournelle, Jerry | Ebook | Red Dragon \r\nScience Fiction | Pournelle, Jerry | Ebook | Janissaries \r\nScience Fiction | Pournelle, Jerry | Ebook | Tran \r\nScience Fiction | Pournelle, Jerry & Niven, Larry | Ebook | The Mote in God's Eye \r\nScience Fiction | Pournelle, Jerry & Niven, Larry | Ebook | The Gripping Hand \r\nScience Fiction | Rajaniemi, Hannu | Rooska | Quantum Thief \r\nScience Fiction | Reynolds, Alistair | Rooska | Revelation Space \r\nScience Fiction | Reynolds, Alistair | Rooska | Redemption Ark \r\nScience Fiction | Reynolds, Alistair | Rooska | Absolution Gap \r\nScience Fiction | Reynolds, Alistair | Rooska | Galactic North \r\nScience Fiction | Reynolds, Alistair | Rooska | The Prefect \r\nScience Fiction | Reynolds, Alistair | Rooska | House of Suns \r\nScience Fiction | Reynolds, Alistair | London | Revenger \r\nScience Fiction | Ringo, John | Ebook | A Hymn before Battle \r\nScience Fiction | Ringo, John | Ebook | Gust Front \r\nScience Fiction | Ringo, John | Ebook | When the Devil Dances \r\nScience Fiction | Ringo, John | Ebook | Hell's Faire \r\nScience Fiction | Ringo, John | Ebook | Watch on the Rhine \r\nScience Fiction | Ringo, John | Ebook | Yellow Eyes \r\nScience Fiction | Ringo, John | Ebook | Cally's War \r\nScience Fiction | Ringo, John | Ebook | Eye of the Storm \r\nScience Fiction | Ringo, John & Kratman, Tom | Ebook | The Tuloriad \r\nScience Fiction | Ringo, John | Ebook | The Hero \r\nScience Fiction | Ringo, John | Ebook | March Upcountry \r\nScience Fiction | Ringo, John | Ebook | March to the Sea \r\nScience Fiction | Ringo, John | Ebook | March to the Stars \r\nScience Fiction | Ringo, John | Ebook | We Few \r\nScience Fiction | Ringo, John | Ebook | There will be Dragons \r\nScience Fiction | Ringo, John | Ebook | Emerald Sea \r\nScience Fiction | Ringo, John | Ebook | Against the Tide \r\nScience Fiction | Ringo, John | Ebook | East of the Sun and West of the Moon \r\nScience Fiction | Ringo, John | Ebook | The Road to Damascus \r\nScience Fiction | Ringo, John | Ebook | Live Free or Die \r\nScience Fiction | Ringo, John | Ebook | Citadel \r\nScience Fiction | Ringo, John | Ebook | The Hot Gate \r\nScience Fiction | Sheffield, Charles | Ebook | Starfire \r\nScience Fiction | Shute, Nevil | Rooska | On The Beach \r\nScience Fiction | Simmons, Dan | Rooska | Hyperion \r\nScience Fiction | Simmons, Dan | Rooska | The Fall of Hyperion \r\nScience Fiction | Simmons, Dan | Rooska | Illium \r\nScience Fiction | Stapledon, Olaf | Ebook | Last and First Men \r\nScience Fiction | Stephenson, Neal | Rooska | Quicksilver \r\nScience Fiction | Stephenson, Neal | Rooska | The Confusion \r\nScience Fiction | Stephenson, Neal | Rooska | The System of the World \r\nScience Fiction | Stephenson, Neal | Rooska | Cryptonomicon \r\nScience Fiction | Stephenson, Neal | Rooska | Anathem \r\nScience Fiction | Stirling, S.M. | Ebook | Drakas! \r\nScience Fiction | Stirling, S.M. | Ebook | Ice, Iron and Gold \r\nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Forge (Warlord) \r\nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Hammer (Warlord) \r\nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Anvil (Conqueror) \r\nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Steel (Conqueror) \r\nScience Fiction | Stirling, S.M. & Drake, David Drake | Ebook | The Sword (Conqueror) \r\nScience Fiction | Smith, Cordwainer | Ebook | We The Underpeople \r\nScience Fiction | Tanaka, Yoshiki | London | Legend of the Galactic Heroes 1: Dawn \r\nScience Fiction | Tanaka, Yoshiki | London | Legend of the Galactic Heroes 2: Ambition \r\nScience Fiction | Tanaka, Yoshiki  | London | Legend of the Galactic Heroes 3: Endurance\r\nScience Fiction | Tanaka, Yoshiki  | London | Legend of the Galactic Heroes 4: Stratagem\r\nScience Fiction | Tanaka, Yoshiki  | London | Legend of the Galactic Heroes 5: Mobilization\r\nScience Fiction | Turtledove, Harry | Ebook | 3xT \r\nScience Fiction | Weber, David | Rooska | On Basilisk Station \r\nScience Fiction | Weber, David | Ebook | The Honor of the Queen \r\nScience Fiction | Weber, David | Ebook | Field of Dishonor \r\nScience Fiction | Weber, David | Ebook | War of Honor \r\nScience Fiction | Weber, David | Ebook | At all Costs \r\nScience Fiction | Weber, David | Ebook | Changer of Worlds \r\nScience Fiction | Weber, David | Ebook | Crown of Slaves \r\nScience Fiction | Weber, David | Ebook | The Shadow of Saganami \r\nScience Fiction | Weber, David | Ebook | Mission of Honor \r\nScience Fiction | Weber, David | Ebook | A Rising Thunder \r\nScience Fiction | Weber, David | Ebook | Path of the Fury \r\nScience Fiction | Weber, David | Ebook | In Fury Born \r\nScience Fiction | Weber, David | Ebook | Mutineer's Moon \r\nScience Fiction | Weber, David | Ebook | Bolo! \r\nScience Fiction | Weber, David | Ebook | Old Soldiers \r\nScience Fiction | Weber, David | Ebook | The Apocalypse Troll \r\nScience Fiction | Weber, David | Ebook | The Excalibur Alternative \r\nScience Fiction | Weber, David & White, Steve | Ebook | Crusade \r\nScience Fiction | Weber, David & White, Steve | Ebook | The Shiva Option \r\nScience Fiction | Wentworth, K.D. | Ebook | Black on Black \r\nScience Fiction | Wentworth, K.D. | Ebook | Stars Over Stars \r\nScience Fiction | Whedon, Joss, Matthews, Brett & Conrad, Will | Rooska | Serenity - Those Left Behind \r\nScience Fiction | White Steve | Ebook | Exodus \r\nScience Fiction | White Steve | Ebook | Extremis \r\nScience Fiction | White Steve | Ebook | Blood of the Heros \r\nScience Fiction | Williamson, Michael Z. | Ebook | Freehold \r\nScience Fiction | Winterson, Jeanette | Rooska | The Stone Gods \r\nScience Fiction | Wyndham, John | Rooska | The Day of the Triffids \r\nScience Fiction | Zahn, Timothy | Ebook | The Cobra Trilogy \r\nHistory | Various | Rooska | World of Myths - Volume One \r\nHistory | Various | Rooska | World of Myths - Volume Two \r\nHistory | Various | Rooska | The Constitution of the United States \r\nHistory | Addey, Keith | Rooska | Napoleon \r\nHistory | Beevor, Antony | Rooska | Berlin - The Downfall 1945 \r\nHistory | Beevor, Antony | Rooska | D-Day - The Battle For Normandy \r\nHistory | Churchill, Winston S | Rooska | The World Crisis 1911-1918 (Abridged) \r\nHistory | Churchill, Winston S | Rooska | The Second World War \r\nHistory | Crowley, Roger | Rooska | Empires of the Sea \r\nHistory | Diamond, Jared| Rooska | Guns Germs and Steel \r\nHistory | Foote, Shelby | Rooska | The Civil War 1-3 \r\nHistory | Frankopan, Peter | Rooska | The Silk Roads: A New History of the World\r\nHistory | Fraser, Antonia | Rooska | Cromwell - Our Chief of Men \r\nHistory | Gibbon, Edward | London | Decline and Fall of the Roman Empire (Abridged) \r\nHistory | Gibbon, Edward | Rooska | Decline and Fall of the Roman Empire Volumes 1-6 \r\nHistory | Glantz, David M & House, J M | London | When Titans Clashed\r\nHistory | Grant, Micheal | Rooska | The History of Rome \r\nHistory | Hague, William | Rooska | William Pitt The Younger \r\nHistory | Hastings, Max | Rooska | Retribution - The Battle for Japan 1944-45 \r\nHistory | Hayward, Joel | Rooska | Stopped at Stalingrad \r\nHistory | Heather, Peter | Rooska | The Fall of the Roman Empire: A New History \r\nHistory | Herodotus | Rooska | The Landmark Herodotus \r\nHistory | Herodotus | London | Histories \r\nHistory | Holland, Tom | Rooska | Persian Fire: The First World Empire, Battle for the West \r\nHistory | Holland, Tom | Rooska | In the Shadow of the Sword: The End of the Ancient World \r\nHistory | Holmes, Richard | Rooska | Marlborough \r\nHistory | Holmes, Richard | Rooska | Wellington \r\nHistory | Jenkins, Roy | Rooska | Franklin Delano Roosevelt \r\nHistory | Jungler, Ernst | Rooska | Storm of Steel \r\nHistory | Keay, John | Rooska | China \r\nHistory | Kennedy, Paul | Rooska | Engineers of Victory \r\nHistory | Kinder, Hermann & Hilgemann, Werner | Rooska | Altas of World History Volume 1 To French Revolution \r\nHistory | Kinder, Hermann & Hilgemann, Werner | Rooska | Altas of World History Volume 2 From French Revolution \r\nHistory | MacCulloch, Diarmaid | Rooska | A History of Christianity \r\nHistory | McPherson, James M. | Rooska | Battle Cry of Freedom \r\nHistory | Massie, Robert K. | Rooska | Dreadnought \r\nHistory | Massie, Robert K. | Rooska | Castles of Steel \r\nHistory | Meacham, Jon | Rooska | American Lion - Andrew Jackson in the White House \r\nHistory | Melvin, Mungo | Rooska | Manstein: Hitler's Greatest General \r\nHistory | Mortimer, Geoff | Rooska | Wallenstein, The Enigma of the Thirty Years War \r\nHistory | O'Toole, Fintan | Rooska | Ship of Fools \r\nHistory | Paget, Julian | Rooska | Wellington's Peninsular War \r\nHistory | Pakenham, Thomas | Rooska | The boer War \r\nHistory | Pakenham, Thomas | Rooska | The Scramble for Africa \r\nHistory | Pike, Francis | Ebook | Hirohito's War: The Pacific War, 1941-1945 ([Maps and Diagrams](http://francispike.org/show_maps.php))\r\nHistory | Reynolds, David | London | The Long Shadow - The Great War\r\nHistory | Shepherd, William Robert | Rooska | Historical Atlas \r\nHistory | Slim, William | London | Defeat into Victory \r\nHistory | Schlosser, Eric | London | Command and Control\r\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 1: Trial By Battle\r\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 2: Trial By Fire\r\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 3: Divided Houses \r\nHistory | Sumption, Jonathan | London | Hundred Years War Vol 4: Cursed Kings \r\nHistory | Thucydides | Rooska | The Landmark Thucydides \r\nHistory | Tuchman, Barbara | London | The Guns of August\r\nHistory | Willis, Sam | Rooska | Fighting Ships 1850-1950 \r\nHistory | Wilkinson, Toby | Rooska | The Rise and Fall of Ancient Egypt \r\nHistory | Wilmot, Chester | Rooska | The Struggle for Europe \r\nHistory | Wilson, Peter H | Rooska | Europe's Tragedy - A History of the Thirty Years War \r\nLiterature | Various | London | A Leob Classical Library Reader \r\nLiterature | Various | London | Pocket Havamal\r\nLiterature | Various | Rooska | The Oxford Dictionary of Quotations \r\nLiterature | Browne, Janet | Rooska | Darwin's Origin of Species a biography \r\nLiterature | Caesar | London | Gallic War \r\nLiterature | Carroll, Lewis | Rooska | Alice in Wonderland \r\nLiterature | Cook, Claire Kehrwald | Rooska | Line by Line \r\nLiterature | Eagleman, David | Rooska | Sum: Tales from the Afterlives \r\nLiterature | Ellison, Harlan | Ebook | Watching \r\nLiterature | Gowers, Ernest | Rooska | Complete Plain Words \r\nLiterature | Grimm, Brothers | Rooska | Grimm's Fairy Tales \r\nLiterature | Homer | Rooska | The Odyssey \r\nLiterature | Kafka, Franz | London | The Essential Kafka \r\nLiterature | Keats, John | Rooska | The Complete Poems \r\nLiterature | Kipling, Rudyard | Rooska | The Complete Verse \r\nLiterature | Kipling, Rudyard | London | Collected Poems \r\nLiterature | Kipling, Rudyard | London | 100 Poems \r\nLiterature | Melville, Herman | Rooska | Moby Dick \r\nLiterature | Orwell, George | Rooska | Novels \r\nLiterature | Proust, Marcel | London | The Way by Swann's \r\nLiterature | Ricks, Christopher | Rooska | The Oxford Book of English Verse \r\nLiterature | Royal, Brandon | Rooska | The Little Red Writing Book \r\nLiterature | Saki | Rooska | The Best of Saki \r\nLiterature | Shakespear, William | Rooska | The Complete Works of William Shakespear \r\nLiterature | Shakespear, William | London | The Oxford Shakespear - Complete Works \r\nLiterature | Strunk, J.R. White, E.B. | Rooska | The Elements of Style \r\nLiterature | Tennyson, Alfred | Rooska | The Works of Tennyson \r\nLiterature | Virgil | Rooska | Eclogues, Georgics, Aeneid 1-6 \r\nLiterature | Virgil | Rooska | Aeneid 7-12 \r\nLiterature | Voltaire | London | Candide and other stories \r\nPhilosophy & Religion | Various | London | Holy Bible: King James Version (KJV) \r\nPhilosophy & Religion | Various | Rooska | King James Study Bible \r\nPhilosophy & Religion | Aurelius, Marcus | Rooska | Meditations \r\nPhilosophy & Religion | Blackburn, Simon | Rooska | Plato's Republic a biography \r\nPhilosophy & Religion | Dawkins, Richard | Rooska | The God Delusion \r\nPhilosophy & Religion | Eberl, Jason T | Rooska | Battlestar Galactica and Philosophy \r\nPhilosophy & Religion | Hitchens, Christopher | Rooska | Thomas Paine's Rights of Man a biography \r\nPhilosophy & Religion | Lawrence, Bruce | Rooska | The Qur'an a biography \r\nPhilosophy & Religion | Wheen, Francis | Rooska | Marx's Das Kapital a biography \r\nReference | Jackson, Albert  |Rooska | Collins Complete DIY Manual \r\nReference | Pastoureau, Michel | Rooska | Heraldry: Its Origins and Meaning \r\nReference | Pritchard, David | Ebook | The Right Way to Play Chess\r\nReference | Priestner, Andy | London | The Complete Secret Army\r\nReference | Various | London | AA the Highway Code\r\nReference | Various | London | Cambridge Latin Course, Book 1: Level 1 \r\nReference | Various | Rooska | Collins English Dictionary - Complete and Unabridged \r\nReference | Various | London | Collins Latin Dictionary and Grammar \r\nReference | Various | London | Collins Pocket Atlas London \r\nReference | Various | Rooska | Philip's World Traveller's Atlas \r\nReference | Various | London | The Times Atlas of the World (Mini Edition) \r\nReference | Allen, Philip | Rooska | The Atlas of Atlases \r\nReference | Hitchings, Henry | Rooska | The Secret Life of Words \r\nReference | Howard, Rachael & Nash, Bill | London | Secret London An Unusual Guide \r\nReference | Silman, Jeremy | London | How to Reassess Your Chess\r\nReference | Waite, A. E. | London | Pictorial Key to the Tarot\r\nScience & Technology | Brinkley, Mark | Rooska | The Housebuilder's Bible \r\nScience & Technology | Darwin, Charles | Rooska | The Origin of Species \r\nScience & Technology | Macaulay, David | Rooska | The Way Things Work \r\nScience & Technology | McCloud, Kevin | Rooska | Grand Designs Abroad \r\nScience & Technology | Owen, Julian | Rooska | Self Build \r\nScience & Technology | Schneier, Bruce | Ebook | Liars and Outliers \r\nScience & Technology | Rose, Francis | Rooska | The Wild Flower Key \r\nScience & Technology | Roy, Rob | Rooska | Underground Houses"
     }
 },
 {
@@ -331,10 +331,10 @@
         "title": "Google Chrome",
         "slug": "google-chrome",
         "parent": 5,
-        "updated": "2017-11-06T11:34:31.052Z",
+        "updated": "2018-05-27T13:03:01.307Z",
         "published": null,
         "content_type": "markdown",
-        "content": "Download from [www.google.com/chrome](http://www.google.com/chrome).\nAlternatively, use [Vivaldi](https://vivaldi.com).\n\n## Extensions\n\n1. [Docs PDF/PowerPoint Viewer](https://chrome.google.com/extensions/detail/nnbmlagghjjcbdhgmkedmbmedengocbn): \nAutomatically previews pdfs, powerpoint presentations, and other documents in Google Docs Viewer.\n1. [Firebug Lite](https://chrome.google.com/extensions/search?itemlang=&hl=en-gb&q=firebug): \nJavascript Debugger.\n1. [Font Finder](https://chrome.google.com/webstore/detail/font-finder/bhiichidigehdgphoambhjbekalahgha):\nAnalyze the font information of any element on a page.\n1. [iReader](https://chrome.google.com/webstore/detail/ireader/ppelffpjgkifjfgnbaaldcehkpajlmbc):\nMakes web pages more readable by eliminating boilerplate.\n1. [No More Windows](https://chrome.google.com/webstore/detail/no-more-windows/ppljpblaiplljblignkngnkpnhdilkmd): \nStop links opening new tabs or windows.\n1. [Search Results Blacklist](https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef):\nPersonal Blocklist from Google.\n1. [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe):\nApply themes to websites.\n1. [Switcheroo](https://chrome.google.com/webstore/detail/switcheroo-redirector/cnmciclhnghalnpfhhleggldniplelbg):\nAll URL redirections.\n1. [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm):\nBlocks ads, trackers and malware sites.\n1. [Visual Event](https://chrome.google.com/webstore/detail/visual-event/pbmmieigblcbldgdokdjpioljjninaim):\nShow what event is bound on each DOM element.\n\nNeed to select Settings > Extensions > Developer Mode to allow synchronising of Extensions and Themes.\n\n## Search\n\nDefault to getting Last Year's results:\n\n1. Open Chrome's Settings Manage Search Engines\n1. Add a new search engine under the list of ''Other search engines'' with the following values.\n    * Name: *Google (recent)*\n    * Keyword: *recent*\n    * URL: `http://www.google.com/search?q=%s&tbs=qdr:y&tbo=1`\n1. Change this to be your default search\nTo use `encrypted.google.com` the URL is `https://encrypted.google.com/search?q=%s`.\n\n## Clear Cache\n\n1. Click the Chrome menu  on the browser toolbar.\n1. Select Tools.\n1. Select Clear browsing data.\n1. In the dialogue that appears, select the tickboxes for the types of information that you want to remove.\n1. Use the menu at the top to select the amount of data that you want to delete. Select beginning of time to delete everything.\n1. Click Clear browsing data."
+        "content": "Download from [www.google.com/chrome](http://www.google.com/chrome).\nAlternatively, use [Vivaldi](https://vivaldi.com).\n\n## Extensions\n\n1. [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb/related):\nAdblocker.\n1. [LastPass](chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd):\nPassword Manager.\n1. [React](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi):\nJavascript React framework Developer Tools.\n1. [Redux](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd):\nJavascript Redux framework Developer Tools.\n1. [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe):\nApply themes to websites.\n1. [Switcheroo](https://chrome.google.com/webstore/detail/switcheroo-redirector/cnmciclhnghalnpfhhleggldniplelbg):\nAll URL redirections.\n1. [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm):\nBlocks ads, trackers and malware sites.\n1. [Visual Event](https://chrome.google.com/webstore/detail/visual-event/pbmmieigblcbldgdokdjpioljjninaim):\nShow what event is bound on each DOM element.\n\nNeed to select Settings > Extensions > Developer Mode to allow synchronising of Extensions and Themes.\n\n## Search\n\nDefault to getting Last Year's results:\n\n1. Open Chrome's Settings Manage Search Engines\n1. Add a new search engine under the list of ''Other search engines'' with the following values.\n    * Name: *Google (recent)*\n    * Keyword: *recent*\n    * URL: `http://www.google.com/search?q=%s&tbs=qdr:y&tbo=1`\n1. Change this to be your default search\nTo use `encrypted.google.com` the URL is `https://encrypted.google.com/search?q=%s`.\n\n## Clear Cache\n\n1. Click the Chrome menu  on the browser toolbar.\n1. Select Tools.\n1. Select Clear browsing data.\n1. In the dialogue that appears, select the tickboxes for the types of information that you want to remove.\n1. Use the menu at the top to select the amount of data that you want to delete. Select beginning of time to delete everything.\n1. Click Clear browsing data."
     }
 },
 {
@@ -1124,10 +1124,10 @@
         "title": "Portfolio",
         "slug": "portfolio",
         "parent": 146,
-        "updated": "2017-04-16T17:03:29.831Z",
+        "updated": "2018-05-27T05:25:34.230Z",
         "published": null,
         "content_type": "markdown",
-        "content": "Open-source examples of my work.\n\n## Angular 2\n\n###Angular-Django\n\nAngular 2 and Django single-page application (SPA) implementation of my personal website [ahernp.com](https://ahernp.com).\n\n[Source](https://github.com/ahernp/angular-django)\n\n## Django Applications\n\n<div class=\"column-left\" markdown=\"1\">\n\n### Bugtracker\n\nSimple Django Admin-based ticketing system.\n\n[Documentation](http://ahernp.com/media/doc/django-bugtracker/)\n[Package](https://pypi.python.org/pypi/django-bugtracker)\n[Source](https://github.com/ahernp/django-bugtracker)\n\n### Django Markdown Content Manager\n\nDMCM is a simple Content Management System in which website pages are served on request by the Django web framework using content stored on a database as text in the Markdown format.\n\n[Documentation](http://ahernp.com/media/doc/django-dmcm/)\n[Package](https://pypi.python.org/pypi/django-dmcm)\n[Source](https://github.com/ahernp/DMCM)\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n### Feedreader\n\nRSS Aggregator.\n\n[Documentation](http://ahernp.com/media/doc/django-feedreader/)\n[Package](https://pypi.python.org/pypi/django-feedreader)\n[Source](https://github.com/ahernp/django-feedreader)\n\n### Monitoring\n\nLogging and Dashboard.\n\n[Documentation](http://ahernp.com/media/doc/django-monitoring/)\n[Package](https://pypi.python.org/pypi/django-monitoring-ahernp)\n[Source](https://github.com/ahernp/django-monitoring)\n\n</div>\n<div style=\"clear:both\"></div>"
+        "content": "Open-source examples of my work.\n\n## Angular 2\n\n###Angular-Django\n\nAngular 2 and Django single-page application implementation of my personal website [ahernp.com](https://ahernp.com).\n\n[Source](https://github.com/ahernp/angular-django)\n\n## Django Applications\n\n<div class=\"column-left\" markdown=\"1\">\n\n### Django Markdown Content Manager\n\nDMCM is a simple Content Management System in which website pages are served on request by the Django web framework using content stored on a database as text in the Markdown format.\n\n[Documentation](http://ahernp.com/media/doc/django-dmcm/)\n[Package](https://pypi.python.org/pypi/django-dmcm)\n[Source](https://github.com/ahernp/DMCM)\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n### Feedreader\n\nRSS Aggregator.\n\n[Documentation](http://ahernp.com/media/doc/django-feedreader/)\n[Package](https://pypi.python.org/pypi/django-feedreader)\n[Source](https://github.com/ahernp/django-feedreader)\n\n</div>\n<div style=\"clear:both\"></div>"
     }
 },
 {
@@ -1534,6 +1534,19 @@
     }
 },
 {
+    "model": "pages.page",
+    "pk": 169,
+    "fields": {
+        "title": "2018 Spring",
+        "slug": "2018-spring",
+        "parent": 20,
+        "updated": "2018-05-24T16:01:31.146Z",
+        "published": null,
+        "content_type": "gallery",
+        "content": "{\n    \"heading\": \"Spring 2018\",\n    \"images\": [\n        {\n            \"title\": \"Barn\",\n            \"imageUrl\": \"/media/img/barn2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/barn2018.jpg\"\n        },\n        {\n            \"title\": \"Driveway\",\n            \"imageUrl\": \"/media/img/driveway2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/driveway2018.jpg\"\n        },\n        {\n            \"title\": \"Wall\",\n            \"imageUrl\": \"/media/img/wall2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/wall2018.jpg\"\n        },\n        {\n            \"title\": \"Road\",\n            \"imageUrl\": \"/media/img/road2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/road2018.jpg\"\n        },\n        {\n            \"title\": \"Entrance\",\n            \"imageUrl\": \"/media/img/entrance2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/entrance2018.jpg\"\n        },\n        {\n            \"title\": \"Harry the Sequoia\",\n            \"imageUrl\": \"/media/img/sequoia2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/sequoia2018.jpg\"\n        },\n        {\n            \"title\": \"Twees\",\n            \"imageUrl\": \"/media/img/trees2018.jpg\",\n            \"thumbnailUrl\": \"/media/img/thumb/trees2018.jpg\"\n        }\n    ]\n}"
+    }
+},
+{
     "model": "feedreader.group",
     "pk": 1,
     "fields": {
@@ -1570,19 +1583,6 @@
 },
 {
     "model": "feedreader.feed",
-    "pk": 43,
-    "fields": {
-        "title": "Binge Thinking History Podcast",
-        "xml_url": "http://bingethinkinghistory.blogspot.com/feeds/posts/default",
-        "link": "http://bingethinkinghistory.blogspot.com/",
-        "description": "",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:06.922Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
     "pk": 44,
     "fields": {
         "title": "Dan Carlin&#39;s Hardcore History",
@@ -1596,53 +1596,14 @@
 },
 {
     "model": "feedreader.feed",
-    "pk": 46,
-    "fields": {
-        "title": "The Ancient World",
-        "xml_url": "http://ancientworldpodcast.blogspot.com/feeds/posts/default",
-        "link": "http://ancientworldpodcast.blogspot.com/",
-        "description": "From the first human civilizations to 500 BC in (around) thirty podcasts",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:26.327Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
     "pk": 48,
     "fields": {
         "title": "Analysis",
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/analysis/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006r4vz",
         "description": "Programme examining the ideas and forces which shape public policy in Britain and abroad, presented by distinguished writers, journalists and academics",
-        "published_time": "2018-01-29T21:00:00Z",
-        "last_polled_time": "2018-01-29T21:17:03.287Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 52,
-    "fields": {
-        "title": "Discovery",
-        "xml_url": "http://downloads.bbc.co.uk/podcasts/worldservice/discovery/rss.xml",
-        "link": "http://www.bbc.co.uk/programmes/p002w557",
-        "description": "Explorations in the world of science.",
-        "published_time": "2018-01-29T20:32:00Z",
-        "last_polled_time": "2018-01-29T21:17:09.327Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 54,
-    "fields": {
-        "title": "File on 4",
-        "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/fileon4/rss.xml",
-        "link": "http://www.bbc.co.uk/programmes/b006th08",
-        "description": "Award-winning current affairs documentary series investigating major issues at home and abroad",
-        "published_time": "2018-01-30T20:41:00Z",
-        "last_polled_time": "2018-01-30T21:17:10.210Z",
+        "published_time": "2018-06-04T20:00:00Z",
+        "last_polled_time": "2018-06-04T20:17:03.620Z",
         "group": 4
     }
 },
@@ -1654,8 +1615,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/fricomedy/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02pc9pj",
         "description": "Download the best new comedy from Radio 4, every Friday. Features The News Quiz, The Now Show, Dead Ringers and The Museum of Curiosity.",
-        "published_time": "2018-02-02T19:01:00Z",
-        "last_polled_time": "2018-02-02T19:17:09.864Z",
+        "published_time": "2018-06-08T18:00:00Z",
+        "last_polled_time": "2018-06-08T19:17:12.656Z",
         "group": 4
     }
 },
@@ -1667,8 +1628,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/greatlives/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qxsb",
         "description": "Biographical series in which guests choose someone who has inspired their lives.",
-        "published_time": "2018-01-25T14:12:00Z",
-        "last_polled_time": "2018-01-25T15:17:10.283Z",
+        "published_time": "2018-05-29T16:00:00Z",
+        "last_polled_time": "2018-05-29T16:17:15.223Z",
         "group": 4
     }
 },
@@ -1680,8 +1641,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qykl",
         "description": "Melvyn Bragg and guests discuss the history of ideas",
-        "published_time": "2018-02-01T11:01:00Z",
-        "last_polled_time": "2018-02-01T11:17:11.429Z",
+        "published_time": "2018-06-07T10:09:00Z",
+        "last_polled_time": "2018-06-07T11:17:13.928Z",
         "group": 4
     }
 },
@@ -1693,8 +1654,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/law/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006tgy1",
         "description": "Joshua Rozenberg presents Radio 4&#39;s long-running legal magazine programme, featuring reports and discussion on matters relating to law",
-        "published_time": "2017-11-21T15:14:00Z",
-        "last_polled_time": "2017-11-21T16:17:30.388Z",
+        "published_time": "2018-06-05T15:30:00Z",
+        "last_polled_time": "2018-06-05T16:17:16.923Z",
         "group": 4
     }
 },
@@ -1705,9 +1666,9 @@
         "title": "The Media Show",
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/media/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b00dv9hq",
-        "description": "Topical programme about the fast-changing media world",
-        "published_time": "2018-01-31T17:33:00Z",
-        "last_polled_time": "2018-01-31T18:17:36.634Z",
+        "description": "Social media, anti-social media, breaking news, faking news; this is the podcast about a revolution in media with Amol Rajan, the BBC\u2019s Media Editor. New episode every Wednesday",
+        "published_time": "2018-06-06T16:25:00Z",
+        "last_polled_time": "2018-06-06T17:17:37.742Z",
         "group": 4
     }
 },
@@ -1719,8 +1680,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/profile/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjz5",
         "description": "An insight into the character of an influential figure making news headlines",
-        "published_time": "2018-02-03T19:15:00Z",
-        "last_polled_time": "2018-02-03T20:17:17.509Z",
+        "published_time": "2018-06-09T18:15:00Z",
+        "last_polled_time": "2018-06-09T19:17:19.933Z",
         "group": 4
     }
 },
@@ -1732,21 +1693,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/bottomline/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006sz6t",
         "description": "Evan Davis hosts the business conversation show with people at the top giving insight into what matters",
-        "published_time": "2018-02-02T20:10:00Z",
-        "last_polled_time": "2018-02-02T21:17:38.984Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 71,
-    "fields": {
-        "title": "The Film Programme",
-        "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/film/rss.xml",
-        "link": "http://www.bbc.co.uk/programmes/b006r5jt",
-        "description": "The latest releases, the hottest stars and the leading directors, plus news and insights from the film world",
-        "published_time": "2018-02-01T16:29:00Z",
-        "last_polled_time": "2018-02-01T17:17:30.754Z",
+        "published_time": "2018-06-08T17:23:00Z",
+        "last_polled_time": "2018-06-08T18:17:30.685Z",
         "group": 4
     }
 },
@@ -1758,8 +1706,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "Radio 4&#39;s weekly assessment of developments at Westminster",
-        "published_time": "2018-02-03T11:30:00Z",
-        "last_polled_time": "2018-02-03T12:17:36.673Z",
+        "published_time": "2018-06-09T10:30:00Z",
+        "last_polled_time": "2018-06-09T11:17:39.448Z",
         "group": 4
     }
 },
@@ -1771,8 +1719,8 @@
         "xml_url": "http://feedproxy.google.com/linuxtoday/linux",
         "link": "https://www.linuxtoday.com/",
         "description": "",
-        "published_time": "2018-02-04T15:14:06Z",
-        "last_polled_time": "2018-02-04T15:17:15.886Z",
+        "published_time": "2018-06-10T11:12:46Z",
+        "last_polled_time": "2018-06-10T11:17:16.962Z",
         "group": 5
     }
 },
@@ -1785,47 +1733,8 @@
         "link": "https://www.schneier.com/blog/",
         "description": "A blog covering security and security technology.",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:22.376Z",
+        "last_polled_time": "2018-06-10T11:17:22.627Z",
         "group": 5
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 79,
-    "fields": {
-        "title": "inkscape tutorials blog",
-        "xml_url": "http://inkscapetutorials.wordpress.com/feed/",
-        "link": "https://inkscapetutorials.wordpress.com",
-        "description": "",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:13.935Z",
-        "group": 5
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 93,
-    "fields": {
-        "title": "The Podcast History Of Our World",
-        "xml_url": "http://podcasthistoryofourworld.libsyn.com/rss",
-        "link": "http://www.podcasthistoryofourworld.com/",
-        "description": "It&#39;s the history of our world from the Big Bang to the Modern Age! Well...eventually at least. \n\nEvery episode has FINALLY been remastered, touched up, and had the numbering fixed. TPHOOW is back in action!",
-        "published_time": "2016-10-02T23:57:05Z",
-        "last_polled_time": "2016-11-08T10:17:37.337Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 100,
-    "fields": {
-        "title": "A Point of View",
-        "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/pov/rss.xml",
-        "link": "http://www.bbc.co.uk/programmes/b006qng8",
-        "description": "A weekly reflection on a topical issue",
-        "published_time": "2018-02-02T21:00:00Z",
-        "last_polled_time": "2018-02-02T21:17:05.067Z",
-        "group": 4
     }
 },
 {
@@ -1849,8 +1758,8 @@
         "xml_url": "http://revolutionspodcast.libsyn.com/rss/",
         "link": "http://www.revolutionspodcast.com",
         "description": "A weekly podcast exploring great political revolutions. Now: The July Revolution. Next: 1848",
-        "published_time": "2018-01-31T00:03:38Z",
-        "last_polled_time": "2018-01-31T00:17:17.904Z",
+        "published_time": "2018-06-04T00:18:31Z",
+        "last_polled_time": "2018-06-04T01:17:22.186Z",
         "group": 1
     }
 },
@@ -1863,7 +1772,7 @@
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python Web framework.",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:32.129Z",
+        "last_polled_time": "2018-06-10T11:17:31.597Z",
         "group": 5
     }
 },
@@ -1875,21 +1784,8 @@
         "xml_url": "http://feeds.feedburner.com/TheHistoryOfChina",
         "link": "http://thehistoryofchina.wordpress.com",
         "description": "A journey through the 5000 years of history documented by one of the world&#39;s oldest continuous civilizations. \n\nFor all the episodes for free, as well as additional content, please subscribe and/or visit http://thehistoryofchina.wordpress.com .",
-        "published_time": "2018-02-01T02:28:57Z",
-        "last_polled_time": "2018-02-01T04:17:34.381Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 130,
-    "fields": {
-        "title": "Myths and History of Greece and Rome",
-        "xml_url": "http://mythandhistory.podbean.com/feed/",
-        "link": "http://mythandhistory.podbean.com",
-        "description": "A journey through the myths and history of Ancient Greece and Rome for all the family.",
-        "published_time": "2017-12-28T12:20:39Z",
-        "last_polled_time": "2017-12-28T13:17:17.173Z",
+        "published_time": "2018-05-20T14:58:30Z",
+        "last_polled_time": "2018-05-20T15:17:32.215Z",
         "group": 1
     }
 },
@@ -1901,35 +1797,9 @@
         "xml_url": "http://www.bbc.co.uk/blogs/markkermode/rss",
         "link": "http://www.bbc.co.uk/blogs/markkermode",
         "description": "Outspoken, opinionated and never lost for words, Mark is the UK's leading film critic.  This\u00a0twice-weekly video blog is the place where he airs his personal views on the things that most fire him up about cinema - and invites you to give your own opinions.",
-        "published_time": "2018-02-02T17:39:23Z",
-        "last_polled_time": "2018-02-02T18:17:14.572Z",
+        "published_time": "2018-06-08T15:18:53Z",
+        "last_polled_time": "2018-06-08T16:17:16.335Z",
         "group": 2
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 146,
-    "fields": {
-        "title": "REASSEMBLY",
-        "xml_url": "http://www.anisopteragames.com/feed/",
-        "link": "http://www.anisopteragames.com",
-        "description": "",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:19.917Z",
-        "group": 2
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 154,
-    "fields": {
-        "title": "The History of Byzantium",
-        "xml_url": "http://thehistoryofbyzantium.libsyn.com/rss",
-        "link": "http://www.acast.com/thehistoryofbyzantium",
-        "description": "A podcast telling the story of the Roman (Byzantine) Empire from 476 AD to 1453",
-        "published_time": "2018-01-24T00:20:38Z",
-        "last_polled_time": "2018-01-24T01:17:32.019Z",
-        "group": 1
     }
 },
 {
@@ -1939,22 +1809,9 @@
         "title": "Slate Star Codex",
         "xml_url": "http://slatestarcodex.com/feed/",
         "link": "http://slatestarcodex.com",
-        "description": "HOME OF THE THE WORD DUPLICATION ILLUSION",
+        "description": "THE JOYFUL REDUCTION OF UNCERTAINTY",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:23.152Z",
-        "group": 2
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 158,
-    "fields": {
-        "title": "Ex Urbe",
-        "xml_url": "http://exurbe.com/?feed=rss2",
-        "link": "https://www.exurbe.com",
-        "description": "History, Philosophy, Books, Food & Fandom",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:12.292Z",
+        "last_polled_time": "2018-06-10T11:17:23.490Z",
         "group": 2
     }
 },
@@ -1967,7 +1824,7 @@
         "link": "http://b5audioguide.com",
         "description": "This is a book club without books, an episode-by-episode walkthrough of one of the most influential and important modern SF series. Each podcast begins with a spoiler-free discussion of the episode for new viewers, then we give listeners a jumping-off point and switch to a discussion of how the episode fits into the five-year history of the show.",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:30.598Z",
+        "last_polled_time": "2018-06-10T11:17:29.792Z",
         "group": 2
     }
 },
@@ -1980,7 +1837,7 @@
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable is a weekly dive into geeky media we love, including movies, books, TV, comics, and more, featuring a rotating panel of guests and hosted by Jason Snell.",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:36.469Z",
+        "last_polled_time": "2018-06-10T11:17:35.614Z",
         "group": 2
     }
 },
@@ -1993,7 +1850,7 @@
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:07.089Z",
+        "last_polled_time": "2018-06-10T11:17:07.079Z",
         "group": 5
     }
 },
@@ -2001,12 +1858,12 @@
     "model": "feedreader.feed",
     "pk": 182,
     "fields": {
-        "title": "Newshour Extra",
+        "title": "The Real Story",
         "xml_url": "http://www.bbc.co.uk/programmes/p02dbd4m/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p02dbd4m",
-        "description": "Discussion, debate and analysis of the issues behind the news",
-        "published_time": "2018-02-02T09:00:00Z",
-        "last_polled_time": "2018-02-02T09:17:15.175Z",
+        "description": "Global experts and decision makers discuss, debate and analyse a key news story, with regular presenter Carrie Gracie.",
+        "published_time": "2018-06-08T08:00:00Z",
+        "last_polled_time": "2018-06-08T10:17:42.850Z",
         "group": 4
     }
 },
@@ -2018,8 +1875,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moreorless/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02nrss1",
         "description": "Tim Harford and the More or Less team try to make sense of the statistics which surround us. From BBC Radio 4",
-        "published_time": "2018-02-02T19:41:00Z",
-        "last_polled_time": "2018-02-02T20:17:16.248Z",
+        "published_time": "2018-06-08T16:00:00Z",
+        "last_polled_time": "2018-06-08T16:17:18.568Z",
         "group": 4
     }
 },
@@ -2029,10 +1886,10 @@
     "fields": {
         "title": "BBC News - UK Politics",
         "xml_url": "http://feeds.bbci.co.uk/news/politics/rss.xml?edition=uk",
-        "link": "http://www.bbc.co.uk/news/",
+        "link": "https://www.bbc.co.uk/news/",
         "description": "BBC News - UK Politics",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:06.553Z",
+        "last_polled_time": "2018-06-10T11:17:06.618Z",
         "group": 3
     }
 },
@@ -2045,20 +1902,7 @@
         "link": "https://www.theregister.co.uk/",
         "description": "Biting the hand that feeds IT \u2014 sci/tech news and views for the world",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:38.452Z",
-        "group": 5
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 191,
-    "fields": {
-        "title": "Yield Thought",
-        "xml_url": "http://yieldthought.com/rss",
-        "link": "http://yieldthought.com/",
-        "description": "Mark O\u2019Connor is a programmer, irregular writer and AI researcher. He believes in dynamic typing, first-class functions, working in the cloud and the immortal essence of the human soul. He also likes tea.",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:39.996Z",
+        "last_polled_time": "2018-06-10T11:17:39.814Z",
         "group": 5
     }
 },
@@ -2069,9 +1913,9 @@
         "title": "Dilbert Blog",
         "xml_url": "http://feed.dilbert.com/dilbert/blog",
         "link": "http://blog.dilbert.com",
-        "description": "Dilbert Blog",
+        "description": "Scott Adams is best known as the creator of the Dilbert comic strip. But in his daily (sometimes twice daily) podcasts, Adams uses his training as a hypnotist and a lifelong student of persuasion to analyse current events (mostly Trump-related) through a persuasion lense. In so doing, Adams offers you a new way to understand your reality. You can also expect to pick up some valuable persuasion techniques along the way.&lt;br /&gt;\n&lt;br /&gt;\nThese podcasts are the audio channels from Adams&#39; popular Periscope videos. If you hear pauses and interruptions, Adams is probably reading comments as they come across his Periscope screen. Adams&#39; Periscope listeners requested that he convert the Periscope videos into podcast files so they can be played offline and also use less battery power.&lt;br /&gt;\n&lt;br /&gt;\nMost of what you will hear is spontaneous, unrehearsed and casual. The best way to listen is while sipping your favorite beverage.",
         "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:07.266Z",
+        "last_polled_time": "2018-06-10T11:17:07.718Z",
         "group": 2
     }
 },
@@ -2083,48 +1927,9 @@
         "xml_url": "http://www.bbc.co.uk/programmes/b00snr0w/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/b00snr0w",
         "description": "Witty, irreverent look at the world through scientists&#39; eyes. With Brian Cox and Robin Ince",
-        "published_time": "2018-01-29T16:30:00Z",
-        "last_polled_time": "2018-01-29T17:17:33.328Z",
+        "published_time": "2018-02-12T17:00:00Z",
+        "last_polled_time": "2018-02-12T17:17:25.225Z",
         "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 202,
-    "fields": {
-        "title": "ahernp.com blog",
-        "xml_url": "http://ahernp.com/blog/feed",
-        "link": "http://ahernp.com/blog/",
-        "description": "Recent Blog Entries.",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:02.630Z",
-        "group": null
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 203,
-    "fields": {
-        "title": "Sophomore Lit",
-        "xml_url": "http://feeds.theincomparable.com/sophomorelit",
-        "link": "https://www.theincomparable.com/sophomorelit/",
-        "description": "A podcast about your 10th grade reading list, hosted by John McCoy.",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:23.397Z",
-        "group": 2
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 207,
-    "fields": {
-        "title": "Approximately Correct",
-        "xml_url": "http://approximatelycorrect.com/feed/",
-        "link": "http://approximatelycorrect.com",
-        "description": "Technical and Social Perspectives on Machine Learning",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:05.996Z",
-        "group": 5
     }
 },
 {
@@ -2135,21 +1940,8 @@
         "xml_url": "http://rss.acast.com/whendiplomacyfails",
         "link": "http://www.wdfpodcast.com",
         "description": "For over five years, I have been privileged to examine wars throughout history through a unique lens. I always try to ask what on the surface may seem like very reasonable questions - why, how and WHEN did diplomacy fail? This approach has enabled a loyal base of &#39;history friends&#39; to grow up around WDF, and thanks to their much appreciated work getting the word out there, we have taken history podcasting to incredible new heights! \nYou should know that my jam at WDF is not the mundane, the tedious or the repetitive - I care little for the logistics of why one general moves his forces to point A, or what impact weapon X had on the war. Instead, I delve into human agency, the story populated by sometimes ingenious, sometimes fatally flawed human beings, who believed or had been led to believe that the time was right for war. Under these circumstances, diplomacy certainly fails, but thanks to our window into the era, you get to find out all about it! From the machinations of Louis XIV, to the complex set of events which led to the outbreak of the First World War, to the most obscure of conflicts besides, WDF has been through it all, and there&#39;s so much more to come! So why not stop by, give us a listen, and do your bit to help make history THRIVE!\nIf you want to lend a hand to what I do here then please subscribe/rate/review the podcast here, like the Facebook page, follow on Twitter @wdfpodcast visit the website www.wdfpodcast.com become a Patron at www.patreon.com/WhenDiplomacyFails and contact Zack directly at his email address: wdfpodcast@hotmail.com  Thanksss!",
-        "published_time": "2018-01-31T00:01:00Z",
-        "last_polled_time": "2018-01-31T00:17:35.017Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 209,
-    "fields": {
-        "title": "10 American Presidents Podcast",
-        "xml_url": "http://rss.acast.com/10americanpresidents",
-        "link": "http://www.acast.com/10americanpresidents",
-        "description": "From Washington to Obama, 10 American Presidents a podcast narrated by guest hosts.\n\nThe life and legacy of an American President. Each show is intercut with music and where possible archive news clips or dramatisations to set a feeling of place and time.",
-        "published_time": "2018-01-31T05:56:36Z",
-        "last_polled_time": "2018-01-31T06:17:01.967Z",
+        "published_time": "2018-06-05T23:01:00Z",
+        "last_polled_time": "2018-06-05T23:17:39.354Z",
         "group": 1
     }
 },
@@ -2161,73 +1953,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p04z203l/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p04z203l",
         "description": "Nick Robinson talks about what\u2019s really going on in British politics.",
-        "published_time": "2018-02-02T18:45:00Z",
-        "last_polled_time": "2018-02-02T19:17:14.829Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 214,
-    "fields": {
-        "title": "The Documentary",
-        "xml_url": "http://podcasts.files.bbci.co.uk/p02nq0lx.rss",
-        "link": "http://www.bbc.co.uk/programmes/p02nq0lx",
-        "description": "The best of BBC World Service documentaries and other factual programmes.",
-        "published_time": "2018-02-01T13:45:00Z",
-        "last_polled_time": "2018-02-01T14:17:26.783Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 217,
-    "fields": {
-        "title": "Moral Maze",
-        "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moralmaze/rss.xml",
-        "link": "http://www.bbc.co.uk/programmes/b006qk11",
-        "description": "Combative, provocative and engaging live debate examining the moral issues behind one of the week&#39;s news stories. #moralmaze",
-        "published_time": "2017-12-08T11:14:00Z",
-        "last_polled_time": "2017-12-08T12:17:14.788Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 225,
-    "fields": {
-        "title": "The Great War Channel Podcast",
-        "xml_url": "http://feeds.soundcloud.com/users/soundcloud:users:337185562/sounds.rss",
-        "link": "http://youtube.com/thegreatwar",
-        "description": "THE GREAT WAR follows World War 1 week by week 100 years later on YouTube - this is our podcast: an interview series with World War 1 historians.",
-        "published_time": "2018-01-24T12:59:00Z",
-        "last_polled_time": "2018-01-24T13:17:34.764Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 227,
-    "fields": {
-        "title": "Angular Blog - Medium",
-        "xml_url": "https://blog.angular.io/feed",
-        "link": "https://blog.angular.io?source=rss----447683c3d9a3---4",
-        "description": "The latest news and tips from the Angular team - Medium",
-        "published_time": null,
-        "last_polled_time": "2018-02-04T15:17:04.341Z",
-        "group": 5
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 230,
-    "fields": {
-        "title": "The Assassination",
-        "xml_url": "http://podcasts.files.bbci.co.uk/p05r6cgx.rss",
-        "link": "http://www.bbc.co.uk/programmes/p05r6cgx",
-        "description": "The inside story. An investigation into the death of one of the world\u2019s best known politicians \u2013 Pakistan\u2019s Benazir Bhutto. Including interviews with those accused of her murder.",
-        "published_time": "2018-01-31T01:00:00Z",
-        "last_polled_time": "2018-01-31T16:17:24.644Z",
+        "published_time": "2018-06-08T12:59:00Z",
+        "last_polled_time": "2018-06-08T13:17:18.490Z",
         "group": 4
     }
 },
@@ -2239,9 +1966,100 @@
         "xml_url": "http://feeds.soundcloud.com/users/soundcloud:users:4887292/sounds.rss",
         "link": "http://www.swordandlaser.com",
         "description": "The Sword and Laser (S&amp;L) is a science fiction an\u2026",
-        "published_time": "2018-02-01T18:32:15Z",
-        "last_polled_time": "2018-02-03T21:21:26.834Z",
+        "published_time": "2018-05-31T23:39:19Z",
+        "last_polled_time": "2018-06-01T00:17:25.082Z",
         "group": 2
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 233,
+    "fields": {
+        "title": "The History of Byzantium",
+        "xml_url": "https://rss.acast.com/thehistoryofbyzantium",
+        "link": "http://www.acast.com/thehistoryofbyzantium",
+        "description": "A podcast telling the story of the Roman (Byzantine) Empire from 476 AD to 1453",
+        "published_time": "2018-06-06T18:49:34Z",
+        "last_polled_time": "2018-06-06T19:17:34.153Z",
+        "group": 1
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 234,
+    "fields": {
+        "title": "In the Village - a re-watch of The Prisoner from TeeVee",
+        "xml_url": "http://feeds.theincomparable.com/prisoner",
+        "link": "http://www.theincomparable.com/teevee/prisoner/",
+        "description": "Steven and Erika of Lazy Doctor Who watch the colourful, psychadelic, trippy, wtf-is-happening spy-fi series that is 1967\u2019s &quot;The Prisoner.&quot;",
+        "published_time": null,
+        "last_polled_time": "2018-06-10T11:17:15.162Z",
+        "group": 4
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 236,
+    "fields": {
+        "title": "Back In the Village: The Prisoner Podcast",
+        "xml_url": "http://backinthevillage.com/feed/podcast/",
+        "link": "http://backinthevillage.com",
+        "description": "Join Clay and Wes back in the Village, where they&#39;ll be discussing all 17 episodes of The Prisoner, the 60&#39;s sci-fi classic starring Patrick McGoohan!",
+        "published_time": null,
+        "last_polled_time": "2018-06-10T11:17:06.214Z",
+        "group": 4
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 237,
+    "fields": {
+        "title": "The Great War Channel Podcast",
+        "xml_url": "https://thegreatwar.podigee.io/feed/aac",
+        "link": "http://youtube.com/thegreatwar",
+        "description": "THE GREAT WAR follows World War 1 week by week 100 years later on YouTube - this is our podcast: an interview series with World War 1 historians.",
+        "published_time": "2018-06-06T12:42:31Z",
+        "last_polled_time": "2018-06-06T13:17:33.067Z",
+        "group": 1
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 238,
+    "fields": {
+        "title": "FRDH Podcast with Michael Goldfarb",
+        "xml_url": "http://feeds.soundcloud.com/users/soundcloud:users:19003481/sounds.rss",
+        "link": "http://www.goldfarbpod.com",
+        "description": "Host FRDH podcast. Radio essayist and documentari\u2026",
+        "published_time": "2018-06-09T13:08:36Z",
+        "last_polled_time": "2018-06-09T13:17:11.506Z",
+        "group": 4
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 239,
+    "fields": {
+        "title": "The Maritime History Podcast",
+        "xml_url": "feed://maritimehistorypodcast.libsyn.com/rss",
+        "link": "http://maritimehistorypodcast.com",
+        "description": "The Maritime History Podcast is a chronological look at maritime history and its numerous facets. Beginning with ancient history, the podcast looks at trade, exploration, boat and ship-building, economics, and the relationship between the ocean and the development of society and culture throughout history. Learn more about the podcast at http://maritimehistorypodcast.com.",
+        "published_time": "2018-03-04T23:57:31Z",
+        "last_polled_time": "2018-05-13T17:52:36.118Z",
+        "group": 1
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 240,
+    "fields": {
+        "title": "Emperors of Rome",
+        "xml_url": "https://www.latrobe.edu.au/marketing/assets/podcasts/rssfeeds/caesar.xml",
+        "link": "http://www.latrobe.edu.au",
+        "description": "\u201cGreat empires are not maintained by timidity.\u201d - Tacitus. A podcast series looking at the rulers of the ancient Roman empire, by Dr Rhiannon Evans and Matt Smith.",
+        "published_time": "2018-05-29T01:53:52Z",
+        "last_polled_time": "2018-05-29T02:17:10.737Z",
+        "group": 1
     }
 }
 ]
