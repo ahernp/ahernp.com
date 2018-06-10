@@ -38,11 +38,16 @@ class FeedAdmin(admin.ModelAdmin):
 
 admin.site.register(Feed, FeedAdmin)
 
+def mark_as_read(modeladmin, request, queryset):
+    queryset.update(read_flag=True)
+mark_as_read.short_description = "Mark selected entries as read"
+
 
 class EntryAdmin(admin.ModelAdmin):
     list_display = ["title", "feed", "published_time"]
     list_filter = ["read_flag", "feed"]
     search_fields = ["title", "link"]
+    actions = [mark_as_read]
     readonly_fields = ["link", "title", "description", "published_time", "feed"]
     fieldsets = (
         (
