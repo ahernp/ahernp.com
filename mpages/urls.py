@@ -5,7 +5,9 @@ from . import views
 urlpatterns = [
     path("", views.PageListView.as_view(), name="page-list"),
     path(
-        "children/<slug:parent_slug>/", views.PageListView.as_view(), name="page-list"
+        "children/<slug:parent_slug>/",
+        views.PageListView.as_view(),
+        name="page-list-filter",
     ),
     path("<slug:slug>/", views.PageDetailView.as_view(), name="page-detail"),
 ]

@@ -24,12 +24,15 @@
         {% for entry in object_list %}
             <div class="feed_entry">
                 <h3 class="feed_entry_subtitle">
-                    From {{ entry.feed.title }} on {{ entry.published_time }}
+                    From {{ entry.feed.title|safe }} on {{ entry.published_time }}
                     {% if not entry.read_flag %}
                         (unread)
                     {% endif %}
                 </h3>
-                <p><a href="{{ entry.link }}">{{ entry.title }}</a></p>
+                <p>
+                    <a href="{{ entry.link }}">{{ entry.title|safe }}</a>
+                    (<a href="{{ entry.feed.xml_url }}">feed</a>)
+                </p>
                 <p>{{ entry.description|safe }}</p>
             </div>
         {% endfor %}
@@ -39,7 +42,7 @@
 {% block footer %}
     <p>
         Generated {% now "Y-m-d H:i:s" %};
-        <a href="{% url 'admin:feedreader_feed_changelist' %}">Admin</a>.
+        <a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a>.
     </p>
 {% endblock %}
 

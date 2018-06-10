@@ -108,7 +108,9 @@ button {
     z-index: 3;
 }
 
-
+.strong {
+    font-weight: bold;
+}
 .highlight {
     background-color: maroon;
     color: white;
