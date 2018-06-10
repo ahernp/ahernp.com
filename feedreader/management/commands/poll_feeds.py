@@ -9,7 +9,7 @@ from ...utils import poll_feed
 
 import logging
 
-logger = logging.getLogger("feedreader")
+logger = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
@@ -32,9 +32,13 @@ class Command(BaseCommand):
         if verbose:
             print("%d feeds to process" % (num_feeds))
 
-        for i, feed in enumerate(feeds):
+        for count, feed in enumerate(feeds, 1):
             if verbose:
-                print("(%d/%d) Processing Feed %s" % (i + 1, num_feeds, feed.title))
+                print(
+                    "({count}/{num_feeds}) Processing Feed {title}".format(
+                        count=count, num_feeds=num_feeds, title=feed.title
+                    )
+                )
 
             poll_feed(feed, verbose)
 

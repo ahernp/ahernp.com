@@ -7,9 +7,6 @@ class GroupAdmin(admin.ModelAdmin):
     pass
 
 
-admin.site.register(Group, GroupAdmin)
-
-
 class FeedAdmin(admin.ModelAdmin):
     list_display = ["xml_url", "title", "group", "published_time", "last_polled_time"]
     list_filter = ["group"]
@@ -36,10 +33,10 @@ class FeedAdmin(admin.ModelAdmin):
     )
 
 
-admin.site.register(Feed, FeedAdmin)
-
 def mark_as_read(modeladmin, request, queryset):
     queryset.update(read_flag=True)
+
+
 mark_as_read.short_description = "Mark selected entries as read"
 
 
@@ -64,4 +61,6 @@ class EntryAdmin(admin.ModelAdmin):
     )
 
 
+admin.site.register(Group, GroupAdmin)
+admin.site.register(Feed, FeedAdmin)
 admin.site.register(Entry, EntryAdmin)
