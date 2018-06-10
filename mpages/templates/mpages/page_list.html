@@ -6,30 +6,46 @@
 
 {% block header %}
 	<p class="breadcrumbs">
-		<a href="{% url "homepage" %}">ahernp.com</a>
+		<a href="{% url "homepage" %}">ahernp.com</a> ›
+		{% if parent %}
+		    Child pages of {{ parent.title }}
+		{% else %}
+		    Site Map
+		{% endif %}
 	</p>
 {% endblock %}
 
 {% block content %}
+	{% if parent %}
+	    <h1>Child pages of {{ parent.title }}</h1>
+	{% else %}
+            <h1>Site Map</h1>
+	{% endif %}
 	<table class="pure-table pure-table-odd pure-table-bordered">
-		<thead>
-			<tr><th>Title</th><th>Updated</th></tr>
-		</thead>
-		<tbody>
-		{% for page in object_list %}
-			<tr>
-				<td><a href="{% url 'page-detail'  page.slug %}">{{ page.title }}</a></td>
-				<td>{{ page.updated | date:"Y-m-d H:i:s" }}</td>
-			</tr>
-		{% endfor %}
-		</tbody>
-	</table>
+	    <thead>
+		<tr>
+		    <th>Title</th>
+		    <th>Parent</th>
+		    <th>Updated</th>
+		</tr>
+	    </thead>
+	<tbody>
+            {% for page in object_list %}
+                <tr>
+                    <td><a href="{% url 'page-detail'  page.slug %}">{{ page.title }}</a></td>
+                    <td><a href="{% url 'page-detail'  page.parent.slug %}">{{ page.parent.title }}</a></td>
+                    <td>{{ page.updated | date:"Y-m-d H:i:s" }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
 
 {% block footer %}
-	<p>
-		Dynamic;
-		<a href="{% url 'admin:mpages_page_changelist' %}">Admin</a>.
-	</p>
+    <p>
+        Dynamic;
+        <a href="{% url 'admin:mpages_page_changelist' %}">Admin</a>.
+    </p>
 {% endblock %}
+
 {% block extrascript %}{% endblock %}
