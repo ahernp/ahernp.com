@@ -22,7 +22,7 @@
 
 {% block footer %}
 	<p>
-		Updated {{ object.updated|date:"c" }};
+		Updated {{ object.updated|date:"Y-m-d H:i:s" }};
 		<a href="{% url "page-detail" "markdown" %}">Markdown</a>;
 		<a href="{% url 'admin:mpages_page_change' object.id %}">Admin</a>.
 	</p>
