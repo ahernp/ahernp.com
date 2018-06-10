@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     "blog.apps.BlogConfig",
     "core.apps.CoreConfig",
     "feedreader.apps.FeedreaderConfig",
+    "dashboard.apps.DashboardConfig",
 ]
 
 MIDDLEWARE = [

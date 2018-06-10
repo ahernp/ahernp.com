@@ -1,0 +1,49 @@
+
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block extrastyle %}{% endblock %}
+
+{% block header %}
+	<p class="breadcrumbs">
+		<a href="{% url "homepage" %}">ahernp.com</a> ›
+	    Dashboard
+	</p>
+{% endblock %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    <div class="pure-g">
+        <div class="pure-u-1-2">
+            <p>Hostname: {{ project_state.hostname }}</p>
+            <p>Packages: {{ project_state.packages|safe }}</p>
+            <p>Last Commit: {{ project_state.commit|safe }}</p>
+        </div>
+        <div class="pure-u-1-2">
+            <h2>Flags</h2>
+            {% for flag in project_state.settings_flags %}
+                <p {% if flag.actual != flag.expected %}class="highlight"{% endif %}>
+                    {{ flag.name }}: {{flag.actual}}
+                </p>
+            {% endfor %}
+            <h2>Log Entries</h2>
+            {% for entry in log_entries %}
+                <p>
+                    {{ entry.level }}: {{ entry.msg }}
+                    <br>
+                    {{ entry.datetime|date:"Y-m-d H:i:s" }}
+                </p>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <p>
+        Generated {% now "Y-m-d H:i:s" %};
+        <a href="{% url 'admin:index' %}">Admin</a>.
+    </p>
+{% endblock %}
+
+{% block extrascript %}{% endblock %}

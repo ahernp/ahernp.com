@@ -9,4 +9,5 @@ urlpatterns = [
     path("pages/", include("mpages.urls")),
     path("blog/", include("blog.urls")),
     path("feedreader/", include("feedreader.urls")),
+    path("dashboard/", include("dashboard.urls")),
 ]
