@@ -8,7 +8,7 @@ from .models import Page
 class PageAdmin(admin.ModelAdmin):
     search_fields = ["title"]
     list_display = ["title", "parent", "updated"]
-#    list_editable = ["parent"]
+    #    list_editable = ["parent"]
     prepopulated_fields = {"slug": ("title",)}
     readonly_fields = ["updated"]
     ordering = ["parent", "title"]

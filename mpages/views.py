@@ -9,7 +9,7 @@ class PageListView(ListView):
     model = Page
 
     def get_queryset(self):
-        parent_slug = self.kwargs.get('parent_slug', None)
+        parent_slug = self.kwargs.get("parent_slug", None)
         if parent_slug:
             self.parent = get_object_or_404(Page, slug=parent_slug)
             return Page.objects.filter(parent=self.parent)
@@ -17,7 +17,7 @@ class PageListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['parent'] = self.parent
+        context["parent"] = self.parent
         return context
 
 

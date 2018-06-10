@@ -56,6 +56,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         new_pages_cache = {page.slug: page for page in NewPage.objects.all()}
         new_blogpages_cache = {page.slug: page for page in BlogPage.objects.all()}
+
         def update_caches(old_page):
             if old_page.slug in new_pages_cache or old_page.slug in new_blogpages_cache:
                 return
@@ -76,7 +77,11 @@ class Command(BaseCommand):
             old_page = OldPage.objects.get(slug=BLOG_ROOT_SLUG)
             new_blogpages_cache[old_page.slug] = migrate_page(old_page, None)
 
-        parent_ids = list(OldPage.objects.order_by('parent_id').distinct().values_list('parent_id', flat=True))
+        parent_ids = list(
+            OldPage.objects.order_by("parent_id")
+            .distinct()
+            .values_list("parent_id", flat=True)
+        )
 
         parents = OldPage.objects.filter(id__in=parent_ids).select_related("parent")
 
