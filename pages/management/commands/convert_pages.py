@@ -38,7 +38,8 @@ def convert_gallery_to_markdown(page):
         markdown = ""
         for image in gallery["images"]:
             print(image)
-            image_markdown = '[![{title}](https://ahernp.com{thumbnailUrl} "{title}")](https://ahernp.com{imageUrl})'.format(
+            image_markdown = "[![{title}](https://ahernp.com{thumbnailUrl} "
+            '"{title}")](https://ahernp.com{imageUrl})'.format(
                 title=image["title"],
                 imageUrl=image["imageUrl"],
                 thumbnailUrl=image["thumbnailUrl"],

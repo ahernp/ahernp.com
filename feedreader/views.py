@@ -1,54 +1,65 @@
-from django.views.generic.list import ListView
-
+import collections
 from datetime import datetime, timedelta
+
+from django.shortcuts import get_object_or_404
+from django.views.generic.list import ListView
 
 from django.conf import settings
 
-from .models import Entry, Feed
+from .models import Entry, Feed, Group
 
 
-def count_entries(entries):
-    group_counts = {}
-    feed_counts = {}
-    non_group_count = 0
-    for entry in entries:
-        if entry.feed_id in feed_counts:
-            feed_counts[entry.feed_id] += 1
-        else:
-            feed_counts[entry.feed_id] = 1
-        if entry.feed.group_id:
-            if entry.feed.group_id in group_counts:
-                group_counts[entry.feed.group_id] += 1
-            else:
-                group_counts[entry.feed.group_id] = 1
-        else:
-            non_group_count += 1
-    groups = Groups.objects.all()
-    feeds = Entry.objects.all()
-    counts = [
-        {
-            "group": group,
-            "count": group_counts[group.id],
-            "feeds": [
-                {"feed": feed, "count": feed_counts[feed.id]}
-                for feed in feeds
-                if feed.group_id == group.id
-            ],
-        }
-        for group in groups
-    ]
-    counts.append(
-        {
-            "group": None,
-            "count": non_group_counts,
-            "feeds": [
-                {"feed": feed, "count": feed_counts[feed.id]}
-                for feed in feeds
-                if feed.group_id == None
-            ],
-        }
+class FeedCount(object):
+    total_count = 0
+    unread_count = 0
+
+    def __init__(self, feed):
+        self.feed = feed
+
+
+class GroupCount(object):
+    total_count = 0
+    unread_count = 0
+    feed_counts = []
+
+    def __init__(self, group):
+        self.group = group
+
+
+def count_entries(groups, feeds, entries):
+    group_counts = collections.OrderedDict(
+        [(group.id, GroupCount(group=group)) for group in groups]
     )
-    return counts
+    feed_counts = collections.OrderedDict(
+        [(feed.id, FeedCount(feed=feed)) for feed in feeds]
+    )
+
+    for entry in entries:
+        feed_counts[entry.feed_id].total_count += 1
+        if not entry.read_flag:
+            feed_counts[entry.feed_id].unread_count += 1
+        if entry.feed.group_id:
+            group_counts[entry.feed.group_id].total_count += 1
+            if not entry.read_flag:
+                group_counts[entry.feed.group_id].unread_count += 1
+
+    total_entries = len(entries)
+    total_unread = 0
+    non_group_feed_counts = []
+
+    for _, feed_count in feed_counts.items():
+        if feed_count.feed.group_id:
+            group_counts[feed_count.feed.group_id].feed_counts.append(feed_count)
+        else:
+            non_group_feed_counts.append(feed_counts)
+            total_unread += feed_count.unread_count
+
+    return {
+        "group_counts": list(group_counts.values()),
+        "non_group_feed_counts": non_group_feed_counts,
+        "total_entries": total_entries,
+        "total_unread": total_unread,
+    }
 
 
 class EntryListView(ListView):
@@ -70,5 +81,7 @@ class EntryListView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["feed"] = self.feed
-        context["counts"] = count_entries(self.queryset)
+        groups = Group.objects.all()
+        feeds = Feed.objects.all()
+        context["counts"] = count_entries(groups, feeds, self.queryset)
         return context

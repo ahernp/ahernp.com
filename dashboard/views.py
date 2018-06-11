@@ -1,9 +1,6 @@
-import os
 from subprocess import Popen, PIPE
 
 from django.conf import settings
-from django.http import HttpResponse
-from django.utils import timezone
 from django.views.generic.base import TemplateView
 
 from core.models import Log
