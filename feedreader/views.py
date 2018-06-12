@@ -10,23 +10,22 @@ from .models import Entry, Feed, Group
 
 
 class FeedCount(object):
-    total_count = 0
-    unread_count = 0
-
     def __init__(self, feed):
         self.feed = feed
+        self.total_count = 0
 
 
 class GroupCount(object):
-    total_count = 0
-    unread_count = 0
-    feed_counts = []
-
     def __init__(self, group):
         self.group = group
+        self.feed_counts = []
+        self.total_count = 0
 
 
-def count_entries(groups, feeds, entries):
+def count_entries(entries):
+    groups = Group.objects.all()
+    feeds = Feed.objects.all()
+
     group_counts = collections.OrderedDict(
         [(group.id, GroupCount(group=group)) for group in groups]
     )
@@ -36,29 +35,22 @@ def count_entries(groups, feeds, entries):
 
     for entry in entries:
         feed_counts[entry.feed_id].total_count += 1
-        if not entry.read_flag:
-            feed_counts[entry.feed_id].unread_count += 1
-        if entry.feed.group_id:
+        if entry.feed.group_id is not None:
             group_counts[entry.feed.group_id].total_count += 1
-            if not entry.read_flag:
-                group_counts[entry.feed.group_id].unread_count += 1
 
     total_entries = len(entries)
-    total_unread = 0
     non_group_feed_counts = []
 
-    for _, feed_count in feed_counts.items():
-        if feed_count.feed.group_id:
+    for feed_count in feed_counts.values():
+        if feed_count.feed.group_id is not None:
             group_counts[feed_count.feed.group_id].feed_counts.append(feed_count)
         else:
-            non_group_feed_counts.append(feed_counts)
-            total_unread += feed_count.unread_count
+            non_group_feed_counts.append(feed_count)
 
     return {
         "group_counts": list(group_counts.values()),
         "non_group_feed_counts": non_group_feed_counts,
         "total_entries": total_entries,
-        "total_unread": total_unread,
     }
 
 
@@ -68,7 +60,7 @@ class EntryListView(ListView):
     def get_queryset(self):
         from_time = datetime.utcnow() - timedelta(days=settings.MAX_DAYS_SHOWN)
         feed_id = self.kwargs.get("feed_id", None)
-        if feed_id:
+        if feed_id is not None:
             self.feed = get_object_or_404(Feed, id=feed_id)
             return Entry.objects.filter(
                 published_time__gt=from_time, feed=self.feed
@@ -81,7 +73,5 @@ class EntryListView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["feed"] = self.feed
-        groups = Group.objects.all()
-        feeds = Feed.objects.all()
-        context["counts"] = count_entries(groups, feeds, self.queryset)
+        context["counts"] = count_entries(self.queryset)
         return context
