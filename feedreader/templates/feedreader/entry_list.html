@@ -20,23 +20,45 @@
 
 {% block content %}
     <h1>Recent Entries</h1>
-    <div id="feedreader-entry-list">
-        {% for entry in object_list %}
-            <div class="feed_entry">
-                <h3 class="feed_entry_subtitle">
-                    From {{ entry.feed.title|safe }} on {{ entry.published_time }}
-                    {% if not entry.read_flag %}
-                        (unread)
-                    {% endif %}
-                </h3>
-                <p>
-                    <a href="{{ entry.link }}">{{ entry.title|safe }}</a>
-                    (<a href="{{ entry.feed.xml_url }}">feed</a>)
-                </p>
-                <p>{{ entry.description|safe }}</p>
+    <div class="pure-g">
+        <div class="pure-u-1-4">
+            <p><a href="{% url 'recent-entries' %}">All Entries {% if not feed %}({{ counts.total_entries }}){% endif %}</a></p>
+            {% for group_count in counts.group_counts %}
+                {% if group_count.total_count > 0 %}
+                    <h2>{{ group_count.group.name|safe }} ({{ group_count.total_count }})</h2>
+                    {% for feed_count in group_count.feed_counts %}
+                        {% if feed_count.total_count > 0 %}
+                           <p><a href="{% url 'feed-recent-entries' feed_count.feed.id %}">{{ feed_count.feed.title|safe }} ({{ feed_count.total_count }})</a></p>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+            {% for feed_count in non_group_feed_counts %}
+                <p>{{ feed_count.feed.title|safe }} ({{ feed_count.total_count }})</p>
+            {% endfor %}
+
+        </div>
+        <div class="pure-u-3-4">
+            <div id="feedreader-entry-list">
+                {% for entry in object_list %}
+                    <div class="feed_entry">
+                        <h3 class="feed_entry_subtitle">
+                            From {{ entry.feed.title|safe }} on {{ entry.published_time }}
+                            {% if not entry.read_flag %}
+                                (unread)
+                            {% endif %}
+                        </h3>
+                        <p>
+                            <a href="{{ entry.link }}">{{ entry.title|safe }}</a>
+                            (<a href="{{ entry.feed.xml_url }}">feed</a>)
+                        </p>
+                        <p>{{ entry.description|safe }}</p>
+                    </div>
+                {% endfor %}
             </div>
-        {% endfor %}
+        </div>
     </div>
+
 {% endblock %}
 
 {% block footer %}

@@ -1,5 +1,4 @@
 import collections
-from datetime import datetime, timedelta
 
 from django.shortcuts import get_object_or_404
 from django.views.generic.list import ListView
@@ -56,31 +55,41 @@ def count_entries(entries):
 
 class EntryListView(ListView):
     model = Entry
-    feed = None
 
     def get_queryset(self):
-        kw_filters = {}
-
-        feed_id = self.kwargs.get("feed_id", None)
-
-        if feed_id is not None:
-            self.feed = get_object_or_404(Feed, id=feed_id)
-            kw_filters["feed__exact"] = self.feed
-
-        kw_filters["read_flag__exact"] = False
-        entries = Entry.objects.filter(**kw_filters).order_by("-published_time")[:settings.MAX_ENTRIES_SHOWN]
+        entries = Entry.objects.filter(read_flag=False).order_by("-published_time")[
+            : settings.MAX_ENTRIES_SHOWN
+        ]
 
         if entries:
             return entries
 
-        del kw_filters["read_flag__exact"]
-        from_time = datetime.utcnow() - timedelta(days=settings.MAX_DAYS_SHOWN)
-        kw_filters["published_time__gt"] = from_time
+        return Entry.objects.all().order_by("-published_time")[
+            : settings.MAX_ENTRIES_SHOWN
+        ]
 
-        return Entry.objects.filter(**kw_filters).order_by("-published_time")[:settings.MAX_ENTRIES_SHOWN]
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["counts"] = count_entries(context["object_list"])
+        return context
+
+
+class FeedEntryListView(EntryListView):
+    feed = None
+
+    def get_queryset(self):
+        feed_id = self.kwargs.get("feed_id")
+        self.feed = get_object_or_404(Feed, id=feed_id)
+        entries = Entry.objects.filter(feed=self.feed, read_flag=False).order_by(
+            "-published_time"
+        )[: settings.MAX_ENTRIES_SHOWN]
+
+        if entries:
+            return entries
+
+        return Entry.objects.filter(feed=self.feed).order_by("-published_time")
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["feed"] = self.feed
-        context["counts"] = count_entries(self.queryset) if self.queryset is not None else []
         return context
