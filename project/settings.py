@@ -90,11 +90,7 @@ STATICFILES_DIRS = [os.path.normpath(os.path.join(BASE_DIR, "site_assets"))]
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
-    'formatters': {
-        'ahernp.com': {
-            'format': '%(message)s (%(module)s)',
-        }
-    },
+    "formatters": {"ahernp.com": {"format": "%(message)s (%(module)s)"}},
     "handlers": {
         "db_log": {
             "level": "INFO",
@@ -102,14 +98,12 @@ LOGGING = {
             "formatter": "ahernp.com",
         }
     },
-    "loggers": {
-        "": {
-            "handlers": ["db_log"],
-            "level": "INFO",
-            "propagate": True,
-        }
-    },
+    "loggers": {"": {"handlers": ["db_log"], "level": "INFO", "propagate": True}},
 }
+
+SITE_NAME = "ahernp.com"
+HOMEPAGE_SLUG = "ahernp-com"
+BLOG_ROOT_SLUG = "blog"
 
 # Dashboard
 LOG_ENTRIES_TO_SHOW = 10

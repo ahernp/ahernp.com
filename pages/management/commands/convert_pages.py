@@ -2,32 +2,40 @@
 This command copies old Pages and converts them into Markdown format.
 """
 import json
+from django.conf import settings
 from django.core.management.base import BaseCommand
 
 from pages.models import Page as OldPage
 from mpages.models import Page as NewPage
-from blog.models import Page as BlogPage
+from blog.models import BlogPage
 
 import logging
 
 logger = logging.getLogger(__name__)
 
-HOMEPAGE_SLUG = "ahernp-com"
-BLOG_ROOT_SLUG = "blog"
 
-
-def migrate_page(old_page, parent):
+def migrate_page(old_page, parent, blog=False):
     if old_page.content_type == "gallery":
         page = convert_gallery_to_markdown(old_page)
     else:
         page = old_page
-    new_page = NewPage.objects.create(
-        title=page.title,
-        slug=page.slug,
-        content=page.content,
-        updated=page.updated,
-        parent=parent,
-    )
+    if blog:
+        new_page = BlogPage.objects.create(
+            title=page.title,
+            slug=page.slug,
+            content=page.content,
+            updated=page.updated,
+            parent=parent,
+            published=page.published,
+        )
+    else:
+        new_page = NewPage.objects.create(
+            title=page.title,
+            slug=page.slug,
+            content=page.content,
+            updated=page.updated,
+            parent=parent,
+        )
     new_page.save()
     return new_page
 
@@ -61,24 +69,24 @@ class Command(BaseCommand):
         def update_caches(old_page):
             if old_page.slug in new_pages_cache or old_page.slug in new_blogpages_cache:
                 return
-            if old_page.parent.slug == BLOG_ROOT_SLUG:
+            if old_page.parent.slug == settings.BLOG_ROOT_SLUG:
                 new_blogpages_cache[old_page.slug] = migrate_page(
-                    old_page, new_pages_cache[BLOG_ROOT_SLUG]
+                    old_page, new_pages_cache[settings.BLOG_ROOT_SLUG], blog=True
                 )
             else:
                 new_pages_cache[old_page.slug] = migrate_page(
                     old_page, new_pages_cache[old_page.parent.slug]
                 )
 
-        if HOMEPAGE_SLUG not in new_pages_cache:
-            old_page = OldPage.objects.get(slug=HOMEPAGE_SLUG)
+        if settings.HOMEPAGE_SLUG not in new_pages_cache:
+            old_page = OldPage.objects.get(slug=settings.HOMEPAGE_SLUG)
             new_pages_cache[old_page.slug] = migrate_page(old_page, None)
             homepage = new_pages_cache[old_page.slug]
             homepage.parent = homepage
             homepage.save()
 
-        if BLOG_ROOT_SLUG not in new_pages_cache:
-            old_page = OldPage.objects.get(slug=BLOG_ROOT_SLUG)
+        if settings.BLOG_ROOT_SLUG not in new_pages_cache:
+            old_page = OldPage.objects.get(slug=settings.BLOG_ROOT_SLUG)
             new_blogpages_cache[old_page.slug] = migrate_page(old_page, None)
             blog_root = new_pages_cache[old_page.slug]
             blog_root.parent = blog_root
