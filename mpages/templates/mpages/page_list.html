@@ -32,8 +32,14 @@
 	<tbody>
             {% for page in object_list %}
                 <tr>
-                    <td><a href="{% url 'page-detail'  page.slug %}">{{ page.title }}</a></td>
-                    <td><a href="{% url 'page-detail'  page.parent.slug %}">{{ page.parent.title }}</a></td>
+                    <td><a href="{% url 'page-detail' page.slug %}">{{ page.title }}</a></td>
+                    <td>
+                        {% if page.parent %}
+                            <a href="{% url 'page-detail' page.parent.slug %}">{{ page.parent.title }}</a>
+                        {% else %}
+                            None
+                        {% endif %}
+                    </td>
                     <td>{{ page.updated | date:"Y-m-d H:i:s" }}</td>
             </tr>
         {% endfor %}

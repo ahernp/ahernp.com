@@ -84,6 +84,8 @@ class Command(BaseCommand):
             homepage = new_pages_cache[old_page.slug]
             homepage.parent = homepage
             homepage.save()
+        else:
+            homepage = new_pages_cache[settings.HOMEPAGE_SLUG]
 
         if settings.BLOG_ROOT_SLUG not in new_pages_cache:
             old_page = OldPage.objects.get(slug=settings.BLOG_ROOT_SLUG)
@@ -113,3 +115,8 @@ class Command(BaseCommand):
 
         for old_page in old_pages:
             update_caches(old_page)
+
+        orphans = NewPage.objects.filter(parent=None)
+        for orphan in orphans:
+            orphan.parent = homepage
+            orphan.save()

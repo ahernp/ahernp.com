@@ -9,4 +9,9 @@ urlpatterns = [
         view=views.FeedEntryListView.as_view(),
         name="feed-recent-entries",
     ),
+    path(
+        "toggleread/",
+        view=views.ToggleEntryReadView.as_view(),
+        name="toggle-entry-read",
+    ),
 ]

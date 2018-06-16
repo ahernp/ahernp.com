@@ -9,6 +9,9 @@
     border: 1px solid #046;
     border-radius: 1em;
 }
+.entry-toggle-read {
+    float: right;
+}
 {% endblock %}
 
 {% block header %}
@@ -42,6 +45,24 @@
             <div id="feedreader-entry-list">
                 {% for entry in object_list %}
                     <div class="feed_entry">
+                        <div class="entry-toggle-read">
+                            <form action="{% url 'toggle-entry-read'%}" method="POST">
+                                {% csrf_token %}
+                                <input
+                                    id="id_feed_id_{{ entry.id }}"
+                                    type="hidden"
+                                    name="feed_id"
+                                    value="{% if feed %}{{ feed.id }}{% endif %}">
+                                <input
+                                    id="id_entry_id_{{ entry.id }}"
+                                    type="hidden"
+                                    name="entry_id"
+                                    value="{{ entry.id }}">
+                                <button type="submit" title="Toggle Read">
+                                    Read
+                                </button>
+                            </form>
+                        </div>
                         <h3 class="feed_entry_subtitle">
                             From {{ entry.feed.title|safe }} on {{ entry.published_time }}
                             {% if not entry.read_flag %}
@@ -58,7 +79,6 @@
             </div>
         </div>
     </div>
-
 {% endblock %}
 
 {% block footer %}

@@ -1,10 +1,14 @@
 import collections
 
+from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404
+from django.urls import reverse
+from django.views.generic.base import View
 from django.views.generic.list import ListView
 
 from django.conf import settings
 
+from .forms import ToggleEntryReadForm
 from .models import Entry, Feed, Group
 
 
@@ -93,3 +97,23 @@ class FeedEntryListView(EntryListView):
         context = super().get_context_data(**kwargs)
         context["feed"] = self.feed
         return context
+
+
+class ToggleEntryReadView(View):
+    form_class = ToggleEntryReadForm
+
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST)
+        if form.is_valid():
+            feed_id = form.cleaned_data.get("feed_id", None)
+            entry_id = form.cleaned_data.get("entry_id", None)
+            entry = get_object_or_404(Entry, id=entry_id)
+            entry.read_flag = not entry.read_flag
+            entry.save()
+        else:
+            feed_id = None
+
+        if feed_id is None:
+            return HttpResponseRedirect(reverse("recent-entries"))
+        else:
+            return HttpResponseRedirect(reverse("feed-recent-entries", args=(feed_id,)))

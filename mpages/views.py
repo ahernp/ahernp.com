@@ -7,13 +7,13 @@ from .models import Page
 
 class PageListView(ListView):
     model = Page
+    parent = None
 
     def get_queryset(self):
         parent_slug = self.kwargs.get("parent_slug", None)
         if parent_slug:
             self.parent = get_object_or_404(Page, slug=parent_slug)
             return Page.objects.filter(parent=self.parent)
-        self.parent = None
         return Page.objects.all().select_related("parent")
 
     def get_context_data(self, **kwargs):
