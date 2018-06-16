@@ -90,10 +90,24 @@ STATICFILES_DIRS = [os.path.normpath(os.path.join(BASE_DIR, "site_assets"))]
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
-    "filters": {"require_debug_false": {"()": "django.utils.log.RequireDebugFalse"}},
-    "handlers": {"db_log": {"level": "INFO", "class": "core.log.DbLogHandler"}},
+    'formatters': {
+        'ahernp.com': {
+            'format': '%(message)s (%(module)s)',
+        }
+    },
+    "handlers": {
+        "db_log": {
+            "level": "INFO",
+            "class": "core.log.DbLogHandler",
+            "formatter": "ahernp.com",
+        }
+    },
     "loggers": {
-        "django": {"handlers": ["db_log"], "level": "ERROR", "propagate": True}
+        "": {
+            "handlers": ["db_log"],
+            "level": "INFO",
+            "propagate": True,
+        }
     },
 }
 

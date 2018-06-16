@@ -41,7 +41,7 @@
         <div class="pure-u-1-2">
             <h2>Log Entries</h2>
             {% for entry in log_entries %}
-                <p>
+                <p {% if entry.level == "ERROR" %}class="highlight"{% endif %}>
                     {{ entry.level }}: {{ entry.msg }}
                     <br>
                     {{ entry.datetime|date:"Y-m-d H:i:s" }}
