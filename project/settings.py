@@ -101,6 +101,8 @@ LOGGING = {
     "loggers": {"": {"handlers": ["db_log"], "level": "INFO", "propagate": True}},
 }
 
+TIME_ZONE = 'Europe/London'
+
 SITE_NAME = "ahernp.com"
 HOMEPAGE_SLUG = "ahernp-com"
 BLOG_ROOT_SLUG = "blog"
