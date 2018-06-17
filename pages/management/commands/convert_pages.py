@@ -45,9 +45,7 @@ def convert_gallery_to_markdown(page):
         gallery = json.loads(page.content)
         markdown = ""
         for image in gallery["images"]:
-            print(image)
-            image_markdown = "[![{title}](https://ahernp.com{thumbnailUrl} "
-            '"{title}")](https://ahernp.com{imageUrl})'.format(
+            image_markdown = '[![{title}](https://ahernp.com{thumbnailUrl} "{title}")](https://ahernp.com{imageUrl})'.format(
                 title=image["title"],
                 imageUrl=image["imageUrl"],
                 thumbnailUrl=image["thumbnailUrl"],
@@ -89,7 +87,7 @@ class Command(BaseCommand):
 
         if settings.BLOG_ROOT_SLUG not in new_pages_cache:
             old_page = OldPage.objects.get(slug=settings.BLOG_ROOT_SLUG)
-            new_blogpages_cache[old_page.slug] = migrate_page(old_page, None)
+            new_pages_cache[old_page.slug] = migrate_page(old_page, None)
             blog_root = new_pages_cache[old_page.slug]
             blog_root.parent = blog_root
             blog_root.save()
