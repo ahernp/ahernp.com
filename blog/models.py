@@ -9,4 +9,4 @@ class BlogPage(Page):
     )
 
     class Meta:
-        app_label = "blog"
+        ordering = ["-published"]
