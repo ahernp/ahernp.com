@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Blog Page {{ object.name }} Details{% endblock %}
+
+{% block extrastyle %}{% endblock %}
+
+{% block header %}
+    <p class="breadcrumbs">
+        {% if object.slug != "ahernp-com" %}
+            <a href="{% url "homepage" %}">ahernp.com</a>
+            ›   
+            {{ object.title }}
+        {% else %}
+            ahernp.com
+        {% endif %}
+    </p>
+{% endblock %}
+
+{% block content %}
+    {% if object.published %}
+        <h2 class="published-date">Published {{ blogpage.published | date:"c" }}</h2>
+    {% endif %}
+	<h1>{{ object.title }}</h2>
+    {{ object.content_as_html }}
+{% endblock %}
+
+{% block footer %}
+    <p>
+        Updated {{ object.updated|date:"Y-m-d H:i:s" }};
+        <a href="{% url "page-detail" "markdown" %}">Markdown</a>;
+        <a href="{% url 'admin:blog_blogpage_change' object.id %}">Admin</a>.
+    </p>    
+{% endblock %}
+
+
+{% block extrascript %}{% endblock %}

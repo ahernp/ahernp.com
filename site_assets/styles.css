@@ -102,18 +102,14 @@ button {
     z-index: 9;
 }
 
-#spinner {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -33px;
-    margin-left: -33px;
-    z-index: 3;
+.published-date {
+    float: right;
 }
 
 .strong {
     font-weight: bold;
 }
+
 .highlight {
     background-color: maroon;
     color: white;
