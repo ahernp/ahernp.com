@@ -23,7 +23,7 @@ class LatestBlogPostsFeed(Feed):
         return item.content
 
     def item_pubdate(self, item):
-        return item.updated
+        return item.published
 
     def item_link(self, item):
         return u"/pages/%s/" % (item.slug)
