@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Tools{% endblock %}
+
+{% block extrastyle %}{% endblock %}
+
+{% block header %}
+	<p class="breadcrumbs">
+		<a href="{% url "homepage" %}">ahernp.com</a>
+		›
+		Tools
+	</p>
+{% endblock %}
+
+{% block content %}
+	<h1>Tools</h1>
+{% endblock %}
+
+{% block footer %}
+	<p>
+		Generated {% now "Y-m-d H:i:s" %};
+		<a href="{% url 'admin:index' %}">Admin</a>.
+	</p>
+{% endblock %}
+
+{% block extrascript %}{% endblock %}

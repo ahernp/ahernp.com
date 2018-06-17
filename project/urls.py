@@ -5,9 +5,9 @@ from django.views.generic.base import RedirectView
 urlpatterns = [
     path("", RedirectView.as_view(url="/pages/ahernp-com"), name="homepage"),
     path("admin/", admin.site.urls),
-    path("api/pages/", include("pages.urls")),
-    path("pages/", include("mpages.urls")),
     path("blog/", include("blog.urls")),
-    path("feedreader/", include("feedreader.urls")),
     path("dashboard/", include("dashboard.urls")),
+    path("feedreader/", include("feedreader.urls")),
+    path("pages/", include("mpages.urls")),
+    path("tools/", include("tools.urls")),
 ]

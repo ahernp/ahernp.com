@@ -15,12 +15,13 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "pages.apps.PagesConfig",
-    "mpages.apps.MpagesConfig",
     "blog.apps.BlogConfig",
     "core.apps.CoreConfig",
-    "feedreader.apps.FeedreaderConfig",
     "dashboard.apps.DashboardConfig",
+    "feedreader.apps.FeedreaderConfig",
+    "mpages.apps.MpagesConfig",
+    "pages.apps.PagesConfig",
+    "tools.apps.ToolsConfig",
 ]
 
 MIDDLEWARE = [
