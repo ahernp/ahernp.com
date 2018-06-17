@@ -25,7 +25,7 @@
     <h1>Recent Entries</h1>
     <div class="pure-g">
         <div class="pure-u-1-4">
-            <p><a href="{% url 'recent-entries' %}">All Entries {% if not feed %}({{ counts.total_entries }}){% endif %}</a></p>
+            <p><a href="{% url 'recent-entries' %}">All{% if not feed %} ({{ counts.total_entries }}){% endif %}</a></p>
             {% for group_count in counts.group_counts %}
                 {% if group_count.total_count > 0 %}
                     <h2>{{ group_count.group.name|safe }} ({{ group_count.total_count }})</h2>

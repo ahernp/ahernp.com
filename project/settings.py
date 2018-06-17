@@ -99,7 +99,9 @@ LOGGING = {
             "formatter": "ahernp.com",
         }
     },
-    "loggers": {"": {"handlers": ["db_log"], "level": "INFO", "propagate": True}},
+    "loggers": {
+        "utils": {"handlers": ["db_log"], "level": "INFO", "propagate": True}},
+        "poll_feeds": {"handlers": ["db_log"], "level": "INFO", "propagate": True}},
 }
 
 TIME_ZONE = "Europe/London"
