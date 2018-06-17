@@ -43,7 +43,7 @@ def project_state_at_startup():
 PROJECT_STATE = project_state_at_startup()
 
 
-class ProductFeedListView(TemplateView):
+class DashboardView(TemplateView):
     template_name = "dashboard/index.html"
 
     def get_context_data(self, **kwargs):

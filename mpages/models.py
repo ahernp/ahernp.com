@@ -23,7 +23,6 @@ class Page(models.Model):
         )
 
     class Meta:
-        app_label = "mpages"
         ordering = ["title"]
 
     def __str__(self):

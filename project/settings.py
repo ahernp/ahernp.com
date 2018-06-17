@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     "dashboard.apps.DashboardConfig",
     "feedreader.apps.FeedreaderConfig",
     "mpages.apps.MpagesConfig",
+    "timers.apps.TimersConfig",
     "tools.apps.ToolsConfig",
 ]
 
@@ -101,7 +102,7 @@ LOGGING = {
     "loggers": {"": {"handlers": ["db_log"], "level": "INFO", "propagate": True}},
 }
 
-TIME_ZONE = 'Europe/London'
+TIME_ZONE = "Europe/London"
 
 SITE_NAME = "ahernp.com"
 HOMEPAGE_SLUG = "ahernp-com"
