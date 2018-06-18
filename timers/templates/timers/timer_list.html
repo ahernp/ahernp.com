@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load static %} 
+
 {% block title %}Timers{% endblock %}
 
 {% block extrastyle %}{% endblock %}
@@ -15,7 +17,7 @@
     <h1>Timers</h1>
     <p>Under construction</p>
     {% for timer in object_list %}
-        <p label="{{ timer.label }}" target="{{ timer.target }}" class="timers">
+        <p label="{{ timer.label }}" target="{{ timer.target }}" class="timer">
             {{ timer.label }}: {{ timer.target }}
         </p>
     {% endfor %}
@@ -28,4 +30,18 @@
     </p>
 {% endblock %}
 
-{% block extrascript %}{% endblock %}
+{% block extrascriptlibraries %}
+    <script src="{% static "jquery-3.3.1.min.js" %}"></script>
+{% endblock %}
+
+{% block extrascript %}
+/*
+    $(document).ready(function timeout() {
+        setTimeout(function () {
+            $(".timer").each(function(){
+                $(this).text("hello");
+            }),
+            timeout();
+        }, 1000);
+    });*/
+{% endblock %}

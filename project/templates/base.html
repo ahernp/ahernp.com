@@ -35,9 +35,9 @@
                 <h2>Footer</h2>
             {% endblock %}
         </div>
+        {% block extrascriptlibraries %}{% endblock %}
         <script type="text/javascript">
             {% block extrascript %}{% endblock %}
         </script>
-        <script src="{% static "tools-20180618.min.js" %}"></script>
     </body>
 </html>

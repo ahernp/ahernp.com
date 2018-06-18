@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load static %}
+
 {% block title %}Tools{% endblock %}
 
 {% block extrastyle %}{% endblock %}
@@ -21,6 +23,10 @@
 		Generated {% now "Y-m-d H:i:s" %};
 		<a href="{% url 'admin:index' %}">Admin</a>.
 	</p>
+{% endblock %}
+
+{% block extrascriptlibraries %}
+    <script src="{% static "tools-20180618.min.js" %}"></script>
 {% endblock %}
 
 {% block extrascript %}
