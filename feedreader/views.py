@@ -102,6 +102,8 @@ class FeedEntryListView(EntryListView):
 
 class ToggleEntryReadView(LoginRequiredMixin, View):
     form_class = ToggleEntryReadForm
+    login_url = "/admin/login/"
+    redirect_field_name = "redirect_to"
 
     def post(self, request, *args, **kwargs):
         form = self.form_class(request.POST)
