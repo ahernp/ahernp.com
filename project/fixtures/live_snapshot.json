@@ -1,13 +1,45 @@
 [
 {
+    "model": "timers.timer",
+    "pk": 1,
+    "fields": {
+        "target": "1969-12-05T13:00:00Z",
+        "label": "Age"
+    }
+},
+{
+    "model": "timers.timer",
+    "pk": 2,
+    "fields": {
+        "target": "2016-02-17T10:00:00Z",
+        "label": "Time at Affectv"
+    }
+},
+{
+    "model": "timers.timer",
+    "pk": 3,
+    "fields": {
+        "target": "2039-12-05T14:00:00Z",
+        "label": "Life expectancy"
+    }
+},
+{
+    "model": "timers.timer",
+    "pk": 4,
+    "fields": {
+        "target": "2015-08-04T10:00:00Z",
+        "label": "Time since Nikki Rosenberg's last cigarette"
+    }
+},
+{
     "model": "mpages.page",
     "pk": 719,
     "fields": {
         "title": "ahernp.com",
         "slug": "ahernp-com",
         "parent": 719,
-        "updated": "2018-06-17T13:08:38.467Z",
-        "content": "# Personal Website of Paul Ahern\r\n\r\nHere you will find a [Blog](/blog), some [Application Guides](/pages/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\r\n\r\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\r\n\r\n<div class=\"column-left\" markdown=\"1\">\r\n\r\n## External\r\n\r\nFavourite:\r\n[Dictionary](http://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\r\n[Isabelle](http://isabellebidou.com \"Isabelle Bidou\")\r\n[StartPage](https://startpage.com/uk/? \"Google Search Results, but with privacy\")\r\n\r\nApps:\r\n[Calibre](http://calibre-ebook.com/ \"Ebook Manager\")\r\n[Geany](http://www.geany.org \"Text editor\")\r\n[Inkscape](http://inkscape.org/ \"SVG editor\")\r\n[LastPass](https://lastpass.com/ \"Password Manager\")\r\n\r\nBooks:\r\n[ABE](http://www.abebooks.co.uk/ \"Advanced Book Exchange\")\r\n[Amazon](http://www.amazon.co.uk/ \"Amazon in the UK\")\r\n([read](http://read.amazon.com \"Cloud Reader - Kindle Books\"))\r\n[Baen](http://www.baen.com/ \"Baen book publisher\")\r\n[O'Reilly](http://oreilly.com/ebooks/ \"IT Books\")\r\n[PG](http://www.gutenberg.org/ \"Project Gutenberg\")\r\n\r\nCartoons:\r\n[Dilbert](http://www.dilbert.com \"Today's Dilbert comic\")\r\n[Garfield](http://www.garfield.com/comic \"Today's Garfield comic\")\r\n[xkcd](http://xkcd.com/ \"IT Comic\")\r\n\r\nGames:\r\n[BOC](http://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\r\n[GG](http://www.gamersgate.co.uk \"GamersGate\")\r\n[GOG](http://www.gog.com/ \"Good Old Games\")\r\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\r\n[Steam](http://store.steampowered.com \"Steam Shop\")\r\n\r\nMedia:\r\n[BBC](http://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\r\n[iPlayer](http://www.bbc.co.uk/iplayer/favourites)\r\n[RT](http://www.radiotimes.com/radio/radio-listings \"Radio Times\")\r\n[Revolutions](http://www.revolutionspodcast.com/ \"by Mike Duncan\")\r\n[YouTube](https://www.youtube.com/feed/subscriptions)\r\n\r\nMisc:\r\n[AE](http://academicearth.org \"Academic Earth lectures\")\r\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\r\n[Map](http://www.openstreetmap.org/)\r\n[MPS](http://www.mpsonline.org.uk \"Mail and Telephone preference service\")\r\n[Radar](http://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\r\n[TfL](http://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\r\n[Walks](http://www.walks.com/ \"Guided walks in London\")\r\n\r\nShopping:\r\n[Allwrite](http://www.allwrite.nl/ \"Pens\")\r\n[BM](http://www.britishmuseum.org/ \"The British Museum\")\r\n[etsy](https://www.etsy.com/uk/)\r\n[M&S](http://www.marksandspencer.com \"Marks and Spencer\")\r\n[Senz](http://www.senzumbrellas.com/ \"Umbrellas\")\r\n\r\nSocial:\r\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\r\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\r\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\r\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\r\n\r\nThis Site:\r\n[Angular](https://angular.io/docs/ts/latest/ \"Angular 2 with Typescript\")\r\n[Django](http://www.djangoproject.com/ \"Web development framework\")\r\n[GitHub](https://github.com/ahernp)\r\n\r\nWeb:\r\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\r\n[Gibson](http://grc.com/default.htm \"PC security checks\")\r\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\r\n[W3Schools](http://w3schools.com/ \"Web standards\")\r\n\r\n</div>\r\n<div class=\"column-right\" markdown=\"1\">\r\n\r\n## Internal\r\n\r\n[App](/pages/applications) \u203a \r\n[Chrome](/pages/google-chrome)\r\n[Firefox](/pages/firefox)\r\n[Vim](/pages/vim-editor)\r\n\r\n[Blog](/pages/blog) \u203a \r\n[Archive](/pages/children/blog)\r\n[RSS](/blog/feed)\r\n\r\n[Gallery](/pages/gallery) \u203a \r\n[Cork](/pages/cork)\r\n[London](/pages/london)\r\n[Wallpaper](/pages/wallpaper)\r\n\r\n[Library](/pages/children/library) \u203a \r\n[Books](/pages/books)\r\n[CDs](/pages/cds)\r\n[DVDs](/pages/dvds)\r\n[Games](/pages/games)\r\n\r\nMisc \u203a \r\n[MSc](/pages/msc)\r\n[Twinings Tea](/pages/twinings-tea)\r\n\r\n[Personal](/pages/children/personal) \u203a \r\n[CV](/pages/cv)\r\n[Portfolio](/pages/portfolio)\r\n[Profile](/pages/profile)\r\n\r\n[Ref](/pages/children/reference) \u203a \r\n[Linux](/pages/linux)\r\n[MySQL](/pages/mysql)\r\n[Python](/pages/python)\r\n\r\n[Rooska](/pages/rooska) \u203a \r\n[Before](/pages/2008-before)\r\n[Maps](/pages/maps)\r\n[Planting](/pages/2010-planting)\r\n\r\nThis Site \u203a \r\n[Dashboard](/dashboard)\r\n[Site Map](/pages)\r\n\r\n[Tools](/tools) \u203a \r\n[Cardgen](/tools/cardgen)\r\n[Deduplicate](/tools/deduplicate)\r\n\r\n[Feedreader](/feedreader)\r\n[Timers](/timers)\r\n\r\n</div>"
+        "updated": "2018-06-18T10:13:23.429Z",
+        "content": "# Personal Website of Paul Ahern\r\n\r\nHere you will find a [Blog](/blog), some [Application Guides](/pages/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\r\n\r\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\r\n\r\n<div class=\"column-left\" markdown=\"1\">\r\n\r\n## External\r\n\r\nFavourite:\r\n[Dictionary](http://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\r\n[Isabelle](http://isabellebidou.com \"Isabelle Bidou\")\r\n[StartPage](https://startpage.com/uk/? \"Google Search Results, but with privacy\")\r\n\r\nApps:\r\n[Calibre](http://calibre-ebook.com/ \"Ebook Manager\")\r\n[Geany](http://www.geany.org \"Text editor\")\r\n[Inkscape](http://inkscape.org/ \"SVG editor\")\r\n[LastPass](https://lastpass.com/ \"Password Manager\")\r\n\r\nBooks:\r\n[ABE](http://www.abebooks.co.uk/ \"Advanced Book Exchange\")\r\n[Amazon](http://www.amazon.co.uk/ \"Amazon in the UK\")\r\n([read](http://read.amazon.com \"Cloud Reader - Kindle Books\"))\r\n[Baen](http://www.baen.com/ \"Baen book publisher\")\r\n[O'Reilly](http://oreilly.com/ebooks/ \"IT Books\")\r\n[PG](http://www.gutenberg.org/ \"Project Gutenberg\")\r\n\r\nCartoons:\r\n[Dilbert](http://www.dilbert.com \"Today's Dilbert comic\")\r\n[Garfield](http://www.garfield.com/comic \"Today's Garfield comic\")\r\n[xkcd](http://xkcd.com/ \"IT Comic\")\r\n\r\nGames:\r\n[BOC](http://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\r\n[GG](http://www.gamersgate.co.uk \"GamersGate\")\r\n[GOG](http://www.gog.com/ \"Good Old Games\")\r\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\r\n[Steam](http://store.steampowered.com \"Steam Shop\")\r\n\r\nMedia:\r\n[BBC](http://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\r\n[iPlayer](http://www.bbc.co.uk/iplayer/favourites)\r\n[RT](http://www.radiotimes.com/radio/radio-listings \"Radio Times\")\r\n[Revolutions](http://www.revolutionspodcast.com/ \"by Mike Duncan\")\r\n[YouTube](https://www.youtube.com/feed/subscriptions)\r\n\r\nMisc:\r\n[AE](http://academicearth.org \"Academic Earth lectures\")\r\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\r\n[Map](http://www.openstreetmap.org/)\r\n[MPS](http://www.mpsonline.org.uk \"Mail and Telephone preference service\")\r\n[Radar](http://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\r\n[TfL](http://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\r\n[Walks](http://www.walks.com/ \"Guided walks in London\")\r\n\r\nShopping:\r\n[Allwrite](http://www.allwrite.nl/ \"Pens\")\r\n[BM](http://www.britishmuseum.org/ \"The British Museum\")\r\n[etsy](https://www.etsy.com/uk/)\r\n[M&S](http://www.marksandspencer.com \"Marks and Spencer\")\r\n[Senz](http://www.senzumbrellas.com/ \"Umbrellas\")\r\n\r\nSocial:\r\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\r\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\r\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\r\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\r\n\r\nThis Site:\r\n[Django](http://www.djangoproject.com/ \"Web development framework\")\r\n[React](https://reactjs.org/ \"Javascript library\")\r\n[GitHub](https://github.com/ahernp)\r\n\r\nWeb:\r\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\r\n[Gibson](http://grc.com/default.htm \"PC security checks\")\r\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\r\n[W3Schools](http://w3schools.com/ \"Web standards\")\r\n\r\n</div>\r\n<div class=\"column-right\" markdown=\"1\">\r\n\r\n## Internal\r\n\r\n[App](/pages/applications) \u203a \r\n[Chrome](/pages/google-chrome)\r\n[Firefox](/pages/firefox)\r\n[Vim](/pages/vim-editor)\r\n\r\n[Blog](/blog) \u203a \r\n[RSS](/blog/feed)\r\n\r\n[Gallery](/pages/gallery) \u203a \r\n[Cork](/pages/cork)\r\n[London](/pages/london)\r\n[Wallpaper](/pages/wallpaper)\r\n\r\n[Library](/pages/children/library) \u203a \r\n[Books](/pages/books)\r\n[CDs](/pages/cds)\r\n[DVDs](/pages/dvds)\r\n[Games](/pages/games)\r\n\r\nMisc \u203a \r\n[MSc](/pages/msc)\r\n[Twinings Tea](/pages/twinings-tea)\r\n\r\n[Personal](/pages/children/personal) \u203a \r\n[CV](/pages/cv)\r\n[Portfolio](/pages/portfolio)\r\n[Profile](/pages/profile)\r\n\r\n[Ref](/pages/children/reference) \u203a \r\n[Linux](/pages/linux)\r\n[MySQL](/pages/mysql)\r\n[Python](/pages/python)\r\n\r\n[Rooska](/pages/rooska) \u203a \r\n[Before](/pages/2008-before)\r\n[Maps](/pages/maps)\r\n[Planting](/pages/2010-planting)\r\n\r\nThis Site \u203a \r\n[Dashboard](/dashboard)\r\n[Site Map](/pages)\r\n\r\n[Tools](/tools) \u203a \r\n[Cardgen](/tools/cardgen)\r\n[Deduplicate](/tools/deduplicate)\r\n\r\n[Feedreader](/feedreader)\r\n[Timers](/timers)\r\n\r\n</div>"
     }
 },
 {
@@ -50,8 +82,8 @@
         "title": "Applications",
         "slug": "applications",
         "parent": 719,
-        "updated": "2018-06-17T13:07:35.418Z",
-        "content": "## In Brief\r\n\r\n### TiddlyWiki\r\n\r\nA [TiddlyWiki](http://classic.tiddlywiki.com) consists of a single HTML page which contains all of the text as well as CSS and JavaScript which provide the functionality of a Wiki.\r\n\r\n[Here](/media/download/tw.html) is one to get started. It contains some sample content, additional help text and my favourite plugins.\r\n\r\nFirefox Security means the\r\n[TiddlyFox](https://addons.mozilla.org/en-US/firefox/addon/tiddlyfox/)\r\nadd-on is needed to save TiddlyWikis.\r\n\r\n[Here](/media/download/twahernp.html) is an old \r\nTiddlyWiki version of this site. Things have changed a lot around here!\r\n\r\n### GRand Unified Bootloader version 2\r\n\r\nChange menu defaults, such as timeout, by editing `/etc/default/grub`.\r\n\r\nGRUB2 automatically includes installed Linux kernel versions on its menu. \r\nRemove older entries from the menu by uninstalling the older `linux-image` packages.\r\n\r\nUpdate the menu by issuing the command `sudo update-grub`.\r\n\r\n### Pandoc\r\n\r\n[Pandoc](http://johnmacfarlane.net/pandoc/) converts files from one markup format into another. Including, as of version 1.6, from Markdown to [epub](http://johnmacfarlane.net/pandoc/epub.html)."
+        "updated": "2018-06-17T14:57:03.199Z",
+        "content": "# Applications\r\n\r\n[Related Pages](/pages/children/applications)\r\n\r\n## Pandoc\r\n\r\n[Pandoc](http://johnmacfarlane.net/pandoc/) converts files from one markup format into another. Including, as of version 1.6, from Markdown to [epub](http://johnmacfarlane.net/pandoc/epub.html)."
     }
 },
 {
@@ -72,8 +104,8 @@
         "title": "CDs",
         "slug": "cds",
         "parent": 724,
-        "updated": "2018-06-17T13:07:35.425Z",
-        "content": "Catalogue of spoken and music CDs in my library:\n\nSubject | Author | Title | Index\n---------|-------|--------|-----\nClassical | Various | Classical Chill Out 1 | C-098\nClassical | Various | Classical Chill Out 2 | C-099\nClassical | Various | Classical Chill Out 3 | C-100\nClassical | Various | DIES IRAE (Choral) 1 | C-025\nClassical | Various | DIES IRAE (Choral) 2 | C-026\nClassical | Holst | The Planets | C-040\nClassical | Mozart | Mozart -- Legendary Interpretations 1 | C-019\nClassical | Mozart | Mozart -- Legendary Interpretations 2 | C-020\nClassical | Mozart | Mozart -- Legendary Interpretations 3 | C-021\nClassical | Bach | Goldberg Variations | C-071\nClassical | Bach | Keyboard | C-070\nClassical | Bach | Orchestral | C-068\nClassical | Bach | Organ | C-069\nClassical | Wagner | Best of the Ring 1 | C-022\nClassical | Wagner | Best of the Ring 2 | C-023\nComedy | Various | Gift Grub 6 | C-047\nComedy | Andy Hamilton | Old Harry's Game 1.1 | E-782\nComedy | Andy Hamilton | Old Harry's Game 1.2 | E-783\nComedy | Andy Hamilton | Old Harry's Game 1.3 | E-784\nComedy | Andy Hamilton | Old Harry's Game 2.1 | E-785\nComedy | Andy Hamilton | Old Harry's Game 2.2 | E-786\nComedy | Andy Hamilton | Old Harry's Game 2.3 | E-787\nComedy | Andy Hamilton | Old Harry's Game 3.1 | E-776\nComedy | Andy Hamilton | Old Harry's Game 3.2 | E-777\nComedy | Andy Hamilton | Old Harry's Game 3.3 | E-778\nComedy | Andy Hamilton | Old Harry's Game 4.1 | E-779\nComedy | Andy Hamilton | Old Harry's Game 4.2 | E-780\nComedy | Andy Hamilton | Old Harry's Game 4.3 | E-781\nEasy Listening | Carpenters | Greatest Hits | C-006\nEasy Listening | Celine Dion | All the Way | C-016\nEasy Listening | Celine Dion | D'eux | C-017\nEasy Listening | Celine Dion | Falling into You | C-015\nEasy Listening | Celine Dion | Lets Talk about Love | C-014\nEasy Listening | Enya | A day without Rain | C-046\nEasy Listening | Enya | Memory of Trees | C-045\nEasy Listening | Enya | Shepherd Moons | C-043\nEasy Listening | Enya | The Celts | C-042\nEasy Listening | Enya | Watermark | C-044\nEasy Listening | Enya | Dark Sky Island | E-768\nEasy Listening | Enya | And Winter Came | E-767\nEasy Listening | John Denver | The Ultimate Collection | E-770\nEasy Listening | Lloyd Webber | Collection | C-041\nEasy Listening | Vangelis | Odyssey | C-094\nFantasy | J.R.R. Tolkien | Silmarillion 1.1 | C-051\nFantasy | J.R.R. Tolkien | Silmarillion 1.2 | C-052\nFantasy | J.R.R. Tolkien | Silmarillion 1.3 | C-053\nFantasy | J.R.R. Tolkien | Silmarillion 1.4 | C-054\nFantasy | J.R.R. Tolkien | Silmarillion 2.1 | C-055\nFantasy | J.R.R. Tolkien | Silmarillion 2.2 | C-056\nFantasy | J.R.R. Tolkien | Silmarillion 2.3 | C-057\nFantasy | J.R.R. Tolkien | Silmarillion 2.4 | C-058\nFantasy | J.R.R. Tolkien | Silmarillion 3.1 | C-059\nFantasy | J.R.R. Tolkien | Silmarillion 3.2 | C-060\nFantasy | J.R.R. Tolkien | Silmarillion 3.3 | C-061\nFantasy | J.R.R. Tolkien | Silmarillion 3.4 | C-062\nFantasy | J.R.R. Tolkien | Silmarillion 3.5 | C-063\nFolk | Various | A Feast of Irish Folk 1 | C-091\nFolk | Various | A Feast of Irish Folk 2 | C-092\nFolk | Various | A Feast of Irish Folk 3 | C-093\nFolk | Various | Irish Party Album | C-090\nFolk | Jeff Buckley | Grace | C-050\nHistorical | Lindsey Davis | The Silver Pigs (Falco) 1 | C-064\nHistorical | Lindsey Davis | The Silver Pigs (Falco) 2 | C-065\nMusicals | Various | Aspects of Love 1 | C-034\nMusicals | Various | Aspects of Love 2 | C-035\nMusicals | Various | Cats 1 | C-007\nMusicals | Various | Cats 2 | C-008\nMusicals | Various | Chess 1 | C-027\nMusicals | Various | Chess 2 | C-028\nMusicals | Various | Jesus Christ Superstar 1 | C-003\nMusicals | Various | Jesus Christ Superstar 2 | C-004\nMusicals | Various | Joseph and his amazing Technicolor Dreamcoat | C-033\nMusicals | Various | Les Miserables 1 | C-036\nMusicals | Various | Les Miserables 2 | C-037\nMusicals | Various | Phantom of the Opera 1 | C-009\nMusicals | Various | Phantom of the Opera 2 | C-010\nMusicals | Various | Song and Dance 1 | C-001\nMusicals | Various | Song and Dance 2 | C-002\nRock | Beatles | Number One Hits | C-024\nRock | David Bowie | Platinum Collection 1 | C-095\nRock | David Bowie | Platinum Collection 2 | C-096\nRock | David Bowie | Platinum Collection 3 | C-097\nRock | Led Zeppelin | Remasters 1 | C-066\nRock | Led Zeppelin | Remasters 2 | C-067\nRock | Meat Loaf | Bat out of Hell 1 | E-772\nRock | Meat Loaf | Bat out of Hell 2 | E-773\nRock | Meat Loaf | Bat out of Hell 3 | E-774\nRock | Queen | Greatest Hits 1 | C-011\nRock | Queen | Greatest Hits 2 | C-012\nRock | Queen | Greatest Hits 3 | C-013\nSciFi | Frank Herbert | Dune 1 | C-072\nSciFi | Frank Herbert | Dune 2 | C-073\nSciFi | Frank Herbert | Dune 3 | C-074\nSciFi | Frank Herbert | Dune 4 | C-075\nSciFi | Frank Herbert | Dune 5 | C-076\nSciFi | Frank Herbert | Dune 6 | C-077\nSciFi | Frank Herbert | Dune 7 | C-078\nSciFi | Frank Herbert | Dune 8 | C-079\nSciFi | Frank Herbert | Dune 9 | C-080\nSciFi | Frank Herbert | Dune 10 | C-081\nSciFi | Frank Herbert | Dune 11 | C-082\nSciFi | Frank Herbert | Dune 12 | C-083\nSciFi | Frank Herbert | Dune 13 | C-084\nSciFi | Frank Herbert | Dune 14 | C-085\nSciFi | Frank Herbert | Dune 15 | C-086\nSciFi | Frank Herbert | Dune 16 | C-087\nSciFi | Frank Herbert | Dune 17 | C-088\nSciFi | Frank Herbert | Dune 18 | C-089\nSciFi | Frank Herbert | God Emperor of Dune 1 | E-788\nSciFi | Frank Herbert | God Emperor of Dune 2 | E-789\nSciFi | Frank Herbert | God Emperor of Dune 3 | E-790\nSciFi | Frank Herbert | God Emperor of Dune 4 | E-791\nSciFi | Frank Herbert | God Emperor of Dune 5 | E-792\nSciFi | Frank Herbert | God Emperor of Dune 6 | E-793\nSciFi | Frank Herbert | God Emperor of Dune 7 | E-794\nSciFi | Frank Herbert | God Emperor of Dune 8 | E-795\nSciFi | Frank Herbert | God Emperor of Dune 9 | E-796\nSciFi | Frank Herbert | God Emperor of Dune 10 | E-797\nSciFi | Frank Herbert | God Emperor of Dune 11 | E-798\nSciFi | Frank Herbert | God Emperor of Dune 12 | E-799\nSciFi | Frank Herbert | God Emperor of Dune 13 | E-800\nSciFi | Various | Sapphire and Steele, The Passenger 1 | C-048\nSciFi | Various | Sapphire and Steele, The Passenger 2 | C-049\nSoundtrack | Hans Zimmer | Gladiator | C-039\nSoundtrack | Various | Karaoke and Cold Lazarus | C-005\nSoundtrack | Various | Ghost in the Shell -- SAC OST | E-771\nSoundtrack | Various | Ghost in the Shell -- Be Human | E-775\nSoundtrack | Various | Sharpe | C-038\nSoundtrack | John Williams | Star Wars | C-029\nSoundtrack | John Williams | The Empire Strikes Back | C-030\nSoundtrack | John Williams | Return of the Jedi | C-031\nSoundtrack | John Williams | Star Wars Trilogy | C-032\nSoundtrack | Various | The Civil War | C-018\nSoundtrack | Various | Elder Scrolls Online | E-769"
+        "updated": "2018-06-17T15:24:45.801Z",
+        "content": "Catalogue of spoken and music CDs in my library:\r\n\r\nSubject | Author | Title | Index\r\n---------|-------|--------|-----\r\nClassical | Various | Classical Chill Out 1 | C-098\r\nClassical | Various | Classical Chill Out 2 | C-099\r\nClassical | Various | Classical Chill Out 3 | C-100\r\nClassical | Various | DIES IRAE (Choral) 1 | C-025\r\nClassical | Various | DIES IRAE (Choral) 2 | C-026\r\nClassical | Holst | The Planets | C-040\r\nClassical | Mozart | Mozart -- Legendary Interpretations 1 | C-019\r\nClassical | Mozart | Mozart -- Legendary Interpretations 2 | C-020\r\nClassical | Mozart | Mozart -- Legendary Interpretations 3 | C-021\r\nClassical | Bach | Goldberg Variations | C-071\r\nClassical | Bach | Keyboard | C-070\r\nClassical | Bach | Orchestral | C-068\r\nClassical | Bach | Organ | C-069\r\nClassical | Wagner | Best of the Ring 1 | C-022\r\nClassical | Wagner | Best of the Ring 2 | C-023\r\nComedy | Various | Gift Grub 6 | C-047\r\nComedy | Andy Hamilton | Old Harry's Game 1.1 | E-782\r\nComedy | Andy Hamilton | Old Harry's Game 1.2 | E-783\r\nComedy | Andy Hamilton | Old Harry's Game 1.3 | E-784\r\nComedy | Andy Hamilton | Old Harry's Game 2.1 | E-785\r\nComedy | Andy Hamilton | Old Harry's Game 2.2 | E-786\r\nComedy | Andy Hamilton | Old Harry's Game 2.3 | E-787\r\nComedy | Andy Hamilton | Old Harry's Game 3.1 | E-776\r\nComedy | Andy Hamilton | Old Harry's Game 3.2 | E-777\r\nComedy | Andy Hamilton | Old Harry's Game 3.3 | E-778\r\nComedy | Andy Hamilton | Old Harry's Game 4.1 | E-779\r\nComedy | Andy Hamilton | Old Harry's Game 4.2 | E-780\r\nComedy | Andy Hamilton | Old Harry's Game 4.3 | E-781\r\nEasy Listening | Carpenters | Greatest Hits | C-006\r\nEasy Listening | Celine Dion | All the Way | C-016\r\nEasy Listening | Celine Dion | D'eux | C-017\r\nEasy Listening | Celine Dion | Falling into You | C-015\r\nEasy Listening | Celine Dion | Lets Talk about Love | C-014\r\nEasy Listening | Enya | A day without Rain | C-046\r\nEasy Listening | Enya | Memory of Trees | C-045\r\nEasy Listening | Enya | Shepherd Moons | C-043\r\nEasy Listening | Enya | The Celts | C-042\r\nEasy Listening | Enya | Watermark | C-044\r\nEasy Listening | Enya | Dark Sky Island | E-768\r\nEasy Listening | Enya | And Winter Came | E-767\r\nEasy Listening | John Denver | The Ultimate Collection | E-770\r\nEasy Listening | Lloyd Webber | Collection | C-041\r\nEasy Listening | Vangelis | Odyssey | C-094\r\nFantasy | J.R.R. Tolkien | [Silmarillion](/pages/silmarillion) 1.1 | C-051\r\nFantasy | J.R.R. Tolkien | Silmarillion 1.2 | C-052\r\nFantasy | J.R.R. Tolkien | Silmarillion 1.3 | C-053\r\nFantasy | J.R.R. Tolkien | Silmarillion 1.4 | C-054\r\nFantasy | J.R.R. Tolkien | Silmarillion 2.1 | C-055\r\nFantasy | J.R.R. Tolkien | Silmarillion 2.2 | C-056\r\nFantasy | J.R.R. Tolkien | Silmarillion 2.3 | C-057\r\nFantasy | J.R.R. Tolkien | Silmarillion 2.4 | C-058\r\nFantasy | J.R.R. Tolkien | Silmarillion 3.1 | C-059\r\nFantasy | J.R.R. Tolkien | Silmarillion 3.2 | C-060\r\nFantasy | J.R.R. Tolkien | Silmarillion 3.3 | C-061\r\nFantasy | J.R.R. Tolkien | Silmarillion 3.4 | C-062\r\nFantasy | J.R.R. Tolkien | Silmarillion 3.5 | C-063\r\nFolk | Various | A Feast of Irish Folk 1 | C-091\r\nFolk | Various | A Feast of Irish Folk 2 | C-092\r\nFolk | Various | A Feast of Irish Folk 3 | C-093\r\nFolk | Various | Irish Party Album | C-090\r\nFolk | Jeff Buckley | Grace | C-050\r\nHistorical | Lindsey Davis | The Silver Pigs (Falco) 1 | C-064\r\nHistorical | Lindsey Davis | The Silver Pigs (Falco) 2 | C-065\r\nMusicals | Various | Aspects of Love 1 | C-034\r\nMusicals | Various | Aspects of Love 2 | C-035\r\nMusicals | Various | Cats 1 | C-007\r\nMusicals | Various | Cats 2 | C-008\r\nMusicals | Various | Chess 1 | C-027\r\nMusicals | Various | Chess 2 | C-028\r\nMusicals | Various | Jesus Christ Superstar 1 | C-003\r\nMusicals | Various | Jesus Christ Superstar 2 | C-004\r\nMusicals | Various | Joseph and his amazing Technicolor Dreamcoat | C-033\r\nMusicals | Various | Les Miserables 1 | C-036\r\nMusicals | Various | Les Miserables 2 | C-037\r\nMusicals | Various | Phantom of the Opera 1 | C-009\r\nMusicals | Various | Phantom of the Opera 2 | C-010\r\nMusicals | Various | Song and Dance 1 | C-001\r\nMusicals | Various | Song and Dance 2 | C-002\r\nRock | Beatles | Number One Hits | C-024\r\nRock | David Bowie | Platinum Collection 1 | C-095\r\nRock | David Bowie | Platinum Collection 2 | C-096\r\nRock | David Bowie | Platinum Collection 3 | C-097\r\nRock | Led Zeppelin | Remasters 1 | C-066\r\nRock | Led Zeppelin | Remasters 2 | C-067\r\nRock | Meat Loaf | Bat out of Hell 1 | E-772\r\nRock | Meat Loaf | Bat out of Hell 2 | E-773\r\nRock | Meat Loaf | Bat out of Hell 3 | E-774\r\nRock | Queen | Greatest Hits 1 | C-011\r\nRock | Queen | Greatest Hits 2 | C-012\r\nRock | Queen | Greatest Hits 3 | C-013\r\nSciFi | Frank Herbert | Dune 1 | C-072\r\nSciFi | Frank Herbert | Dune 2 | C-073\r\nSciFi | Frank Herbert | Dune 3 | C-074\r\nSciFi | Frank Herbert | Dune 4 | C-075\r\nSciFi | Frank Herbert | Dune 5 | C-076\r\nSciFi | Frank Herbert | Dune 6 | C-077\r\nSciFi | Frank Herbert | Dune 7 | C-078\r\nSciFi | Frank Herbert | Dune 8 | C-079\r\nSciFi | Frank Herbert | Dune 9 | C-080\r\nSciFi | Frank Herbert | Dune 10 | C-081\r\nSciFi | Frank Herbert | Dune 11 | C-082\r\nSciFi | Frank Herbert | Dune 12 | C-083\r\nSciFi | Frank Herbert | Dune 13 | C-084\r\nSciFi | Frank Herbert | Dune 14 | C-085\r\nSciFi | Frank Herbert | Dune 15 | C-086\r\nSciFi | Frank Herbert | Dune 16 | C-087\r\nSciFi | Frank Herbert | Dune 17 | C-088\r\nSciFi | Frank Herbert | Dune 18 | C-089\r\nSciFi | Frank Herbert | God Emperor of Dune 1 | E-788\r\nSciFi | Frank Herbert | God Emperor of Dune 2 | E-789\r\nSciFi | Frank Herbert | God Emperor of Dune 3 | E-790\r\nSciFi | Frank Herbert | God Emperor of Dune 4 | E-791\r\nSciFi | Frank Herbert | God Emperor of Dune 5 | E-792\r\nSciFi | Frank Herbert | God Emperor of Dune 6 | E-793\r\nSciFi | Frank Herbert | God Emperor of Dune 7 | E-794\r\nSciFi | Frank Herbert | God Emperor of Dune 8 | E-795\r\nSciFi | Frank Herbert | God Emperor of Dune 9 | E-796\r\nSciFi | Frank Herbert | God Emperor of Dune 10 | E-797\r\nSciFi | Frank Herbert | God Emperor of Dune 11 | E-798\r\nSciFi | Frank Herbert | God Emperor of Dune 12 | E-799\r\nSciFi | Frank Herbert | God Emperor of Dune 13 | E-800\r\nSciFi | Various | Sapphire and Steele, The Passenger 1 | C-048\r\nSciFi | Various | Sapphire and Steele, The Passenger 2 | C-049\r\nSoundtrack | Hans Zimmer | Gladiator | C-039\r\nSoundtrack | Various | Karaoke and Cold Lazarus | C-005\r\nSoundtrack | Various | Ghost in the Shell -- SAC OST | E-771\r\nSoundtrack | Various | Ghost in the Shell -- Be Human | E-775\r\nSoundtrack | Various | Sharpe | C-038\r\nSoundtrack | John Williams | Star Wars | C-029\r\nSoundtrack | John Williams | The Empire Strikes Back | C-030\r\nSoundtrack | John Williams | Return of the Jedi | C-031\r\nSoundtrack | John Williams | Star Wars Trilogy | C-032\r\nSoundtrack | Various | The Civil War | C-018\r\nSoundtrack | Various | Elder Scrolls Online | E-769"
     }
 },
 {
@@ -83,8 +115,8 @@
         "title": "Gallery",
         "slug": "gallery",
         "parent": 719,
-        "updated": "2018-06-17T13:07:35.428Z",
-        "content": "[![HQ at Heron's Nebula](/media/img/thumb/HQ1.jpg \"HQ at Heron's Nebula\")](/media/img/HQ1.jpg)\n[![HQ in X3](/media/img/thumb/HQ2.jpg \"HQ in X3\")](/media/img/HQ2.jpg)\n"
+        "updated": "2018-06-17T14:58:04.002Z",
+        "content": "# Gallery\r\n\r\n[Related Pages](/pages/children/gallery)\r\n\r\n[![HQ at Heron's Nebula](/media/img/thumb/HQ1.jpg \"HQ at Heron's Nebula\")](/media/img/HQ1.jpg)\r\n[![HQ in X3](/media/img/thumb/HQ2.jpg \"HQ in X3\")](/media/img/HQ2.jpg)"
     }
 },
 {
@@ -325,7 +357,7 @@
         "title": "Sprouting",
         "slug": "sprouting",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.506Z",
+        "updated": "2010-05-04T13:07:35.506Z",
         "content": "It is all go down by Bantry Bay.\r\n\r\nLots of things are sprouting up on the mountain:\r\n\r\n[![Trees starting to sprout at Rooska](/media/img/thumb/sprouting.jpg \"Trees starting to sprout at Rooska\")](/media/img/sprouting.jpg)\r\n\r\nI have also planted some fruit trees (apple, pear, plum and cherry) below the mountain.\r\n\r\nThe foundation of my Barn has been poured:\r\n\r\n[![Foundation of Barn](/media/img/thumb/barnBase.jpg \"Foundation of Barn\")](/media/img/barnBase.jpg)\r\n\r\nI have also commissioned some furniture for the new Barn/Office."
     }
 },
@@ -336,7 +368,7 @@
         "title": "New Arrival",
         "slug": "new-arrival",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.511Z",
+        "updated": "2010-06-01T13:07:35.511Z",
         "content": "Donkey Junior has arrived (in the field next to my new barn):\r\n\r\n[![Donkey Junior has arrived](/media/img/thumb/donkey_junior.jpg \"Donkey Junior has arrived\")](/media/img/donkey_junior.jpg)\r\n\r\nJunior is only two days old.\r\n\r\nConstruction of the barn will give him something to watch:\r\n\r\n[![Barn Under Construction](/media/img/thumb/barn2.jpg \"Barn Under Construction\")](/media/img/barn2.jpg \"Barn Under Construction: Note new growth on mountain behind\")\r\n\r\nNo activity today but I am assured that it will be finished within 3--4 weeks."
     }
 },
@@ -347,7 +379,7 @@
         "title": "New Barn",
         "slug": "new-barn",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.516Z",
+        "updated": "2010-05-25T13:07:35.516Z",
         "content": "Construction of my new barn has begun. Donkey is supervising from the next field:\r\n\r\n[![Barn construction begins at Rooska](/media/img/thumb/barn1.jpg \"Barn construction begins at Rooska\")](/media/img/barn1.jpg)\r\n\r\nThe view from the window of what shall be my office is as expected. Tomorrow I shall visit a supplier to see about getting some heavy duty mats to protect the (wooden) floor in the main storage area.\r\n\r\n[![Floorplan of Barn/Office](/media/img/thumb/barnOffice.jpg \"Floorplan of Barn/Office\")](/media/img/barnOffice.jpg)\r\n\r\n\"I love it when a plan comes together.\""
     }
 },
@@ -358,7 +390,7 @@
         "title": "Managing Web Pages",
         "slug": "managing-web-pages",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.520Z",
+        "updated": "2010-05-24T13:07:35.520Z",
         "content": "Most web Content Management Systems ([CMS](http://en.wikipedia.org/wiki/List_of_content_management_systems)) build web pages each time they are requested. This blog, for example, is managed by [Wordpress](http://wordpress.org/) in that manner.\r\n\r\nSince most page content is not so dynamic as to change between visits this seems inefficient. Sites written in static HTML (e.g. [Hyde](http://ringce.com/hyde)) generally use much less server resource.\r\n\r\nI have written a [Django](http://www.djangoproject.com/)-based Content Manager for this site which writes out the HTML when I have finished editing a web page.\r\n\r\nThe main body of each page is stored in a database as [Markdown](http://daringfireball.net/projects/markdown/) text for easy editing.\r\n\r\nAt present, are only two data structures in the Content Manager:\r\n\r\n1. Pages -- Which merely consist of free-format Markdown and HTML.\r\n1. Lists -- Which are generated using a list item template and set of data lines (see\r\n[Cardgen](/cardgen/) for an example) and then used as the main part of a page.\r\n\r\nEach page on this site, apart from in this blog, now has a footer which shows when the content was last changed and a link to the Markdown source.\r\n\r\nThis is just a proof-of-concept for now. Still to come:\r\n\r\n* Blog application.\r\n* Data structure similar to above Lists but which generate multiple similar web pages.\r\n\r\nIf this works out then I shall make the source code available."
     }
 },
@@ -369,7 +401,7 @@
         "title": "Glassy Bay",
         "slug": "glassy-bay",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.525Z",
+        "updated": "2010-05-17T13:07:35.525Z",
         "content": "Bantry Bay looked like glass today, it was so calm:\r\n\r\n[![Bantry Bay][TN]][BG]\r\n\r\nA second bridge has been built at my place. The old one was crumbling away from the occasional heavy vehicle which passed over it. Now I wait for the concrete to set properly before the people come to build the barn/office.\r\n\r\nI have also ordered furniture which will take 6-8 weeks to be made. Looks like it will be near to the end of July before I return to London.\r\n\r\n[TN]: /media/img/thumb/bbay.jpg\r\n[BG]: /media/img/bbay.jpg \"Glassy Bantry Bay\""
     }
 },
@@ -380,7 +412,7 @@
         "title": "Green Shoots of Recovery",
         "slug": "green-shoots-of-recovery",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.530Z",
+        "updated": "2010-04-24T13:07:35.530Z",
         "content": "The quarrying at Rooska has been completed and my neighbour's field tidied up:\r\n\r\n[![Quarrying Completed at Rooska](/media/img/thumb/rooskaQuarryingDone.jpg \"Quarrying Completed at Rooska\")](/media/img/rooskaQuarryingDone.jpg)\r\n\r\nIn unrelated news, I have seen the first sign of new growth on the mountainside:\r\n\r\n[![First green shoots in forest](/media/img/thumb//rooskaFirstGrowth.jpg \"First green shoots in forest\")](/media/img/rooskaFirstGrowth.jpg)\r\n\r\nPlanting up the mountain has been completed. Now I need to plant hedges around the boundaries of my lower fields."
     }
 },
@@ -391,7 +423,7 @@
         "title": "More Planting",
         "slug": "more-planting",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.534Z",
+        "updated": "2010-04-12T13:07:35.534Z",
         "content": "The weather in Ireland has been very fine of late.\r\n\r\nThis week I have mostly been planting Elm, Japanese Cedar, Scots and Lodgepole Pine, Whitethorn and Larch.\r\n\r\nSome photos are available [here](/planting/). My forester reckons that the planting should be completed this week.\r\n\r\nMeanwhile, the new bridge has been in use:\r\n\r\n[![New Bridge](/media/img/thumb/newBridge.jpg \"New Bridge\")](/media/img/newBridge.jpg)\r\n\r\n&amp; I have marvelled at the arrival of a Tanker:\r\n\r\n[![Oil Tanker in Bantry Bay](/media/img/thumb/tanker.jpg \"Oil Tanker in Bantry Bay\")](/media/img/tanker.jpg)\r\n\r\nWe make our own entertainment in West Cork you see."
     }
 },
@@ -402,7 +434,7 @@
         "title": "Planting Has Begun",
         "slug": "planting-has-begun",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.538Z",
+        "updated": "2010-04-07T13:07:35.538Z",
         "content": "The <a title=\"Future Forests\" href=\"http://www.futureforests.net/\">forestry people</a> arrived today and have started planting at my place in the country.\r\n\r\nHere are some Willow cuttings up on the mountain:\r\n\r\n[![Willow Cuttings](/media/img/thumb/WillowCuttings.jpg \"Willow Cuttings\")](/media/img/WillowCuttings.jpg)\r\n\r\nAnd a baby Giant Redwood at the bottom of the hill:\r\n\r\n[![Small Giant Redwood](/media/img/thumb/BabyGiantRedwood.jpg \"Small Giant Redwood\")](/media/img/BabyGiantRedwood.jpg)\r\n\r\n<p style=\"text-align: left;\">They reckon that it will take only 5 days to plant all 13,310 items. A full list of species and numbers of plants is available <a title=\"Planting at Rooska in 2010\" href=\"/planting/\">here</a>.</p>"
     }
 },
@@ -413,7 +445,7 @@
         "title": "New Look Site",
         "slug": "new-look-site",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.543Z",
+        "updated": "2010-04-05T13:07:35.543Z",
         "content": "I have applied and new look to my website ahernp.com.\r\n\r\nIt is meant to be reminiscent of the old green-screen terminals. It should be easier on the eyes than the normal white background as well as making highlighted text more prominent.\r\n\r\nMy Wordpress Classic theme has been nerfed to make the blog look like the rest of my site.\r\n\r\nApart from the blog the site is made up of static html pages which I wrote a <a title=\"Python 3\" href=\"http://www.python.org/download/releases/3.1.2/\">Python 3</a> script to maintain for me.\r\n\r\nThe script, webgen, is very simple but potentially useful if you need to create a lot of similar pages. I have made it available <a title=\"webgen download\" href=\"/media/download/webgen-0.1.zip\">here</a> if anyone wants to use it. Documentation can be found <a title=\"webgen documentation\" href=\"/media/doc/webgenMan.html\">here</a>."
     }
 },
@@ -424,7 +456,7 @@
         "title": "New Roadbed",
         "slug": "new-roadbed",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.548Z",
+        "updated": "2010-04-02T13:07:35.548Z",
         "content": "The landscaping work continues, when the weather permits, at Rooska.\r\n\r\nA stone roadbed has been laid across the field to the mountainside:\r\n[![New Roadbed](/media/img/thumb/rooskaRoadbed.jpg \"New Roadbed\")](/media/img/rooskaRoadbed.jpg)\r\n\r\nMore rock is being moved to build up the boggy corner of the field:\r\n[![Truck in action](/media/img/thumb/rooskaTruck.jpg \"Truck in action\")](/media/img/rooskaTruck.jpg)\r\n\r\nA minor setback is that the existing bridge, on the way into the site, is crumbling and will need to be replaced. I shall talk it over with my neighbours but will probably get the same guys back who built my new bridge."
     }
 },
@@ -435,7 +467,7 @@
         "title": "Landscaping",
         "slug": "landscaping",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.552Z",
+        "updated": "2010-03-24T13:07:35.552Z",
         "content": "Here is a photo taken from my mountainside today:\r\n\r\n[![New Road Dug Out](/media/img/thumb/rooskaNewRoad.jpg \"New Road Dug Out\")](/media/img/rooskaNewRoad.jpg)\r\n\r\nTo the right you can see where the new roadway has been dug across the field. \r\nTomorrow we should start moving stone to build up the roadway.\r\n\r\nIn the middle is our temporary quarry and source of stone. To the left is the digger.\r\n\r\nAfter a valiant struggle I wrested some now-redundant fencing from the brambles:\r\n\r\n[![Dismantled Fencing](/media/img/thumb/rooskaExFence.jpg \"Dismantled Fencing\")](/media/img/rooskaExFence.jpg)\r\n\r\nSo far my first Premiere-free week is going well.\r\n\r\nMy leaving present was a \r\n<a title=\"Leatherman\" href=\"http://www.leatherman.com\">Leatherman</a> \r\nmulti-tool which contains a wire-cutter. \r\nThis has proved most useful, although I had invested in a bolt-cutter for the bigger wires."
     }
 },
@@ -446,7 +478,7 @@
         "title": "New Routine",
         "slug": "new-routine",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.556Z",
+        "updated": "2010-03-22T13:07:35.556Z",
         "content": "Now that my time is my own again I have had to work out a new daily routine:\r\n\r\n* 0700-0730 Breakfast\r\n* 0730-1130 Work with Computer\r\n* 1130-1230 Lunch\r\n* 1230-1330 Travel to Rooska\r\n* 1330-1800 Work on Building and Planting\r\n* 1800-1900 Travel to Clonakilty\r\n\r\nWhile I do not expect to stick rigidly to this schedule it gives me something to aim for. 4 hours computer work and 4+ hours at my place in the country.\r\n\r\nThe computer work will consist of learning a new language, [Python](http://docs.python.org/py3k/index.html), and building applications to get some programming practice. I have in mind a program which reads a set of template and data file pairs and writes out an entire website.\r\n\r\nPlanting trees at Rooska should start next week. This week, we are quarrying stone from my neighbour's field to provide material for roadways. My role combines supervision with unskilled labour. Presently I am tidying up, mostly taking down internal fences.\r\n\r\nSadly, the grassy knoll:\r\n\r\n[![Before](/media/img/thumb/Connection3.jpg \"Before\")](/media/img/Connection3.jpg)\r\n\r\nIs no more:\r\n\r\n[![During](/media/img/thumb/rooskaQuarry.jpg \"During\")](/media/img/rooskaQuarry.jpg)"
     }
 },
@@ -457,7 +489,7 @@
         "title": "Premiere Fin",
         "slug": "premiere-fin",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.560Z",
+        "updated": "2010-03-20T13:07:35.560Z",
         "content": "Yesterday, was my last working for [PGi](http://www.pgi.com \"Premiere Global Services\") in Clonakilty. They and their clients will just have to struggle on without me.\r\n\r\nFrom next week, I shall be taking a more active role in the planting and construction work at [Rooska](/rooska/). This will involve wielding a spade.\r\n\r\nI have set a date of the end of June for my return to London.\r\n\r\nToday, I rested and then went for a walk at [Rathbarry](http://clonakilty.ie/rathbarry.html).\r\n\r\n[![Car](/media/img/thumb/rathbarry.jpg \"Car parked near long strand, Rathbarry\")](/media/img/rathbarry.jpg)"
     }
 },
@@ -468,7 +500,7 @@
         "title": "Bridged and Resigned",
         "slug": "bridged-and-resigned",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.564Z",
+        "updated": "2010-02-27T13:07:35.564Z",
         "content": "My new bridge at Rooska has been completed. Now we need to let it settle for a few weeks before running heavy machinery over it.\r\n\r\nSoon work can begin dismantling the grassy knoll:\r\n\r\n[![Grassy Knoll garnished with Sheep](/media/img/thumb/Connection3.jpg)](/media/img/Connection3.jpg \"Grassy Knoll garnished with Sheep\")\r\n\r\nI have handed in my notice at \r\n[Premiere](http://www.pgi.com\"Premiere Global Services\").\r\n\r\nMy plan is to spend a few months planting trees and then go to London to look for a programming job."
     }
 },
@@ -479,7 +511,7 @@
         "title": "New Camera and Bridge",
         "slug": "new-camera-and-bridge",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.568Z",
+        "updated": "2010-02-21T13:07:35.568Z",
         "content": "Five years ago I got a Cannon Powershot A410 digital camera. I have been very pleased with its performance. I would have carried on using it if not for a slip on my mountainside which caused me to land on top of it in the mud. It was still usable but only just.\r\n\r\nTherefore I have recently upgraded to a new Cannon Powershot A495. It is considerably smaller than its predecessor and does not have a viewfinder. I am not convinced that using the screen of a camera to compose a shot is entirely viable outdoors on a sunny day.\r\n\r\nA new bridge is under construction across the drainage ditch between the long wall and the field at the bottom on the mountainside. This is the first image taken with the new camera to be published on my website:\r\n\r\n<p style=\"text-align: center;\"><a title=\"Piers of new bridgel\" href=\"/media/img/rooskaBridgePiers.jpg\"><img src=\"/media/img/thumb/rooskaBridgePiers.jpg\" alt=\"Picture of bridge under construction at Rooska\" /></a></p>\r\n\r\n<p style=\"text-align: left;\">As can be seen, this will be a heavy-duty bridge suitable for the passage of heavy machinery. The heavy machinery will be along next month to build the road to the mountain.</p>"
     }
 },
@@ -490,7 +522,7 @@
         "title": "Donkey Family",
         "slug": "donkey-family",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.571Z",
+        "updated": "2010-06-11T13:07:35.571Z",
         "content": "Donkey Junior and his mum seem to be thriving:\r\n\r\n[![Donkey & Junior](/media/img/thumb/donkeys.jpg \r\n\"Donkey & Junior\")](/media/img/donkeys.jpg \r\n\"Donkey & Junior: Now pay attention 007\")\r\n\r\nI visited their field in as non-threatening a manner as possible with a couple of carrots.\r\n\r\nDonkey had them both. I don't think that Junior is on solid food yet. He is less \r\nthan two weeks old.\r\n\r\nMeanwhile on my side of the fence, the roof is on the barn:\r\n\r\n[![Barn Under Construction](/media/img/thumb/barn4.jpg \r\n\"Barn Under Construction\")](/media/img/barn4.jpg \r\n\"Barn Under Construction: Roof on\")\r\n\r\nUp on the mountain most of the trees seem to be a growing:\r\n\r\n[![Trees on the mountainside](/media/img/thumb/tree_growth.jpg \r\n\"Trees on the Mountainside\")](/media/img/tree_growth.jpg \r\n\"Trees: Most of them seem to be growing\")\r\n\r\nI saw a Sailboat out on the bay:\r\n\r\n[![Sailboat in Bantry Bay](/media/img/thumb/sailboat.jpg \r\n\"Spot the Sailboat in Bantry Bay\")](/media/img/sailboat.jpg \r\n\"Bantry Bay: Spot the Sailboat\")\r\n\r\n"
     }
 },
@@ -501,7 +533,7 @@
         "title": "DMCM version 0.2",
         "slug": "dmcm-version-0-2",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.575Z",
+        "updated": "2010-06-12T13:07:35.575Z",
         "content": "I have upgraded this site use version 0.2 of my DMCM (Django Markdown Content Manager) back end.\r\n\r\nIn addition to making the interface more consistent the changes include:\r\n\r\n* Adding a blogging process.\r\n* Added edit links on published pages and a link to edit the entire site on the navigation menu.\r\n* Added [django-revision](http://code.google.com/p/django-reversion/) \r\n  package to keep history of site contents.\r\n* Upgraded from Django 1.1.1 to 1.2.1.\r\n\r\nThe next version will include more content types. At present, all of the pages on the site, \r\nincluding the blog entries, use the same Django template.\r\n\r\nThis gives consistency but I wound up putting blog-specific processing in the Python code\r\nwhich would be more easily maintained in a separate template."
     }
 },
@@ -512,7 +544,7 @@
         "title": "Finished Barn",
         "slug": "finished-barn",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.578Z",
+        "updated": "2010-06-25T13:07:35.578Z",
         "content": "The barn has been built:\r\n\r\n[![Finished Barn](/media/img/thumb/barnFin.jpg \r\n\"The Barn is Finished\")](/media/img/barnFin.jpg \r\n\"Barn: Construction Complete\")\r\n\r\nI await the furniture for my office in the back.\r\n\r\nThe date of July 20, 2010 has been pencilled in for my return to London. By then the remaining walls, fences and gates should be done.\r\n\r\nIn unrelated news, Cat is continuing his programme of quality assurance in the shop:\r\n\r\n[![Cat in the Window](/media/img/thumb/catInWindow.jpg \r\n\"Cat in the Window\")](/media/img/catInWindow.jpg \r\n\"Cat in the Window: How much?\")"
     }
 },
@@ -523,7 +555,7 @@
         "title": "Return to London",
         "slug": "return-to-london",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.582Z",
+        "updated": "2010-07-18T13:07:35.582Z",
         "content": "My place in the country has been completed. Well, phase one anyway.\r\n\r\nNewly planted trees are sprouting; Barn/Office has been finished; Roads, Walls and Bridges are done.\r\n\r\nNow I can return to London to look for work. In twenty years time I may be able to afford to begin phase two.\r\n\r\nOn Tuesday 20 July 2010, I shall fly from Cork to London. I am booked into a hotel for the rest of the week but my first objective will be to find a place to rent.\r\n\r\nA search on the internet reveals that there are flats available on the street where i lived from 1992-2006. Worth a look at least."
     }
 },
@@ -534,7 +566,7 @@
         "title": "Bankers",
         "slug": "bankers",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.586Z",
+        "updated": "2010-07-23T13:07:35.586Z",
         "content": "On Tuesday, July 20, I arrived back in London. I am staying at the [Beaver Hotel](http://www.beaverhotel.co.uk) which is a nice traditional English hotel.\r\n\r\nI have a found a flat to rent. Incredibly, it is the same place where I was owner-occupier from 1992-2006.\r\n\r\nUnfortunately, the lettings agent needs six months rent in advance - as I am currently looking for work. This would not be a problem except that the bank draft with which I opened a UK account will take 5 working days to clear!\r\n\r\nBut I shall have my revenge by placing my long term savings and getting a credit card from other institutions. Thus leaving this bank with an unprofitable current account to look after.\r\n\r\nMeantime, I shall be staying on at the hotel into next week.\r\n\r\nWhen I first moved to London in 1990 I was able to rent and move into a flat within 24 hours of my arrival. The process seems to have become more complex since then."
     }
 },
@@ -545,7 +577,7 @@
         "title": "New Old Flat",
         "slug": "new-old-flat",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.589Z",
+        "updated": "2010-08-06T13:07:35.589Z",
         "content": "I am now renting the flat which I used to own. How unlikely is that? Most of my old furniture is still here.\r\n\r\nNow to find a job. My ideal would be to join a Web Development team in the City but I would not be too troubled by going back to work in the IBM mainframe environment. That is where I spent most of my career hitherto.\r\n\r\nIn the last couple of weeks, I have wandered around many of my old haunts and been surprised by how many businesses and office-buildings have closed and shuttered.\r\n\r\nSome relatively new buildings seem derelict. This cannot be a good sign.\r\n\r\nFinding work in London is still going to be easier than doing so in Ireland."
     }
 },
@@ -556,7 +588,7 @@
         "title": "Ici Londres",
         "slug": "ici-londres",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.593Z",
+        "updated": "2010-08-16T13:07:35.593Z",
         "content": "I have settled back into life here in London.\r\n\r\nGiven the amount of time on my hands while moving (e.g. waiting for my bank to finish a 5-day\r\nrain-dance around the bank draft I brought from Ireland), \r\nI have been able to go to some of the sights:\r\n\r\n* [British Museum](http://www.britishmuseum.org)\r\n* [St Paul's](http://www.stpauls.co.uk \"St Paul's Cathedral\")\r\n* [Tate Modern](http://www.tate.org.uk/modern/ \"former Bankside power station\")\r\n* [Natural History Museum](http://www.nhm.ac.uk \"in South Kensington\")\r\n* [Science Museum](http://www.sciencemuseum.org.uk \"in South Kensington\")\r\n* [Imperial War Museum](http://london.iwm.org.uk \"in Lambeth\")\r\n\r\nThe last contains a German 88mm flak gun from World War 2, \r\nwhich from newsreels I though would be bigger. There must have been several models."
     }
 },
@@ -567,7 +599,7 @@
         "title": "New Job",
         "slug": "new-job",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.596Z",
+        "updated": "2010-08-26T13:07:35.596Z",
         "content": "On 1 September I shall start working for a company called \r\n[Steel Business Briefing](http://www.steelbb.com). \r\nThey provide news and pricing information about the steel industry. \r\nMy role will be as a web developer using the Python programming language \r\nand the Django development framework.\r\n        \r\nThis is pretty much my dream job. \r\nI have been teaching myself Python for the last year or so to prepare for to take up web development.\r\nTheir office is on the south side of the City of London \r\nso I can even recreate my walk to work\r\n(since I am currently renting the flat which I used to own!)."
     }
 },
@@ -578,7 +610,7 @@
         "title": "New Old Routine",
         "slug": "new-old-routine",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.600Z",
+        "updated": "2010-09-08T13:07:35.600Z",
         "content": "From 1996-2006 I walked to work in London. In tube-station terms I went from [Surrey Quays](http://en.wikipedia.org/wiki/Surrey_Quays_railway_station) to [Aldgate East](http://en.wikipedia.org/wiki/Aldgate_East_tube_station). My new walk to work is from Surrey Quays to [Monument](http://en.wikipedia.org/wiki/Bank-Monument_station). This was especially convenient yesterday as services on the London Underground were disrupted by strikes.\r\n\r\nMy new routine contains precisely the same walk to work until I cross Tower Bridge. Before, I went straight on, now I turn left and pass in front of the Tower of London.\r\n\r\nFor the last week, I have been trying out eateries near to my new place of work. [Grazing](http://www.grazingfood.com) is just down the street and was nice. Today I discovered [The Walrus and The Carpenter](http://www.citypubs.co.uk/pubs/thewalrusandthecarpenter.html) pub which serves food upstairs. I had some Fish and Chips there today.\r\n\r\nMy new job seems quite interesting, but it is early days yet. I am still finding my way around the [django](http://www.djangoproject.com/) which has already been built."
     }
 },
@@ -589,7 +621,7 @@
         "title": "Traffic Jam",
         "slug": "traffic-jam",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.603Z",
+        "updated": "2010-10-09T13:07:35.603Z",
         "content": "While walking home along the bank of the Thames in front of the Tower of London, I realised that my journey was about to be delayed:\n\n[![Tower Bridge Open](/media/img/thumb/rivertraffic.jpg \"River and Road Traffic at Tower Bridge\")](/media/img/rivertraffic.jpg \"Tower Bridge: River Traffic wins over Road Traffic\")\n\nUsing my new [smartphone](http://www.htc.com/www/product/desire/specification.html), I recorded the incident for posterity.\n\nMeantime at work, I am on the verge of becoming productive, having familiarised myself with the way the company uses [Django](http://www.djangoproject.com/) and related technologies.\n\nTragically, my first payslip did not include a deduction for income tax. I am assured that it will be put right for next month. For the period between being paid and receiving the payslip I thought myself better off than was in fact the case. Duh."
     }
 },
@@ -600,7 +632,7 @@
         "title": "Dental Trauma",
         "slug": "dental-trauma",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.607Z",
+        "updated": "2010-10-24T13:07:35.607Z",
         "content": "On 31 August I went to my dentist to have a crown fitted. I had not been to see a dentist during my 4 years in Ireland and the tooth was too far gone for a lesser treatment. The x-ray showed only 1mm of enamel remained protecting the nerve at one spot.\r\n\r\nUnfortunately, when fitting the crown the nerve seems to have been have been exposed and killed. This left me with an infection/toothache which got progressively worse. On my next visit the dentist confirmed that the root was now infected. Since my policy is to go for minimum medical interventions we decided to try a course of antibiotics first. He prescribed amoxicillin.\r\n\r\nThis suppressed the infection for a few days but the pain returned before I had even completed the course. The day before my next appointment I got a call to say that it was being cancelled and that the practice was closing for 2 weeks.\r\n\r\nAt this point, I made an executive decision and made an appointment to see another local dentist. Saw him a few days later and told my story. He took an x-ray to make sure nothing weird was going on and suggested that it would be best to allow the original dentist to complete my treatment. He prescribed some much stronger antibiotics (clindamycin) to relieve the pain.\r\n\r\nI called my usual dentist and was given an appointment for the following week. The practice had been closed for only 1 week. When I went in I found that my dentist had had his own medical emergency and been taken to hospital to have an operation on his spine.\r\n\r\nThis time, we agreed that I needed to have an emergency root-canal. I came back 2 days later (on 13 October) and it was done. This was not a painful process but did involve an entire hour in the chair. I started a new course of clindamycin to kill off the infection.\r\n\r\nFortunately, I make a point of using weaker painkillers (paracetamol) so when I took ibuprofen just before the anaesthetic wore off it worked perfectly.\r\n\r\nLast week, (on 21 October) I returned to my dentist who checked the tooth and confirmed that the infection had cleared up. I have to return at the end of November for another check.\r\n\r\nOverall I am happy with my dentist and will continue to visit him. Although something went wrong with the crown, it is partly my own fault for not having the tooth treated earlier. Also, he did point out the risks beforehand.\r\n\r\nThe moral of this story is not to carry an infected tooth around with you for a month. It will mess you up!"
     }
 },
@@ -611,7 +643,7 @@
         "title": "Tea",
         "slug": "tea",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.610Z",
+        "updated": "2011-01-07T13:07:35.610Z",
         "content": "We ran out of Tea at the office this week. Since we are based in the City of London this is somewhat embarrassing.\r\n\r\nI have tea every day, a mug at teatime, but am not a connoisseur. So it was with surprise that I discovered that there are 33 varieties available from the \r\n[Twinings](http://shop.twinings.co.uk/shop/teabag-pick-n-mix.html) website alone.\r\n\r\nWe have a 4-compartment Twinings wooden caddy box in the office. I have ordered some replacement tea bags.\r\n\r\nIn the meantime, I am taking soundings to see which varieties are favoured by my colleagues: [Tea](/twinings-tea/ \"Twinings Tea\")."
     }
 },
@@ -622,7 +654,7 @@
         "title": "Barn Menaced by Giant Sheep",
         "slug": "barn-menaced-by-giant-sheep",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.613Z",
+        "updated": "2011-03-12T13:07:35.613Z",
         "content": "Next month I am visiting Rooska. It will allow me to see if my barn has remained watertight over the winter.\r\n\r\nIn the meantime, a neighbour has sent me some photos of the place under snow.\r\n\r\nI especially like the one with the giant sheep:\r\n\r\n[![Barn Menaced by Giant Sheep in the Snow](/media/img/thumb/giant_sheep.jpg \"Barn Menaced by Giant Sheep in the Snow\")](/media/img/giant_sheep.jpg \"Barn in the Snow: Menaced by Giant Sheep\")\r\n\r\nIt is all a trick of the light."
     }
 },
@@ -633,7 +665,7 @@
         "title": "rooska-growth",
         "slug": "rooska-growth",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.616Z",
+        "updated": "2011-04-14T13:07:35.616Z",
         "content": "I have just been to Ireland on an inspection tour of my place in the country. The new is good. \r\n\r\nMost of the trees on the mountain survived the winter:\r\n\r\n[![Trees protruding from grasses on mountain](/media/img/thumb/trees_2011.jpg \"Trees 1 year after planting\")](/media/img/trees_2011.jpg \"Tree Growth: April 2011\")\r\n\r\nThe fruit trees are also alive:\r\n\r\n[![Flowering Pear Tree](/media/img/thumb/pear_tree.jpg \"Pear tree 1 year after planting\")](/media/img/pear_tree.jpg \"Pear Tree: April 2011\")\r\n\r\nThe edges of the digging we did last year have been softened:\r\n\r\n[![Stream banks softened by new growth](/media/img/thumb/stream.jpg \"Stream banks 1 year after digging\")](/media/img/stream.jpg \"Growth along Stream: April 2011\")\r\n\r\nThe barn is still standing and remained watertight:\r\n\r\n[![Barn as of April 2011](/media/img/thumb/barn_2011.jpg \"Barn and new growth in April 2011\")](/media/img/barn_2011.jpg \"Barn and Environs: April 2011\")"
     }
 },
@@ -644,7 +676,7 @@
         "title": "Demolition",
         "slug": "demolition",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.619Z",
+        "updated": "2011-04-19T13:07:35.619Z",
         "content": "I went for a walk around the city after lunch today and visited my old office. To my surprise, it was in the process of being demolished:\r\n\r\n[![Goodmans Fields being Demolished](/media/img/thumb/goodmans_demolition.jpg \"My old office at Goodmans Fields being demolished\")](/media/img/goodmans_demolition.jpg \"Goodmans Fields: Demolition\")\r\n\r\nMaybe this is an omen. I worked in that building for over 10 years."
     }
 },
@@ -655,7 +687,7 @@
         "title": "Tea Time",
         "slug": "tea-time",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.623Z",
+        "updated": "2011-06-15T13:07:35.623Z",
         "content": "Back in January we ran out of tea in my office. So I took a vote on people's preferred varieties ([Tea](/twinings-tea/ \"Twinings Tea\")).\r\n\r\nNow I have invested in and filled \r\n[Teabox](http://shop.twinings.co.uk/shop/teabag-pick-n-mix/12-compartment-wooden-caddy-box-empty.html \"12-compartment Teabox\"):\r\nfrom Twinings.\r\n\r\n[![Twinings 12-compartment Teabox in Office](/media/img/thumb/teabox.jpg \r\n\"Twinings 12-compartment Teabox in Office\")](/media/img/teabox.jpg \r\n\"Teabox: 12 compartments of Tea\")\r\n\r\nI'm just trying to raise the tone!\r\n\r\nIn unrelated news I shall be moving to a smaller flat next month. It has been nice being back in my old 2-bedroom flat but a lower rent is more useful than the additional space. I have found a studio-flat about half a mile south of my current residence.\r\n\r\nAs an added bonus, after I move in, all my stuff will be within easy reach!"
     }
 },
@@ -666,7 +698,7 @@
         "title": "Delay at Tower Bridge",
         "slug": "delay-at-tower-bridge",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.626Z",
+        "updated": "2011-09-09T13:07:35.626Z",
         "content": "On my walk to work this morning, Tower Bridge opened before my disbelieving eyes:\r\n\r\n[![Tower Bridge Open](/media/img/thumb/TowerBridge.jpg \"Tower Bridge Open\")](/media/img/TowerBridge.jpg \"Tower Bridge: Opened on my walk to work\")\r\n\r\nNot the sort of delay I had on my commutes in Ireland!\r\n\r\nMy employer has been taken over by \r\n[McGraw-Hill](http://www.mcgraw-hill.com/ \"McGraw-Hill Companies\"). \r\nThey don't use Python or indeed do much in-house development. My team and I appear not to have a long-term future. Time to consider my next move."
     }
 },
@@ -677,7 +709,7 @@
         "title": "Taken Over",
         "slug": "taken-over",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.629Z",
+        "updated": "2011-11-12T13:07:35.629Z",
         "content": "## SBB Taken Over By McGraw-Hill\r\n\r\nThe company I've worked for since September 2010, \r\n[Steel Business Briefing](http://sbb.com/ \"Global Steel News\"), \r\nwas bought by \r\n[McGraw-Hill](http://www.mcgraw-hill.com/ \"Publishing, Commodity Pricing, Credit Rating...\")\r\nin July 2011.\r\n\r\nA couple of weeks ago my project was cancelled. So now I am looking for gainful employment.\r\n\r\nI've updated my [CV](/cv/) ([pdf](/media/doc/CV2012.pdf)).\r\n\r\nAlthough I've learned a lot about web development in the past year it would probably be best for me in my next role to join an established team, preferably in the City."
     }
 },
@@ -688,7 +720,7 @@
         "title": "New Job 2011",
         "slug": "new-job-2011",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.632Z",
+        "updated": "2011-11-26T13:07:35.632Z",
         "content": "Yesterday was my last day of employment at SBB/McGraw-Hill. As HR prefer to put it: My position has been made redundant. The writing has been on the wall since McGraw-Hill bought SBB in the summer and I learned that they, basically, don't write their own software.\r\n\r\nThe good news is that yesterday I was offered and have accepted a web developer position with a software company called ReportLab based in Wimbledon. Their site is at \r\n[www.reportlab.com](http://www.reportlab.com).\r\n\r\nMy commute will be about 1 hour by train. If the new job works out then I shall move to the vicinity of Wimbledon next July (when the lease on my flat expires) and resume walking to work!\r\n\r\nWimbledon is such a nice area that it is more expensive to live there than in my old neighbourhood near the city. I will aim for a 3-mile walk to work which should allow me to live somewhere more reasonable."
     }
 },
@@ -699,7 +731,7 @@
         "title": "Site Redesign",
         "slug": "site-redesign",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.635Z",
+        "updated": "2012-03-26T13:07:35.635Z",
         "content": "I have redesigned my [ahernp.com](http://ahernp.com) site to make it more readable.\r\n\r\nIn recent years, I have become a fan of readability software. \r\nThis clears the clutter from web pages and leave the main text on a plain background.\r\nThere are various bookmarklets, Firefox add-ons and hosted services, for example:\r\n\r\n* [iReader](http://code.google.com/p/ireader-extension/) ([and for Firefox](https://addons.mozilla.org/en-US/firefox/addon/ireader/))\r\n* [Readable](https://addons.mozilla.org/en-US/firefox/addon/readable/)\r\n* [Readability](https://www.readability.com/)\r\n\r\nReadability functionality is also built in to Apple's Safari browser nowadays.\r\n\r\nAnyway, it occurred to me that the sites I admire tend to look as though they had already been run through such software.\r\nHence my redesign.\r\n\r\nThere are now no graphics or images on the site at all (apart from a `favicon.ico` and the pictures). It is now all about the text content."
     }
 },
@@ -721,7 +753,7 @@
         "title": "Rooska 2012",
         "slug": "rooska-2012",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.640Z",
+        "updated": "2012-04-13T13:07:35.640Z",
         "content": "## Rooska in the Spring\r\n\r\nLast week I was in Ireland visiting my place in the country. The barn is intact. The flora in and around the new drains are recovering. Most of the trees on the mountain are doing well. I even found time to visit my old boss, Mr Cat.\r\n\r\nHere are the photos:\r\n\r\n[![Frontgate](/media/img/thumb/rooskaFrontgate.png \"Frontgate\")](/media/img/rooskaFrontgate.png \"Frontgate: April 2012\")\r\n[![Barn](/media/img/thumb/rooskaBarn2012.png \"Barn\")](/media/img/rooskaBarn2012.png \"Barn: April 2012\")\r\n[![Footbridge](/media/img/thumb/rooskaFootbridge.png \"Footbridge\")](/media/img/rooskaFootbridge.png \"Footbridge: April 2012\")\r\n[![Trees on the Mountain](/media/img/thumb/rooskaTrees2012.png \"Trees on the Mountain\")](/media/img/rooskaTrees2012.png \"Trees on the Mountain: April 2012\")\r\n[![Cat Stare](/media/img/thumb/CatsCar.jpg \"Cat Stare\")](/media/img/CatsCar.jpg \"Cat Stare\")"
     }
 },
@@ -732,8 +764,8 @@
         "title": "Vim Editor",
         "slug": "vim-editor",
         "parent": 723,
-        "updated": "2018-06-17T13:07:35.643Z",
-        "content": "## Commands\n\n* `:[r]s/foo/bar/[a]` Replace. Examples: `:%s/foo/bar/g` replace all 'foo' with 'bar'; Add 0 prefix to all lines beginning 2-9: `:%s/^[2-9]/0&/g`; Replace double-space with tab `:%s/ /\\t/g`.\n    * `[r]` Range: `nothing` Current line; `number` Line to change; `%` Entire file.\n    * `[a]` Arguments: `nothing` Replace first occurrence; `g` Replace all occurrences; \n`i` Ignore case; `I` Don't ignore case; `c ` Confirm (`y`, `n` to skip this match, `a` All, `q` Quit substitution).\n* Highlight cursor with: `:set cursorline` and `:set cursorcolumn`.\n* Activate spell checker (language is UK English by default): `:set spell`. Use `z+=` in command mode to get correction suggestions.\n* Disable smart indentation: `:set paste`; Re-enable: `:set paste!`.\n* To use language-specific omni completion, type `C-x C-o` while open in Insert mode. If matching names are found, a pop-up menu opens which can be navigated using the `C-n` and `C-p` keys.\n* Display current filename: `:echo @%`.\n* Multiple Files:\n    * Open multiple files at once: `vi [pattern or list]` (e.g. `vi *.json`)\n    * Show current files: `:ls`\n    * Add another file: `:arga` (or remove/delete one with `:argd`)\n    * Run command on all files: `:argdo [command]` (e.g. change cmd to command and save with `argdo %s/cmd/command/ge | w`)\n    * Tabs: `vim -p [files]`. `:tabe [filename]` New tab; `gt` Next tab; `gT` Previous tab.\n    * Split screen: `:sp [filename]` Open new split; `C-w` then `w` For next split; `W` for previous split.\n* Convert a dos/windows file (with CRLF/x0d0a line endings) to unix (Check file format with `:set ff? ffs?`):\n    1. `:e ++ff=dos` Edit as dos file (if not doing so already).\n    1. `:setlocal ff=unix`\n    1. `:w`\n* Delete all lines which do not contain `{{`: `:v/{{/d`. Variant of `:[range]v[global]/{pattern}/[cmd]`.\n* Save file as root: `:w !sudo tee %`.\n* Delete all lines matching pattern: `:g/[pattern]/d` (e.g. `:g/@login_required/d`).\n* Command history: Enter `:` or `/` and use up and down arrows to navigate history. \nCommand line window: Type `q:` for commands, or `q/` for searches; `C-c C-c` to exit.\n* `/` Search forwards; `?` Search backwards; `n` Next match; `N` Previous match. `:%s/[pattern]//gn` \nCount matches in file. `*` Search for word under cursor (`#` Reverse search). `:g/[pattern]/#` Find all occurrences.\n* `:browse old` List recently opened files.\n* `:e filename` Open a new file (`:w filename` Save changes to a file; \n`ZZ` Save changes and exit; \n`:q` Quit Vim. If you have unsaved changes, Vim refuses to exit; `:q!` Exit Vim without saving changes; \n`:wq` Write the file and exit; `:x` Write the file and exit if you've made changes to the file. \nIf you haven't made any changes to the file, Vim exits without writing the file).\n* `i` Switch to edit mode, insert before cursor (`a` Insert after cursor; `I` Start of line; `A` End of line; \n`o` Insert new line after; `O` Insert new line before).\n* `u` Undo the last action (`U` Undo all the latest changes that were made to the current line; `C-r` Redo).\n* `v` Select block by character (`V` By line; `C-v` Block visual mode).\n* `~` Changecase. (`>` Shift right; `<` Shift left; `c` Change the highlighted text; `cc` Change line; `y` Yank; \n`yy` Yank line; `d` Delete; `dd` Delete line; `p` Paste after; `P` Paste before; \n`\"_d` Delete and place in black-hole `_` register to reserve what had been yanked before).\n* `0` Start of line; `^` First non-blank character of the line; `w` Next word; `W` Next word, ignore punctuation; \n`e` Word-end; `E` Word-end, ignore punctuation; `b` Word-beginning; `B` Word-beginning, ignore punctuation; \n`ge` Previous word-ending; `gE` Previous word-ending, ignore punctuation; `g_` Last non-blank character of the line; \n`$` Last character of the line. \n* `G` Go to end of file; `:1` Start of file; `:[n]` Line number; `H` First line of the screen; `M` Middle line of the screen; \n`L` Last line of the screen.\n* `:![command]` Run external command:\n    * `:![command] %` Filter file through external command.\n    * `:r![command]` Insert command output.\n    * `:%!xxd` Run file through hexdump filter (`:%!xxd -r` Convert dump from hex back to binary).\n* `:e .` File explorer (`:Sex` Open explorer in new window)\n* `:set nu` Show line numbers; `:set nu!` Hide line numbers.\n* `:set wrap` Wrap lines; `:set wrap!` Stop wrapping lines.\n* `:map` List all key mappings.\n\n## Buffers/Windows\n\n* `:b [file_name]` Switch to buffer containing file. (`:b` followed by a space tab completion will cycle through open buffers)\n* `:ls` or `:buffers` Show buffer list. Explanation:\n    * `%` Current window.\n    * `#` Alternate buffer (switch using `:e#` or `:b#`).\n    * `a` Active (loaded and visible).\n    * `h` Hidden (loaded but not visible).\n    * `+` Modified.\n* `:bd` Unload the buffer and remove it from bufferlist (doesn't close Vim, even on the last buffer).\n* `:bun` Unload the buffer but keep it in bufferlist.\n* `:sp [file_name]` Split current window and load file. (`C-w s` split horizontally; `C-w v` split vertically)\n* `:w` Write the current buffer to disk. `:wa` Write all modified buffers.\n* `:e file` Load a file from disk.\n* `:q` Closes current buffer (and Vim if it's the last one).\n* `:new` New empty buffer.\n* `:on` Close all buffers but the active one (`C-w o`).\n* `C-w` and `h j k l` Move between windows.\n\n## Completion\n\nWhile you are typing, it's pretty common to use the same word over and over again. \nUsing `C-p` Vim searches the currently typed text backwards for a word starting with \nthe same characters as already typed. `C-x C-l` completes the whole line.\n\nIf you're not sure how to type some word and you've enabled spell-checking (`:set spell`), \nyou can type `C-x C-k` to do a dictionary lookup for the already typed characters.\n\n## Marks\n\nVim automatically sets various marks like\n\n* `0-9` Last 10 positions of closed files (`0` the last, `1` the last but one).\n* `<` and `>` Left and right position of marked texts.\n* `(` and `)` Start or end of the current sentence.\n* `{` and `}` Start or end of the current paragraph.\n* `[` and `]` First or last character of the last yanked or changed text.\n* `.` Last change.\n* `'` or <code>`</code> Position before the last jump.\n* `\"` Position before the last exit of the file (local to a file).\n* `^` position of the last insert-stop.\n\nTo set a manual mark, use `m[a-zA-Z]`. To jump to one of the marks (manual or automatic) you can choose between `'` \nand <code>`</code>:\n\n* `'` Sets the cursor to the first non-blank character in the marked line.\n* <code>`</code> Sets the cursor to the exact position where the mark was set.\n\nThere is a little difference between lower-case and upper-case characters:\n\n* `a-z` Are local to a file.\n* `A-Z` Are stored and available over sessions (associated with a file).\n\nYou can use `L` for your work-log and `T` for your time-table for example, and quickly update the information there.\n\nFor example you can jump to the last known position of a file before it was closed by typing ``\"` \n(it's easy to configure Vim to do it automatically at start).\n\nTo get a list of all marks Vim knows about type `:marks`. To delete marks use `:delmarks` (`:delmarks a b c` removes marks \n`a` and `b` and `c`, to delete all marks use `:delmarks!`).\n\n## Macros\n\nVim allows to replay some commands using `.`. For more than one command use macros.\n\nYou can start macro-recording using `q` and one of `0-9a-zA-Z`, so for example `qq` records the macro to buffer \"q\"\u009d.\nHit `q` when you are finished recording.\n\nNow you can replay the macro at any time using `@q`.\n\n## Vimdiff\n\n`vimdiff file1 file2` highlights differences between files.\n\n* `]c` jump to next change (`[c` previous change).\n* `:diffget [buffer_id]` replace current change with equivalent in other buffer.\n* `C-W C-W` switch to the other buffer.\n* `:diffupdate` refresh display.\n* `:colorscheme evening` change colours.\n* `:ls` list buffers.\n* `zo` open folded text.\n* `zc` close folded text .\n* `:syntax off `\n* If using only two buffers:\n* `do` get change from other buffer.\n* `dp` put the changes from current buffer into the other.\n\n## Settings\n\n* Interpret all files as UTF-8 by adding the following to `.vimrc`:\n\n        \" Treat everything as UTF-8\n        set encoding=utf-8\n        set fileencodings=utf-8"
+        "updated": "2018-06-18T15:54:18.615Z",
+        "content": "# Vim\r\n\r\n## Commands\r\n\r\n* `/[^\\x00-\\x7F]` find non-ascii characters.\r\n* `:[r]s/foo/bar/[a]` Replace. Examples: `:%s/foo/bar/g` replace all 'foo' with 'bar'; Add 0 prefix to all lines beginning 2-9: `:%s/^[2-9]/0&/g`; Replace double-space with tab `:%s/ /\\t/g`.\r\n    * `[r]` Range: `nothing` Current line; `number` Line to change; `%` Entire file.\r\n    * `[a]` Arguments: `nothing` Replace first occurrence; `g` Replace all occurrences; \r\n`i` Ignore case; `I` Don't ignore case; `c ` Confirm (`y`, `n` to skip this match, `a` All, `q` Quit substitution).\r\n* Highlight cursor with: `:set cursorline` and `:set cursorcolumn`.\r\n* Activate spell checker (language is UK English by default): `:set spell`. Use `z+=` in command mode to get correction suggestions.\r\n* Disable smart indentation: `:set paste`; Re-enable: `:set paste!`.\r\n* To use language-specific omni completion, type `C-x C-o` while open in Insert mode. If matching names are found, a pop-up menu opens which can be navigated using the `C-n` and `C-p` keys.\r\n* Display current filename: `:echo @%`.\r\n* Multiple Files:\r\n    * Open multiple files at once: `vi [pattern or list]` (e.g. `vi *.json`)\r\n    * Show current files: `:ls`\r\n    * Add another file: `:arga` (or remove/delete one with `:argd`)\r\n    * Run command on all files: `:argdo [command]` (e.g. change cmd to command and save with `argdo %s/cmd/command/ge | w`)\r\n    * Tabs: `vim -p [files]`. `:tabe [filename]` New tab; `gt` Next tab; `gT` Previous tab.\r\n    * Split screen: `:sp [filename]` Open new split; `C-w` then `w` For next split; `W` for previous split.\r\n* Convert a dos/windows file (with CRLF/x0d0a line endings) to unix (Check file format with `:set ff? ffs?`):\r\n    1. `:e ++ff=dos` Edit as dos file (if not doing so already).\r\n    1. `:setlocal ff=unix`\r\n    1. `:w`\r\n* Delete all lines which do not contain `{{`: `:v/{{/d`. Variant of `:[range]v[global]/{pattern}/[cmd]`.\r\n* Save file as root: `:w !sudo tee %`.\r\n* Delete all lines matching pattern: `:g/[pattern]/d` (e.g. `:g/@login_required/d`).\r\n* Command history: Enter `:` or `/` and use up and down arrows to navigate history. \r\nCommand line window: Type `q:` for commands, or `q/` for searches; `C-c C-c` to exit.\r\n* `/` Search forwards; `?` Search backwards; `n` Next match; `N` Previous match. `:%s/[pattern]//gn` \r\nCount matches in file. `*` Search for word under cursor (`#` Reverse search). `:g/[pattern]/#` Find all occurrences.\r\n* `:browse old` List recently opened files.\r\n* `:e filename` Open a new file (`:w filename` Save changes to a file; \r\n`ZZ` Save changes and exit; \r\n`:q` Quit Vim. If you have unsaved changes, Vim refuses to exit; `:q!` Exit Vim without saving changes; \r\n`:wq` Write the file and exit; `:x` Write the file and exit if you've made changes to the file. \r\nIf you haven't made any changes to the file, Vim exits without writing the file).\r\n* `i` Switch to edit mode, insert before cursor (`a` Insert after cursor; `I` Start of line; `A` End of line; \r\n`o` Insert new line after; `O` Insert new line before).\r\n* `u` Undo the last action (`U` Undo all the latest changes that were made to the current line; `C-r` Redo).\r\n* `v` Select block by character (`V` By line; `C-v` Block visual mode).\r\n* `~` Changecase. (`>` Shift right; `<` Shift left; `c` Change the highlighted text; `cc` Change line; `y` Yank; \r\n`yy` Yank line; `d` Delete; `dd` Delete line; `p` Paste after; `P` Paste before; \r\n`\"_d` Delete and place in black-hole `_` register to reserve what had been yanked before).\r\n* `0` Start of line; `^` First non-blank character of the line; `w` Next word; `W` Next word, ignore punctuation; \r\n`e` Word-end; `E` Word-end, ignore punctuation; `b` Word-beginning; `B` Word-beginning, ignore punctuation; \r\n`ge` Previous word-ending; `gE` Previous word-ending, ignore punctuation; `g_` Last non-blank character of the line; \r\n`$` Last character of the line. \r\n* `G` Go to end of file; `:1` Start of file; `:[n]` Line number; `H` First line of the screen; `M` Middle line of the screen; \r\n`L` Last line of the screen.\r\n* `:![command]` Run external command:\r\n    * `:![command] %` Filter file through external command.\r\n    * `:r![command]` Insert command output.\r\n    * `:%!xxd` Run file through hexdump filter (`:%!xxd -r` Convert dump from hex back to binary).\r\n* `:e .` File explorer (`:Sex` Open explorer in new window)\r\n* `:set nu` Show line numbers; `:set nu!` Hide line numbers.\r\n* `:set wrap` Wrap lines; `:set wrap!` Stop wrapping lines.\r\n* `:map` List all key mappings.\r\n\r\n## Buffers/Windows\r\n\r\n* `:b [file_name]` Switch to buffer containing file. (`:b` followed by a space tab completion will cycle through open buffers)\r\n* `:ls` or `:buffers` Show buffer list. Explanation:\r\n    * `%` Current window.\r\n    * `#` Alternate buffer (switch using `:e#` or `:b#`).\r\n    * `a` Active (loaded and visible).\r\n    * `h` Hidden (loaded but not visible).\r\n    * `+` Modified.\r\n* `:bd` Unload the buffer and remove it from bufferlist (doesn't close Vim, even on the last buffer).\r\n* `:bun` Unload the buffer but keep it in bufferlist.\r\n* `:sp [file_name]` Split current window and load file. (`C-w s` split horizontally; `C-w v` split vertically)\r\n* `:w` Write the current buffer to disk. `:wa` Write all modified buffers.\r\n* `:e file` Load a file from disk.\r\n* `:q` Closes current buffer (and Vim if it's the last one).\r\n* `:new` New empty buffer.\r\n* `:on` Close all buffers but the active one (`C-w o`).\r\n* `C-w` and `h j k l` Move between windows.\r\n\r\n## Completion\r\n\r\nWhile you are typing, it's pretty common to use the same word over and over again. \r\nUsing `C-p` Vim searches the currently typed text backwards for a word starting with \r\nthe same characters as already typed. `C-x C-l` completes the whole line.\r\n\r\nIf you're not sure how to type some word and you've enabled spell-checking (`:set spell`), \r\nyou can type `C-x C-k` to do a dictionary lookup for the already typed characters.\r\n\r\n## Marks\r\n\r\nVim automatically sets various marks like\r\n\r\n* `0-9` Last 10 positions of closed files (`0` the last, `1` the last but one).\r\n* `<` and `>` Left and right position of marked texts.\r\n* `(` and `)` Start or end of the current sentence.\r\n* `{` and `}` Start or end of the current paragraph.\r\n* `[` and `]` First or last character of the last yanked or changed text.\r\n* `.` Last change.\r\n* `'` or <code>`</code> Position before the last jump.\r\n* `\"` Position before the last exit of the file (local to a file).\r\n* `^` position of the last insert-stop.\r\n\r\nTo set a manual mark, use `m[a-zA-Z]`. To jump to one of the marks (manual or automatic) you can choose between `'` \r\nand <code>`</code>:\r\n\r\n* `'` Sets the cursor to the first non-blank character in the marked line.\r\n* <code>`</code> Sets the cursor to the exact position where the mark was set.\r\n\r\nThere is a little difference between lower-case and upper-case characters:\r\n\r\n* `a-z` Are local to a file.\r\n* `A-Z` Are stored and available over sessions (associated with a file).\r\n\r\nYou can use `L` for your work-log and `T` for your time-table for example, and quickly update the information there.\r\n\r\nFor example you can jump to the last known position of a file before it was closed by typing ``\"` \r\n(it's easy to configure Vim to do it automatically at start).\r\n\r\nTo get a list of all marks Vim knows about type `:marks`. To delete marks use `:delmarks` (`:delmarks a b c` removes marks \r\n`a` and `b` and `c`, to delete all marks use `:delmarks!`).\r\n\r\n## Macros\r\n\r\nVim allows to replay some commands using `.`. For more than one command use macros.\r\n\r\nYou can start macro-recording using `q` and one of `0-9a-zA-Z`, so for example `qq` records the macro to buffer \"q\"\u009d.\r\nHit `q` when you are finished recording.\r\n\r\nNow you can replay the macro at any time using `@q`.\r\n\r\n## Vimdiff\r\n\r\n`vimdiff file1 file2` highlights differences between files.\r\n\r\n* `]c` jump to next change (`[c` previous change).\r\n* `:diffget [buffer_id]` replace current change with equivalent in other buffer.\r\n* `C-W C-W` switch to the other buffer.\r\n* `:diffupdate` refresh display.\r\n* `:colorscheme evening` change colours.\r\n* `:ls` list buffers.\r\n* `zo` open folded text.\r\n* `zc` close folded text .\r\n* `:syntax off `\r\n* If using only two buffers:\r\n* `do` get change from other buffer.\r\n* `dp` put the changes from current buffer into the other.\r\n\r\n## Settings\r\n\r\n* Interpret all files as UTF-8 by adding the following to `.vimrc`:\r\n\r\n        \" Treat everything as UTF-8\r\n        set encoding=utf-8\r\n        set fileencodings=utf-8"
     }
 },
 {
@@ -809,7 +841,7 @@
         "title": "Use of Fabric",
         "slug": "use-fabric",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.660Z",
+        "updated": "2012-05-20T13:07:35.660Z",
         "content": "My thoughts on Fabric after a week of use.\r\n\r\n[Fabric](http://fabfile.org) is a [Python](http://python.org/)\r\nlibrary for running shell commands locally or remotely.\r\n\r\nPython programmers can use that language to write shell scripts.\r\nThus utilizing the syntax of Python to control the flow of logic through the script\r\nwhile using the proven shell commands to manage the system.\r\nFabric helps you do this with its built-in functions:\r\n\r\n* `local` Run a command on your local system.\r\n* `run` Run a command a remote system.\r\n* `lcd` Change the local working directory.\r\n* `cd` Change the remote working directory.\r\n\r\nTo backup the latest version of a local file use:\r\n \r\n    local('cp -u ~/fabfile.py ~/backup')\r\n\r\n(the `-u` update option tells the system to copy only if the source file is newer). \r\n\r\nTo run a command in a specific directory on all the remote servers just say:\r\n\r\n    with cd(code_dir):\r\n        run(\"git pull\")\r\n\r\n### fab\r\n\r\nFabric provides a command-line tool called `fab`. \r\nWhen invoked, `fab` looks in the current directory and up through its \r\nancestors for a file called `fabfile.py`. This file should contain the \r\nFabric commands/tasks which you have written.\r\n\r\nThe command `fab --list` will show all available tasks. \r\n\r\nThe list of remote servers can be set (in `env.hosts`) and overridden \r\n(e.g. `@hosts('localhost')`) in the fabfile.\r\n\r\n### Writing Reusable Code\r\n\r\nTo reuse code in several projects, common structures and processes must be adopted. \r\nIn general, projects have the following lifecycle:\r\n\r\n1. Install the application code from its remote repository.\r\n1. Setup a local development environment.\r\n1. Deliver the changed application code to the remote repository.\r\n1. Deploy the changed application code to the live server(s).\r\n\r\nEach step then has a corresponding task in the project's fabfile: \r\n`install`, `setup`, `deliver` and `deploy`.\r\n\r\nMuch of the logic used to setup a development environment could be \r\nreused when deploying onto remote servers. In order to do so, equivalent \r\nlocal and remote functions need to be made available in the fabfile \r\nwith the same names. For instance:\r\n\r\n    def get_functions(remote):\r\n        \"\"\"\r\n        Return functions which set the current working directory, \r\n        execute commands and check for the existence of files\r\n        either remotely or locally.\r\n        \"\"\"\r\n        if remote:\r\n            return (cd, run, exists) \r\n        else:\r\n            return (lcd, local, lambda path: os.path.exists(path))\r\n\r\nCommon sections of code then begin with a call to get these functions depending \r\non whether local or remote processing is being done.\r\n\r\nThe projects also need to use a common directory structure and all of the \r\nprocessing logic needs to operate relative to the root (topmost) directory.\r\n\r\nWith these prerequisites in place the following common logic can be used:\r\n\r\n    def create_directories(self, dirs, remote=False):\r\n        \"\"\"Create any missing local directories.\"\"\"\r\n        cwd, ex, exists = get_functions(remote)\r\n        root_path = self.live_root_path if remote else self.dev_root_path\r\n        print('# Creating any missing directories')\r\n        for directory in dirs:\r\n            path = os.path.join(root_path, directory)\r\n            if not exists(path):\r\n                print(yellow('# Creating directory %s' % (path)))\r\n                ex('mkdir %s' % (path))\r\n\r\n### Django Commands\r\n\r\nBy having a fabfile in the topmost directory of the project and \r\nwriting a task to run Django commands, you can then execute them from any \r\ndirectory in the hierarchy. \r\nUsing the following task, the command `fab manage:test` \r\nwill run the Django test management command.\r\n\r\n    @task\r\n    @hosts('localhost')\r\n    def manage(*args):\r\n        \"\"\"Locally execute Django command.\"\"\"\r\n        with settings(warn_only=True):\r\n            with lcd(DJANGO_PROJECT_PATH):\r\n                local('python manage.py %s' % (' '.join(args)))\r\n"
     }
 },
@@ -820,7 +852,7 @@
         "title": "Digitalis",
         "slug": "digitalis",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.663Z",
+        "updated": "2012-11-26T13:07:35.663Z",
         "content": "## Starting New Job\r\n\r\nToday is my first day at [Digitalis](http://digitalisreputation.co.uk/). I expect to be looking after the whole server software stack as well as working as a web developer.\r\n\r\nThe office is in the West End of London, near Green Park tube station. This should be an easier commute than that I had last week to [ReportLab](http://www.reportlab.com) in Wimbledon.\r\n\r\nFor the next few weeks, as well as learning about the company's systems, I shall be trying out the lunch menus of nearby restaurants. One of the joys of living in London is that the world's cuisine is on my doorstep."
     }
 },
@@ -842,7 +874,7 @@
         "title": "Django 1.5",
         "slug": "django-15",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.668Z",
+        "updated": "2013-03-02T13:07:35.668Z",
         "content": "## Upgraded to Django 1.5\r\n\r\nToday I upgraded this site to use Django 1.5.\r\n\r\nThis was a fairly painless process. The one gotcha I encountered was a now mandatory `ALLOWED_HOSTS` setting which gets checked when DEBUG is not true. Without it you get a 500 error and no diagnostics are logged. \r\nSee [here](https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts) for the details.\r\n\r\nIn other news, I am quite enjoying my new job at [Digitalis](http://digitalisreputation.co.uk/). Of course, they have their own peculiar ways of doing things which I had not encountered before.\r\n\r\nNext month, I shall make my annual visit to [Rooska](/rooska/ \"Rooska\") to see how my trees and neighbours are getting on. Last year I encountered a fox on my mountain so I am hoping for great things."
     }
 },
@@ -853,7 +885,7 @@
         "title": "Rooska 2013",
         "slug": "rooska-2013",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.671Z",
+        "updated": "2013-04-18T13:07:35.671Z",
         "content": "Last week I was in Ireland. Things are going well at my place in the country.\r\n\r\nThere was a lot of growth of Gorse and Brambles:\r\n\r\n[![Barn Overview](/media/img/thumb/Rooska2013BarnOverview.jpg \"Barn Overview\")](/media/img/Rooska2013BarnOverview.jpg \"Barn Overview: April 2013\")\r\n\r\nThe trees are also doing well:\r\n\r\n[![Trees](/media/img/thumb/Rooska2013Trees.jpg \"Trees\")](/media/img/Rooska2013Trees.jpg \"Trees: April 2013\")\r\n[![Redwood](/media/img/thumb/Rooska2013Redwood.jpg \"Redwood\")](/media/img/Rooska2013Redwood.jpg \"Redwood: April 2013\")\r\n\r\nThey are now mostly too big to be smothered by the grass. The major risk for the next few years is from fire.\r\n\r\nMy wall has weathered nicely:\r\n\r\n[![Wall](/media/img/thumb/Rooska2013Wall.jpg \"Wall\")](/media/img/Rooska2013Wall.jpg \"Wall: April 2013\")\r\n\r\nThe sides of the main drain are being softened by growth:\r\n\r\n[![Footbridge](/media/img/thumb/Rooska2013Footbridge.jpg \"Footbridge\")](/media/img/Rooska2013Footbridge.jpg \"Footbridge: April 2013\")\r\n\r\nOverall I am very pleased. Next year I may have to make more of an effort to clear weeds from the roads. There is a little damp by the back door of the barn. That door may need to be replaced."
     }
 },
@@ -864,7 +896,7 @@
         "title": "Looking For Work",
         "slug": "looking-work",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.673Z",
+        "updated": "2014-01-22T13:07:35.673Z",
         "content": "I have handed in my notice at [Digitalis](http://digitalisreputation.co.uk/) and will finish there at the end of February. Hopefully, I can find a Python gig in the City of London and resume walking to work!\r\n\r\nWe did a lot of good work at Digitalis in the past year but I feel that the time has come to move on.\r\n\r\nJust created a profile on Linked In. As usual `ahernp` was available, so I used it in my: [www.linkedin.com/in/ahernp](http://www.linkedin.com/in/ahernp)\r\n\r\n"
     }
 },
@@ -875,7 +907,7 @@
         "title": "LinkedIn",
         "slug": "linkedin",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.676Z",
+        "updated": "2014-02-06T13:07:35.676Z",
         "content": "While looking for work, I have been playing the [LinkedIn](http://www.linkedin.com/in/ahernp) game. Apparently, if you have less than 50 connections then you are considered to be a bit of a recluse.\r\n\r\nIn my case, that would be accurate since I am fundamentally unsociable. Despite being a Web Developer, I find Facebook to be irritating and Twitter to be pointless. My preferred tweet of the day is birdsong on [BBC Radio 4](http://www.bbc.co.uk/programmes/b01s6xyk)!\r\n\r\nThe technology behind social media is interesting to me but I see the products as tools rather than lifestyles.\r\n\r\nNow that I have more than 50 connections on LinkedIn (68), I can stop bugging people!"
     }
 },
@@ -886,7 +918,7 @@
         "title": "Rooska 2014",
         "slug": "rooska-2014",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.679Z",
+        "updated": "2014-04-13T13:07:35.679Z",
         "content": "I was in Ireland last week to see friends and family and check on my place in the country.\r\n\r\nRooska was very overgrown:\r\n[![Barn Overview](/media/img/thumb/rooska_2014.png \"Barn Overview\")](/media/img/rooska_2014.png \"Barn Overview: April 2014\")\r\n\r\nMost of the trees have survived the winter storms:\r\n[![Trees](/media/img/thumb/rooska_trees_2014.png \"Trees\")](/media/img/rooska_trees_2014.png \"Trees: April 2014\")\r\n\r\nMy main achievement was making it possible to open the gate onto the mountain:\r\n[![Overgrown Gate](/media/img/thumb/gate_overgrown.png \"Overgrown Gate\")](/media/img/gate_overgrown.png \"Overgrown Gate: April 2014\")\r\n[![Cleared Gate](/media/img/thumb/gate_cleared.png \"Cleared Gate\")](/media/img/gate_cleared.png \"Cleared Gate: April 2014\")\r\n\r\nThe inside of the barn is still looking good after 4 years:\r\n[![Barn Interior](/media/img/thumb/dusseldorf_cat.png \"Barn Interior\")](/media/img/dusseldorf_cat.png \"Barn Interior: April 2014\")"
     }
 },
@@ -897,7 +929,7 @@
         "title": "Autumn in Ireland",
         "slug": "autumn-in-ireland",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.682Z",
+        "updated": "2014-09-06T13:07:35.682Z",
         "content": "My forester has been eager for me to visit Rooska in the autumn so that I can see the place at its best. My previous visits have been in the spring when it has been recovering from Atlantic-coast winters.\r\n\r\nI must say that he was correct. It seems a different place at the end of the growing season. However, the whole county seems very overgrown to me. Apparently the summer has been very good.\r\n\r\nMy guys have done a great job tidying up the place:\r\n\r\n[![Cleaned Drive](/media/img/thumb/cleaned_drive.jpg \"Cleaned Drive\")](/media/img/cleaned_drive.jpg \"Cleaned Drive: August 2014\")\r\n\r\nand putting in new drains:\r\n\r\n[![New Drain](/media/img/thumb/new_drain.jpg \"New Drain\")](/media/img/new_drain.jpg \"New Drain: August 2014\")\r\n\r\n(one is under the road).\r\n\r\nOne of my fruit trees has prodiced its first apple:\r\n\r\n[![First Apple](/media/img/thumb/first_apple.jpg \"First Apple\")](/media/img/first_apple.jpg \"First Apple: August 2014\")\r\n\r\nFor this to appear only four years after I planted the tree is fast work.\r\n\r\nMany of the trees on the mountainside are now taller than me. Some of the streams are quite lush:\r\n\r\n[![Mountain Stream](/media/img/thumb/mountain_stream.jpg \"Mountain Stream\")](/media/img/mountain_stream.jpg \"Mountain Stream: August 2014\")\r\n\r\nI have given my forester my first actual directive &ndash; I am happy providing the strategic vision and leaving the details to the experts &ndash; and asked if we could grow some Manuka bushes. He seemed glad of my input and thought that they would do well.\r\n\r\nOn the first of September I started a new job in London at a company called\r\n[Festicket](http://festicket.com \"Travel, Accommodation and Music Festival tickets\").\r\nThey basically provide package holiday facilities for music festival attendees."
     }
 },
@@ -908,7 +940,7 @@
         "title": "New Festicket Office",
         "slug": "new-festicket-office",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.685Z",
+        "updated": "2014-10-04T13:07:35.685Z",
         "content": "On the first of September I started working for a company called\r\n[Festicket](http://festicket.com) as a web developer.\r\n\r\nThey organise tickets for music festivals &ndash; including travel and accommodation.\r\n\r\nI am on their about page: [here](http://www.festicket.com/about/). Fame at last!\r\n\r\nOn the first of October we moved into brand new offices near the OXO Tower.\r\n\r\nBecause of the amount of glass inside and on other buildings nearby my desk enjoyed the optical illusion of twin suns setting yesterday:\r\n\r\n[![Twin Sunsets](/media/img/thumb/twin_suns.jpg \"Twin Sunsets\")](/media/img/twin_suns.jpg \"Twin Sunsets: London, 3 October 2014\")"
     }
 },
@@ -919,7 +951,7 @@
         "title": "History Podcasts",
         "slug": "history-podcasts",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.688Z",
+        "updated": "2015-03-12T13:07:35.688Z",
         "content": "In recent years I've discovered the joys of listening to history podcasters. This consists of mostly amateur historians telling the story of those eras which interest them. All of this content is free and generally of a very high standard. \r\n\r\nMost keep to a schedule of publishing a new episode weekly. Each episode is usually about 30 minutes long.\r\n\r\nTo try them out, I recommend picking an episode from the middle or end of a series - after they've settled on a narrative style. Then start from the beginning if the content appeals to you.\r\n\r\nHere are the ones I listen to most:\r\n\r\nThe big daddy of the movement is Mike Duncan. He did an epic series of podcasts telling the \r\n[History of Rome](http://www.thehistoryofrome.typepad.com/) \r\nfrom the foundation of the republic to the fall of the western empire (in 180 episodes). He completed the story in 2012.\r\n\r\nNowadays, Mike is telling the story of various \r\n[Revolutions](http://www.revolutionspodcast.com/).\r\nHe has told the stories of the English Civil War (21 episodes) and the American Revolution (17 episodes) in considerable detail. Now he is in the middle of the French Revolution (31 episodes and counting).\r\n\r\nThe \r\n[History of Byzantium](http://thehistoryofbyzantium.com/)\r\nby Robin Pierson continued the story from where Mick Duncan finished. He is up to the beginning of the eight century (after 67 episodes).\r\n\r\nRob Monaco's\r\n[Podcast History of our World](http://www.podcasthistoryofourworld.com/)\r\ncovers the history of all parts of the world. After 58 episodes he has reached classical antiquity.\r\n\r\nChris Stewart's\r\n[History of China](https://soundcloud.com/the-history-of-china) has reached the end of the Sixteen Kingdoms period in 439 AD (in 57 episodes).\r\n\r\nLast but by no means least of the ancient history podcasts is Paul Vincent's\r\n[Myths and History of Greece and Rome](http://mythandhistory.podbean.com/).\r\nAfter 86 episodes he is in the middle of the crisis of the third century.\r\nHis work is also available as e-books on the Amazon kindle:\r\n[Book 1](http://www.amazon.co.uk/Myths-Ancient-Greece-History-Rome-ebook/dp/B00C8B0K0Y/) &\r\n[Book 2](http://www.amazon.co.uk/History-Ancient-Greece-Myths-Rome-ebook/dp/B00N5TGZZM/).\r\n\r\nFor the modern era, I recommend the\r\n[When Diplomacy Fails](http://whendiplomacyfails.libsyn.com/)\r\nby Zack Twamley. He has covered many wars of the early modern period, the nineteenth century and the first world war (in 83 episodes).\r\n\r\nAlso\r\n[Talking History: The Italian Unification 1790-1870](http://www.talkinghistorypodcast.com/)\r\nby brothers Benjamin and Adam. They have reached the aftermath of the revolutions of 1848 in 48 episodes.\r\n\r\nFinally, I must mention Dan Carling's\r\n[Hardcore History](http://www.dancarlin.com/)\r\nHe has done 54 episodes about various periods. His podcasts are infrequent and very long (2-3 hours). The most recent episodes are available for free but the older ones require a small fee. I particularly liked his series of episodes about the Mongols called: Wrath of the Khans.\r\n\r\nLinks to these and other podcasts can be found here:\r\n[History Podcasters](http://historypodcasters.com/).\r\n\r\n\"Share and Enjoy\""
     }
 },
@@ -930,7 +962,7 @@
         "title": "Spring 2015",
         "slug": "spring-2015",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.691Z",
+        "updated": "2015-04-18T13:07:35.691Z",
         "content": "I have just returned from my annual trip to Ireland. Here are the photos.\r\n\r\nOn the beach, Irish-style:\r\n\r\n[![On the Beach](/media/img/thumb/beach.jpg \"On the Beach\")](/media/img/beach.jpg \"On the Beach near Rathbarry\")\r\n[![Off to play chess](/media/img/thumb/beach2.jpg \"Off to play chess\")](/media/img/beach2.jpg \"Off to play chess with death\")\r\n\r\nView from my mountain:\r\n\r\n[![Blue Bantry Bay](/media/img/thumb/blue_bay.jpg \"Blue Bantry Bay\")](/media/img/blue_bay.jpg \"Blue Bantry Bay: Spring 2015\")\r\n\r\nPlanted a tree. More of a bush really. Before and after:\r\n\r\n[![Plant Tree Before](/media/img/thumb/plant1.jpg \"Plant Tree Before\")](/media/img/plant1.jpg \"Plant Tree Before: Spring 2015\")\r\n[![Plant Tree After](/media/img/thumb/plant2.jpg \"Plant Tree After\")](/media/img/plant2.jpg \"Plant Tree After: Spring 2015\")\r\n\r\nMy place in the country is looking good:\r\n\r\n[![Tidy Drive](/media/img/thumb/driveway.jpg \"Tidy Drive\")](/media/img/driveway.jpg \"Tidy Drive: Spring 2015\")\r\n\r\nMost of the trees are doing well: \r\n\r\n[![Tall Trees](/media/img/thumb/tree_mix.jpg \"Tall Trees\")](/media/img/tree_mix.jpg \"Tall Trees: Spring 2015\")\r\n"
     }
 },
@@ -941,7 +973,7 @@
         "title": "Walk to Work",
         "slug": "walk-to-work",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.693Z",
+        "updated": "2015-04-29T13:07:35.693Z",
         "content": "I am able to walk to work in about 70 minutes now that I have found a good route. Below are some photos from this morning's walk.\r\n\r\nGo north from home to the bank of the Thames and turn left:\r\n\r\n[![Angel Wharf](/media/img/thumb/w2w1AngelWharf.jpg \"Angel Wharf\")](/media/img/w2w1AngelWharf.jpg \"Looking towards Tower Bridge from Angel Wharf\")\r\n\r\nKeep on past Tower Bridge to London Bridge:\r\n\r\n[![London Bridge](/media/img/thumb/w2w2LondonBridge.jpg \"London Bridge\")](/media/img/w2w2LondonBridge.jpg \"HMS Belfast and London Bridge\")\r\n\r\nPast London Bridge to Southwark Bridge:\r\n\r\n[![Southwark Bridge](/media/img/thumb/w2w3SouthwarkBridge.jpg \"Southwark Bridge\")](/media/img/w2w3SouthwarkBridge.jpg \"Southwark Bridge\")\r\n\r\nPast the Sheep:\r\n\r\n[![Millennium Bridge](/media/img/thumb/w2w4MillenniumBridge.jpg \"Millennium Bridge\")](/media/img/w2w4MillenniumBridge.jpg \"Sheep and Millennium footbridge\")\r\n\r\nThen to the office, by the Oxo Tower.\r\n\r\n[![Oxo Tower](/media/img/thumb/w2w5OxoTower.jpg \"Oxo Tower\")](/media/img/w2w5OxoTower.jpg \"Oxo Tower from my building\")\r\n"
     }
 },
@@ -952,7 +984,7 @@
         "title": "PC Software in Library",
         "slug": "pc-software-in-library",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.696Z",
+        "updated": "2015-05-23T13:07:35.696Z",
         "content": "I've reorganised the Software and Games page of my library:\r\n[Software](/page/software \"PC Software and Games\").\r\n\r\nThe 17 applications listed on that page are my favourite tools. I use Ubuntu both at home and at work these days so there is less context switching to do and I can continue to use the same tool for each job.\r\n\r\nThe number of games is a bit of a worry &ndash; 96! It seems that I fell into Steam's trap of buying more games than I have time to play.\r\n\r\nRight now I am playing a 4X (eXplore, eXpand, eXploit and eXterminate) strategy game called [Star Ruler 2](http://starruler2.com/).\r\n\r\nIt is very good and a highly innovative example of the genre. I particularly like the way it models the relationships between different planets in your empire.\r\n\r\nAs a real-time game it makes me worry that I am missing something &ndash; turn-based strategy is more relaxing."
     }
 },
@@ -974,7 +1006,7 @@
         "title": "Tarot Illuminati",
         "slug": "tarot-illuminati",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.701Z",
+        "updated": "2015-08-31T13:07:35.701Z",
         "content": "Let me start by saying that I don't believe in the occult or that the cards tap into some higher-order plane. I think that they were invented by Carney-folk. Like all such inventions their primary purpose is to separate marks from their money. However, a reader may also dispense good advise.\r\n\r\nYears ago, I read a novel where the Tarot was important. What I remember most is how the characters were often inspired by details on their very ornate cards while thinking about the problems they faced.\r\n\r\nI've been meaning to learn more about the Tarot but wanted to use an illustrated deck where the images are intricate and packed with symbols. Recently I came across the \r\n[Tarot Illuminati](http://www.aeclectic.net/tarot/cards/illuminati/)\r\n(terrible name), which fits the bill.\r\n\r\nYou can use Tarot as a tool. The symbolism on the cards in a reading helps the mind to distance itself from the emotional aspects of the issue.\r\n\r\nHere is a trivial example of what I am talking about. I've been working at the same company for a year now and have recently had an appraisal meeting. On balance, I'd like to stay but would not be bothered by starting to look for a new job. They are to come back to me with some sort of offer in mid September which will probably make my decision for me.\r\n\r\nAnyway, I did a reading with Tarot cards on the question: Should I stay at my current job? As a beginner, I did a simple three-card spread, where the cards represent: Present, Past and Future.\r\n\r\nI got: The Tower, The Two of Swords and the Seven of Swords. Yikes!\r\n\r\nThe Tower (which has a picture of a burning Tower, struck by lightning with people falling from it) represents disaster! The Two of Swords (illustrated by a blindfolded woman holding two swords) represents choice. The Seven of Swords (the picture has someone taking away five of the seven swords) represents theft. I know that these are gross oversimplifications.\r\n\r\nThe reading was both apposite and unexpected. It put my question in a whole new light. Start-ups are always on the edge of disaster (which is definitely worth keeping in mind); Certainly there is a choice to be made. Am I the thief? Perhaps they cannot afford me! Or are they stealing time from me which would be better spend elsewhere?\r\n\r\nThe human mind is very good at detecting patterns. So good that it sees them where none exist (i.e. in random data). It also works by telling stories. The cards provide enough randomness and archetypical symbols to allow us (or perhaps our subconscious) to see through to the heart of things."
     }
 },
@@ -985,7 +1017,7 @@
         "title": "New Job 2016",
         "slug": "new-job-2016",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.705Z",
+        "updated": "2016-02-16T13:07:35.705Z",
         "content": "Last Friday was my final day working for [festicket.com](https://festicket.com).\r\n\r\nTomorrow will be my first day working at [affectv](http://affectv.com/).\r\n\r\nI shall be doing the same sort of Web Developer work at Affectv - with a bit more emphasis on backend processing."
     }
 },
@@ -1260,7 +1292,7 @@
         "title": "Angular 2",
         "slug": "angular-2",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.751Z",
+        "updated": "2017-02-26T13:07:35.751Z",
         "content": "Over the past six months I have been learning to use\n[Angular 2](https://angular.io/)\nand reimplementing this website as a Single Page Application (SPA)\nwritten using that Javascript web framework.\n\nThe previous version of [ahernp.com](https://ahernp.com) was implemented using the [Django](https://www.djangoproject.com/) Python web framework. The application server is still implemented in Django.\n\nThis was mostly an exercise in writing a client-side Javascript application as doing that sort of work is a big part of my current job. Since 2010, I have mostly been coding using Python and Django.\n\nAlthough my site is very simple, rewriting it in Javascript is a more complex task than the coding examples which appear in the literature.\n\nAs well as applying some design principals of my own (e.g. everything on the site is text apart from actual images), I have tried to go with the grain of the Angular 2 framework.\n\nAlmost all of the site content is text stored using the\n[Markdown](http://daringfireball.net/projects/markdown/)\nsyntax.\n\nWhen the site is initially loaded, the code and current page content is fetched and rendered immediately. The content of the rest of the pages is downloaded in the background. So clicking on an internal link within the site should result in an immediate response without querying the application server.\n\nClicking on an external link leaves the site (and SPA).\n\nThe source code for this site is available on\n[Github](https://github.com/ahernp/angular-django)\n(as is the previous Django version of the site\n[here](https://github.com/ahernp/ahernp.com))."
     }
 },
@@ -1271,7 +1303,7 @@
         "title": "The Three Food Groups",
         "slug": "the-three-food-groups",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.754Z",
+        "updated": "2017-03-04T13:07:35.754Z",
         "content": "My theory of the three major food groups:\n\n1. Things which are not biscuits.\n2. Biscuits.\n3. Ultra Biscuits.\n\nWhat, you may ask, are ultra biscuits? These guys:\n\n[![Ultra Biscuits](/media/img/thumb/ultraBiscuits.png \"Borders Dark Chocolate Ginger Biscuits\")](/media/img/ultraBiscuits.png \"Borders Dark Chocolate Ginger Biscuits\")\n\nGinger is an important part of a balanced diet!"
     }
 },
@@ -1293,7 +1325,7 @@
         "title": "Return to Fire Mountain",
         "slug": "return-to-fire-mountain",
         "parent": 720,
-        "updated": "2018-06-17T13:07:35.759Z",
+        "updated": "2017-04-30T13:07:35.759Z",
         "content": "Last week I was in Ireland to visit my place in the country.\n\nThe trees are coming on well:\n\n[![Trees looking Good](/media/img/thumb/Trees2017.jpg \"Trees doing well\")](/media/img/Trees2017.jpg \"Trees doing well\")\n\nThe barn is also looking good:\n\n[![My Office](/media/img/thumb/CornerOfAForeignField.jpg \"My Office\")](/media/img/CornerOfAForeignField.jpg \"My Office\")\n\nAt the beginning of the week, all looked peaceful on the mountain:\n\n[![Mountain View](/media/img/thumb/BeforeTheFire2017.jpg \"Mountain View\")](/media/img/BeforeTheFire2017.jpg \"Mountain View\")\n\nOn Wednesday night I got a call to tell me that the mountain was on fire to the west. Fortunately it was a calm night and the Fire Brigade were able to stop the flames just short of my western border. Note the burned ground to the right:\n\n[![Mountain View](/media/img/thumb/FireOnTheHill.jpg \"Mountain View\")](/media/img/FireOnTheHill.jpg \"Mountain View\")\n\nHowever, on Thursday afternoon, around 14:00, I noticed that the fire had reignited itself up near the top of the mountain. See the smoke in the photo above.\n\nOne of my foresters and I went up the mountain and watched as the flame front advanced towards my boundary. It moved slowly against the wind:\n\n[![Flames Advancing 1](/media/img/thumb/FireFront1.jpg \"Flames Advancing 1\")](/media/img/FireFront1.jpg \"Flames Advancing 1\")\n[![Flames Advancing 2](/media/img/thumb/FireFront2.jpg \"Flames Advancing 2\")](/media/img/FireFront2.jpg \"Flames Advancing 2\")\n\nHaving watched this for over an hour, I telephoned the Fire Brigade, since it showed no sign of stopping and seemed like too much for the two of us to tackle with spades.\n\nThen my forestry expert arrived and started back-burning. He set fires in front of the wildfire and had us beat out those flames on the side closest my boundary. In this way the wildfire advance was stopped and it split into two fronts advancing to the East and West.\n\nThen the Fire Brigade and some neighbours arrived. They tackled the Eastern fire front first while the foresters and I kept the Western front from spreading South:\n\n[![Fire turned West](/media/img/thumb/BehindTheFlames.jpg \"Fire turned West\")](/media/img/BehindTheFlames.jpg \"Fire turned West\")\n[![Western Front](/media/img/thumb/WesternFront.jpg \"Western Front\")](/media/img/WesternFront.jpg \"Western Front\")\n\nRemember that the mountainside to the West has burned the night before so there was no more fuel in that direction.\n\nSo in the end my place was saved and left surrounded by ashes:\n\n[![Fire Aftermath](/media/img/thumb/AfterTheFire2017.jpg \"Fire Aftermath\")](/media/img/AfterTheFire2017.jpg \"Fire Aftermath\")\n\nThe souther side of the mountain was also burned but I don't know if that happened overnight or on Thursday afternoon:\n\n\n[![Fire Aftermath: Southern Slopes](/media/img/thumb/BurnedSouthernSlope2017.jpg \"Fire Aftermath: Southern Slopes\")](/media/img/BurnedSouthernSlope2017.jpg \"Fire Aftermath: Southern Slopes\")\n\nWe were very lucky that the wind stayed from the North and slowed the advance of the flames.\n\nIt was news to me that fires can advance into the wind. There was plenty of fuel and the wind kept fanning the flames.\n\nI am also surprised to learn that you can beat out grass fires with a spade, in the right circumstances. My spade had the shortest handle, but I had gloves!\n\nAll in all, it has been an education for me. Particularly, having to watch the fire advance slowly towards me while thinking that a water-pump would be handy right about now."
     }
 },
@@ -1306,6 +1338,17 @@
         "parent": 727,
         "updated": "2018-06-17T13:07:35.761Z",
         "content": "[![Barn](/media/img/thumb/barn2018.jpg \"Barn\")](/media/img/barn2018.jpg)\n[![Driveway](/media/img/thumb/driveway2018.jpg \"Driveway\")](/media/img/driveway2018.jpg)\n[![Wall](/media/img/thumb/wall2018.jpg \"Wall\")](/media/img/wall2018.jpg)\n[![Road](/media/img/thumb/road2018.jpg \"Road\")](/media/img/road2018.jpg)\n[![Entrance](/media/img/thumb/entrance2018.jpg \"Entrance\")](/media/img/entrance2018.jpg)\n[![Harry the Sequoia](/media/img/thumb/sequoia2018.jpg \"Harry the Sequoia\")](/media/img/sequoia2018.jpg)\n[![Twees](/media/img/thumb/trees2018.jpg \"Twees\")](/media/img/trees2018.jpg)\n"
+    }
+},
+{
+    "model": "mpages.page",
+    "pk": 838,
+    "fields": {
+        "title": "Tiddlywiki",
+        "slug": "tiddlywiki",
+        "parent": 723,
+        "updated": "2018-06-17T14:55:37.175Z",
+        "content": "# TiddlyWiki\r\n\r\nA [TiddlyWiki](http://classic.tiddlywiki.com) consists of a single HTML page which contains all of the text as well as CSS and JavaScript which provide the functionality of a Wiki.\r\n\r\n[Here](/media/download/tw.html) is one to get started. It contains some sample content, additional help text and my favourite plugins.\r\n\r\nFirefox Security means the\r\n[TiddlyFox](https://addons.mozilla.org/en-US/firefox/addon/tiddlyfox/)\r\nadd-on is needed to save TiddlyWikis.\r\n\r\n[Here](/media/download/twahernp.html) is an old \r\nTiddlyWiki version of this site. Things have changed a lot around here!"
     }
 },
 {
@@ -1859,8 +1902,8 @@
         "xml_url": "http://feedproxy.google.com/linuxtoday/linux",
         "link": "https://www.linuxtoday.com/",
         "description": "",
-        "published_time": "2018-06-17T14:11:14Z",
-        "last_polled_time": "2018-06-17T14:17:16.364Z",
+        "published_time": "2018-06-18T19:11:23Z",
+        "last_polled_time": "2018-06-18T19:17:16.980Z",
         "group": 5
     }
 },
@@ -1873,7 +1916,7 @@
         "link": "https://www.schneier.com/blog/",
         "description": "A blog covering security and security technology.",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:21.853Z",
+        "last_polled_time": "2018-06-18T19:17:22.388Z",
         "group": 5
     }
 },
@@ -1898,8 +1941,8 @@
         "xml_url": "http://revolutionspodcast.libsyn.com/rss/",
         "link": "http://www.revolutionspodcast.com",
         "description": "A weekly podcast exploring great political revolutions. Now: The July Revolution. Next: 1848",
-        "published_time": "2018-06-13T19:24:34Z",
-        "last_polled_time": "2018-06-14T20:09:36.996Z",
+        "published_time": "2018-06-17T19:07:32Z",
+        "last_polled_time": "2018-06-17T19:17:19.922Z",
         "group": 1
     }
 },
@@ -1912,7 +1955,7 @@
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python Web framework.",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:30.537Z",
+        "last_polled_time": "2018-06-18T19:17:31.272Z",
         "group": 5
     }
 },
@@ -1951,7 +1994,7 @@
         "link": "http://slatestarcodex.com",
         "description": "THE JOYFUL REDUCTION OF UNCERTAINTY",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:22.596Z",
+        "last_polled_time": "2018-06-18T19:17:23.109Z",
         "group": 2
     }
 },
@@ -1964,7 +2007,7 @@
         "link": "http://b5audioguide.com",
         "description": "This is a book club without books, an episode-by-episode walkthrough of one of the most influential and important modern SF series. Each podcast begins with a spoiler-free discussion of the episode for new viewers, then we give listeners a jumping-off point and switch to a discussion of how the episode fits into the five-year history of the show.",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:28.907Z",
+        "last_polled_time": "2018-06-18T19:17:29.254Z",
         "group": 2
     }
 },
@@ -1977,7 +2020,7 @@
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable is a weekly dive into geeky media we love, including movies, books, TV, comics, and more, featuring a rotating panel of guests and hosted by Jason Snell.",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:33.531Z",
+        "last_polled_time": "2018-06-18T19:17:34.127Z",
         "group": 2
     }
 },
@@ -1990,7 +2033,7 @@
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:06.737Z",
+        "last_polled_time": "2018-06-18T19:17:07.730Z",
         "group": 5
     }
 },
@@ -2029,7 +2072,7 @@
         "link": "https://www.bbc.co.uk/news/",
         "description": "BBC News - UK Politics",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:06.343Z",
+        "last_polled_time": "2018-06-18T19:17:07.354Z",
         "group": 3
     }
 },
@@ -2042,7 +2085,7 @@
         "link": "https://www.theregister.co.uk/",
         "description": "Biting the hand that feeds IT \u2014 sci/tech news and views for the world",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:36.895Z",
+        "last_polled_time": "2018-06-18T19:17:37.427Z",
         "group": 5
     }
 },
@@ -2055,7 +2098,7 @@
         "link": "http://blog.dilbert.com",
         "description": "Scott Adams is best known as the creator of the Dilbert comic strip. But in his daily (sometimes twice daily) podcasts, Adams uses his training as a hypnotist and a lifelong student of persuasion to analyse current events (mostly Trump-related) through a persuasion lense. In so doing, Adams offers you a new way to understand your reality. You can also expect to pick up some valuable persuasion techniques along the way.&lt;br /&gt;\n&lt;br /&gt;\nThese podcasts are the audio channels from Adams&#39; popular Periscope videos. If you hear pauses and interruptions, Adams is probably reading comments as they come across his Periscope screen. Adams&#39; Periscope listeners requested that he convert the Periscope videos into podcast files so they can be played offline and also use less battery power.&lt;br /&gt;\n&lt;br /&gt;\nMost of what you will hear is spontaneous, unrehearsed and casual. The best way to listen is while sipping your favorite beverage.",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:07.370Z",
+        "last_polled_time": "2018-06-18T19:17:08.284Z",
         "group": 2
     }
 },
@@ -2080,8 +2123,8 @@
         "xml_url": "http://rss.acast.com/whendiplomacyfails",
         "link": "http://www.wdfpodcast.com",
         "description": "For over five years, I have been privileged to examine wars throughout history through a unique lens. I always try to ask what on the surface may seem like very reasonable questions - why, how and WHEN did diplomacy fail? This approach has enabled a loyal base of &#39;history friends&#39; to grow up around WDF, and thanks to their much appreciated work getting the word out there, we have taken history podcasting to incredible new heights! \nYou should know that my jam at WDF is not the mundane, the tedious or the repetitive - I care little for the logistics of why one general moves his forces to point A, or what impact weapon X had on the war. Instead, I delve into human agency, the story populated by sometimes ingenious, sometimes fatally flawed human beings, who believed or had been led to believe that the time was right for war. Under these circumstances, diplomacy certainly fails, but thanks to our window into the era, you get to find out all about it! From the machinations of Louis XIV, to the complex set of events which led to the outbreak of the First World War, to the most obscure of conflicts besides, WDF has been through it all, and there&#39;s so much more to come! So why not stop by, give us a listen, and do your bit to help make history THRIVE!\nIf you want to lend a hand to what I do here then please subscribe/rate/review the podcast here, like the Facebook page, follow on Twitter @wdfpodcast visit the website www.wdfpodcast.com become a Patron at www.patreon.com/WhenDiplomacyFails and contact Zack directly at his email address: wdfpodcast@hotmail.com  Thanksss!",
-        "published_time": "2018-06-12T23:01:00Z",
-        "last_polled_time": "2018-06-13T18:52:58.596Z",
+        "published_time": "2018-06-17T22:26:19Z",
+        "last_polled_time": "2018-06-17T23:17:37.718Z",
         "group": 1
     }
 },
@@ -2133,7 +2176,7 @@
         "link": "http://www.theincomparable.com/teevee/prisoner/",
         "description": "Steven and Erika of Lazy Doctor Who watch the colourful, psychadelic, trippy, wtf-is-happening spy-fi series that is 1967\u2019s &quot;The Prisoner.&quot;",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:14.444Z",
+        "last_polled_time": "2018-06-18T19:17:15.089Z",
         "group": 4
     }
 },
@@ -2146,7 +2189,7 @@
         "link": "http://backinthevillage.com",
         "description": "Join Clay and Wes back in the Village, where they&#39;ll be discussing all 17 episodes of The Prisoner, the 60&#39;s sci-fi classic starring Patrick McGoohan!",
         "published_time": null,
-        "last_polled_time": "2018-06-17T14:17:06.102Z",
+        "last_polled_time": "2018-06-18T19:17:07.126Z",
         "group": 4
     }
 },

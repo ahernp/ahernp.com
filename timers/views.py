@@ -1,5 +1,7 @@
-from django.views.generic.base import TemplateView
+from django.views.generic.list import ListView
+
+from .models import Timer
 
 
-class TimersListView(TemplateView):
-    template_name = "timers/index.html"
+class TimersListView(ListView):
+    model = Timer

@@ -6,7 +6,7 @@ class Timer(models.Model):
     label = models.TextField()
 
     class Meta:
-        ordering = ["label"]
+        ordering = ["target"]
 
     def __str__(self):
         return self.label

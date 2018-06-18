@@ -14,6 +14,11 @@
 {% block content %}
     <h1>Timers</h1>
     <p>Under construction</p>
+    {% for timer in object_list %}
+        <p label="{{ timer.label }}" target="{{ timer.target }}" class="timers">
+            {{ timer.label }}: {{ timer.target }}
+        </p>
+    {% endfor %}
 {% endblock %}
 
 {% block footer %}
