@@ -1,5 +1,6 @@
 import collections
 
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404
 from django.urls import reverse
@@ -99,7 +100,7 @@ class FeedEntryListView(EntryListView):
         return context
 
 
-class ToggleEntryReadView(View):
+class ToggleEntryReadView(LoginRequiredMixin, View):
     form_class = ToggleEntryReadForm
 
     def post(self, request, *args, **kwargs):
