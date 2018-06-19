@@ -15,9 +15,8 @@
 
 {% block content %}
     <h1>Timers</h1>
-    <p>Under construction</p>
     {% for timer in object_list %}
-        <p label="{{ timer.label }}" target="{{ timer.target }}" class="timer">
+        <p label="{{ timer.label }}" target="{{ timer.target|date:"c" }}" class="timer">
             {{ timer.label }}: {{ timer.target }}
         </p>
     {% endfor %}
@@ -32,16 +31,19 @@
 
 {% block extrascriptlibraries %}
     <script src="{% static "jquery-3.3.1.min.js" %}"></script>
+    <script src="{% static "countdown-2.6.0.min.js" %}"></script>
 {% endblock %}
 
 {% block extrascript %}
-/*
-    $(document).ready(function timeout() {
-        setTimeout(function () {
-            $(".timer").each(function(){
-                $(this).text("hello");
-            }),
-            timeout();
-        }, 1000);
-    });*/
+    $(document).ready(function() {
+        var setTimes = function() {
+            $(".timer").each(function(index){
+                var label = $(this).attr("label");
+                var target = $(this).attr("target");
+                $(this).text(label + ': ' + countdown(new Date(target)).toString() + ".");
+            });
+        };
+        setTimes();
+        setInterval(setTimes, 1000);
+    });
 {% endblock %}
