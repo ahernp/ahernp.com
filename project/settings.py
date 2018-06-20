@@ -100,9 +100,17 @@ LOGGING = {
         }
     },
     "loggers": {
-        "feedreader.utils": {"handlers": ["db_log"], "level": "INFO", "propagate": True},
-        "feedreader.management.commands.poll_feeds": {"handlers": ["db_log"], "level": "INFO", "propagate": True},
-    }
+        "feedreader.utils": {
+            "handlers": ["db_log"],
+            "level": "INFO",
+            "propagate": True,
+        },
+        "feedreader.management.commands.poll_feeds": {
+            "handlers": ["db_log"],
+            "level": "INFO",
+            "propagate": True,
+        },
+    },
 }
 
 TIME_ZONE = "Europe/London"
