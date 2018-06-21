@@ -9,6 +9,7 @@
    	    <link href="{% static "pure-min.css" %}" rel="stylesheet" />
         <link href="{% static "jquery.fancybox.min-3.3.5.css" %}" rel="stylesheet" />
         <link href="{% static "jquery.dataTables-1.10.18.min.css" %}" rel="stylesheet">
+        <link href="{% static "select2-4.0.6-rc.0.min.css" %}" rel="stylesheet">
    	    <link href="{% static "styles.css" %}" rel="stylesheet">
         <style>
             {% block extrastyle %}{% endblock %}
@@ -40,12 +41,14 @@
         <script src="{% static "jquery-3.3.1.min.js" %}"></script>
         <script src="{% static "jquery.fancybox-3.3.5.min.js" %}"></script>
         <script src="{% static "jquery.dataTables-1.10.18.min.js" %}"></script>
+        <script src="{% static "select2-4.0.6-rc.0.min.js" %}"></script>
         {% block extrascriptlibraries %}{% endblock %}
         <script type="text/javascript">
             $(document).ready(function() {
                 $.fancybox.defaults.loop = true;
                 $("a:has(img)").attr({"data-fancybox": "gallery", "data-caption": function(i, val) {return $(this).children("img:first").attr("title")}});
                 $('table').DataTable();
+                $('select').select2();
             });
             {% block extrascript %}{% endblock %}
         </script>
