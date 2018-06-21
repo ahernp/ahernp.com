@@ -129,6 +129,22 @@ button {
     body {
         font-size: 3vw;
     }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    h3 {
+        font-size: 4.4vw;
+    }
+
+    h4 {
+        font-size: 4vw;
+    }
 }
 
 @media screen and (orientation: landscape) {
