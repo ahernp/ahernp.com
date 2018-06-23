@@ -84,6 +84,7 @@
 {% block footer %}
     <p>
         Generated {% now "Y-m-d H:i:s" %};
+        <a href="{% url 'feeds' %}">Feeds</a>;
         <a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a>.
     </p>
 {% endblock %}

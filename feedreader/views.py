@@ -120,3 +120,7 @@ class ToggleEntryReadView(LoginRequiredMixin, View):
             return HttpResponseRedirect(reverse("recent-entries"))
         else:
             return HttpResponseRedirect(reverse("feed-recent-entries", args=(feed_id,)))
+
+
+class FeedListView(ListView):
+    model = Feed

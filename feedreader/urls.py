@@ -14,4 +14,5 @@ urlpatterns = [
         view=views.ToggleEntryReadView.as_view(),
         name="toggle-entry-read",
     ),
+    path("feed", view=views.FeedListView.as_view(), name="feeds"),
 ]

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Feeds{% endblock %}
+
+{% block extrastyle %}
+{% endblock %}
+
+{% block header %}
+	<p class="breadcrumbs">
+		<a href="{% url "homepage" %}">ahernp.com</a> ›
+	    Feeds
+	</p>
+{% endblock %}
+
+{% block content %}
+    <h1>Feeds</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Entries</th>
+                <th>Group</th>
+                <th>RSS</th>
+                <th>Home</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for feed in object_list %}
+                <tr>
+                    <td>
+                        <a href="{% url 'feed-recent-entries' feed.id %}">
+                            {{ feed.title|safe }}
+                        </a>
+                    </td>
+                    <td>{{ feed.group }}</td>
+                    <td><a href="{{ feed.xml_url }}">Feed</a></td>
+                    <td>
+                        <a href="{{ feed.link }}">Home</a>
+                    </td>
+                </tr>
+                {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
+{% block footer %}
+    <p>
+        Generated {% now "Y-m-d H:i:s" %};
+        <a href="{% url 'recent-entries' %}">Feedreader</a>;
+        <a href="{% url 'admin:feedreader_feed_changelist' %}">Admin</a>.
+    </p>
+{% endblock %}
+
+{% block extrascript %}{% endblock %}
