@@ -15,7 +15,7 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Recent Entries</h1>
+<h1>{% if object_list.0.read_flag %}Recent{% else %}Unread{% endif %} Entries</h1>
     <div class="pure-g">
         <div class="pure-u-1-4">
             <p><a href="{% url 'recent-entries' %}">All{% if not feed %} ({{ counts.total_entries }}){% endif %}</a></p>
