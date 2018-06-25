@@ -6,13 +6,6 @@
 
 {% block extrastyle %}{% endblock %}
 
-{% block header %}
-	<p class="breadcrumbs">
-        <a href="{% url "homepage" %}">ahernp.com</a> ›
-        Timers
-	</p>
-{% endblock %}
-
 {% block content %}
     <h1>Timers</h1>
     {% for timer in object_list %}
@@ -22,11 +15,8 @@
     {% endfor %}
 {% endblock %}
 
-{% block footer %}
-    <p>
-        Generated {% now "Y-m-d H:i:s" %};
-        <a href="{% url 'admin:timers_timer_changelist' %}">Admin</a>.
-    </p>
+{% block navlinks %}
+    <p><a href="{% url 'admin:timers_timer_changelist' %}">Admin</a></p>
 {% endblock %}
 
 {% block extrascriptlibraries %}

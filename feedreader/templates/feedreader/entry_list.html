@@ -14,13 +14,6 @@
 }
 {% endblock %}
 
-{% block header %}
-	<p class="breadcrumbs">
-		<a href="{% url "homepage" %}">ahernp.com</a> ›
-	    Feedreader
-	</p>
-{% endblock %}
-
 {% block content %}
     <h1>Recent Entries</h1>
     <div class="pure-g">
@@ -81,12 +74,9 @@
     </div>
 {% endblock %}
 
-{% block footer %}
-    <p>
-        Generated {% now "Y-m-d H:i:s" %};
-        <a href="{% url 'feeds' %}">Feeds</a>;
-        <a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a>.
-    </p>
+{% block navlinks %}
+    <p><a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a></p>
+    <p><a href="{% url 'feeds' %}">Feeds</a></p>
 {% endblock %}
 
 {% block extrascript %}{% endblock %}

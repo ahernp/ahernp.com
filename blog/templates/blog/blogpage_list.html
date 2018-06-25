@@ -4,13 +4,6 @@
 
 {% block extrastyle %}{% endblock %}
 
-{% block header %}
-    <p class="breadcrumbs">
-        <a href="{% url "homepage" %}">ahernp.com</a> ›
-		Blog
-    </p>
-{% endblock %}
-
 {% block content %}
 	<h2>Blog Pages</h2>
 	<table class="pure-table pure-table-odd pure-table-bordered">
@@ -29,11 +22,8 @@
 	</table>
 {% endblock %}
 
-{% block footer %}
-    <p>
-        Generated {% now "Y-m-d H:i:s" %};
-        <a href="{% url 'admin:blog_blogpage_changelist' %}">Admin</a>.
-    </p>
+{% block navlinks %}
+    <p><a href="{% url 'admin:blog_blogpage_changelist' %}">Admin</a></p>
 {% endblock %}
 
 {% block extrascript %}{% endblock %}

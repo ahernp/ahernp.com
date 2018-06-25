@@ -4,17 +4,6 @@
 
 {% block extrastyle %}{% endblock %}
 
-{% block header %}
-	<p class="breadcrumbs">
-		<a href="{% url "homepage" %}">ahernp.com</a> ›
-		{% if parent %}
-		    Child pages of {{ parent.title }}
-		{% else %}
-		    Site Map
-		{% endif %}
-	</p>
-{% endblock %}
-
 {% block content %}
 	{% if parent %}
 	    <h1>Child pages of {{ parent.title }}</h1>
@@ -47,11 +36,8 @@
     </table>
 {% endblock %}
 
-{% block footer %}
-    <p>
-        Generated {% now "Y-m-d H:i:s" %};
-        <a href="{% url 'admin:mpages_page_changelist' %}">Admin</a>.
-    </p>
+{% block navlinks %}
+    <p><a href="{% url 'admin:mpages_page_changelist' %}">Admin</a></p>
 {% endblock %}
 
 {% block extrascript %}{% endblock %}

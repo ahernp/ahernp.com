@@ -5,13 +5,6 @@
 
 {% block extrastyle %}{% endblock %}
 
-{% block header %}
-	<p class="breadcrumbs">
-        <a href="{% url "homepage" %}">ahernp.com</a> ›
-        Dashboard
-	</p>
-{% endblock %}
-
 {% block content %}
     <h1>Dashboard</h1>
     <div class="pure-g gutters">
@@ -51,11 +44,8 @@
     </div>
 {% endblock %}
 
-{% block footer %}
-    <p>
-        Generated {% now "Y-m-d H:i:s" %};
-        <a href="{% url 'admin:core_log_changelist' %}">Admin</a>.
-    </p>
+{% block navlinks %}
+    <p><a href="{% url 'admin:core_log_changelist' %}">Admin</a></p>
 {% endblock %}
 
 {% block extrascript %}{% endblock %}
