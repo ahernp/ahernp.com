@@ -12,7 +12,8 @@
     {% if pages %}
         <h2>Pages</h2>
         {% for page in pages %}
-            <p><a href="{% url 'page-detail' page.slug %}">{{ page.title }}</a></p>
+            <p><a href="{% url 'page-detail' page.slug %}">{{ page.title_highlight|safe }}</a></p>
+			<p>{{ page.content_highlight|safe }}</p>
         {% endfor %}
     {% endif %}
 {% endblock %}
