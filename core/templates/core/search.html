@@ -16,6 +16,13 @@
 			<p>{{ page.content_highlight|safe }}</p>
         {% endfor %}
     {% endif %}
+    {% if entries %}
+        <h2>Feedreader Entries</h2>
+        {% for entry in entries %}
+        <p><a href="{{ entry.link }}">{{ entry.title_highlight|safe }}</a> (from {{ entry.feed.title|safe }})</p>
+			<p>{{ entry.description_highlight|safe }}</p>
+        {% endfor %}
+    {% endif %}
 {% endblock %}
 
 {% block extrascript %}{% endblock %}
