@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.urls import include, path
 from django.views.generic.base import RedirectView
 
+handler404 = 'core.views.view_404'
+
 urlpatterns = [
     path("", RedirectView.as_view(url="/pages/ahernp-com"), name="homepage"),
     path("admin/", admin.site.urls),
@@ -9,6 +11,7 @@ urlpatterns = [
     path("dashboard/", include("dashboard.urls")),
     path("feedreader/", include("feedreader.urls")),
     path("pages/", include("mpages.urls")),
+    path("core/", include("core.urls")),
     path("timers/", include("timers.urls")),
     path("tools/", include("tools.urls")),
 ]

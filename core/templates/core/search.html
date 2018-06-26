@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block extrastyle %}{% endblock %}
+
+{% block content %}
+    <h1>Search Results for "{{ keywords }}"</h1>
+    {% if error %}
+        <p class="highlight">{{ error }}</p>
+    {% endif %}
+    {% if pages %}
+        <h2>Pages</h2>
+        {% for page in pages %}
+            <p><a href="{% url 'page-detail' page.slug %}">{{ page.title }}</a></p>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
+
+{% block extrascript %}{% endblock %}

@@ -18,6 +18,13 @@
     <body>
         <div id="navigator">
             <p><a href="{% url "homepage" %}">ahernp.com</a></p>
+            <form action="{% url 'search' %}" method="GET">
+                <input                                      
+                    id="search"         
+                    type="text"                           
+                    name="search"                         
+                    placeholder="Search">
+            </form>
             {% block navlinks %}
                 <p><a href="{% url 'admin:index' %}">Admin</a></p>
             {% endblock %}

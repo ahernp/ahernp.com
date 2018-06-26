@@ -74,6 +74,10 @@ button {
     margin: 0;
 }
 
+#search {
+    width: 7vw;
+}
+
 #content {
     display: block;
     margin-left: 14vw;
