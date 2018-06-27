@@ -5,7 +5,8 @@
 {% block extrastyle %}{% endblock %}
 
 {% block content %}
-    <h1>Search Results for "{{ keywords }}"</h1>
+    <h1>Search Results</h1>
+    <p>For "{{ search_string }}"</p>
     {% if error %}
         <p class="highlight">{{ error }}</p>
     {% endif %}

@@ -20,10 +20,11 @@
             <p><a href="{% url "homepage" %}">ahernp.com</a></p>
             <form action="{% url 'search' %}" method="GET">
                 <input                                      
-                    id="search"         
+                    id="search_string"         
                     type="text"                           
                     name="search"                         
                     placeholder="Search"
+                    {% if search_string %}value="{{ search_string }}"{% endif %}
                     autofocus>
             </form>
             {% block navlinks %}

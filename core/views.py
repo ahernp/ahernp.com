@@ -12,12 +12,12 @@ class SearchView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        keywords = self.request.GET.get("search", "")
-        if len(keywords) >= 3:
+        search_string = self.request.GET.get("search", "")
+        if len(search_string) >= 3:
             pages = Page.objects.all()
             entries = Entry.objects.all()
 
-            search_query = SearchQuery(keywords)
+            search_query = SearchQuery(search_string)
             title_vector = SearchVector('title', weight='A')
             content_vector = SearchVector('content', weight='B')
             description_vector = SearchVector('description', weight='B')
@@ -37,5 +37,5 @@ class SearchView(TemplateView):
             context["entries"] = entries
         else:
             context["error"] = "Search term must be at least 3 characters"
-        context["keywords"] = keywords
+        context["search_string"] = search_string
         return context
