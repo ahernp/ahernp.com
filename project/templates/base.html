@@ -15,7 +15,9 @@
     </head>
     <body>
         <div id="navigator">
-            <p><a href="{% url "homepage" %}">ahernp.com</a></p>
+            <a id="logo" href="{% url "homepage" %}">
+                <img alt="Logo" src="{% static "ahernp.svg" %}" title="Homepage" />
+            </a>
             <form action="{% url 'search' %}" method="GET">
                 <input                                      
                     id="search_string"         
@@ -52,7 +54,7 @@
         <script type="text/javascript">
             $(document).ready(function() {
                 $.fancybox.defaults.loop = true;
-                $("a:has(img)").attr({"data-fancybox": "gallery", "data-caption": function(i, val) {return $(this).children("img:first").attr("title")}});
+                $("a:has(img)").not("#logo").attr({"data-fancybox": "gallery", "data-caption": function(i, val) {return $(this).children("img:first").attr("title")}});
                 $('table').DataTable();
                 $('select').select2();
             });

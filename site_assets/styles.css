@@ -74,6 +74,10 @@ button {
     margin: 0;
 }
 
+#logo img {
+    width: 8vw;
+}
+
 #search_string {
     width: 7vw;
 }
