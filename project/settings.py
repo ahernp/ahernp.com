@@ -120,7 +120,7 @@ HOMEPAGE_SLUG = "ahernp-com"
 BLOG_ROOT_SLUG = "blog"
 
 # Dashboard
-LOG_ENTRIES_TO_SHOW = 10
+LOG_ENTRIES_TO_SHOW = 5
 
 # Feedreader
 MAX_ENTRIES_SAVED = 100
