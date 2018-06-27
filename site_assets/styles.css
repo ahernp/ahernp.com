@@ -1,5 +1,5 @@
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-    font-family: 'Droid Sans', Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 body  {
@@ -31,7 +31,7 @@ h4 {
 }
 
 code {
-    font-family: 'Droid Sans Mono', Monospace;
+    font-family: monospace;
     color: #000;
 }
 
