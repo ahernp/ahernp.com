@@ -10,19 +10,23 @@
     {% if error %}
         <p class="highlight">{{ error }}</p>
     {% endif %}
-    {% if pages %}
-        <h2>Pages</h2>
-        {% for page in pages %}
-            <p><a href="{% url 'page-detail' page.slug %}">{{ page.title_highlight|safe }}</a></p>
-			<p>{{ page.content_highlight|safe }}</p>
-        {% endfor %}
-    {% endif %}
-    {% if entries %}
-        <h2>Feedreader Entries</h2>
-        {% for entry in entries %}
-        <p><a href="{{ entry.link }}">{{ entry.title_highlight|safe }}</a> (from {{ entry.feed.title|safe }})</p>
-			<p>{{ entry.description_highlight|safe }}</p>
-        {% endfor %}
+    {% if pages or entries %}
+        {% if pages %}
+            <h2>Pages</h2>
+            {% for page in pages %}
+                <p><a href="{% url 'page-detail' page.slug %}">{{ page.title_highlight|safe }}</a></p>
+                <p>{{ page.content_highlight|safe }}...</p>
+            {% endfor %}
+        {% endif %}
+        {% if entries %}
+            <h2>Feedreader Entries</h2>
+            {% for entry in entries %}
+            <p><a href="{{ entry.link }}">{{ entry.title_highlight|safe }}</a> (from {{ entry.feed.title|safe }})</p>
+                <p>{{ entry.description_highlight|safe }}...</p>
+            {% endfor %}
+        {% endif %}
+    {% else %}
+        <p>No marches found</p>
     {% endif %}
 {% endblock %}
 

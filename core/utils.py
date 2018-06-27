@@ -3,6 +3,7 @@ from django.contrib.postgres.search import Value, Func
 
 
 class Headline(Func):
+    """ Show postgresql text search matches in context """
     function = 'ts_headline'
 
     def __init__(self, field, query, config=None, options=None, **extra):
