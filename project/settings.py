@@ -100,6 +100,11 @@ LOGGING = {
         }
     },
     "loggers": {
+        "core.management.commands.delete_logs": {
+            "handlers": ["db_log"],
+            "level": "INFO",
+            "propagate": True,
+        },
         "feedreader.utils": {
             "handlers": ["db_log"],
             "level": "INFO",
