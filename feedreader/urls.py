@@ -14,5 +14,10 @@ urlpatterns = [
         view=views.ToggleEntryReadView.as_view(),
         name="toggle-entry-read",
     ),
+    path(
+        "markallread/",
+        view=views.MarkAllEntryReadView.as_view(),
+        name="mark-all-entry-read",
+    ),
     path("feed", view=views.FeedListView.as_view(), name="feeds"),
 ]

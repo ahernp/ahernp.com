@@ -122,5 +122,14 @@ class ToggleEntryReadView(LoginRequiredMixin, View):
             return HttpResponseRedirect(reverse("feed-recent-entries", args=(feed_id,)))
 
 
+class MarkAllEntryReadView(LoginRequiredMixin, View):
+    login_url = "/admin/login/"
+    redirect_field_name = "redirect_to"
+
+    def post(self, request, *args, **kwargs):
+        Entry.objects.filter(read_flag=False).update(read_flag=True)
+        return HttpResponseRedirect(reverse("recent-entries"))
+
+
 class FeedListView(ListView):
     model = Feed

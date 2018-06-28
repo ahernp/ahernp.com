@@ -77,6 +77,14 @@
 {% block navlinks %}
     <p><a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a></p>
     <p><a href="{% url 'feeds' %}">Feeds</a></p>
+    {% if not object_list.0.read_flag %}
+        <form action="{% url 'mark-all-entry-read'%}" method="POST">
+            {% csrf_token %}
+            <button type="submit" title="Mark all entries as read">
+                Read
+            </button>
+        </form>
+    {% endif %}
 {% endblock %}
 
 {% block extrascript %}{% endblock %}
