@@ -100,7 +100,7 @@ class FeedEntryListView(EntryListView):
         return context
 
 
-class ToggleEntryReadView(LoginRequiredMixin, View):
+class MarkEntryReadView(LoginRequiredMixin, View):
     form_class = ToggleEntryReadForm
     login_url = "/admin/login/"
     redirect_field_name = "redirect_to"
@@ -111,7 +111,7 @@ class ToggleEntryReadView(LoginRequiredMixin, View):
             feed_id = form.cleaned_data.get("feed_id", None)
             entry_id = form.cleaned_data.get("entry_id", None)
             entry = get_object_or_404(Entry, id=entry_id)
-            entry.read_flag = not entry.read_flag
+            entry.read_flag = True
             entry.save()
         else:
             feed_id = None

@@ -39,22 +39,24 @@
                 {% for entry in object_list %}
                     <div class="feed_entry">
                         <div class="entry-toggle-read">
-                            <form action="{% url 'toggle-entry-read'%}" method="POST">
-                                {% csrf_token %}
-                                <input
-                                    id="id_feed_id_{{ entry.id }}"
-                                    type="hidden"
-                                    name="feed_id"
-                                    value="{% if feed %}{{ feed.id }}{% endif %}">
-                                <input
-                                    id="id_entry_id_{{ entry.id }}"
-                                    type="hidden"
-                                    name="entry_id"
-                                    value="{{ entry.id }}">
-                                <button type="submit" title="Toggle Read">
-                                    Read
-                                </button>
-                            </form>
+                            {% if not entry.read_flag %}
+                                <form action="{% url 'mark-entry-read'%}" method="POST">
+                                    {% csrf_token %}
+                                    <input
+                                        id="id_feed_id_{{ entry.id }}"
+                                        type="hidden"
+                                        name="feed_id"
+                                        value="{% if feed %}{{ feed.id }}{% endif %}">
+                                    <input
+                                        id="id_entry_id_{{ entry.id }}"
+                                        type="hidden"
+                                        name="entry_id"
+                                        value="{{ entry.id }}">
+                                    <button type="submit" title="Mark as Read">
+                                        Read
+                                    </button>
+                                </form>
+                            {% endif %}
                         </div>
                         <h3 class="feed_entry_subtitle">
                             From {{ entry.feed.title|safe }} on {{ entry.published_time }}
