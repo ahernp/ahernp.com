@@ -30,14 +30,12 @@ class Command(BaseCommand):
         num_feeds = len(feeds)
 
         if verbose:
-            print("%d feeds to process" % (num_feeds))
+            print(f"{num_feeds} feeds to process")
 
         for count, feed in enumerate(feeds, 1):
             if verbose:
                 print(
-                    "({count}/{num_feeds}) Processing Feed {title}".format(
-                        count=count, num_feeds=num_feeds, title=feed.title
-                    )
+                    f"({count}/{num_feeds}) Processing Feed {feed.title}"
                 )
 
             poll_feed(feed, verbose)
@@ -49,6 +47,6 @@ class Command(BaseCommand):
                 entry.delete()
 
             if verbose:
-                print("Deleted %d entries from feed %s" % ((len(entries), feed.title)))
+                print(f"Deleted {len(entries)} entries from feed {feed.title}")
 
         logger.info("Feedreader poll_feeds completed successfully")

@@ -17,10 +17,7 @@ logger = logging.getLogger(__name__)
 
 def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
     if hasattr(feed_from_xml.feed, "bozo_exception"):
-        msg = 'Feedreader poll_feeds found Malformed feed, "(xml_url}": {bozo_exception}'.format(
-            xml_url=feed_from_database.xml_url,
-            bozo_exception=feed_from_xml.feed.bozo_exception,
-        )
+        msg = f'Feedreader poll_feeds found Malformed feed, "{feed_from_database.xml_url}": {feed_from_xml.feed.bozo_exception}'
         logger.error(msg)
         if verbose:
             print(msg)
@@ -49,9 +46,7 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
 
     for attr in ["title", "title_detail", "link"]:
         if not hasattr(feed_from_xml.feed, attr):
-            msg = 'Feedreader poll_feeds. Feed "{xml_url}" has no {attr}'.format(
-                xml_url=feed_from_database.xml_url, attr=attr
-            )
+            msg = f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}'
             logger.error(msg)
             if verbose:
                 print(msg)
@@ -83,18 +78,14 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
 def skip_entry(entry_from_xml, verbose):
     for attr in ["title", "title_detail", "link", "description"]:
         if not hasattr(entry_from_xml, attr):
-            msg = 'Feedreader poll_feeds. Entry "{link}" has no {attr}'.format(
-                link=entry_from_xml.link, attr=attr
-            )
+            msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has no {attr}'
             logger.warning(msg)
             if verbose:
                 print(msg)
             return True
 
     if entry_from_xml.title == "":
-        msg = 'Feedreader poll_feeds. Entry "{link}" has a blank title'.format(
-            link=entry_from_xml.link
-        )
+        msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has a blank title'
         if verbose:
             print(msg)
         logger.warning(msg)
@@ -150,10 +141,7 @@ def poll_feed(feed_from_database, verbose=False):
     if updated_feed:
         if verbose:
             print(
-                "{number_of_entries} entries to process in {feed_title}".format(
-                    number_of_entries=len(feed_from_xml.entries),
-                    feed_title=updated_feed.title,
-                )
+                f"{len(feed_from_xml.entries)} entries to process in {updated_feed.title}"
             )
 
         entries_from_xml = feed_from_xml.entries[: settings.MAX_ENTRIES_SAVED]

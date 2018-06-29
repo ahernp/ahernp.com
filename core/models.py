@@ -15,7 +15,7 @@ class Log(models.Model):
         ordering = ["-datetime"]
 
     def __str__(self):
-        return "{level} - {msg}...".format(level=self.level, msg=self.msg[:20])
+        return f"{self.level} - {self.msg[:20]}..."
 
     def recent(self):
         now = timezone.now()
