@@ -10,6 +10,7 @@ SHELL_COMMANDS = [
     ("hostname", "hostname"),
     ("commit", "git log -n 1"),
     ("packages", "pip freeze"),
+    ("python", "python --version"),
 ]
 
 # Flags in settings: Their expected values.
