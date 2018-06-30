@@ -1,3 +1,4 @@
+from collections import namedtuple
 from subprocess import Popen, PIPE
 
 from django.conf import settings
@@ -5,12 +6,12 @@ from django.views.generic.base import TemplateView
 
 from core.models import Log
 
-# Shell commands: Name and command
+ShellCommand = namedtuple('ShellCommand', 'label command')
 SHELL_COMMANDS = [
-    ("hostname", "hostname"),
-    ("commit", "git log -n 1"),
-    ("packages", "pip freeze"),
-    ("python", "python --version"),
+    ShellCommand("hostname", "hostname"),
+    ShellCommand("commit", "git log -n 1"),
+    ShellCommand("packages", "pip freeze"),
+    ShellCommand("python", "python --version"),
 ]
 
 # Flags in settings: Their expected values.
@@ -29,8 +30,8 @@ def project_state_at_startup():
     data = {}
 
     cwd = settings.BASE_DIR
-    for name, shell_command in SHELL_COMMANDS:
-        data[name] = run_shell_command(shell_command, cwd)
+    for shell_command in SHELL_COMMANDS:
+        data[shell_command.label] = run_shell_command(shell_command.command, cwd)
 
     data["settings_flags"] = []
     for name, expected in SETTINGS_FLAGS:
