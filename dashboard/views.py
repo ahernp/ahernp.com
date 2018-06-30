@@ -6,7 +6,7 @@ from django.views.generic.base import TemplateView
 
 from core.models import Log
 
-ShellCommand = namedtuple('ShellCommand', 'label command')
+ShellCommand = namedtuple("ShellCommand", "label command")
 SHELL_COMMANDS = [
     ShellCommand("hostname", "hostname"),
     ShellCommand("commit", "git log -n 1"),

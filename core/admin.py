@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.contrib.admin.models import LogEntry, ADDITION, CHANGE, DELETION
 from django.urls import reverse
 from django.utils.html import escape
+from django.utils.safestring import mark_safe
 
 from .models import Log
 
@@ -16,7 +17,7 @@ class LogAdmin(admin.ModelAdmin):
 
 class LogEntryAdmin(admin.ModelAdmin):
     date_hierarchy = "action_time"
-    readonly_fields = [f.name for f in LogEntry._meta.fields] + [
+    readonly_fields = [field.name for field in LogEntry._meta.fields] + [
         "object_link",
         "action_description",
     ]
@@ -45,18 +46,14 @@ class LogEntryAdmin(admin.ModelAdmin):
             link = escape(obj.object_repr)
         else:
             ct = obj.content_type
-            link = u'<a href="%s">%s</a>' % (
-                reverse(
-                    "admin:%s_%s_change" % (ct.app_label, ct.model),
-                    args=[obj.object_id],
-                ),
-                escape(obj.object_repr),
-            )
-        return link
+            admin_reference = f"admin:{ct.app_label}_{ct.model}_change"
+            admin_link = reverse(admin_reference, args=[obj.object_id],)
+            link = f'<a href="{admin_link}">{escape(obj.object_repr)}</a>'
+        return mark_safe(link)
 
     object_link.allow_tags = True
     object_link.admin_order_field = "object_repr"
-    object_link.short_description = u"object"
+    object_link.short_description = "object"
 
     def action_description(self, obj):
         action_names = {ADDITION: "Addition", DELETION: "Deletion", CHANGE: "Change"}

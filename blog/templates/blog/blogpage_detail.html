@@ -6,9 +6,9 @@
 
 {% block content %}
     {% if object.published %}
-        <h2 class="published-date">Published {{ blogpage.published | date:"c" }}</h2>
+    <h2 class="published-date">Published {{ blogpage.published | date:"c" }}</h2>
     {% endif %}
-	<h1>{{ object.title }}</h2>
+    <h1>{{ object.title }}</h2>
     {{ object.content_as_html }}
 {% endblock %}
 

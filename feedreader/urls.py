@@ -9,11 +9,7 @@ urlpatterns = [
         view=views.FeedEntryListView.as_view(),
         name="feed-recent-entries",
     ),
-    path(
-        "markread/",
-        view=views.MarkEntryReadView.as_view(),
-        name="mark-entry-read",
-    ),
+    path("markread/", view=views.MarkEntryReadView.as_view(), name="mark-entry-read"),
     path(
         "markallread/",
         view=views.MarkAllEntryReadView.as_view(),

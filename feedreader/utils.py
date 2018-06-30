@@ -17,7 +17,11 @@ logger = logging.getLogger(__name__)
 
 def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
     if hasattr(feed_from_xml.feed, "bozo_exception"):
-        msg = f'Feedreader poll_feeds found Malformed feed, "{feed_from_database.xml_url}": {feed_from_xml.feed.bozo_exception}'
+        msg = (
+            f"Feedreader poll_feeds found Malformed feed, "
+            f'"{feed_from_database.xml_url}": '
+            f"{feed_from_xml.feed.bozo_exception}"
+        )
         logger.error(msg)
         if verbose:
             print(msg)
@@ -46,7 +50,9 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
 
     for attr in ["title", "title_detail", "link"]:
         if not hasattr(feed_from_xml.feed, attr):
-            msg = f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}'
+            msg = (
+                f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}'
+            )
             logger.error(msg)
             if verbose:
                 print(msg)

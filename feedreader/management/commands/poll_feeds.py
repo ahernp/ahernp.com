@@ -34,9 +34,7 @@ class Command(BaseCommand):
 
         for count, feed in enumerate(feeds, 1):
             if verbose:
-                print(
-                    f"({count}/{num_feeds}) Processing Feed {feed.title}"
-                )
+                print(f"({count}/{num_feeds}) Processing Feed {feed.title}")
 
             poll_feed(feed, verbose)
 

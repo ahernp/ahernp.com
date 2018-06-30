@@ -5,7 +5,7 @@ from .models import BlogPage
 
 
 class LatestBlogPostsFeed(Feed):
-    title = "%s blog" % (settings.SITE_NAME)
+    title = f"{settings.SITE_NAME} blog"
     link = "/blog/"
     description = "Recent Blog Entries."
 
@@ -19,11 +19,11 @@ class LatestBlogPostsFeed(Feed):
         if len(item.content) > 100:
             para_end = item.content.find("\n", 100)
             if para_end > 0:
-                return item.content[:para_end] + "..."
+                return f"{item.content[:para_end]}..."
         return item.content
 
     def item_pubdate(self, item):
         return item.updated
 
     def item_link(self, item):
-        return u"/pages/%s/" % (item.slug)
+        return f"/pages/{item.slug}/"
