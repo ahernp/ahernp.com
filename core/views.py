@@ -1,7 +1,12 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
+from django.conf import settings
 from django.db.models import F
+from django.urls import reverse
 from django.views.generic.base import TemplateView
+from django.views.generic.edit import FormView
 
+from .forms import UploadForm
 from .utils import Headline
 from feedreader.models import Entry
 from mpages.models import Page
@@ -46,3 +51,19 @@ class SearchView(TemplateView):
             context["error"] = "Search term must be at least 3 characters"
         context["search_string"] = search_string
         return context
+
+
+class UploadView(LoginRequiredMixin, FormView):
+    template_name = "core/upload.html"
+    form_class = UploadForm
+
+    def form_valid(self, form):
+        upload_file = form.cleaned_data['upload_file']
+        upload_file_type = form.cleaned_data['upload_type']
+        with open(f"{settings.MEDIA_ROOT}/{upload_file_type}/{upload_file.name}", "wb+") as destination:
+            for chunk in upload_file.chunks():
+                destination.write(chunk)
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse('upload')

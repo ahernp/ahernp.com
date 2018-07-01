@@ -97,7 +97,7 @@ button {
     font-weight: bold;
 }
 
-.highlight {
+.errorlist, .highlight {
     background-color: maroon;
     color: white;
 }

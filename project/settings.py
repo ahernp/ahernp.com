@@ -88,6 +88,9 @@ STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, "static"))
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [os.path.normpath(os.path.join(BASE_DIR, "site_assets"))]
 
+MEDIA_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'media'))
+MEDIA_URL = '/media/'
+
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
