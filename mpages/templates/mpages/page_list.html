@@ -6,9 +6,9 @@
 
 {% block content %}
 	{% if parent %}
-	    <h1>Child pages of {{ parent.title }}</h1>
+	    <h1>{{ parent.title }}</h1>
 	{% else %}
-            <h1>Site Map</h1>
+        <h1>Site Map</h1>
 	{% endif %}
 	<table class="pure-table pure-table-odd pure-table-bordered">
 	    <thead>
