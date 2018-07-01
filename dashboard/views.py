@@ -1,10 +1,10 @@
 from collections import namedtuple
-from subprocess import Popen, PIPE
 
 from django.conf import settings
 from django.views.generic.base import TemplateView
 
 from core.models import Log
+from core.utils import run_shell_command
 
 ShellCommand = namedtuple("ShellCommand", "label command")
 SHELL_COMMANDS = [
@@ -16,14 +16,6 @@ SHELL_COMMANDS = [
 
 # Flags in settings: Their expected values.
 SETTINGS_FLAGS = [("DEBUG", False)]
-
-
-def run_shell_command(command, cwd):
-    p = Popen(command, shell=True, cwd=cwd, stdout=PIPE)
-    stdout = p.communicate()[0]
-    if stdout:
-        stdout = str(stdout.strip(), "utf-8")
-    return stdout
 
 
 def project_state_at_startup():

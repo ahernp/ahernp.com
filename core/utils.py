@@ -1,5 +1,14 @@
+from subprocess import Popen, PIPE
+
 from django.db import models
 from django.contrib.postgres.search import Value, Func
+
+def run_shell_command(command, cwd):
+    p = Popen(command, shell=True, cwd=cwd, stdout=PIPE)
+    stdout = p.communicate()[0]
+    if stdout:
+        stdout = str(stdout.strip(), "utf-8")
+    return stdout
 
 
 class Headline(Func):

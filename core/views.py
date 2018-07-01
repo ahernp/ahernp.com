@@ -7,7 +7,7 @@ from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView
 
 from .forms import UploadForm
-from .utils import Headline
+from .utils import Headline, run_shell_command
 from feedreader.models import Entry
 from mpages.models import Page
 
@@ -65,5 +65,13 @@ class UploadView(LoginRequiredMixin, FormView):
                 destination.write(chunk)
         return super().form_valid(form)
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        cwd = settings.BASE_DIR
+        context["images"] = run_shell_command('ls media/img', cwd)
+        context["thumbnails"] = run_shell_command('ls media/img/thumb', cwd)
+
+        return context
     def get_success_url(self):
         return reverse('upload')
