@@ -58,9 +58,11 @@ class UploadView(LoginRequiredMixin, FormView):
     form_class = UploadForm
 
     def form_valid(self, form):
-        upload_file = form.cleaned_data['upload_file']
-        upload_file_type = form.cleaned_data['upload_type']
-        with open(f"{settings.MEDIA_ROOT}/{upload_file_type}/{upload_file.name}", "wb+") as destination:
+        upload_file = form.cleaned_data["upload_file"]
+        upload_file_type = form.cleaned_data["upload_type"]
+        with open(
+            f"{settings.MEDIA_ROOT}/{upload_file_type}/{upload_file.name}", "wb+"
+        ) as destination:
             for chunk in upload_file.chunks():
                 destination.write(chunk)
         return super().form_valid(form)
@@ -69,9 +71,10 @@ class UploadView(LoginRequiredMixin, FormView):
         context = super().get_context_data(**kwargs)
 
         cwd = settings.BASE_DIR
-        context["images"] = run_shell_command('ls media/img', cwd)
-        context["thumbnails"] = run_shell_command('ls media/img/thumb', cwd)
+        context["images"] = run_shell_command("ls media/img", cwd)
+        context["thumbnails"] = run_shell_command("ls media/img/thumb", cwd)
 
         return context
+
     def get_success_url(self):
-        return reverse('upload')
+        return reverse("upload")

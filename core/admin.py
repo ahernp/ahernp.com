@@ -47,7 +47,7 @@ class LogEntryAdmin(admin.ModelAdmin):
         else:
             ct = obj.content_type
             admin_reference = f"admin:{ct.app_label}_{ct.model}_change"
-            admin_link = reverse(admin_reference, args=[obj.object_id],)
+            admin_link = reverse(admin_reference, args=[obj.object_id])
             link = f'<a href="{admin_link}">{escape(obj.object_repr)}</a>'
         return mark_safe(link)
 
