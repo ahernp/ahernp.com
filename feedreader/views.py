@@ -1,9 +1,7 @@
 import collections
 
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.http import HttpResponseRedirect
-from django.shortcuts import get_object_or_404
-from django.urls import reverse
+from django.shortcuts import get_object_or_404, redirect
 from django.views.generic.base import View
 from django.views.generic.list import ListView
 
@@ -117,9 +115,9 @@ class MarkEntryReadView(LoginRequiredMixin, View):
             feed_id = None
 
         if feed_id is None:
-            return HttpResponseRedirect(reverse("recent-entries"))
+            return redirect("recent-entries")
         else:
-            return HttpResponseRedirect(reverse("feed-recent-entries", args=(feed_id,)))
+            return redirect("feed-recent-entries", args=(feed_id,))
 
 
 class MarkAllEntryReadView(LoginRequiredMixin, View):
@@ -128,7 +126,7 @@ class MarkAllEntryReadView(LoginRequiredMixin, View):
 
     def post(self, request, *args, **kwargs):
         Entry.objects.filter(read_flag=False).update(read_flag=True)
-        return HttpResponseRedirect(reverse("recent-entries"))
+        return redirect("recent-entries")
 
 
 class FeedListView(ListView):
