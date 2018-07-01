@@ -1,17 +1,18 @@
 {% extends "base.html" %}
 
-{% block title %}{{ object.title }}{% endblock %}
+{% block title %}Edit {{ object.title }}{% endblock %}
 
 {% block extrastyle %}{% endblock %}
 
 {% block content %}
-    {{ object.content_as_html }}
+    <h1>Edit Markdown</h1>
+    <div id="react-edit-markdown"></div>
 {% endblock %}
 
 {% block navlinks %}
+    <p><a href="{% url 'page-detail' object.slug %}">Page</a></p>
     <p><a href="{% url 'admin:mpages_page_change' object.id %}">Admin</a></p>
-    <p><a href="{% url 'page-edit' object.slug %}">Edit</a></p>
-	<p><a href="{% url "page-detail" "markdown" %}">Markdown</a></p>
+	<p><a href="{% url 'page-detail' 'markdown' %}">Markdown</a></p>
 {% endblock %}
 
 {% block navinfo %}
