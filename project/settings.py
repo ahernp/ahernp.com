@@ -123,6 +123,8 @@ LOGGING = {
 
 TIME_ZONE = "Europe/London"
 
+LOGIN_URL = "/admin/login"
+
 SITE_NAME = "ahernp.com"
 HOMEPAGE_SLUG = "ahernp-com"
 BLOG_ROOT_SLUG = "blog"
