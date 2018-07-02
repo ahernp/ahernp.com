@@ -5,7 +5,7 @@ from django.urls import path, include
 
 from .views import PageViewSet
 
-router = routers.DefaultRouter()
+router = routers.SimpleRouter()
 router.register("pages", PageViewSet)
 
 urlpatterns = [
