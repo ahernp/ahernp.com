@@ -6,7 +6,7 @@ from django.urls import path, include
 from .views import PageViewSet
 
 router = routers.DefaultRouter()
-router.register(r"pages", PageViewSet)
+router.register("pages", PageViewSet)
 
 urlpatterns = [
     path("docs", include_docs_urls(title="ahernp.com")),
