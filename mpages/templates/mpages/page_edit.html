@@ -6,7 +6,17 @@
 
 {% block content %}
     <h1>Edit Markdown</h1>
-    <div id="react-edit-markdown"></div>
+    <script type="text/javascript">
+        var page_id = {{ object.id}};
+    </script>
+    <div id="react-edit-markdown">
+        <div class="column-left">
+            {{ object.content }}
+        </div>
+        <div class="column-right">
+            {{ object.content_as_html }}
+        </div>
+    </div>
 {% endblock %}
 
 {% block navlinks %}
