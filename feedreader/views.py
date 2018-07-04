@@ -117,7 +117,7 @@ class MarkEntryReadView(LoginRequiredMixin, View):
         if feed_id is None:
             return redirect("recent-entries")
         else:
-            return redirect("feed-recent-entries", args=(feed_id,))
+            return redirect("feed-recent-entries", feed_id=feed_id)
 
 
 class MarkAllEntryReadView(LoginRequiredMixin, View):
