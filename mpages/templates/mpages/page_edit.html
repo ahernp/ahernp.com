@@ -2,7 +2,12 @@
 
 {% block title %}Edit {{ object.title }}{% endblock %}
 
-{% block extrastyle %}{% endblock %}
+{% block extrastyle %}
+    div#markdown, div#preview, textarea {
+        height: 100%;
+        width: 49%;
+    }
+{% endblock %}
 
 {% block content %}
     <h1>Edit Markdown</h1>

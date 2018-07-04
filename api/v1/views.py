@@ -1,23 +1,30 @@
-from rest_framework import viewsets, permissions
+from rest_framework import viewsets, permissions, status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 from mpages.models import Page
 
-from .serializers import MarkdownToHtmlSerializer, PageSerializer
+from .serializers import PageSerializer
 
 
 class PageViewSet(viewsets.ModelViewSet):
     permission_classes = (permissions.IsAuthenticated,)
     queryset = Page.objects.all()
     serializer_class = PageSerializer
-    http_method_names = ['get', 'patch']
+    http_method_names = ["get", "put"]
 
+    def update(self, request, pk):
+        serializer = self.serializer_class(data=request.data)
+        if serializer.is_valid():
+            page = Page.objects.get(pk=pk)
+            page.content = serializer.validated_data['content']
+            page.save()
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class MarkdownToHtmlViewSet(viewsets.ViewSet):
-    serializer_class = MarkdownToHtmlSerializer,
+    permission_classes = (permissions.IsAuthenticated,)
 
     def update(self, request):
-        page = Page(content=request.POST.get("content", ""))
-        serializer = MarkdownToHtmlSerializer(instance=page)
-        return Response(serializer.data)
+        page = Page(content=request.data.get("content", ""))
+        return Response(page.content_as_html)

@@ -11,7 +11,7 @@
   },
   "proxy": {
     "/api/v1/": {
-      "target": "http://localhost:8000/"
+      "target": "http://devenv:8000/"
     }
   },
   "scripts": {
