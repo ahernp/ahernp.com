@@ -33,14 +33,12 @@ class App extends Component {
     async savePage(e) {
         const { pageId } = this.state;
         const newContent = this.state.content;
-        const response = await axios.put(
+        await axios.put(
             API_URL_PAGES + pageId + "/",
             {
                 id: pageId,
                 content: newContent
             });
-        const { content, content_as_html } = response.data;
-        this.setState({ content, content_as_html });
     };
 
     async updatePreview(e) {
