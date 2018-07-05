@@ -17,10 +17,11 @@ class PageViewSet(viewsets.ModelViewSet):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
             page = Page.objects.get(pk=pk)
-            page.content = serializer.validated_data['content']
+            page.content = serializer.validated_data["content"]
             page.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 class MarkdownToHtmlViewSet(viewsets.ViewSet):
     permission_classes = (permissions.IsAuthenticated,)

@@ -1,11 +1,28 @@
 {% extends "base.html" %}
 
+{% load static %}
+
 {% block title %}Edit {{ object.title }}{% endblock %}
 
 {% block extrastyle %}
-    div#markdown, div#preview, textarea {
+    button {
+        position: absolute;
+        top: 1vh;
+        right: 3vw;
+    }
+    div#markdown {
+        height: 80vh;
+        width: 53%;
+        float: left
+    }
+    div#preview {
+        width: 44%;
+        float: left;
+        padding-left: 1em;
+    }
+    textarea {
         height: 100%;
-        width: 49%;
+        width: 100%;
     }
 {% endblock %}
 
@@ -32,6 +49,10 @@
 
 {% block navinfo %}
 	<p>Updated {{ object.updated|date:"Y-m-d H:i:s" }}</p>
+{% endblock %}
+
+{% block extrascriptlibraries %}
+    <script src="{% static "mpages-20180705.min.js" %}"></script>
 {% endblock %}
 
 {% block extrascript %}{% endblock %}
