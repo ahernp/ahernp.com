@@ -5,20 +5,16 @@
 {% block extrastyle %}{% endblock %}
 
 {% block content %}
-	{% if parent %}
-	    <h1>{{ parent.title }}</h1>
-	{% else %}
-        <h1>Site Map</h1>
-	{% endif %}
-	<table class="pure-table pure-table-odd pure-table-bordered">
-	    <thead>
-		<tr>
-		    <th>Title</th>
-		    <th>Parent</th>
-		    <th>Updated</th>
-		</tr>
-	    </thead>
-	<tbody>
+    <h1>{% if parent %}{{ parent.title }} {% endif %}Pages</h1>
+    <table class="pure-table pure-table-odd pure-table-bordered">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Parent</th>
+            <th>Updated</th>
+        </tr>
+        </thead>
+    <tbody>
             {% for page in object_list %}
                 <tr>
                     <td><a href="{% url 'page-detail' page.slug %}">{{ page.title }}</a></td>
