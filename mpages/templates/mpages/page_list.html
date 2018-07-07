@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Pages{% endblock %}
+{% block title %}{% if parent %}{{ parent.title }} {% endif %}Pages{% endblock %}
 
 {% block extrastyle %}{% endblock %}
 

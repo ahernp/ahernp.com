@@ -1,4 +1,8 @@
+import pytest
+
 from unittest.mock import patch
+
+from django.urls import reverse
 
 from .factories import EntryFactory, FeedFactory, GroupFactory
 from .views import count_entries
@@ -57,3 +61,29 @@ def test_counting_entries(mock_feed_qs, mock_group_qs):
 
     assert "total_entries" in counts
     assert counts["total_entries"] == 4
+
+
+@pytest.mark.django_db
+def test_mark_all_read_requires_login(client, admin_client):
+    entry = EntryFactory.create()
+    post_data = {}
+    response = client.post(reverse("mark-all-entry-read"), post_data, follow=True)
+    assert response.status_code == 200
+    assert b"<title>Log in | Django site admin</title>" in response.content
+
+    response = admin_client.post(reverse("mark-all-entry-read"), post_data, follow=True)
+    assert response.status_code == 200
+    assert b"<title>Feedreader</title>" in response.content
+
+
+@pytest.mark.django_db
+def test_mark_entry_read_requires_login(client, admin_client):
+    entry = EntryFactory.create()
+    post_data = {"entry_id": entry.id}
+    response = client.post(reverse("mark-entry-read"), post_data, follow=True)
+    assert response.status_code == 200
+    assert b"<title>Log in | Django site admin</title>" in response.content
+
+    response = admin_client.post(reverse("mark-entry-read"), post_data, follow=True)
+    assert response.status_code == 200
+    assert b"<title>Feedreader</title>" in response.content
