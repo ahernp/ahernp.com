@@ -4,11 +4,11 @@
         <title>{% block title %}{% endblock %}</title>
     	{% load static %}
        	<link href="{% static "favicon.ico" %}" rel="shortcut icon" type="image/ico" />
-   	    <link href="{% static "pure-min.css" %}" rel="stylesheet" />
-        <link href="{% static "jquery.fancybox.min-3.3.5.css" %}" rel="stylesheet" />
-        <link href="{% static "jquery.dataTables-1.10.18.min.css" %}" rel="stylesheet">
-        <link href="{% static "select2-4.0.6-rc.0.min.css" %}" rel="stylesheet">
-   	    <link href="{% static "styles.css" %}" rel="stylesheet">
+   	    <link href="{% static "css/pure-min.css" %}" rel="stylesheet" />
+        <link href="{% static "css/jquery.fancybox.min-3.3.5.css" %}" rel="stylesheet" />
+        <link href="{% static "css/jquery.dataTables-1.10.18.min.css" %}" rel="stylesheet">
+        <link href="{% static "css/select2-4.0.6-rc.0.min.css" %}" rel="stylesheet">
+   	    <link href="{% static "css/styles.css" %}" rel="stylesheet">
         <style>
             {% block extrastyle %}{% endblock %}
         </style>
@@ -46,10 +46,10 @@
                 <h2>Content</h2>
             {% endblock %}
         </div>
-        <script src="{% static "jquery-3.3.1.min.js" %}"></script>
-        <script src="{% static "jquery.fancybox-3.3.5.min.js" %}"></script>
-        <script src="{% static "jquery.dataTables-1.10.18.min.js" %}"></script>
-        <script src="{% static "select2-4.0.6-rc.0.min.js" %}"></script>
+        <script src="{% static "js/jquery-3.3.1.min.js" %}"></script>
+        <script src="{% static "js/jquery.fancybox-3.3.5.min.js" %}"></script>
+        <script src="{% static "js/jquery.dataTables-1.10.18.min.js" %}"></script>
+        <script src="{% static "js/select2-4.0.6-rc.0.min.js" %}"></script>
         {% block extrascriptlibraries %}{% endblock %}
         <script type="text/javascript">
             $(document).ready(function() {
