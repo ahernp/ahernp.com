@@ -1,7 +1,7 @@
 from django import forms
 
 IMAGE = "img"
-THUMBNAIL = "img/thumbnail"
+THUMBNAIL = "img/thumb"
 
 FILE_TYPE_CHOICES = ((IMAGE, "Image"), (THUMBNAIL, "Thumbnail"))
 
