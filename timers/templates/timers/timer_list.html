@@ -13,6 +13,12 @@
             {{ timer.label }}: {{ timer.target }}
         </p>
     {% endfor %}
+    <p>
+        Show full page version:
+        {% for timer in object_list %}
+            <a href="{% url 'timer-detail' timer.id %}">{{ timer.label }}</a>{% if forloop.last %}.{% else %},{% endif %}
+        {% endfor %}
+    </p>
 {% endblock %}
 
 {% block navlinks %}

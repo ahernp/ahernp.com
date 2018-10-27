@@ -55,7 +55,7 @@
             $(document).ready(function() {
                 $.fancybox.defaults.loop = true;
                 $("a:has(img)").not("#logo").attr({"data-fancybox": "gallery", "data-caption": function(i, val) {return $(this).children("img:first").attr("title")}});
-                $('table').DataTable();
+                $('table').not('.non-datatable').DataTable();
                 $('select').select2();
             });
             {% block extrascript %}{% endblock %}

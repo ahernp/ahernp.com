@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}{{ object.label }} Timer{% endblock %}
+
+{% block extrastyle %}
+    td {
+        width: 33%;
+        font-size: 12vw;
+        text-align: center;
+    }
+{% endblock %}
+
+{% block content %}
+    <h1>{{ object.label }} Timer</h1>
+    <table class="non-datatable">
+        <tr><th>Years</th><th>Months</th><th>Days</th></tr>
+        <tr><td id="years"></td><td id="months"></td><td id="days"></td></tr>
+        <tr><th>Hours</th><th>Minutes</th><th>Seconds</th></tr>
+        <tr><td id="hours"></td><td id="minutes"></td><td id="seconds"></td></tr>
+    </table>
+{% endblock %}
+
+{% block navlinks %}
+    <p><a href="{% url 'admin:timers_timer_changelist' %}">Admin</a></p>
+{% endblock %}
+
+{% block extrascriptlibraries %}
+    <script src="{% static "js/countdown-2.6.0.min.js" %}"></script>
+{% endblock %}
+
+{% block extrascript %}
+    $(document).ready(function() {
+        var timeComponents = ["years", "months", "days", "hours", "minutes", "seconds"];
+        var setTime = function() {
+            var target = countdown(new Date("{{ object.target|date:"c" }}"));
+            for (var i = 0; i < timeComponents.length; i++) {
+                $("#"+timeComponents[i]).text(target[timeComponents[i]] ? target[timeComponents[i]] : 0);
+            }
+        };
+        setTime();
+        setInterval(setTime, 1000);
+    });
+{% endblock %}
