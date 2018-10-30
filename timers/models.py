@@ -4,7 +4,7 @@ from django.db import models
 class Timer(models.Model):
     target = models.DateTimeField()
     label = models.TextField()
-    slug = models.SlugField(max_length=250)
+    slug = models.SlugField(max_length=250, unique=True)
 
     class Meta:
         ordering = ["target"]
