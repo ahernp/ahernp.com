@@ -16,7 +16,7 @@
     <p>
         Show full page version:
         {% for timer in object_list %}
-            <a href="{% url 'timer-detail' timer.id %}">{{ timer.label }}</a>{% if forloop.last %}.{% else %},{% endif %}
+            <a href="{% url 'timer-detail' timer.slug %}">{{ timer.label }}</a>{% if forloop.last %}.{% else %},{% endif %}
         {% endfor %}
     </p>
 {% endblock %}
