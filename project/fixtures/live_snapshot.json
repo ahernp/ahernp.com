@@ -30,9 +30,18 @@
     "model": "timers.timer",
     "pk": 6,
     "fields": {
-        "target": "2018-11-02T17:30:00Z",
-        "label": "Paul's Holiday",
+        "target": "2018-11-12T08:30:00Z",
+        "label": "Paul's Return",
         "slug": "paul-holiday"
+    }
+},
+{
+    "model": "timers.timer",
+    "pk": 7,
+    "fields": {
+        "target": "2019-03-30T00:00:00Z",
+        "label": "Brexit",
+        "slug": "brexit"
     }
 },
 {
@@ -42,8 +51,8 @@
         "title": "ahernp.com",
         "slug": "ahernp-com",
         "parent": 719,
-        "updated": "2018-08-11T18:37:21.691Z",
-        "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](http://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](http://isabellebidou.com \"Isabelle Bidou\")\n[StartPage](https://startpage.com/uk/? \"Google Search Results, but with privacy\")\n\nApps:\n[Calibre](http://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](http://www.geany.org \"Text editor\")\n[Inkscape](http://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](http://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](http://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](http://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](http://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](http://oreilly.com/ebooks/ \"IT Books\")\n[PG](http://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](http://www.dilbert.com \"Today's Dilbert comic\")\n[Garfield](http://www.garfield.com/comic \"Today's Garfield comic\")\n[xkcd](http://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](http://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](http://www.gamersgate.co.uk \"GamersGate\")\n[GOG](http://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](http://store.steampowered.com \"Steam Shop\")\n\nMedia:\n[BBC](http://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](http://www.bbc.co.uk/iplayer/favourites)\n[RT](http://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](http://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com/feed/subscriptions)\n\nMisc:\n[AE](http://academicearth.org \"Academic Earth lectures\")\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](http://www.openstreetmap.org/)\n[MPS](http://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](http://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\n[TfL](http://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](http://www.allwrite.nl/ \"Pens\")\n[BM](http://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](http://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](http://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\n\nThis Site:\n[Django](http://www.djangoproject.com/ \"Web development framework\")\n[React](https://reactjs.org/ \"Javascript library\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](http://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](http://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n[West Cork](/pages/west-cork)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Maps](/pages/maps)\n[Planting](/pages/2010-planting)\n\nThis Site:\n[Dashboard](/dashboard)\n[Site Map](/pages)\n\n[Tools](/tools):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader)\n[Timers](/timers)\n\n</div>"
+        "updated": "2018-11-04T17:49:05.222Z",
+        "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](http://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](http://isabellebidou.com \"Isabelle Bidou\")\n[StartPage](https://startpage.com/uk/? \"Google Search Results, but with privacy\")\n\nApps:\n[Calibre](http://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](http://www.geany.org \"Text editor\")\n[Inkscape](http://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](http://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](http://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](http://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](http://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](http://oreilly.com/ebooks/ \"IT Books\")\n[PG](http://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](http://www.dilbert.com \"Today's Dilbert comic\")\n[Garfield](http://www.garfield.com/comic \"Today's Garfield comic\")\n[xkcd](http://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](http://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](http://www.gamersgate.co.uk \"GamersGate\")\n[GOG](http://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](http://store.steampowered.com \"Steam Shop\")\n\nMedia:\n[BBC](http://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](http://www.bbc.co.uk/iplayer/favourites)\n[RT](http://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](http://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com/feed/subscriptions)\n\nMisc:\n[AE](http://academicearth.org \"Academic Earth lectures\")\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](http://www.openstreetmap.org/)\n[MPS](http://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](http://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\n[TfL](http://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](http://www.allwrite.nl/ \"Pens\")\n[BM](http://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](http://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](http://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\n\nThis Site:\n[Django](http://www.djangoproject.com/ \"Web development framework\")\n[React](https://reactjs.org/ \"Javascript library\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](http://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](http://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[Archive](/blog/archive)\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n[West Cork](/pages/west-cork)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Maps](/pages/maps)\n[Planting](/pages/2010-planting)\n\nThis Site:\n[Dashboard](/dashboard)\n[Site Map](/pages)\n\n[Tools](/tools):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader)\n[Timers](/timers)\n\n</div>"
     }
 },
 {
@@ -1723,8 +1732,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/analysis/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006r4vz",
         "description": "Programme examining the ideas and forces which shape public policy in Britain and abroad, presented by distinguished writers, journalists and academics",
-        "published_time": "2018-10-29T21:00:00Z",
-        "last_polled_time": "2018-10-29T22:17:04.313Z",
+        "published_time": "2018-11-02T18:35:00Z",
+        "last_polled_time": "2018-11-02T19:17:04.244Z",
         "group": 4
     }
 },
@@ -1736,8 +1745,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/fricomedy/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02pc9pj",
         "description": "Download the best new comedy from Radio 4, every Friday. Features The News Quiz, The Now Show, Dead Ringers and The Museum of Curiosity.",
-        "published_time": "2018-10-26T18:00:00Z",
-        "last_polled_time": "2018-10-26T18:17:15.362Z",
+        "published_time": "2018-11-02T19:00:00Z",
+        "last_polled_time": "2018-11-02T20:17:14.552Z",
         "group": 4
     }
 },
@@ -1762,8 +1771,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qykl",
         "description": "Melvyn Bragg and guests discuss the history of ideas",
-        "published_time": "2018-10-25T10:35:00Z",
-        "last_polled_time": "2018-10-25T11:17:17.127Z",
+        "published_time": "2018-11-01T11:23:00Z",
+        "last_polled_time": "2018-11-01T12:17:19.212Z",
         "group": 4
     }
 },
@@ -1801,8 +1810,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/profile/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjz5",
         "description": "An insight into the character of an influential figure making news headlines",
-        "published_time": "2018-10-27T18:15:00Z",
-        "last_polled_time": "2018-10-27T19:17:20.416Z",
+        "published_time": "2018-11-03T19:15:00Z",
+        "last_polled_time": "2018-11-03T20:17:21.961Z",
         "group": 4
     }
 },
@@ -1814,8 +1823,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/bottomline/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006sz6t",
         "description": "Evan Davis hosts the business conversation show with people at the top giving insight into what matters",
-        "published_time": "2018-10-25T20:00:00Z",
-        "last_polled_time": "2018-10-25T20:17:30.384Z",
+        "published_time": "2018-11-01T21:00:00Z",
+        "last_polled_time": "2018-11-01T21:17:29.765Z",
         "group": 4
     }
 },
@@ -1827,8 +1836,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "Radio 4&#39;s weekly assessment of developments at Westminster",
-        "published_time": "2018-10-27T10:30:00Z",
-        "last_polled_time": "2018-10-27T11:17:36.124Z",
+        "published_time": "2018-11-03T11:30:00Z",
+        "last_polled_time": "2018-11-03T12:17:43.031Z",
         "group": 4
     }
 },
@@ -1840,8 +1849,8 @@
         "xml_url": "http://feedproxy.google.com/linuxtoday/linux",
         "link": "https://www.linuxtoday.com/",
         "description": "",
-        "published_time": "2018-10-31T19:16:27Z",
-        "last_polled_time": "2018-10-31T19:17:20.680Z",
+        "published_time": "2018-11-04T17:12:44Z",
+        "last_polled_time": "2018-11-04T17:17:18.117Z",
         "group": 5
     }
 },
@@ -1854,7 +1863,7 @@
         "link": "https://www.schneier.com/blog/",
         "description": "A blog covering security and security technology.",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:25.192Z",
+        "last_polled_time": "2018-11-04T17:17:22.963Z",
         "group": 5
     }
 },
@@ -1893,7 +1902,7 @@
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python Web framework.",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:33.588Z",
+        "last_polled_time": "2018-11-04T17:17:32.043Z",
         "group": 5
     }
 },
@@ -1918,8 +1927,8 @@
         "xml_url": "http://www.bbc.co.uk/blogs/markkermode/rss",
         "link": "http://www.bbc.co.uk/blogs/markkermode",
         "description": "Outspoken, opinionated and never lost for words, Mark is the UK's leading film critic.  This\u00a0twice-weekly video blog is the place where he airs his personal views on the things that most fire him up about cinema - and invites you to give your own opinions.",
-        "published_time": "2018-10-26T07:45:16Z",
-        "last_polled_time": "2018-10-26T08:17:17.201Z",
+        "published_time": "2018-11-02T09:39:38Z",
+        "last_polled_time": "2018-11-02T10:17:18.171Z",
         "group": 2
     }
 },
@@ -1932,7 +1941,7 @@
         "link": "http://slatestarcodex.com",
         "description": "THE JOYFUL REDUCTION OF UNCERTAINTY",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:25.919Z",
+        "last_polled_time": "2018-11-04T17:17:23.547Z",
         "group": 2
     }
 },
@@ -1945,7 +1954,7 @@
         "link": "http://b5audioguide.com",
         "description": "This is a book club without books, an episode-by-episode walkthrough of one of the most influential and important modern SF series. Each podcast begins with a spoiler-free discussion of the episode for new viewers, then we give listeners a jumping-off point and switch to a discussion of how the episode fits into the five-year history of the show.",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:31.930Z",
+        "last_polled_time": "2018-11-04T17:17:30.198Z",
         "group": 2
     }
 },
@@ -1958,7 +1967,7 @@
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable is a weekly dive into geeky media we love, including movies, books, TV, comics, and more, featuring a rotating panel of guests and hosted by Jason Snell.",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:36.279Z",
+        "last_polled_time": "2018-11-04T17:17:41.519Z",
         "group": 2
     }
 },
@@ -1971,7 +1980,7 @@
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:12.500Z",
+        "last_polled_time": "2018-11-04T17:17:09.094Z",
         "group": 5
     }
 },
@@ -1983,8 +1992,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p02dbd4m/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p02dbd4m",
         "description": "Global experts and decision makers discuss, debate and analyse a key news story.",
-        "published_time": "2018-10-26T08:00:00Z",
-        "last_polled_time": "2018-10-26T09:17:37.263Z",
+        "published_time": "2018-11-02T09:00:00Z",
+        "last_polled_time": "2018-11-02T09:17:39.175Z",
         "group": 4
     }
 },
@@ -2010,7 +2019,7 @@
         "link": "https://www.bbc.co.uk/news/",
         "description": "BBC News - UK Politics",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:12.115Z",
+        "last_polled_time": "2018-11-04T17:17:08.698Z",
         "group": 3
     }
 },
@@ -2023,7 +2032,7 @@
         "link": "https://www.theregister.co.uk/",
         "description": "Biting the hand that feeds IT \u2014 sci/tech news and views for the world",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:39.556Z",
+        "last_polled_time": "2018-11-04T17:17:44.886Z",
         "group": 5
     }
 },
@@ -2036,7 +2045,7 @@
         "link": "http://blog.dilbert.com",
         "description": "Scott Adams is best known as the creator of the Dilbert comic strip. But in his daily (sometimes twice daily) podcasts, Adams uses his training as a hypnotist and a lifelong student of persuasion to analyse current events (mostly Trump-related) through a persuasion lense. In so doing, Adams offers you a new way to understand your reality. You can also expect to pick up some valuable persuasion techniques along the way.&lt;br /&gt;\n&lt;br /&gt;\nThese podcasts are the audio channels from Adams&#39; popular Periscope videos. If you hear pauses and interruptions, Adams is probably reading comments as they come across his Periscope screen. Adams&#39; Periscope listeners requested that he convert the Periscope videos into podcast files so they can be played offline and also use less battery power.&lt;br /&gt;\n&lt;br /&gt;\nMost of what you will hear is spontaneous, unrehearsed and casual. The best way to listen is while sipping your favorite beverage.",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:13.097Z",
+        "last_polled_time": "2018-11-04T17:17:09.665Z",
         "group": 2
     }
 },
@@ -2074,8 +2083,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p04z203l/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p04z203l",
         "description": "Nick Robinson talks about what\u2019s really going on in British politics.",
-        "published_time": "2018-10-26T13:10:00Z",
-        "last_polled_time": "2018-10-26T14:17:18.974Z",
+        "published_time": "2018-11-02T15:19:00Z",
+        "last_polled_time": "2018-11-02T16:17:19.346Z",
         "group": 4
     }
 },
@@ -2100,8 +2109,8 @@
         "xml_url": "https://rss.acast.com/thehistoryofbyzantium",
         "link": "http://www.acast.com/thehistoryofbyzantium",
         "description": "A podcast telling the story of the Roman (Byzantine) Empire from 476 AD to 1453",
-        "published_time": "2018-10-19T19:45:41Z",
-        "last_polled_time": "2018-10-19T20:17:35.546Z",
+        "published_time": "2018-11-01T17:05:01Z",
+        "last_polled_time": "2018-11-01T17:17:31.441Z",
         "group": 1
     }
 },
@@ -2114,7 +2123,7 @@
         "link": "http://www.theincomparable.com/teevee/prisoner/",
         "description": "Steven and Erika of Lazy Doctor Who watch the colourful, psychadelic, trippy, wtf-is-happening spy-fi series that is 1967\u2019s &quot;The Prisoner.&quot;",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:18.914Z",
+        "last_polled_time": "2018-11-04T17:17:16.237Z",
         "group": 4
     }
 },
@@ -2127,7 +2136,7 @@
         "link": "https://backinthevillage.com",
         "description": "Join Clay and Wes back in the Village, where they&#39;ll be discussing all 17 episodes of The Prisoner, the 60&#39;s sci-fi classic starring Patrick McGoohan!",
         "published_time": null,
-        "last_polled_time": "2018-10-31T19:17:11.763Z",
+        "last_polled_time": "2018-11-04T17:17:08.156Z",
         "group": 4
     }
 },
