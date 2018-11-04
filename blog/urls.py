@@ -4,7 +4,8 @@ from . import views
 from . import rss
 
 urlpatterns = [
-    path("", views.BlogPageListView.as_view(), name="blogpage-list"),
+    path("", views.BlogPageLatestView.as_view(), name="blogpage-latest"),
+    path("archive/", views.BlogPageListView.as_view(), name="blogpage-archive"),
     path("feed/", rss.LatestBlogPostsFeed(), name="blog-rss-feed"),
     path("<slug:slug>/", views.BlogPageDetailView.as_view(), name="blogpage-detail"),
 ]

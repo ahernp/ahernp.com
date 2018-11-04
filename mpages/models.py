@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from django.utils.encoding import force_text
 from django.utils.safestring import mark_safe
 
@@ -29,6 +30,4 @@ class Page(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        from django.urls import reverse
-
         return reverse("page-detail", kwargs={"slug": self.slug})

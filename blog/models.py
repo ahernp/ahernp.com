@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 from mpages.models import Page
 
@@ -10,3 +11,6 @@ class BlogPage(Page):
 
     class Meta:
         ordering = ["-published"]
+
+    def get_absolute_url(self):
+        return reverse("blogpage-detail", kwargs={"slug": self.slug})
