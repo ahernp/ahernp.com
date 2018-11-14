@@ -10,7 +10,7 @@ def test_list_view(client):
     blog_page = BlogPageFactory.create()
     response = client.get(reverse("blogpage-list"))
     assert response.status_code == 200
-    assert b"<title>Blog</title>" in response.content
+    assert b"<title>Archive of Blog Pages</title>" in response.content
 
 
 @pytest.mark.django_db

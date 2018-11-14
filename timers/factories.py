@@ -11,3 +11,4 @@ class TimerFactory(factory.django.DjangoModelFactory):
 
     target = factory.LazyFunction(timezone.now)
     label = factory.Sequence(lambda n: "Timer %s" % n)
+    slug = factory.Sequence(lambda n: "timer-%s" % n)

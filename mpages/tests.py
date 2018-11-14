@@ -30,7 +30,7 @@ def test_list_filter_view(client):
     )
     assert response.status_code == 200
     assert bytes(f"<title>{parent.title} Pages</title>", "utf-8") in response.content
-    assert bytes(f"<h1>{parent.title}</h1>", "utf-8") in response.content
+    assert bytes(f"<h1>{parent.title} Pages</h1>", "utf-8") in response.content
 
 
 def test_edit_page_requires_login(client, admin_client):

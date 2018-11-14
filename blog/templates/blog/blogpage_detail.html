@@ -13,7 +13,7 @@
 {% endblock %}
 
 {% block navlinks %}
-    <p><a href="{% url 'blogpage-archive' %}">Archive</a></p>    
+    <p><a href="{% url 'blogpage-list' %}">Archive</a></p>    
     <p><a href="{% url 'admin:blog_blogpage_change' object.id %}">Admin</a></p>    
     <p><a href="{% url "page-detail" "markdown" %}">Markdown</a><p>
 {% endblock %}

@@ -73,7 +73,7 @@ def test_mark_all_read_requires_login(client, admin_client):
 
     response = admin_client.post(reverse("mark-all-entry-read"), post_data, follow=True)
     assert response.status_code == 200
-    assert b"<title>Feedreader</title>" in response.content
+    assert b"<title>Feedreader (1)</title>" in response.content
 
 
 @pytest.mark.django_db
@@ -86,4 +86,4 @@ def test_mark_entry_read_requires_login(client, admin_client):
 
     response = admin_client.post(reverse("mark-entry-read"), post_data, follow=True)
     assert response.status_code == 200
-    assert b"<title>Feedreader</title>" in response.content
+    assert b"<title>Feedreader (1)</title>" in response.content
