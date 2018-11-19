@@ -20,6 +20,7 @@
         <tr><th>Hours</th><th>Minutes</th><th>Seconds</th></tr>
         <tr><td id="hours"></td><td id="minutes"></td><td id="seconds"></td></tr>
     </table>
+    <p>Target: {{ object.target|date:"D, j M Y, H:i:s" }}.</p>
 {% endblock %}
 
 {% block navlinks %}
