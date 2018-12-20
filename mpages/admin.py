@@ -11,7 +11,7 @@ class PageAdmin(admin.ModelAdmin):
     ordering = ["parent", "title"]
     save_on_top = True
     fieldsets = (
-        (None, {"fields": (("content",), ("title", "parent"), ("slug", "updated"))}),
+            (None, {"fields": ("content", ("title", "parent"), ("slug", "updated"))}),
     )
 
 
