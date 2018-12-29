@@ -41,6 +41,7 @@ class Entry(models.Model):
     feed = models.ForeignKey(Feed, on_delete=models.CASCADE)
     title = models.CharField(max_length=2000, blank=True, null=True)
     link = models.CharField(max_length=2000)
+    media_link = models.CharField(max_length=2000, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     published_time = models.DateTimeField(auto_now_add=True)
     read_flag = models.BooleanField(default=False)
@@ -51,3 +52,9 @@ class Entry(models.Model):
 
     def __str__(self):
         return self.title
+
+    @property
+    def media_name(self):
+        if self.media_link:
+            return self.media_link.split("/")[-1]
+        return ""

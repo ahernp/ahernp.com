@@ -45,13 +45,14 @@ class EntryAdmin(admin.ModelAdmin):
     list_filter = ["read_flag", "feed"]
     search_fields = ["title", "link"]
     actions = [mark_as_read]
-    readonly_fields = ["link", "title", "description", "published_time", "feed"]
+    readonly_fields = ["link", "media_link", "title", "description", "published_time", "feed"]
     fieldsets = (
         (
             None,
             {
                 "fields": (
                     ("link",),
+                    ("media_link",),
                     ("title", "feed"),
                     ("description",),
                     ("published_time", "read_flag"),

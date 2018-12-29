@@ -66,7 +66,9 @@
                         </h3>
                         <p>
                             <a href="{{ entry.link }}">{{ entry.title|safe }}</a>
-                            (<a href="{{ entry.feed.xml_url }}">feed</a>)
+                            {% if entry.media_link %}
+                                (<a href="{{ entry.media_link }}">{{ entry.media_name }}</a>)
+                            {% endif %}
                         </p>
                         <p>{{ entry.description|safe }}</p>
                     </div>
