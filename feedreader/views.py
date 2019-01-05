@@ -53,6 +53,7 @@ def count_entries(entries):
         "group_counts": list(group_counts.values()),
         "non_group_feed_counts": non_group_feed_counts,
         "total_entries": total_entries,
+        "unread_entries": len([entry for entry in entries if entry.read_flag == False]),
     }
 
 
@@ -60,12 +61,11 @@ class EntryListView(ListView):
     model = Entry
 
     def get_queryset(self):
-        entries = Entry.objects.filter(read_flag=False).order_by("-published_time")[
+        if "read_flag" in self.request.GET:
+            params = {"read_flag": self.request.GET["read_flag"] == "True"}
+            return Entry.objects.filter(**params).order_by("-published_time")[
             : settings.MAX_ENTRIES_SHOWN
         ]
-
-        if entries:
-            return entries
 
         return Entry.objects.all().order_by("-published_time")[
             : settings.MAX_ENTRIES_SHOWN
