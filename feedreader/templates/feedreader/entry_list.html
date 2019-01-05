@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Feedreader ({{ counts.total_entries }}){% endblock %}
+{% block title %}Feedreader {% if counts.unread_entries %}({{ counts.unread_entries }}){% endif %}{% endblock %}
 
 {% block extrastyle %}
 .feed_entry {
