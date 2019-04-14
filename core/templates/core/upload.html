@@ -12,14 +12,20 @@
         <button type="submit">Upload</button>
     </form>
 
+    <h2>Thumbnails</h2>
+    {% for thumbnail in thumbnails %}
+        {% if thumbnail in images %}
+            <a href="/media/img/{{ thumbnail }}">
+                <img alt="{{ thumbnail }}" title="{{ thumbnail }}" src="/media/img/thumb/{{ thumbnail }}" />
+            </a>
+        {% else %}
+            <img alt="{{ thumbnail }}" title="{{ thumbnail }}" src="/media/img/thumb/{{ thumbnail }}" />
+        {% endif %}
+    {% endfor %}
+
     <h2>Images</h2>
     {% for image in images %}
        <a href="/media/img/{{ image }}">{{ image }}</a>
-    {% endfor %}
-
-    <h2>Thumbnails</h2>
-    {% for thumbnail in thumbnails %}
-        <img alt="{{ thumbnail }}" title="{{ thumbnail }}" src="/media/img/thumb/{{ thumbnail }}" />
     {% endfor %}
 {% endblock %}
 
