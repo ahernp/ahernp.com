@@ -13,10 +13,14 @@
     </form>
 
     <h2>Images</h2>
-    {{ images }}
+    {% for image in images %}
+       <a href="/media/img/{{ image }}">{{ image }}</a>
+    {% endfor %}
 
     <h2>Thumbnails</h2>
-    {{ thumbnails }}
+    {% for thumbnail in thumbnails %}
+        <img alt="{{ thumbnail }}" src="/media/img/thumb/{{ thumbnail }}" />
+    {% endfor %}
 {% endblock %}
 
 {% block extrascript %}{% endblock %}
