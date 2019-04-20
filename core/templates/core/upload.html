@@ -29,4 +29,9 @@
     {% endfor %}
 {% endblock %}
 
+{% block navlinks %}
+    <p><a href="{% url 'admin:index' %}">Admin</a></p>
+    <p><a href="{% url 'dashboard' %}">Dashboard</a></p>
+{% endblock %}
+
 {% block extrascript %}{% endblock %}

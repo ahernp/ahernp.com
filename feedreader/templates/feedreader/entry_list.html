@@ -80,7 +80,9 @@
 
 {% block navlinks %}
     <p><a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a></p>
+    <p><a href="{% url 'dashboard' %}">Dashboard</a></p>
     <p><a href="{% url 'feeds' %}">Feeds</a></p>
+    <p><a href="{% url 'recent-entries' %}">Feedreader</a></p>
     <p><a href="{% url 'recent-entries' %}?read_flag=False">Unread</a></p>
     {% if user.is_authenticated and counts.unread_entries %}
         <form action="{% url 'mark-all-entry-read'%}" method="POST">
