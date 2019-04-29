@@ -3,10 +3,6 @@ from django.contrib import admin
 from .models import Group, Feed, Entry
 
 
-class GroupAdmin(admin.ModelAdmin):
-    pass
-
-
 class FeedAdmin(admin.ModelAdmin):
     list_display = ["xml_url", "title", "group", "published_time", "last_polled_time"]
     list_filter = ["group"]
@@ -62,6 +58,6 @@ class EntryAdmin(admin.ModelAdmin):
     )
 
 
-admin.site.register(Group, GroupAdmin)
+admin.site.register(Group)
 admin.site.register(Feed, FeedAdmin)
 admin.site.register(Entry, EntryAdmin)
