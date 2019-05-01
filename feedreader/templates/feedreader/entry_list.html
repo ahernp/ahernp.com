@@ -86,7 +86,13 @@
 {% endblock %}
 
 {% block navlinks %}
-    <p><a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a></p>
+    <p>
+        {% if feed %}
+            <a href="{% url 'admin:feedreader_feed_change' feed.id %}">Admin</a>
+        {% else %}
+            <a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a>
+        {% endif %}
+    </p>
     <p><a href="{% url 'dashboard' %}">Dashboard</a></p>
     <p><a href="{% url 'recent-entries' %}">Feedreader</a></p>
     <p><a href="{% url 'feeds' %}">Feeds</a></p>
