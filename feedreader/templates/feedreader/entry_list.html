@@ -25,24 +25,37 @@
 <h1>Recent Entries</h1>
     <div class="pure-g">
         <div class="pure-u-1-4">
-            <p><a href="{% url 'recent-entries' %}">All</a></p>
-            {% for group_count in counts.group_counts %}
-                {% if group_count.total_count > 0 %}
-                    <h2>{{ group_count.group.name|safe }} ({{ group_count.total_count }})</h2>
-                    {% for feed_count in group_count.feed_counts %}
-                        {% if feed_count.total_count > 0 %}
-                           <p><a href="{% url 'feed-recent-entries' feed_count.feed.id %}">{{ feed_count.feed.title|safe }} ({{ feed_count.total_count }})</a></p>
-                        {% endif %}
-                    {% endfor %}
+            {% if feed %}
+                {% if feed.group %}
+                    <h2>{{ feed.group.name|safe }} ({{ object_list|length }})</h2>
                 {% endif %}
-            {% endfor %}
-            {% for feed_count in non_group_feed_counts %}
-                <p>{{ feed_count.feed.title|safe }} ({{ feed_count.total_count }})</p>
-            {% endfor %}
-
+                <p><a href="{% url 'feed-recent-entries' feed.id %}">{{ feed.title|safe }} ({{ object_list|length }})</a></p>
+                <p><a href="{% url 'admin:feedreader_feed_change' feed.id %}">Admin</a></p>
+                <p><a href="{{ feed.xml_url }}">Feed</a></p>
+                <p><a href="{% url 'feed-recent-entries' feed.id %}?read_flag=False">Unread</a></p>
+                <p><a href="{{ feed.link }}">Website</a></p>
+                <p>{{ feed.description|safe }}</p>
+            {% else %}
+                {% for group_count in counts.group_counts %}
+                    {% if group_count.total_count > 0 %}
+                        <h2>{{ group_count.group.name|safe }} ({{ group_count.total_count }})</h2>
+                        {% for feed_count in group_count.feed_counts %}
+                            {% if feed_count.total_count > 0 %}
+                            <p><a href="{% url 'feed-recent-entries' feed_count.feed.id %}">{{ feed_count.feed.title|safe }} ({{ feed_count.total_count }})</a></p>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                {% endfor %}
+                {% for feed_count in non_group_feed_counts %}
+                    <p>{{ feed_count.feed.title|safe }} ({{ feed_count.total_count }})</p>
+                {% endfor %}
+            {% endif %}
         </div>
         <div class="pure-u-3-4">
             <div id="feedreader-entry-list">
+                {% if not object_list %}
+                    <p>No Entries Found</p>
+                {% endif %}
                 {% for entry in object_list %}
                     <div class="feed_entry">
                         <div class="entry-toggle-read">
@@ -86,13 +99,7 @@
 {% endblock %}
 
 {% block navlinks %}
-    <p>
-        {% if feed %}
-            <a href="{% url 'admin:feedreader_feed_change' feed.id %}">Admin</a>
-        {% else %}
-            <a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a>
-        {% endif %}
-    </p>
+    <p><a href="{% url 'admin:feedreader_entry_changelist' %}">Admin</a></p>
     <p><a href="{% url 'dashboard' %}">Dashboard</a></p>
     <p><a href="{% url 'recent-entries' %}">Feedreader</a></p>
     <p><a href="{% url 'feeds' %}">Feeds</a></p>

@@ -83,14 +83,11 @@ class FeedEntryListView(EntryListView):
     def get_queryset(self):
         feed_id = self.kwargs.get("feed_id")
         self.feed = get_object_or_404(Feed, id=feed_id)
-        entries = Entry.objects.filter(feed=self.feed, read_flag=False).order_by(
-            "-published_time"
-        )[: settings.MAX_ENTRIES_SHOWN]
-
-        if entries:
-            return entries
-
-        return Entry.objects.filter(feed=self.feed).order_by("-published_time")
+        params = {"feed": self.feed}
+        if "read_flag" in self.request.GET:
+            params["read_flag"] = self.request.GET["read_flag"] == "True"
+        return Entry.objects.filter(**params).order_by("-published_time")[
+        : settings.MAX_ENTRIES_SHOWN]
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
