@@ -151,7 +151,6 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 def poll_feed(feed_from_database, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
     updated_feed = update_feed_on_database(feed_from_database, feed_from_xml, verbose)
-    new_entry_count = 0
 
     if updated_feed:
         if verbose:
@@ -171,6 +170,3 @@ def poll_feed(feed_from_database, verbose=False):
 
             if created:
                 update_entry_on_database(entry_on_database, entry_from_xml)
-                new_entry_count += 1
-
-    return new_entry_count
