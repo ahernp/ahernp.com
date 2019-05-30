@@ -19,6 +19,7 @@ class BlogPageAdmin(PageAdmin):
             },
         ),
     )
+    autocomplete_fields = ["parent"]
 
 
 admin.site.register(BlogPage, BlogPageAdmin)

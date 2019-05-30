@@ -13,6 +13,7 @@ class PageAdmin(admin.ModelAdmin):
     fieldsets = (
             (None, {"fields": ("content", ("title", "parent"), ("slug", "updated"))}),
     )
+    autocomplete_fields = ["parent"]
 
 
 admin.site.register(Page, PageAdmin)
