@@ -53,7 +53,7 @@ def count_entries(entries):
         "group_counts": list(group_counts.values()),
         "non_group_feed_counts": non_group_feed_counts,
         "total_entries": total_entries,
-        "unread_entries": len([entry for entry in entries if entry.read_flag == False]),
+        "unread_entries": len([entry for entry in entries if entry.read_flag is False]),
     }
 
 

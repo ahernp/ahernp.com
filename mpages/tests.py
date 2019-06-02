@@ -7,7 +7,7 @@ from .factories import PageFactory
 
 @pytest.mark.django_db
 def test_list_view(client):
-    page = PageFactory.create()
+    PageFactory.create()
     response = client.get(reverse("page-list"))
     assert response.status_code == 200
     assert b"<title>Pages</title>" in response.content
@@ -24,7 +24,7 @@ def test_detail_view(client):
 @pytest.mark.django_db
 def test_list_filter_view(client):
     parent = PageFactory.create()
-    page = PageFactory.create(parent=parent)
+    PageFactory.create(parent=parent)
     response = client.get(
         reverse("page-list-filter", kwargs={"parent_slug": parent.slug})
     )

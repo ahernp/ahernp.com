@@ -19,7 +19,9 @@ class Page(models.Model):
     def content_as_html(self):
         return mark_safe(
             markdown.markdown(
-                force_text(self.content), extensions=MARKDOWN_EXTENSIONS, safe_mode=False
+                force_text(self.content),
+                extensions=MARKDOWN_EXTENSIONS,
+                safe_mode=False,
             )
         )
 

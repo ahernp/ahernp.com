@@ -1,7 +1,6 @@
 import pytest
 
 import datetime
-import unittest
 
 from django.urls import reverse
 from django.utils import timezone
@@ -31,7 +30,7 @@ def test_upload_page_requires_login(client, admin_client):
 
 def test_recent_logs():
     log = LogFactory.create()
-    assert log.recent() == True, "Newly created log is recent"
+    assert log.recent() is True, "Newly created log is recent"
 
     log.datetime = timezone.now() - datetime.timedelta(days=2)
-    assert log.recent() == False, "Two day old log is not recent"
+    assert log.recent() is False, "Two day old log is not recent"
