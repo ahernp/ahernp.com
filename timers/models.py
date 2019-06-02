@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Timer(models.Model):
@@ -11,3 +12,6 @@ class Timer(models.Model):
 
     def __str__(self):
         return self.label
+
+    def get_absolute_url(self):
+        return reverse("timer-detail", kwargs={"slug": self.slug})

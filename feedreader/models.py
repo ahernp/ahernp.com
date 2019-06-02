@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Group(models.Model):
@@ -35,6 +36,9 @@ class Feed(models.Model):
             from feedreader.utils import poll_feed
 
             poll_feed(self)
+
+    def get_absolute_url(self):
+        return reverse("feed-recent-entries", kwargs={"feed_id": self.id})
 
 
 class Entry(models.Model):
