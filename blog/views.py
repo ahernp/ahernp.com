@@ -14,7 +14,7 @@ class BlogPageDetailView(DetailView):
 
 
 class BlogPageLatestView(RedirectView):
-    pattern_name = 'blogpage-detail'
+    pattern_name = "blogpage-detail"
 
     def get_redirect_url(*args, **kwargs):
         latest_blogpage = BlogPage.objects.all().first()

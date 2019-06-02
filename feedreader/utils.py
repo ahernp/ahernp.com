@@ -137,9 +137,7 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
     else:
         entry_on_database.description = html.escape(entry_from_xml.description)
 
-    if (
-        hasattr(entry_from_xml, "links")
-    ):
+    if hasattr(entry_from_xml, "links"):
         for link in entry_from_xml.links:
             if link.rel == "enclosure":
                 entry_on_database.media_link = link.href

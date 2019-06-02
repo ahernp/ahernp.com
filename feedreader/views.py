@@ -64,8 +64,8 @@ class EntryListView(ListView):
         if "read_flag" in self.request.GET:
             params = {"read_flag": self.request.GET["read_flag"] == "True"}
             return Entry.objects.filter(**params).order_by("-published_time")[
-            : settings.MAX_ENTRIES_SHOWN
-        ]
+                : settings.MAX_ENTRIES_SHOWN
+            ]
 
         return Entry.objects.all().order_by("-published_time")[
             : settings.MAX_ENTRIES_SHOWN
@@ -87,7 +87,8 @@ class FeedEntryListView(EntryListView):
         if "read_flag" in self.request.GET:
             params["read_flag"] = self.request.GET["read_flag"] == "True"
         return Entry.objects.filter(**params).order_by("-published_time")[
-        : settings.MAX_ENTRIES_SHOWN]
+            : settings.MAX_ENTRIES_SHOWN
+        ]
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)

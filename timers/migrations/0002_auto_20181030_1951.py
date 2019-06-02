@@ -5,19 +5,14 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('timers', '0001_initial'),
-    ]
+    dependencies = [("timers", "0001_initial")]
 
     operations = [
-        migrations.AlterModelOptions(
-            name='timer',
-            options={'ordering': ['target']},
-        ),
+        migrations.AlterModelOptions(name="timer", options={"ordering": ["target"]}),
         migrations.AddField(
-            model_name='timer',
-            name='slug',
-            field=models.SlugField(default='default', max_length=250),
+            model_name="timer",
+            name="slug",
+            field=models.SlugField(default="default", max_length=250),
             preserve_default=False,
         ),
     ]
