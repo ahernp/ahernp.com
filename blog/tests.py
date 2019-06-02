@@ -7,7 +7,7 @@ from .factories import BlogPageFactory
 
 @pytest.mark.django_db
 def test_list_view(client):
-    blog_page = BlogPageFactory.create()
+    BlogPageFactory.create()
     response = client.get(reverse("blogpage-list"))
     assert response.status_code == 200
     assert b"<title>Archive of Blog Pages</title>" in response.content
@@ -30,7 +30,7 @@ def test_detail_view(client):
 
 @pytest.mark.django_db
 def test_rss_feed_view(client):
-    blog_page = BlogPageFactory.create()
+    BlogPageFactory.create()
     response = client.get(reverse("blog-rss-feed"))
     assert response.status_code == 200
     assert b'<rss version="2.0"' in response.content
