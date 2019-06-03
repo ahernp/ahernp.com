@@ -1,7 +1,7 @@
 from django.db import models
 from django.urls import reverse
 
-from mpages.models import Page
+from pages.models import Page
 
 
 class BlogPage(Page):

@@ -9,7 +9,7 @@ urlpatterns = [
     path("blog/", include("blog.urls")),
     path("dashboard/", include("dashboard.urls")),
     path("feedreader/", include("feedreader.urls")),
-    path("pages/", include("mpages.urls")),
+    path("pages/", include("pages.urls")),
     path("core/", include("core.urls")),
     path("timers/", include("timers.urls")),
     path("tools/", include("tools.urls")),

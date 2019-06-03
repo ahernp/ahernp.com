@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from mpages.models import Page
+from pages.models import Page
 
 
 class PageSerializer(serializers.HyperlinkedModelSerializer):

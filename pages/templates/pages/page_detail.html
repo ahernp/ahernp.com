@@ -12,15 +12,15 @@
     {% if object.parent %}
         <p><a href="{% url 'page-list-filter' object.parent.slug %}">Related</a></p>
     {% endif %}
-    <p><a href="{% url 'admin:mpages_page_change' object.id %}">Admin</a></p>
+    <p><a href="{% url 'admin:pages_page_change' object.id %}">Admin</a></p>
     {% if user.is_authenticated %}
         <p><a href="{% url 'page-edit' object.slug %}">Edit</a></p>
     {% endif %}
-	<p><a href="{% url "page-detail" "markdown" %}">Markdown</a></p>
+    <p><a href="{% url "page-detail" "markdown" %}">Markdown</a></p>
 {% endblock %}
 
 {% block navinfo %}
-	<p>Updated {{ object.updated|date:"Y-m-d H:i:s" }}</p>
+    <p>Updated {{ object.updated|date:"Y-m-d H:i:s" }}</p>
 {% endblock %}
 
 {% block extrascript %}{% endblock %}

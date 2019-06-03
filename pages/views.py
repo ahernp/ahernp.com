@@ -29,4 +29,4 @@ class PageDetailView(DetailView):
 
 class PageEditView(LoginRequiredMixin, DetailView):
     model = Page
-    template_name = "mpages/page_edit.html"
+    template_name = "pages/page_edit.html"

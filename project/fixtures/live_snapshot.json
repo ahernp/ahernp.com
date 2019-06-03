@@ -27,7 +27,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 719,
     "fields": {
         "title": "ahernp.com",
@@ -38,7 +38,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 720,
     "fields": {
         "title": "Blog",
@@ -49,7 +49,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 721,
     "fields": {
         "title": "Reference",
@@ -60,7 +60,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 722,
     "fields": {
         "title": "Linux",
@@ -71,7 +71,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 723,
     "fields": {
         "title": "Applications",
@@ -82,7 +82,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 724,
     "fields": {
         "title": "Library",
@@ -93,7 +93,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 725,
     "fields": {
         "title": "CDs",
@@ -104,7 +104,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 726,
     "fields": {
         "title": "Gallery",
@@ -115,7 +115,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 727,
     "fields": {
         "title": "Rooska",
@@ -126,7 +126,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 728,
     "fields": {
         "title": "Personal",
@@ -137,7 +137,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 729,
     "fields": {
         "title": "Markdown",
@@ -148,7 +148,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 730,
     "fields": {
         "title": "Profile",
@@ -159,7 +159,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 731,
     "fields": {
         "title": "Libre Office",
@@ -170,7 +170,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 732,
     "fields": {
         "title": "UK Postcodes",
@@ -181,7 +181,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 733,
     "fields": {
         "title": "DVDs",
@@ -192,7 +192,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 734,
     "fields": {
         "title": "Software",
@@ -203,7 +203,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 735,
     "fields": {
         "title": "Firefox",
@@ -214,7 +214,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 737,
     "fields": {
         "title": "Books",
@@ -225,7 +225,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 738,
     "fields": {
         "title": "2010 Planting",
@@ -236,7 +236,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 739,
     "fields": {
         "title": "CV",
@@ -247,7 +247,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 740,
     "fields": {
         "title": "Public Key",
@@ -258,7 +258,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 741,
     "fields": {
         "title": "MSc",
@@ -269,7 +269,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 742,
     "fields": {
         "title": "Silmarillion",
@@ -280,7 +280,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 744,
     "fields": {
         "title": "Twinings Tea",
@@ -291,7 +291,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 745,
     "fields": {
         "title": "HTML Status Codes",
@@ -302,7 +302,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 746,
     "fields": {
         "title": "Google Chrome",
@@ -313,7 +313,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 747,
     "fields": {
         "title": "Python",
@@ -324,7 +324,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 748,
     "fields": {
         "title": "Sprouting",
@@ -335,7 +335,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 749,
     "fields": {
         "title": "New Arrival",
@@ -346,7 +346,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 750,
     "fields": {
         "title": "New Barn",
@@ -357,7 +357,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 751,
     "fields": {
         "title": "Managing Web Pages",
@@ -368,7 +368,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 752,
     "fields": {
         "title": "Glassy Bay",
@@ -379,7 +379,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 753,
     "fields": {
         "title": "Green Shoots of Recovery",
@@ -390,7 +390,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 754,
     "fields": {
         "title": "More Planting",
@@ -401,7 +401,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 755,
     "fields": {
         "title": "Planting Has Begun",
@@ -412,7 +412,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 756,
     "fields": {
         "title": "New Look Site",
@@ -423,7 +423,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 757,
     "fields": {
         "title": "New Roadbed",
@@ -434,7 +434,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 758,
     "fields": {
         "title": "Landscaping",
@@ -445,7 +445,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 759,
     "fields": {
         "title": "New Routine",
@@ -456,7 +456,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 760,
     "fields": {
         "title": "Premiere Fin",
@@ -467,7 +467,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 761,
     "fields": {
         "title": "Bridged and Resigned",
@@ -478,7 +478,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 762,
     "fields": {
         "title": "New Camera and Bridge",
@@ -489,7 +489,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 763,
     "fields": {
         "title": "Donkey Family",
@@ -500,7 +500,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 764,
     "fields": {
         "title": "DMCM version 0.2",
@@ -511,7 +511,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 765,
     "fields": {
         "title": "Finished Barn",
@@ -522,7 +522,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 766,
     "fields": {
         "title": "Return to London",
@@ -533,7 +533,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 767,
     "fields": {
         "title": "Bankers",
@@ -544,7 +544,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 768,
     "fields": {
         "title": "New Old Flat",
@@ -555,7 +555,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 769,
     "fields": {
         "title": "Ici Londres",
@@ -566,7 +566,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 770,
     "fields": {
         "title": "New Job",
@@ -577,7 +577,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 771,
     "fields": {
         "title": "New Old Routine",
@@ -588,7 +588,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 772,
     "fields": {
         "title": "Traffic Jam",
@@ -599,7 +599,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 773,
     "fields": {
         "title": "Dental Trauma",
@@ -610,7 +610,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 774,
     "fields": {
         "title": "Tea",
@@ -621,7 +621,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 775,
     "fields": {
         "title": "Barn Menaced by Giant Sheep",
@@ -632,7 +632,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 776,
     "fields": {
         "title": "Rooska Growth",
@@ -643,7 +643,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 777,
     "fields": {
         "title": "Demolition",
@@ -654,7 +654,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 778,
     "fields": {
         "title": "Tea Time",
@@ -665,7 +665,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 779,
     "fields": {
         "title": "Delay at Tower Bridge",
@@ -676,7 +676,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 780,
     "fields": {
         "title": "Taken Over",
@@ -687,7 +687,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 781,
     "fields": {
         "title": "New Job 2011",
@@ -698,7 +698,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 782,
     "fields": {
         "title": "Site Redesign",
@@ -709,7 +709,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 783,
     "fields": {
         "title": "MySQL",
@@ -720,7 +720,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 784,
     "fields": {
         "title": "Rooska 2012",
@@ -731,7 +731,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 785,
     "fields": {
         "title": "Vim Editor",
@@ -742,7 +742,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 786,
     "fields": {
         "title": "Android",
@@ -753,7 +753,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 787,
     "fields": {
         "title": "git",
@@ -764,7 +764,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 788,
     "fields": {
         "title": "Personal Finance",
@@ -775,7 +775,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 789,
     "fields": {
         "title": "vcprompt",
@@ -786,7 +786,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 790,
     "fields": {
         "title": "HTML Currencies",
@@ -797,7 +797,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 791,
     "fields": {
         "title": "Django",
@@ -808,7 +808,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 792,
     "fields": {
         "title": "Use of Fabric",
@@ -819,7 +819,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 793,
     "fields": {
         "title": "Digitalis",
@@ -830,7 +830,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 794,
     "fields": {
         "title": "Regex",
@@ -841,7 +841,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 795,
     "fields": {
         "title": "Django 1.5",
@@ -852,7 +852,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 796,
     "fields": {
         "title": "Rooska 2013",
@@ -863,7 +863,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 797,
     "fields": {
         "title": "Looking For Work",
@@ -874,7 +874,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 798,
     "fields": {
         "title": "LinkedIn",
@@ -885,7 +885,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 799,
     "fields": {
         "title": "Rooska 2014",
@@ -896,7 +896,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 800,
     "fields": {
         "title": "Autumn in Ireland",
@@ -907,7 +907,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 801,
     "fields": {
         "title": "New Festicket Office",
@@ -918,7 +918,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 802,
     "fields": {
         "title": "History Podcasts",
@@ -929,7 +929,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 803,
     "fields": {
         "title": "Spring 2015",
@@ -940,7 +940,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 804,
     "fields": {
         "title": "Walk to Work",
@@ -951,7 +951,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 805,
     "fields": {
         "title": "PC Software in Library",
@@ -962,7 +962,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 806,
     "fields": {
         "title": "Portfolio",
@@ -973,7 +973,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 807,
     "fields": {
         "title": "Tarot Illuminati",
@@ -984,7 +984,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 808,
     "fields": {
         "title": "New Job 2016",
@@ -995,7 +995,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 809,
     "fields": {
         "title": "Games",
@@ -1006,7 +1006,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 810,
     "fields": {
         "title": "West Cork",
@@ -1017,7 +1017,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 812,
     "fields": {
         "title": "Clonakilty",
@@ -1028,7 +1028,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 813,
     "fields": {
         "title": "London",
@@ -1039,7 +1039,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 815,
     "fields": {
         "title": "Wallpaper",
@@ -1050,7 +1050,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 816,
     "fields": {
         "title": "Minecraft",
@@ -1061,7 +1061,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 817,
     "fields": {
         "title": "2010 Plant List",
@@ -1072,7 +1072,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 820,
     "fields": {
         "title": "2008 Before",
@@ -1083,7 +1083,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 821,
     "fields": {
         "title": "2009 Wall",
@@ -1094,7 +1094,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 822,
     "fields": {
         "title": "2009 Mountain",
@@ -1105,7 +1105,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 823,
     "fields": {
         "title": "2010 Roads",
@@ -1116,7 +1116,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 824,
     "fields": {
         "title": "2010 Quarrying",
@@ -1127,7 +1127,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 825,
     "fields": {
         "title": "2010 Barn",
@@ -1138,7 +1138,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 826,
     "fields": {
         "title": "2011 Spring",
@@ -1149,7 +1149,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 827,
     "fields": {
         "title": "2012 Spring",
@@ -1160,7 +1160,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 828,
     "fields": {
         "title": "2013 Spring",
@@ -1171,7 +1171,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 829,
     "fields": {
         "title": "2014 Spring",
@@ -1182,7 +1182,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 830,
     "fields": {
         "title": "2014 Autumn",
@@ -1193,7 +1193,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 831,
     "fields": {
         "title": "2015 Spring",
@@ -1204,7 +1204,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 832,
     "fields": {
         "title": "2016 Spring",
@@ -1215,7 +1215,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 833,
     "fields": {
         "title": "Angular 2",
@@ -1226,7 +1226,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 834,
     "fields": {
         "title": "The Three Food Groups",
@@ -1237,7 +1237,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 835,
     "fields": {
         "title": "2017 Spring",
@@ -1248,7 +1248,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 836,
     "fields": {
         "title": "Return to Fire Mountain",
@@ -1259,7 +1259,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 837,
     "fields": {
         "title": "2018 Spring",
@@ -1270,7 +1270,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 839,
     "fields": {
         "title": "Pandoc",
@@ -1281,7 +1281,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 840,
     "fields": {
         "title": "2019 Spring",
@@ -1292,7 +1292,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 841,
     "fields": {
         "title": "Bigger Twees",
@@ -1303,7 +1303,7 @@
     }
 },
 {
-    "model": "mpages.page",
+    "model": "pages.page",
     "pk": 842,
     "fields": {
         "title": "HTML Colours",

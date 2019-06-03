@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
                     models.ForeignKey(
                         null=True,
                         on_delete=django.db.models.deletion.SET_NULL,
-                        to="mpages.Page",
+                        to="pages.Page",
                     ),
                 ),
             ],

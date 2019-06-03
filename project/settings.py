@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     "core.apps.CoreConfig",
     "dashboard.apps.DashboardConfig",
     "feedreader.apps.FeedreaderConfig",
-    "mpages.apps.MpagesConfig",
+    "pages.apps.PagesConfig",
     "timers.apps.TimersConfig",
     "tools.apps.ToolsConfig",
 ]

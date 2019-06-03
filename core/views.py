@@ -9,7 +9,7 @@ from django.views.generic.edit import FormView
 from .forms import UploadForm
 from .utils import Headline, run_shell_command
 from feedreader.models import Entry
-from mpages.models import Page
+from pages.models import Page
 
 
 class SearchView(TemplateView):

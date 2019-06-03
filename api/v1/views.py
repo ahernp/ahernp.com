@@ -1,7 +1,7 @@
 from rest_framework import viewsets, permissions, status
 from rest_framework.response import Response
 
-from mpages.models import Page
+from pages.models import Page
 
 from .serializers import PageSerializer
 
