@@ -17,7 +17,7 @@ class App extends Component {
         this.savePage = this.savePage.bind(this);
         this.updatePreview = this.updatePreview.bind(this);
     }
- 
+
     async componentDidMount() {
         const { pageId } = this.state;
         const response = await axios.get(API_URL_PAGES + pageId);
