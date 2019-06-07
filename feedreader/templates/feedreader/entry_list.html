@@ -2,7 +2,7 @@
 
 {% block title %}
     {% if feed %}
-        {{ feed.title }} Entries
+        {{ feed.title|safe }} Entries
     {% else %}
         Feedreader
     {% endif %}
