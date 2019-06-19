@@ -47,7 +47,7 @@ export default class Compare extends React.Component {
         }
         while (position2 < inputLines2.length) {
             resultString = resultString + "I:" + inputLines2[position2] + '\n';
-            position1 = position2 + 2; insertCount++;
+            position2++; insertCount++;
         }
         const output = `Results: ${matchCount} matches; ${insertCount} inserts; ${deleteCount} deletes.\n${resultString}`;
 
