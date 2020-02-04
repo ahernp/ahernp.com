@@ -65,7 +65,6 @@ def test_counting_entries(mock_feed_qs, mock_group_qs):
 
 @pytest.mark.django_db
 def test_mark_all_read_requires_login(client, admin_client):
-    import pdb; pdb.set_trace()  # Start debugging
     EntryFactory.create()
     post_data = {}
     response = client.post(reverse("mark-all-entry-read"), post_data, follow=True)
