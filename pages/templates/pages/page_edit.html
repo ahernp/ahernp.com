@@ -10,6 +10,9 @@
         top: 1vh;
         right: 3vw;
     }
+    button#preview-button {
+        position: initial;
+    }
     div#markdown {
         height: 80vh;
         width: 53%;
@@ -27,7 +30,7 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Edit Markdown</h1>
+<h1>Edit Markdown</h1>
     <script type="text/javascript">
         var page_id = {{ object.id}};
     </script>
@@ -45,6 +48,7 @@
     <p><a href="{% url 'page-detail' object.slug %}">Page</a></p>
     <p><a href="{% url 'admin:pages_page_change' object.id %}">Admin</a></p>
     <p><a href="{% url 'page-detail' 'markdown' %}">Markdown</a></p>
+    <p><button id="preview-button">Preview</button></p>
 {% endblock %}
 
 {% block navinfo %}

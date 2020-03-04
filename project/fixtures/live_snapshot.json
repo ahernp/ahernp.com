@@ -33,7 +33,7 @@
         "title": "ahernp.com",
         "slug": "ahernp-com",
         "parent": 719,
-        "updated": "2019-12-21T15:54:50.716Z",
+        "updated": "2020-03-04T09:04:23.805Z",
         "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](https://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](https://isabellebidou.com \"Isabelle Bidou\")\n\nApps:\n[Calibre](https://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](https://www.geany.org \"Text editor\")\n[Inkscape](https://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](https://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](https://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](https://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](https://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](https://oreilly.com/ebooks/ \"IT Books\")\n[PG](https://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](https://www.dilbert.com \"Today's Dilbert comic\")\n[Garfield](https://www.garfield.com/comic \"Today's Garfield comic\")\n[Matt](https://www.telegraph.co.uk/)\n[xkcd](https://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](https://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](https://uk.gamersgate.com \"GamersGate\")\n[GOG](https://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](https://store.steampowered.com \"Steam Shop\")\n\nMedia:\n[BBC](https://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](https://www.bbc.co.uk/iplayer/added)\n[RT](https://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](https://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com)\n\nMisc:\n[AE](https://academicearth.org \"Academic Earth lectures\")\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](https://www.openstreetmap.org/)\n[MPS](https://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](https://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1465248600&zoom=9&lon=-0.43&lat=51.34 \"London rainfall radar\")\n[TfL](https://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](https://www.allwrite.nl/ \"Pens\")\n[BM](https://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](https://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](https://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n[Twitter](https://twitter.com/ahernp \"My Profile on Twitter\")\n\nThis Site:\n[Django](https://www.djangoproject.com/ \"Web development framework\")\n[React](https://reactjs.org/ \"Javascript library\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](https://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](https://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[Archive](/blog/archive)\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n[West Cork](/pages/west-cork)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Maps](/pages/maps)\n[Planting](/pages/2010-planting)\n\nThis Site:\n[Dashboard](/dashboard)\n[Site Map](/pages)\n\n[Tools](/tools):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader)\n[Timers](/timers)\n\n</div>"
     }
 },
@@ -1001,8 +1001,8 @@
         "title": "Games",
         "slug": "games",
         "parent": 724,
-        "updated": "2020-01-11T20:19:37.213Z",
-        "content": "# Games\n\nTitle | Genre | Platform | Source | Score\n------|:-------:|:----------:|:--------:|:--------:\n3030 Deathwar Redux | Space | Windows | Steam | 5\n5089: Action RPG | RPG | Linux | Steam | 3\nAI War | RTS | Linux | Steam | 3\nAI War 2 | RTS | Linux | Steam | 3\nAge of Empires II HD | RTS | Windows | Steam | 2\nAge of Wonders III | Strategy | Linux | Steam | 4\nAir Conflicts: Pacific Carriers | Flight | Linux | Steam | 3\nAntichamber | Puzzle | Linux | Steam | 2\nAnno 1404 Gold | Strategy | Windows | GoG | 2\nAnomaly Warzone Earth | Tower | Linux | GoG | 2\nApotheon | RPG | Linux | GoG | 3\nArma: Cold War Assault | FPS | Linux | Steam | 3\nArmello | Strategy | Linux | Steam | 3\nAscii Sector | RPG | Linux | Developer | 3\nAtlantic Fleet | Sim | Windows | Steam | 2\nBaldur's Gate | RPG | Linux | Steam | 3\nBaldur's Gate 2 | RPG | Linux | GoG | 4\nBanished | Strategy | Windows | GoG | 3\nBanner Saga | RPG | Windows | GoG | 2\nBard's Tale, The | RPG | Windows | GoG | 2\nBattle Isle Platinum 1-4 | Strategy | Windows | GoG | 4\nBattle Worlds: Kronos | Strategy | Linux | Steam | 3\nBattle for Orion 2 | Strategy | Linux | Steam | 3\nBattle v Chess | Chess | Linux | Steam | 2\nBattlefleet Gothic Armada | RTS | Windows | Steam | 2\nBattlestation: Harbinger | RPG | Linux | Steam | 3\nBejeweled 3 | Puzzle | Windows | Steam | 3\nBioShock | Horror | Windows | Steam | 3\nBioShock 2 | Horror | Windows | Steam | 2\nBioshock Infinite | RPG | Linux | Steam | 4\nBomber Crew | Sim | Linux | Steam | 3\nBook of Unwritten Tales, The | Adventure | Windows | GoG | 2\nBorderlands | FPS | Windows | Steam | 3\nBorderlands 2 | FPS | Linux | Steam | 4\nBossConstructor | Strategy | Linux | Steam | 4\nBrigador: Up-Armored Edition | Mech | Linux | Steam | 4\nBroforce | Platformer | Linux | Steam | 4\nCall of Juarez | FPS | Windows | Steam | 3\nCall to Power 2 | Strategy | Windows | GoG | 2\nCeres | Space | Linux | Steam | 0\nChildren of the Nile | Strategy | Windows | GoG | 2\nChronicles of Riddick: Assault on Dark Athena, The | RPG | Windows | GoG | 2\nCities Skylines | City Sim | Linux | Steam | 3\nCompany of Heroes 2 | Tactical | Linux | Steam | 2\nConquest of Elysium 3 | Strategy | Linux | Desura | 3\nContraption Maker | Puzzle | Linux | Humble | 2\nCossacks 3 | RTS | Linux | Steam | 1\nCrashlands | RPG | Linux | Steam | 3\nCrest | Strategy | Linux | Steam | 2\nCrusader Kings 2 | Strategy | Linux | Steam | 5\nCrysis | FPS | Windows | GoG | 2\nCthulhu Saves the World | RPG | Windows | Steam | 2\nDarkest Dungeon | RPG | Linux | Steam | 3\nDeadnaut | RPG | Linux | GoG | 2\nDEFCON | RTS | Linux | Developer | 4\nDefense Grid: The Awakening | Tower | Windows | Steam | 2\nDeponia | Adventure | Linux | GoG | 2\nDeus Ex: Mankind Divided | RPG | Linux | Steam | 2\nDeus Ex\u2122 GOTY Edition | RPG | Windows | Steam | 3\nDishonored | RPG | Windows | Steam | 2\nDistant Star: Revenant Fleet | RTS | Linux | Steam | 3\nDistant Worlds: Universe | RTS | Windows | Steam | 3\nDivinity: Dragon Commander | Strategy | Windows | Steam | 2\nDominions 3: The Awakening | Strategy | Windows | Gamers Gate | 4\nDon't Starve | RPG | Linux | Steam | 2\nDoor Kickers | Tactical | Linux | GoG | 2\nDragon Age: Origins | RPG | Windows | Steam | 3\nDroidFish | Chess | Android | Google | 4\nDuet | Action | Linux | Humble | 2\nDust: An Elysian Tail | Platformer | Linux | GoG | 2\nDustforce DX | Platformer | Linux | Humble | 2\nDwarfFortress | Sim | Linux | Developer | 4\nElse Heart.Break() | Adventure | Linux | Humble | 2\nEndless Legend | Strategy | Windows | Steam | 5\nEndless Sky | RPG | Linux | Steam | 5\nEndless Space | Strategy | Windows | Steam | 4\nEquilinox | Sim | Linux | Steam | 3\nEufloria | Strategy | Linux | Steam | 2\nEuro Truck Simulator 2 | Sim | Linux | Steam | 3\nEuropa Universalis 3 | Strategy | Windows | Gamers Gate | 3\nEuropa Universalis 4 | Strategy | Linux | Steam | 4\nEverspace | Space | Linux | Steam | 2\nEverything | Sim | Linux | Steam | 2\nEvochron Legacy | Space | Windows | Steam | 4\nExpeditions: Conquistador | Strategy | Linux | Steam | 2\nF-117a Stealth Fighter | Flight | Linux | GoG | 2\nFTL: Faster Than Light | Space | Linux | Humble | 4\nFallout 3 | RPG | Windows | Steam | 2\nFallout: New Vegas | RPG | Windows | Steam | 3\nFantasy Wars | Strategy | Windows | Gamers Gate | 2\nFar Cry | RPG | Windows | GoG | 2\nFar Cry 2 | RPG | Windows | GoG | 2\nFictorum | RPG | Windows | Steam | 3\nFreespace 2 | Space | Windows | GoG | 3\nGalactic Assault: Prisoner of Power | Strategy | Windows | GoG | 2\nGalactic Civilisations III | Space | Windows | Steam | 4\nGalaxy on Fire 2 | Space | Windows | Steam | 4\nGalcon | Strategy | Android | Google | 3\nGratuitous Space Battles | RTS | Linux | Humble | 4\nGratuitous Space Battles 2 | RTS | Linux | Humble | 3\nGratuitous Tank Battles | Tower | Windows | Gamers Gate | 3\nGrim Fandango Remastered | RPG | Linux | GoG | 2\nHalcyon 6 | Strategy | Linux | Steam | 2\nHalf-Life | FPS | Linux | Steam | 3\nHalf-Life 2 | FPS | Linux | Steam | 4\nHand of Fate | RPG | Linux | Steam | 3\nHearts of Iron 4 | Strategy | Linux | Steam | 5\nHelium Rain | Space | Linux | Steam | 2\nHeroes of Might and Magic 3 | Strategy | Windows | GoG | 2\nIcewind Dale | RPG | Linux | Steam | 2\nIL-2 Sturmovik: 1946 | Flight | Windows | Steam | 3\nImperial Glory | Strategy | Windows | Steam | 3\nImperium Galactica II: Alliances | Strategy | Linux | GoG | 2\nInto the Breach | Strategy | Windows | Steam | 3\nIron Sky Invasion | Space | Linux | Steam | 2\nIroncast | Puzzle | Linux | Steam | 4\nIslanders | Puzzle | Linux | Steam | 3\nJagged Alliance | Strategy | Windows | Humble | 2\nJagged Alliance: Crossfire | Strategy | Windows | Steam | 2\nJewels | Puzzle | Android | Google | 3\nJotun | RPG | Linux | Steam | 2\nJust Cause | Sim | Windows | Steam | 2\nJust Cause 2 | Sim | Windows | Steam | 3\nKerbal Space Program | Space | Linux | Steam | 5\nKhet 2.0 | Board | Linux | Steam | 4\nKing Arthur II | Strategy | Windows | Steam | 2\nKing of Dragon Pass | RPG | Android | Google | 3\nKingdoms and Castles | Strategy | Linux | GoG | 2\nKingdoms of Amalur: Reckoning | RPG | Windows | Steam | 4\nLa-Mulana | Platformer | Linux | Humble | 2\nLast Federation | Strategy | Linux | GoG | 5\nLeviathan: Warships | Strategy | Windows | Steam | 2\nLords of Xulima | RPG | Linux | GoG | 3\nLux Delux | Strategy | Linux | Steam | 2\nLyne | Puzzle | Android | Humble | 4\nMad Max | RPG | Linux | Steam | 3\nMagic Carpet 2 | RPG | Windows | GoG | 4\nMarch of the Eagles | Strategy | Windows | Steam | 2\nMass Effect | Strategy | Windows | Steam | 1\nMass Effect 2 | Strategy | Windows | Steam | 2\nMassive Assault | Tactical | Windows | GoG | 3\nMassive Chalice | Tactical | Linux | GoG | 3\nMaster of Orion 1 | Strategy | Linux | GoG | 5\nMaster of Orion 2 | Strategy | Linux | GoG | 4\nMaster of Orion 2016 | Strategy | Linux | Steam | 3\nMedal of Honor: Allied Assault | FPS | Windows | GoG | 2\nMiddle-earth: Shadow of Mordor | RPG | Linux | Steam | 3\nMinecraft | RPG | Linux | Developer | 5\nMinos Strategos | Strategy | Linux | Steam | 3\nMirrorMoon EP | Puzzle | Linux | Humble | 2\nMount and Blade: Warband | Sim | Linux | Steam | 4\nMountain | Sim | Linux | Steam | 1\nNever Alone | Platformer | Linux | Humble | 2\nNo Man's Sky | Space | Windows | Steam | 5\nObjects in Space | RPG | Linux | Steam | 3\nOperation Flashpoint: Dragon Rising | Sim | Windows | Steam | 2\nOperation Flashpoint: Red River | Sim | Windows | Steam | 2\nOriental Empires | Strategy | Windows | Steam | 3\nOsmos | Puzzle | Linux | Developer | 3\nOut There: \u03a9 Edition | Adventure | Linux | Steam | 2\nOutlast | Horror | Linux | Humble | 2\nOverlord | RPG | Linux | Steam | 2\nOverlord II | RPG | Linux | Steam | 2\nPandora: First Contact | Strategy | Linux | Steam | 3\nPanzer Corps | Strategy | Windows | Steam | 2\nPanzer General 3D Assault | Strategy | Windows | GoG | 3\nPaper Train Traffic | Puzzle | Linux | Steam | 2\nPapers Please | Sim | Linux | Steam | 3\nPhantom Signal | Strategy | Linux | Steam | 2\nPillars of Eternity | RPG | Linux | Steam | 3\nPixel Piracy | RPG | Linux | Humble | 2\nPlanescape: Torment | RPG | Linux | GoG | 2\nPlanet Explorers | Open World | Linux | Steam | 2\nPlanetary Annihilation | RTS | Linux | Steam | 2\nPortal | Puzzle | Linux | Steam | 3\nPortal 2 | Puzzle | Linux | Steam | 3\nPredynastic Egypt | Strategy | Linux | Steam | 4\nPrison Architect | Sim | Linux | Steam | 2\nRailroad Tycoon 3 | Strategy | Windows | Steam | 3\nReassembly | Space | Linux | Humble | 5\nRebel Galaxy | Space | Windows | Steam | 5\nReigns | RPG | Android | Google | 3\nRetro City Rampage DX | Action | Linux | Humble | 2\nReus | Strategy | Linux | Steam | 3\nRise of Flight United | Flight | Linux | Steam | 2\nRise of the Argonauts | RPG | Windows | Steam | 1\nRise to Ruins | Strategy | Linux | Steam | 3\nRochard | Platformer | Linux | Humble | 2\nRunning with Rifles | Tactical | Linux | Steam | 2\nSacrifice | RPG | Windows | GoG | 2\nSaints Row 2 | RPG | Linux | Steam | 2\nSaints Row 3 | RPG | Linux | Steam | 3\nSaints Row 4 | RPG | Linux | Steam | 3\nSatellite Reign | RPG | Linux | GoG | 2\nSerious Sam 3: BFE | FPS | Linux | Steam | 2\nShadowrun Returns | RPG | Linux | Humble | 3\nShadowrun: Dragonfall | RPG | Linux | Steam | 3\nShatter | Arcade | Linux | Humble | 2\nSid Meier's Alpha Centauri | Strategy | Windows | GoG | 5\nSid Meier's Civilisation 3 | Strategy | Windows | Steam | 4\nSid Meier's Civilisation 4 | Strategy | Windows | Steam | 5\nSid Meier's Civilization 5 | Strategy | Linux | Steam | 4\nSid Meier's Civilization: Beyond Earth | Strategy | Linux | Steam | 3\nSid Meier's Starships | Strategy | Windows | Steam | 3\nSignal From T\u00f6lva, The | RPG | Linux | Steam | 2\nSimCity 2000 | City Sim | Windows | GoG | 2\nSins of a Solar Empire | RTS | Windows | Steam | 4\nSky Rogue | Flight | Linux | Steam | 2\nSkyward Collapse | Strategy | Linux | Steam | 2\nSolar Flux | Puzzle | Linux | Steam | 2\nSolar Settlers | Strategy | Linux | Steam | 3\nSpace Pirates and Zombies | RPG | Linux | Humble | 3\nSpace Pirates and Zombies 2 | Space | Linux | Steam | 5\nSpace Run | Tower | Linux | Steam | 2\nSpace Tyrant | Strategy | Linux | Steam | 3\nSpacecom | Strategy | Linux | GoG | 2\nSpelunky | Platformer | Linux | GoG | 2\nSpore | Strategy | Windows | Steam | 2\nS.T.A.L.K.E.R.: Clear Sky | FPS | Windows | GoG | 2\nStar Ruler | Strategy | Windows | Gamers Gate | 5\nStar Ruler 2 | Strategy | Linux | GoG | 4\nStar Traders: Frontiers | RPG | Linux | Steam | 5\nStar Trek: Starfleet Command | Space | Windows | Steam | 3\nStar Wars: Empire at War | RTS | Windows | Steam | 5\nStar Wars: KoTOR | RPG | Windows | Steam | 4\nStar Wars: KoTOR 2 | RPG | Linux | Steam | 5\nStar Wars: Republic Commando | FPS| Windows | Steam | 2\nStar Wars: TIE Fighter | Space | Linux | GoG | 4\nStar Wars: X-Wing Alliance | Space | Windows | Steam | 3\nStarbound | RPG | Linux | Steam | 3\nStardew Valley | RPG | Linux | Steam | 3\nStarpoint Gemini 2 | Space | Windows | Steam | 3\nStars in Shadow | Strategy | Windows | Steam | 3\nstarsector | RPG | Linux | Developer | 5\nSteamworld Heist | RPG | Linux | Steam | 2\nStellar Monarch | Strategy | Windows | Steam | 4\nStellaris | Strategy | Linux | Steam | 4\nSublevel Zero | Space | Linux | Steam | 2\nSunless Sea | RPG | Linux | Steam | 2\nSuper Hot| FPS | Linux | Steam | 3\nSuper Splatters | Arcade | Linux | Humble | 2\nSword of the Stars | Strategy | Windows | Steam | 3\nSword of the Stars: The Pit | RPG | Linux | Steam | 3\nSystem Shock 2 | RPG | Windows | GoG | 2\nTabletop Simulator | Sim | Linux | Steam | 3\nTerraria | RPG | Linux | Steam | 4\nThe Elder Scrolls 3: Morrowind | RPG | Windows | GoG | 2\nThe Elder Scrolls 4: Oblivion | RPG | Windows | Steam | 3\nThe Elder Scrolls 5: Skyrim | RPG | Windows | Steam | 6\nThe Fall | Adventure | Linux | Steam | 2\nThe Stanley Parable | RPG | Linux | Steam | 2\nThea: The Awakening | Strategy | Linux | Steam | 3\nTerraTech | Sim | Linux | Steam | 4\nThunder Wolves | Arcade | Windows | Steam | 2\nTorchlight | RPG | Linux | Humble | 3\nTorchlight II | RPG | Linux | Humble | 3\nTotal War: Shogun | Strategy | Windows | Steam | 4\nTotal War: Rome | Strategy | Windows | Steam | 5\nTotal War: Medieval | Strategy | Windows | Steam | 3\nTotal War: Medieval 2 | Strategy | Linux | Steam | 3\nTotal War: Empire | Strategy | Linux | Steam | 4\nTotal War: Napoleon | Strategy | Windows | Steam | 2\nTotal War Shogun 2 | Strategy | Linux | Steam | 3\nTotal War: ROME 2 | Strategy | Linux | Steam | 3\nTotal War: Warhammer | Strategy | Linux | Steam | 3\nTrain Fever | Sim | Linux | Steam | 4\nTrain Valley | Puzzle | Linux | Steam | 2\nTransistor | RPG | Linux | Steam | 3\nTransport Fever | Sim | Linux | Steam | 4\nTrine 3 | Platformer | Linux | Steam | 2\nTropico 3 | Strategy | Windows | Steam | 3\nTropico 4 | Strategy | Windows | Steam | 3\nTropico 5 | Strategy | Linux | Steam | 3\nTumbleweed Express | Action | Linux | Steam | 2\nTurmoil | Sim | Linux | Steam | 2\nTwo Worlds | RPG | Linux | Steam | 2\nTyranny | RPG | Linux | GoG | 4\nUltimate General: Civil War | RTS | Windows | Steam | 5\nUltimate General: Gettysburg | RTS | Linux | Steam | 4\nUnEpic | Platformer | Linux | Humble | 2\nUnity of Command | Strategy | Linux | Steam | 3\nValkyria Chronicles | RPG | Windows | Steam | 2\nValley | RPG | Linux | Steam | 2\nVessel | Platformer | Windows | Humble | 2\nVictoria 2 | Strategy | Windows | Steam | 3\nVictory at Sea | Sim | Linux | Steam | 3\nVictory at Sea Pacific | Strategy | Linux | Steam | 3\nViking: Battle for Asgard | Adventure | Windows | Steam | 2\nVoidExpanse | RTS | Linux | Steam | 2\nWargame: European Escalation | Strategy | Linux | Steam | 3\nWarhammer 40,000: Dawn of War II - Retribution | Strategy | Windows | Steam | 2\nWarhammer 40,000: Regicide | Strategy | Windows | Steam | 3\nWarlock - Master of the Arcane | Strategy | Windows | Steam | 4\nWarlock 2: The Exiled | Strategy | Linux | Steam | 3\nWindward | RPG | Linux | Steam | 5\nWing Commander: Privateer | RPG | Windows | GoG | 2\nWitcher 2 | RPG | Linux | Steam | 3\nWitcher, The | RPG | Windows | Steam | 3\nVoid Destroyer | Space | Windows | Steam | 3\nX2 The Threat | Space | Windows | Steam | 4\nX3: Albion Prelude | Space | Linux | Steam | 5\nX Rebirth | Space | Linux | GoG | 2\nXCOM: Enemy Within | Tactical | Linux | Steam | 4\nZeus + Poseidon | Strategy | Windows | GoG | 1\nZigfrak | Space | Linux | Steam | 2\nZiggurat | FPS | Linux | Steam | 2"
+        "updated": "2020-02-26T20:54:18.277Z",
+        "content": "# Games\n\nTitle | Genre | Platform | Source | Score\n------|:-------:|:----------:|:--------:|:--------:\n3030 Deathwar Redux | Space | Windows | Steam | 5\n5089: Action RPG | RPG | Linux | Steam | 3\nAI War | RTS | Linux | Steam | 3\nAI War 2 | RTS | Linux | Steam | 3\nAge of Empires II HD | RTS | Windows | Steam | 2\nAge of Wonders III | Strategy | Linux | Steam | 4\nAir Conflicts: Pacific Carriers | Flight | Linux | Steam | 3\nAlea Iacta Est | Strategy | Windows | Steam | 3\nAntichamber | Puzzle | Linux | Steam | 2\nAnno 1404 Gold | Strategy | Windows | GoG | 2\nAnomaly Warzone Earth | Tower | Linux | GoG | 2\nApotheon | RPG | Linux | GoG | 3\nArma: Cold War Assault | FPS | Linux | Steam | 3\nArmello | Strategy | Linux | Steam | 3\nAscii Sector | RPG | Linux | Developer | 3\nAtlantic Fleet | Sim | Windows | Steam | 2\nBaldur's Gate | RPG | Linux | Steam | 3\nBaldur's Gate 2 | RPG | Linux | GoG | 4\nBanished | Strategy | Windows | GoG | 3\nBanner Saga | RPG | Windows | GoG | 2\nBard's Tale, The | RPG | Windows | GoG | 2\nBattle Isle Platinum 1-4 | Strategy | Windows | GoG | 4\nBattle Worlds: Kronos | Strategy | Linux | Steam | 3\nBattle for Orion 2 | Strategy | Linux | Steam | 3\nBattle v Chess | Chess | Linux | Steam | 2\nBattlefleet Gothic Armada | RTS | Windows | Steam | 2\nBattlestation: Harbinger | RPG | Linux | Steam | 3\nBejeweled 3 | Puzzle | Windows | Steam | 3\nBioShock | Horror | Windows | Steam | 3\nBioShock 2 | Horror | Windows | Steam | 2\nBioshock Infinite | RPG | Linux | Steam | 4\nBomber Crew | Sim | Linux | Steam | 3\nBook of Unwritten Tales, The | Adventure | Windows | GoG | 2\nBorderlands | FPS | Windows | Steam | 3\nBorderlands 2 | FPS | Linux | Steam | 4\nBossConstructor | Strategy | Linux | Steam | 4\nBrigador: Up-Armored Edition | Mech | Linux | Steam | 4\nBroforce | Platformer | Linux | Steam | 4\nCall of Juarez | FPS | Windows | Steam | 3\nCall to Power 2 | Strategy | Windows | GoG | 2\nCeres | Space | Linux | Steam | 0\nChildren of the Nile | Strategy | Windows | GoG | 2\nChronicles of Riddick: Assault on Dark Athena, The | RPG | Windows | GoG | 2\nCities Skylines | City Sim | Linux | Steam | 3\nCompany of Heroes 2 | Tactical | Linux | Steam | 2\nConquest of Elysium 3 | Strategy | Linux | Desura | 3\nContraption Maker | Puzzle | Linux | Humble | 2\nCossacks 3 | RTS | Linux | Steam | 1\nCrashlands | RPG | Linux | Steam | 3\nCrest | Strategy | Linux | Steam | 2\nCrusader Kings 2 | Strategy | Linux | Steam | 5\nCrysis | FPS | Windows | GoG | 2\nCthulhu Saves the World | RPG | Windows | Steam | 2\nDarkest Dungeon | RPG | Linux | Steam | 3\nDeadnaut | RPG | Linux | GoG | 2\nDEFCON | RTS | Linux | Developer | 4\nDefense Grid: The Awakening | Tower | Windows | Steam | 2\nDeponia | Adventure | Linux | GoG | 2\nDeus Ex: Mankind Divided | RPG | Linux | Steam | 2\nDeus Ex\u2122 GOTY Edition | RPG | Windows | Steam | 3\nDishonored | RPG | Windows | Steam | 2\nDistant Star: Revenant Fleet | RTS | Linux | Steam | 3\nDistant Worlds: Universe | RTS | Windows | Steam | 3\nDivinity: Dragon Commander | Strategy | Windows | Steam | 2\nDominions 3: The Awakening | Strategy | Windows | Gamers Gate | 4\nDon't Starve | RPG | Linux | Steam | 2\nDoor Kickers | Tactical | Linux | GoG | 2\nDragon Age: Origins | RPG | Windows | Steam | 3\nDroidFish | Chess | Android | Google | 4\nDuet | Action | Linux | Humble | 2\nDust: An Elysian Tail | Platformer | Linux | GoG | 2\nDustforce DX | Platformer | Linux | Humble | 2\nDwarfFortress | Sim | Linux | Developer | 4\nElse Heart.Break() | Adventure | Linux | Humble | 2\nEndless Legend | Strategy | Windows | Steam | 5\nEndless Sky | RPG | Linux | Steam | 5\nEndless Space | Strategy | Windows | Steam | 4\nEquilinox | Sim | Linux | Steam | 3\nEufloria | Strategy | Linux | Steam | 2\nEuro Truck Simulator 2 | Sim | Linux | Steam | 3\nEuropa Universalis 3 | Strategy | Windows | Gamers Gate | 3\nEuropa Universalis 4 | Strategy | Linux | Steam | 4\nEverspace | Space | Linux | Steam | 2\nEverything | Sim | Linux | Steam | 2\nEvochron Legacy | Space | Windows | Steam | 4\nExpeditions: Conquistador | Strategy | Linux | Steam | 2\nF-117a Stealth Fighter | Flight | Linux | GoG | 2\nFTL: Faster Than Light | Space | Linux | Humble | 4\nFallout 3 | RPG | Windows | Steam | 2\nFallout: New Vegas | RPG | Windows | Steam | 3\nFantasy Wars | Strategy | Windows | Gamers Gate | 2\nFar Cry | RPG | Windows | GoG | 2\nFar Cry 2 | RPG | Windows | GoG | 2\nFictorum | RPG | Windows | Steam | 3\nFreespace 2 | Space | Windows | GoG | 3\nGalactic Assault: Prisoner of Power | Strategy | Windows | GoG | 2\nGalactic Civilisations III | Space | Windows | Steam | 4\nGalaxy on Fire 2 | Space | Windows | Steam | 4\nGalcon | Strategy | Android | Google | 3\nGratuitous Space Battles | RTS | Linux | Humble | 4\nGratuitous Space Battles 2 | RTS | Linux | Humble | 3\nGratuitous Tank Battles | Tower | Windows | Gamers Gate | 3\nGrim Fandango Remastered | RPG | Linux | GoG | 2\nHalcyon 6 | Strategy | Linux | Steam | 2\nHalf-Life | FPS | Linux | Steam | 3\nHalf-Life 2 | FPS | Linux | Steam | 4\nHand of Fate | RPG | Linux | Steam | 3\nHearts of Iron 4 | Strategy | Linux | Steam | 5\nHelium Rain | Space | Linux | Steam | 2\nHeroes of Might and Magic 3 | Strategy | Windows | GoG | 2\nIcewind Dale | RPG | Linux | Steam | 2\nIL-2 Sturmovik: 1946 | Flight | Windows | Steam | 3\nImperial Glory | Strategy | Windows | Steam | 3\nImperium Galactica II: Alliances | Strategy | Linux | GoG | 2\nInto the Breach | Strategy | Windows | Steam | 3\nIron Sky Invasion | Space | Linux | Steam | 2\nIroncast | Puzzle | Linux | Steam | 4\nIslanders | Puzzle | Linux | Steam | 3\nJagged Alliance | Strategy | Windows | Humble | 2\nJagged Alliance: Crossfire | Strategy | Windows | Steam | 2\nJewels | Puzzle | Android | Google | 3\nJotun | RPG | Linux | Steam | 2\nJust Cause | Sim | Windows | Steam | 2\nJust Cause 2 | Sim | Windows | Steam | 3\nKerbal Space Program | Space | Linux | Steam | 5\nKhet 2.0 | Board | Linux | Steam | 4\nKing Arthur II | Strategy | Windows | Steam | 2\nKing of Dragon Pass | RPG | Android | Google | 3\nKingdoms and Castles | Strategy | Linux | GoG | 2\nKingdoms of Amalur: Reckoning | RPG | Windows | Steam | 4\nLa-Mulana | Platformer | Linux | Humble | 2\nLast Federation | Strategy | Linux | GoG | 5\nLeviathan: Warships | Strategy | Windows | Steam | 2\nLords of Xulima | RPG | Linux | GoG | 3\nLux Delux | Strategy | Linux | Steam | 2\nLyne | Puzzle | Android | Humble | 4\nMad Max | RPG | Linux | Steam | 3\nMagic Carpet 2 | RPG | Windows | GoG | 4\nMarch of the Eagles | Strategy | Windows | Steam | 2\nMass Effect | Strategy | Windows | Steam | 1\nMass Effect 2 | Strategy | Windows | Steam | 2\nMassive Assault | Tactical | Windows | GoG | 3\nMassive Chalice | Tactical | Linux | GoG | 3\nMaster of Orion 1 | Strategy | Linux | GoG | 5\nMaster of Orion 2 | Strategy | Linux | GoG | 4\nMaster of Orion 2016 | Strategy | Linux | Steam | 3\nMedal of Honor: Allied Assault | FPS | Windows | GoG | 2\nMiddle-earth: Shadow of Mordor | RPG | Linux | Steam | 3\nMinecraft | RPG | Linux | Developer | 5\nMinos Strategos | Strategy | Linux | Steam | 3\nMirrorMoon EP | Puzzle | Linux | Humble | 2\nMount and Blade: Warband | Sim | Linux | Steam | 4\nMountain | Sim | Linux | Steam | 1\nNever Alone | Platformer | Linux | Humble | 2\nNo Man's Sky | Space | Windows | Steam | 5\nObjects in Space | RPG | Linux | Steam | 3\nOperation Flashpoint: Dragon Rising | Sim | Windows | Steam | 2\nOperation Flashpoint: Red River | Sim | Windows | Steam | 2\nOriental Empires | Strategy | Windows | Steam | 3\nOsmos | Puzzle | Linux | Developer | 3\nOut There: \u03a9 Edition | Adventure | Linux | Steam | 2\nOutlast | Horror | Linux | Humble | 2\nOverlord | RPG | Linux | Steam | 2\nOverlord II | RPG | Linux | Steam | 2\nPandora: First Contact | Strategy | Linux | Steam | 3\nPanzer Corps | Strategy | Windows | Steam | 2\nPanzer General 3D Assault | Strategy | Windows | GoG | 3\nPaper Train Traffic | Puzzle | Linux | Steam | 2\nPapers Please | Sim | Linux | Steam | 3\nPhantom Signal | Strategy | Linux | Steam | 2\nPillars of Eternity | RPG | Linux | Steam | 3\nPixel Piracy | RPG | Linux | Humble | 2\nPlanescape: Torment | RPG | Linux | GoG | 2\nPlanet Explorers | Open World | Linux | Steam | 2\nPlanetary Annihilation | RTS | Linux | Steam | 2\nPortal | Puzzle | Linux | Steam | 3\nPortal 2 | Puzzle | Linux | Steam | 3\nPredynastic Egypt | Strategy | Linux | Steam | 4\nPrison Architect | Sim | Linux | Steam | 2\nRailroad Tycoon 3 | Strategy | Windows | Steam | 3\nReassembly | Space | Linux | Humble | 5\nRebel Galaxy | Space | Windows | Steam | 5\nReigns | RPG | Android | Google | 3\nRetro City Rampage DX | Action | Linux | Humble | 2\nReus | Strategy | Linux | Steam | 3\nRise of Flight United | Flight | Linux | Steam | 2\nRise of the Argonauts | RPG | Windows | Steam | 1\nRise to Ruins | Strategy | Linux | Steam | 3\nRochard | Platformer | Linux | Humble | 2\nRunning with Rifles | Tactical | Linux | Steam | 2\nSacrifice | RPG | Windows | GoG | 2\nSaints Row 2 | RPG | Linux | Steam | 2\nSaints Row 3 | RPG | Linux | Steam | 3\nSaints Row 4 | RPG | Linux | Steam | 3\nSatellite Reign | RPG | Linux | GoG | 2\nSerious Sam 3: BFE | FPS | Linux | Steam | 2\nShadowrun Returns | RPG | Linux | Humble | 3\nShadowrun: Dragonfall | RPG | Linux | Steam | 3\nShatter | Arcade | Linux | Humble | 2\nSid Meier's Alpha Centauri | Strategy | Windows | GoG | 5\nSid Meier's Civilisation 3 | Strategy | Windows | Steam | 4\nSid Meier's Civilisation 4 | Strategy | Windows | Steam | 5\nSid Meier's Civilization 5 | Strategy | Linux | Steam | 4\nSid Meier's Civilization: Beyond Earth | Strategy | Linux | Steam | 3\nSid Meier's Starships | Strategy | Windows | Steam | 3\nSignal From T\u00f6lva, The | RPG | Linux | Steam | 2\nSimCity 2000 | City Sim | Windows | GoG | 2\nSins of a Solar Empire | RTS | Windows | Steam | 4\nSky Rogue | Flight | Linux | Steam | 2\nSkyward Collapse | Strategy | Linux | Steam | 2\nSolar Flux | Puzzle | Linux | Steam | 2\nSolar Settlers | Strategy | Linux | Steam | 3\nSpace Pirates and Zombies | RPG | Linux | Humble | 3\nSpace Pirates and Zombies 2 | Space | Linux | Steam | 5\nSpace Run | Tower | Linux | Steam | 2\nSpace Tyrant | Strategy | Linux | Steam | 3\nSpacecom | Strategy | Linux | GoG | 2\nSpelunky | Platformer | Linux | GoG | 2\nSpore | Strategy | Windows | Steam | 2\nS.T.A.L.K.E.R.: Clear Sky | FPS | Windows | GoG | 2\nStar Ruler | Strategy | Windows | Gamers Gate | 5\nStar Ruler 2 | Strategy | Linux | GoG | 4\nStar Traders: Frontiers | RPG | Linux | Steam | 5\nStar Trek: Starfleet Command | Space | Windows | Steam | 3\nStar Wars: Empire at War | RTS | Windows | Steam | 5\nStar Wars: KoTOR | RPG | Windows | Steam | 4\nStar Wars: KoTOR 2 | RPG | Linux | Steam | 5\nStar Wars: Republic Commando | FPS| Windows | Steam | 2\nStar Wars: TIE Fighter | Space | Linux | GoG | 4\nStar Wars: X-Wing Alliance | Space | Windows | Steam | 3\nStarbound | RPG | Linux | Steam | 3\nStardew Valley | RPG | Linux | Steam | 3\nStarpoint Gemini 2 | Space | Windows | Steam | 3\nStars in Shadow | Strategy | Windows | Steam | 3\nstarsector | RPG | Linux | Developer | 5\nSteamworld Heist | RPG | Linux | Steam | 2\nStellar Monarch | Strategy | Windows | Steam | 4\nStellaris | Strategy | Linux | Steam | 4\nSublevel Zero | Space | Linux | Steam | 2\nSunless Sea | RPG | Linux | Steam | 2\nSuper Hot| FPS | Linux | Steam | 3\nSuper Splatters | Arcade | Linux | Humble | 2\nSword of the Stars | Strategy | Windows | Steam | 3\nSword of the Stars: The Pit | RPG | Linux | Steam | 3\nSystem Shock 2 | RPG | Windows | GoG | 2\nTabletop Simulator | Sim | Linux | Steam | 3\nTerraria | RPG | Linux | Steam | 4\nThe Elder Scrolls 3: Morrowind | RPG | Windows | GoG | 2\nThe Elder Scrolls 4: Oblivion | RPG | Windows | Steam | 3\nThe Elder Scrolls 5: Skyrim | RPG | Windows | Steam | 6\nThe Fall | Adventure | Linux | Steam | 2\nThe Stanley Parable | RPG | Linux | Steam | 2\nThea: The Awakening | Strategy | Linux | Steam | 3\nTerraTech | Sim | Linux | Steam | 4\nThunder Wolves | Arcade | Windows | Steam | 2\nTorchlight | RPG | Linux | Humble | 3\nTorchlight II | RPG | Linux | Humble | 3\nTotal War: Shogun | Strategy | Windows | Steam | 4\nTotal War: Rome | Strategy | Windows | Steam | 5\nTotal War: Medieval | Strategy | Windows | Steam | 3\nTotal War: Medieval 2 | Strategy | Linux | Steam | 3\nTotal War: Empire | Strategy | Linux | Steam | 4\nTotal War: Napoleon | Strategy | Windows | Steam | 2\nTotal War Shogun 2 | Strategy | Linux | Steam | 3\nTotal War: ROME 2 | Strategy | Linux | Steam | 3\nTotal War: Warhammer | Strategy | Linux | Steam | 3\nTrain Fever | Sim | Linux | Steam | 4\nTrain Valley | Puzzle | Linux | Steam | 2\nTransistor | RPG | Linux | Steam | 3\nTransport Fever | Sim | Linux | Steam | 4\nTrine 3 | Platformer | Linux | Steam | 2\nTropico 3 | Strategy | Windows | Steam | 3\nTropico 4 | Strategy | Windows | Steam | 3\nTropico 5 | Strategy | Linux | Steam | 3\nTumbleweed Express | Action | Linux | Steam | 2\nTurmoil | Sim | Linux | Steam | 2\nTwo Worlds | RPG | Linux | Steam | 2\nTyranny | RPG | Linux | GoG | 4\nUltimate General: Civil War | RTS | Windows | Steam | 5\nUltimate General: Gettysburg | RTS | Linux | Steam | 4\nUnEpic | Platformer | Linux | Humble | 2\nUnity of Command | Strategy | Linux | Steam | 3\nValkyria Chronicles | RPG | Windows | Steam | 2\nValley | RPG | Linux | Steam | 2\nVessel | Platformer | Windows | Humble | 2\nVictoria 2 | Strategy | Windows | Steam | 3\nVictory at Sea | Sim | Linux | Steam | 3\nVictory at Sea Pacific | Strategy | Linux | Steam | 3\nViking: Battle for Asgard | Adventure | Windows | Steam | 2\nVoidExpanse | RTS | Linux | Steam | 2\nWargame: European Escalation | Strategy | Linux | Steam | 3\nWarhammer 40,000: Dawn of War II - Retribution | Strategy | Windows | Steam | 2\nWarhammer 40,000: Regicide | Strategy | Windows | Steam | 3\nWarlock - Master of the Arcane | Strategy | Windows | Steam | 4\nWarlock 2: The Exiled | Strategy | Linux | Steam | 3\nWindward | RPG | Linux | Steam | 5\nWing Commander: Privateer | RPG | Windows | GoG | 2\nWitcher 2 | RPG | Linux | Steam | 3\nWitcher, The | RPG | Windows | Steam | 3\nVoid Destroyer | Space | Windows | Steam | 3\nX2 The Threat | Space | Windows | Steam | 4\nX3: Albion Prelude | Space | Linux | Steam | 5\nX Rebirth | Space | Linux | GoG | 2\nXCOM: Enemy Within | Tactical | Linux | Steam | 4\nZeus + Poseidon | Strategy | Windows | GoG | 1\nZigfrak | Space | Linux | Steam | 2\nZiggurat | FPS | Linux | Steam | 2"
     }
 },
 {
@@ -1754,8 +1754,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/analysis/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006r4vz",
         "description": "Programme examining the ideas and forces which shape public policy in Britain and abroad, presented by distinguished writers, journalists and academics.",
-        "published_time": "2020-02-10T21:00:00Z",
-        "last_polled_time": "2020-02-10T22:17:04.374Z",
+        "published_time": "2020-03-02T21:00:00Z",
+        "last_polled_time": "2020-03-02T21:17:04.171Z",
         "group": 4
     }
 },
@@ -1767,8 +1767,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/fricomedy/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02pc9pj",
         "description": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show, Dead Ringers and Lobby Land.",
-        "published_time": "2020-02-07T18:58:00Z",
-        "last_polled_time": "2020-02-07T20:17:14.824Z",
+        "published_time": "2020-02-28T19:20:00Z",
+        "last_polled_time": "2020-02-28T20:17:13.914Z",
         "group": 4
     }
 },
@@ -1793,8 +1793,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qykl",
         "description": "Melvyn Bragg and guests discuss the history of ideas",
-        "published_time": "2020-02-13T10:15:00Z",
-        "last_polled_time": "2020-02-13T11:17:19.462Z",
+        "published_time": "2020-02-27T10:15:00Z",
+        "last_polled_time": "2020-02-27T11:17:17.706Z",
         "group": 4
     }
 },
@@ -1805,9 +1805,9 @@
         "title": "Law in Action",
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/law/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006tgy1",
-        "description": "Joshua Rozenberg presents Radio 4&#39;s long-running legal magazine programme, featuring reports and discussion on matters relating to law",
-        "published_time": "2019-11-19T16:30:00Z",
-        "last_polled_time": "2019-11-19T17:17:17.678Z",
+        "description": "Joshua Rozenberg presents Radio 4&#x27;s long-running legal magazine programme, featuring reports and discussion on matters relating to law",
+        "published_time": "2020-03-03T16:30:00Z",
+        "last_polled_time": "2020-03-03T17:17:20.943Z",
         "group": 4
     }
 },
@@ -1819,21 +1819,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/media/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b00dv9hq",
         "description": "Social media, anti-social media, breaking news, faking news: this is the programme about a revolution in media, with Amol Rajan, the BBC&#x27;s media editor. New episode every Wednesday",
-        "published_time": "2020-02-12T18:02:00Z",
-        "last_polled_time": "2020-02-12T18:17:41.004Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 68,
-    "fields": {
-        "title": "Profile",
-        "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/profile/rss.xml",
-        "link": "http://www.bbc.co.uk/programmes/b006qjz5",
-        "description": "An insight into the character of an influential figure making news headlines",
-        "published_time": "2020-02-08T19:15:00Z",
-        "last_polled_time": "2020-02-08T20:17:23.379Z",
+        "published_time": "2020-02-26T17:36:00Z",
+        "last_polled_time": "2020-02-26T18:17:40.405Z",
         "group": 4
     }
 },
@@ -1845,8 +1832,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/bottomline/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006sz6t",
         "description": "Evan Davis hosts the business conversation show with people at the top giving insight into what matters",
-        "published_time": "2019-11-21T20:59:00Z",
-        "last_polled_time": "2019-11-21T21:17:28.287Z",
+        "published_time": "2020-02-27T20:55:00Z",
+        "last_polled_time": "2020-02-27T21:17:32.186Z",
         "group": 4
     }
 },
@@ -1858,8 +1845,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "Radio 4&#x27;s weekly assessment of developments at Westminster",
-        "published_time": "2020-02-08T11:30:00Z",
-        "last_polled_time": "2020-02-08T12:17:50.134Z",
+        "published_time": "2020-02-29T11:30:00Z",
+        "last_polled_time": "2020-02-29T12:17:43.121Z",
         "group": 3
     }
 },
@@ -1871,8 +1858,8 @@
         "xml_url": "http://feedproxy.google.com/linuxtoday/linux",
         "link": "https://www.linuxtoday.com/",
         "description": "",
-        "published_time": "2020-02-13T20:16:31Z",
-        "last_polled_time": "2020-02-13T20:17:20.656Z",
+        "published_time": "2020-03-04T17:16:40Z",
+        "last_polled_time": "2020-03-04T17:17:13.686Z",
         "group": 5
     }
 },
@@ -1885,21 +1872,8 @@
         "link": "https://www.schneier.com/blog/",
         "description": "A blog covering security and security technology.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:27.691Z",
+        "last_polled_time": "2020-03-04T17:17:18.307Z",
         "group": 5
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 108,
-    "fields": {
-        "title": "Talking History: The Italian Unification",
-        "xml_url": "http://talkinghistorypodcast.libsyn.com/rss",
-        "link": "http://talkinghistorypodcast.com",
-        "description": "Two brothers telling the story of the Italian Unification, 1790-1870. Our story will start with a quick recap of Italian history from Roman times to 1790, then we&#39;ll slow down and examine the complex social, political, and economic themes as we cover the events of the Italian Unification.",
-        "published_time": "2019-06-23T22:48:06Z",
-        "last_polled_time": "2019-06-23T23:17:21.990Z",
-        "group": 1
     }
 },
 {
@@ -1910,8 +1884,8 @@
         "xml_url": "http://revolutionspodcast.libsyn.com/rss/",
         "link": "http://www.revolutionspodcast.com",
         "description": "A weekly podcasting exploring great political revolutions. Now:   The Russian Revolution Next: ???",
-        "published_time": "2020-02-10T11:38:37Z",
-        "last_polled_time": "2020-02-10T12:17:25.717Z",
+        "published_time": "2020-03-02T07:04:18Z",
+        "last_polled_time": "2020-03-02T07:17:25.438Z",
         "group": 1
     }
 },
@@ -1924,7 +1898,7 @@
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python Web framework.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:34.120Z",
+        "last_polled_time": "2020-03-04T17:17:20.572Z",
         "group": 5
     }
 },
@@ -1936,22 +1910,9 @@
         "xml_url": "http://feeds.feedburner.com/TheHistoryOfChina",
         "link": "http://thehistoryofchina.wordpress.com",
         "description": "A journey through the 5000 years of history documented by one of the world&#x27;s oldest continuous civilizations. \n\nFor all the episodes for free, as well as additional content, please subscribe and/or visit http://thehistoryofchina.wordpress.com .",
-        "published_time": "2020-02-06T18:21:55Z",
-        "last_polled_time": "2020-02-06T19:17:33.820Z",
+        "published_time": "2020-02-20T18:09:00Z",
+        "last_polled_time": "2020-02-20T18:17:35.108Z",
         "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 140,
-    "fields": {
-        "title": "Kermode Uncut Feed",
-        "xml_url": "http://www.bbc.co.uk/blogs/markkermode/rss",
-        "link": "http://www.bbc.co.uk/blogs/markkermode",
-        "description": "Outspoken, opinionated and never lost for words, Mark is the UK's leading film critic.  This\u00a0twice-weekly video blog is the place where he airs his personal views on the things that most fire him up about cinema - and invites you to give your own opinions.",
-        "published_time": "2018-12-28T11:37:27Z",
-        "last_polled_time": "2018-12-29T12:57:23.991Z",
-        "group": 2
     }
 },
 {
@@ -1963,7 +1924,7 @@
         "link": "https://slatestarcodex.com",
         "description": "SELF-RECOMMENDING!",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:28.539Z",
+        "last_polled_time": "2020-03-04T17:17:19.204Z",
         "group": 2
     }
 },
@@ -1976,7 +1937,7 @@
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable is a weekly dive into geeky media we love, including movies, books, TV, comics, and more, featuring a rotating panel of guests and hosted by Jason Snell.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:38.112Z",
+        "last_polled_time": "2020-03-04T17:17:23.522Z",
         "group": 2
     }
 },
@@ -1989,7 +1950,7 @@
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:08.972Z",
+        "last_polled_time": "2020-03-04T17:17:04.942Z",
         "group": 5
     }
 },
@@ -2001,8 +1962,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p02dbd4m/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p02dbd4m",
         "description": "Global experts and decision makers discuss, debate and analyse a key news story.",
-        "published_time": "2020-02-07T09:00:00Z",
-        "last_polled_time": "2020-02-07T09:17:40.521Z",
+        "published_time": "2020-02-28T09:00:00Z",
+        "last_polled_time": "2020-02-28T09:17:39.465Z",
         "group": 4
     }
 },
@@ -2014,8 +1975,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moreorless/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02nrss1",
         "description": "Tim Harford and the More or Less team try to make sense of the statistics which surround us. From BBC Radio 4",
-        "published_time": "2020-02-08T17:00:00Z",
-        "last_polled_time": "2020-02-08T18:17:21.332Z",
+        "published_time": "2020-02-29T19:00:00Z",
+        "last_polled_time": "2020-02-29T20:17:19.577Z",
         "group": 4
     }
 },
@@ -2028,7 +1989,7 @@
         "link": "https://www.bbc.co.uk/news/",
         "description": "BBC News - UK Politics",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:08.025Z",
+        "last_polled_time": "2020-03-04T17:17:04.089Z",
         "group": 3
     }
 },
@@ -2041,7 +2002,7 @@
         "link": "https://www.theregister.co.uk/",
         "description": "Biting the hand that feeds IT \u2014 sci/tech news and views for the world",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:42.030Z",
+        "last_polled_time": "2020-03-04T17:17:26.276Z",
         "group": 5
     }
 },
@@ -2054,7 +2015,7 @@
         "link": "https://www.scottadamssays.com",
         "description": "Scott Adams is best known as the creator of the Dilbert comic strip. But in his daily (sometimes twice daily) podcasts, Adams uses his training as a hypnotist and a lifelong student of persuasion to analyse current events (mostly Trump-related) through a persuasion lense. In so doing, Adams offers you a new way to understand your reality. You can also expect to pick up some valuable persuasion techniques along the way.&lt;br /&gt;\n&lt;br /&gt;\nThese podcasts are the audio channels from Adams&#x27; popular Periscope videos. If you hear pauses and interruptions, Adams is probably reading comments as they come across his Periscope screen. Adams&#x27; Periscope listeners requested that he convert the Periscope videos into podcast files so they can be played offline and also use less battery power.&lt;br /&gt;\n&lt;br /&gt;\nMost of what you will hear is spontaneous, unrehearsed and casual. The best way to listen is while sipping your favorite beverage.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:10.227Z",
+        "last_polled_time": "2020-03-04T17:17:06.077Z",
         "group": 2
     }
 },
@@ -2079,8 +2040,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p04z203l/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p04z203l",
         "description": "Nick Robinson talks about what\u2019s really going on in British politics.",
-        "published_time": "2020-02-07T14:32:00Z",
-        "last_polled_time": "2020-02-07T15:17:22.355Z",
+        "published_time": "2020-02-28T17:13:00Z",
+        "last_polled_time": "2020-02-28T18:17:22.781Z",
         "group": 4
     }
 },
@@ -2092,35 +2053,9 @@
         "xml_url": "https://rss.acast.com/thehistoryofbyzantium",
         "link": "https://thehistoryofbyzantium.com/",
         "description": "A podcast telling the story of the Roman (Byzantine) Empire from 476 AD to 1453",
-        "published_time": "2020-02-09T12:43:00Z",
-        "last_polled_time": "2020-02-09T13:17:36.484Z",
+        "published_time": "2020-02-28T17:00:04Z",
+        "last_polled_time": "2020-02-28T17:17:32.613Z",
         "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 234,
-    "fields": {
-        "title": "The Prisoner (from TeeVee)",
-        "xml_url": "http://feeds.theincomparable.com/prisoner",
-        "link": "https://www.theincomparable.com/teevee/prisoner/",
-        "description": "Steven and Erika of Lazy Doctor Who watch the colourful, psychadelic, trippy, wtf-is-happening spy-fi series that is 1967\u2019s &quot;The Prisoner.&quot;",
-        "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:41.124Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 236,
-    "fields": {
-        "title": "Back In the Village: The Prisoner Podcast",
-        "xml_url": "http://backinthevillage.com/feed/podcast/",
-        "link": "https://backinthevillage.com",
-        "description": "Join Clay and Wes back in the Village, where they&#x27;ll be discussing all 17 episodes of The Prisoner, the 60&#x27;s sci-fi classic starring Patrick McGoohan!",
-        "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:07.600Z",
-        "group": 4
     }
 },
 {
@@ -2144,8 +2079,8 @@
         "xml_url": "https://www.latrobe.edu.au/marketing/assets/podcasts/rssfeeds/caesar.xml",
         "link": "http://www.latrobe.edu.au",
         "description": "\u201cGreat empires are not maintained by timidity.\u201d - Tacitus. A podcast series looking at the rulers of the ancient Roman empire, by Dr Rhiannon Evans, Dr Caillan Davenport and Matt Smith.",
-        "published_time": "2020-02-11T03:49:51Z",
-        "last_polled_time": "2020-02-11T04:17:13.870Z",
+        "published_time": "2020-02-26T02:50:43Z",
+        "last_polled_time": "2020-02-26T03:17:13.041Z",
         "group": 1
     }
 },
@@ -2158,7 +2093,7 @@
         "link": "https://latenightlinux.com",
         "description": "Late Night Linux is a podcast that takes a look at what&#x27;s happening with Linux and the wider tech industry. Every two weeks, Joe, F\u00e9lim, Graham and Will discuss the latest news and releases, and the broader issues and trends in the world of free and open source software. Expect drinking, swearing, strong opinions and Will being told to shut up about Ubuntu.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:20.270Z",
+        "last_polled_time": "2020-03-04T17:17:13.241Z",
         "group": 5
     }
 },
@@ -2171,21 +2106,8 @@
         "link": "http://www.hellointernet.fm/",
         "description": "CGP Grey and Brady Haran talk about YouTube, life, work, whatever.",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:16.019Z",
+        "last_polled_time": "2020-03-04T17:17:11.449Z",
         "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 250,
-    "fields": {
-        "title": "Myths and History of Greece and Rome",
-        "xml_url": "https://feed.podbean.com/mythandhistory/feed.xml",
-        "link": "https://mythandhistory.podbean.com",
-        "description": "A journey through the myths and history of Ancient Greece and Rome for all the family.",
-        "published_time": "2019-09-05T15:56:52Z",
-        "last_polled_time": "2019-09-05T17:17:17.107Z",
-        "group": 1
     }
 },
 {
@@ -2196,22 +2118,9 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/p05299nl.rss",
         "link": "http://www.bbc.co.uk/programmes/p05299nl",
         "description": "The podcast formerly known as Brexitcast. Adam Fleming, Laura Kuenssberg, Katya Adler, Chris Mason and friends chat about the news, including how Brexit is going.",
-        "published_time": "2020-02-06T22:44:00Z",
-        "last_polled_time": "2020-02-06T23:17:09.048Z",
+        "published_time": "2020-02-27T22:24:00Z",
+        "last_polled_time": "2020-02-27T23:17:21.097Z",
         "group": 3
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 266,
-    "fields": {
-        "title": "The Reith Lectures",
-        "xml_url": "https://podcasts.files.bbci.co.uk/b00729d9.rss",
-        "link": "http://www.bbc.co.uk/programmes/b00729d9",
-        "description": "Significant international thinkers deliver the BBC&#39;s flagship annual lecture series",
-        "published_time": "2019-06-18T09:00:00Z",
-        "last_polled_time": "2019-06-18T09:17:34.540Z",
-        "group": 4
     }
 },
 {
@@ -2223,7 +2132,7 @@
         "link": "http://scholars-stage.blogspot.com/",
         "description": "",
         "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:42.954Z",
+        "last_polled_time": "2020-03-04T17:17:26.629Z",
         "group": null
     }
 },
@@ -2231,12 +2140,12 @@
     "model": "feedreader.feed",
     "pk": 269,
     "fields": {
-        "title": "Dan Carlin&#39;s Hardcore History: Addendum",
+        "title": "Dan Carlin&#x27;s Hardcore History: Addendum",
         "xml_url": "http://dchhaddendum.libsyn.com/rss",
         "link": "http://dchhaddendum.libsyn.com/website",
-        "description": "Interviews, musings and extra material from the makers of Dan Carlin&#39;s Hardcore History.  If it did not fit in the HH feed it&#39;s probably here",
-        "published_time": "2020-01-30T05:35:39Z",
-        "last_polled_time": "2020-01-30T06:17:12.503Z",
+        "description": "Interviews, musings and extra material from the makers of Dan Carlin&#x27;s Hardcore History.  If it did not fit in the HH feed it&#x27;s probably here",
+        "published_time": "2020-03-02T01:48:52Z",
+        "last_polled_time": "2020-03-02T02:17:09.682Z",
         "group": 1
     }
 },
@@ -2248,8 +2157,8 @@
         "xml_url": "https://pythonbytes.fm/episodes/rss",
         "link": "https://pythonbytes.fm/",
         "description": "Python Bytes is a weekly podcast hosted by Michael Kennedy and\n            Brian Okken. The show is a short discussion on the headlines and noteworthy news\n            in the Python, developer, and data science space.",
-        "published_time": "2020-02-11T08:00:00Z",
-        "last_polled_time": "2020-02-12T03:17:24.625Z",
+        "published_time": "2020-02-25T08:00:00Z",
+        "last_polled_time": "2020-02-26T03:17:23.152Z",
         "group": 5
     }
 },
@@ -2268,53 +2177,14 @@
 },
 {
     "model": "feedreader.feed",
-    "pk": 275,
-    "fields": {
-        "title": "The History of Exploration",
-        "xml_url": "https://historyofexploration.libsyn.com/rss",
-        "link": "http://historyofexploration.libsyn.com/podcast",
-        "description": "A podcast telling the story of history&#39;s great explorers, from the early classical voyages of exploration to modern times.",
-        "published_time": "2017-05-05T18:03:30Z",
-        "last_polled_time": "2019-10-14T18:28:29.883Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 276,
-    "fields": {
-        "title": "Bizarro Blog - Bizarro by Dan Piraro - Bizarro",
-        "xml_url": "http://feeds.feedburner.com/BizarroBlog-BizarroByDanPiraro",
-        "link": "https://www.bizarro.com/blog/",
-        "description": "<p>Bizarro Blog, updated with the week\u2019s cartoons and other nonsense.</p>",
-        "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:09.112Z",
-        "group": 2
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 277,
-    "fields": {
-        "title": "The History of India Podcast",
-        "xml_url": "http://historyofindiapodcast.libsyn.com/rss",
-        "link": "http://www.historyofindiapodcast.com",
-        "description": "A light weekly podcast covering the history of India, from 6th century B.C.  Enjoying the podcast? Please consider donating to the Snehal Sidhu Memorial Fund (http://tinyurl.com/prkvwll)",
-        "published_time": "2019-12-14T20:23:40Z",
-        "last_polled_time": "2019-12-14T21:17:33.983Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
     "pk": 283,
     "fields": {
         "title": "Beyond Today",
         "xml_url": "https://podcasts.files.bbci.co.uk/p06pzmr4.rss",
         "link": "http://www.bbc.co.uk/programmes/p06pzmr4",
         "description": "One big question about one big story from the news - and beyond - every weekday. Tina Daheley and Matthew Price search for answers that will change the way we see the world.",
-        "published_time": "2020-02-13T18:16:00Z",
-        "last_polled_time": "2020-02-13T19:17:08.653Z",
+        "published_time": "2020-03-03T18:27:00Z",
+        "last_polled_time": "2020-03-03T19:17:08.400Z",
         "group": 4
     }
 },
@@ -2326,8 +2196,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b07cblx9.rss",
         "link": "http://www.bbc.co.uk/programmes/b07cblx9",
         "description": "David Aaronovitch and a panel of experts and insiders present in-depth explainers on big issues in the news.",
-        "published_time": "2020-02-10T12:00:00Z",
-        "last_polled_time": "2020-02-10T14:17:36.900Z",
+        "published_time": "2020-02-20T20:30:00Z",
+        "last_polled_time": "2020-02-20T21:17:34.248Z",
         "group": 4
     }
 },
@@ -2346,19 +2216,6 @@
 },
 {
     "model": "feedreader.feed",
-    "pk": 286,
-    "fields": {
-        "title": "The Babylon Podcast",
-        "xml_url": "https://www.babylonpodcast.com/feed/podcast/",
-        "link": "https://www.babylonpodcast.com",
-        "description": "A place of analysis and discussion for a quarter of a million fans and geeks. A shining beacon in podcast space, all about one single show. The is the podcast about the history, the story and the impact of &quot;Babylon 5&quot; on us all. The name of this show is The Babylon Podcast.",
-        "published_time": null,
-        "last_polled_time": "2020-02-13T20:17:32.504Z",
-        "group": 4
-    }
-},
-{
-    "model": "feedreader.feed",
     "pk": 287,
     "fields": {
         "title": "Braving Babylon 5",
@@ -2372,27 +2229,14 @@
 },
 {
     "model": "feedreader.feed",
-    "pk": 292,
-    "fields": {
-        "title": "History of the Crusades",
-        "xml_url": "https://historyofthecrusades.podomatic.com/rss2.xml",
-        "link": "https://historyofthecrusades.podomatic.com",
-        "description": "Over 900 years ago, thousands of Christians invaded the Middle East, intent on taking the Holy Land from the Muslims.  The following 200 years were marked by a series of military campaigns known as the Crusades.\nJoin us to follow the history of the Crusades from 1095 onwards.  Castles, battles, religious clashes, Richard the Lionheart, the Assassins, Eleanor of Aquitaine, Saladin, the Knights Templar - all will feature as we examine one of the most interesting periods in history.",
-        "published_time": "2020-02-13T20:16:53Z",
-        "last_polled_time": "2020-02-13T20:17:18.158Z",
-        "group": 1
-    }
-},
-{
-    "model": "feedreader.feed",
     "pk": 293,
     "fields": {
         "title": "Americast",
         "xml_url": "https://www.listennotes.com/c/r/8f5766a667b94778be267c782cc8cc91",
         "link": "http://www.bbc.co.uk/programmes/p07h19zz",
         "description": "Join old pals and BBC journalists Emily Maitlis and Jon Sopel for the latest gossip from the campaign trail of the 2020 US presidential election race.",
-        "published_time": "2020-02-12T21:23:00Z",
-        "last_polled_time": "2020-02-12T22:17:03.288Z",
+        "published_time": "2020-02-27T00:51:00Z",
+        "last_polled_time": "2020-02-27T01:17:03.379Z",
         "group": 3
     }
 }
