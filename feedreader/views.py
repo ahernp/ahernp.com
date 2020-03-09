@@ -63,11 +63,9 @@ class EntryListView(ListView):
     def get_queryset(self):
         if "read_flag" in self.request.GET:
             params = {"read_flag": self.request.GET["read_flag"] == "True"}
-            entries = Entry.objects.filter(**params).order_by("-published_time")[
+            return Entry.objects.filter(**params).order_by("-published_time")[
                 : settings.MAX_ENTRIES_SHOWN
             ]
-            if len(entries):
-                return entries
 
         return Entry.objects.all().order_by("-published_time")[
             : settings.MAX_ENTRIES_SHOWN

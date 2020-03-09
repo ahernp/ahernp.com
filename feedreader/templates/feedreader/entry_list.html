@@ -32,7 +32,6 @@
                 <p><a href="{% url 'feed-recent-entries' feed.id %}">{{ feed.title|safe }} ({{ object_list|length }})</a></p>
                 <p><a href="{% url 'admin:feedreader_feed_change' feed.id %}">Admin</a></p>
                 <p><a href="{{ feed.xml_url }}">Feed</a></p>
-                <p><a href="{% url 'feed-recent-entries' feed.id %}?read_flag=True">All</a></p>
                 <p><a href="{% url 'feed-recent-entries' feed.id %}?read_flag=False">Unread</a></p>
                 <p><a href="{{ feed.link }}">Website</a></p>
                 <p>{{ feed.description|safe }}</p>
