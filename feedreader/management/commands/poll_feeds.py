@@ -28,6 +28,7 @@ class Command(BaseCommand):
         verbose = options["verbose"]
         feeds = Feed.objects.all()
         num_feeds = len(feeds)
+        num_new_entries_total = 0
 
         if verbose:
             print(f"{num_feeds} feeds to process")
@@ -36,7 +37,8 @@ class Command(BaseCommand):
             if verbose:
                 print(f"({count}/{num_feeds}) Processing Feed {feed.title}")
 
-            poll_feed(feed, verbose)
+            num_new_entries = poll_feed(feed, verbose)
+            num_new_entries_total += num_new_entries
 
             # Remove older entries
             entries = Entry.objects.filter(feed=feed)[settings.MAX_ENTRIES_SAVED :]
@@ -44,7 +46,7 @@ class Command(BaseCommand):
             for entry in entries:
                 entry.delete()
 
-            if verbose:
-                print(f"Deleted {len(entries)} entries from feed {feed.title}")
+            if verbose and (num_new_entries or entries):
+                print(f"{num_new_entries} new entries; Deleted {len(entries)} entries from feed {feed.title}")
 
-        logger.info("Feedreader poll_feeds completed successfully")
+        logger.info(f"Feedreader poll_feeds completed successfully ({num_new_entries_total} new entries found)")

@@ -149,9 +149,10 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 def poll_feed(feed_from_database, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
     updated_feed = update_feed_on_database(feed_from_database, feed_from_xml, verbose)
+    num_new_entries = 0
 
     if updated_feed:
-        if verbose:
+        if verbose and feed_from_xml.entries:
             print(
                 f"{len(feed_from_xml.entries)} entries to process in {updated_feed.title}"
             )
@@ -168,3 +169,6 @@ def poll_feed(feed_from_database, verbose=False):
 
             if created:
                 update_entry_on_database(entry_on_database, entry_from_xml)
+                num_new_entries += 1
+
+    return num_new_entries

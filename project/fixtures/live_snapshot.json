@@ -242,8 +242,8 @@
         "title": "CV",
         "slug": "cv",
         "parent": 728,
-        "updated": "2019-04-17T12:13:19.301Z",
-        "content": "# Curriculum Vitae\n\nPaul Ahern, Web Developer\n\n## My Story So Far\n\nHaving worked at Natwest bank in London for 15 years developing Retail Banking applications, using the COBOL programming language, in 2006 I moved back to Ireland to build a place in the country. While there, I attended an MSc course in Artificial Intelligence and worked on a helpdesk supporting web meeting products.\n\nSince September 2010, I have been working in London as a Web Developer mostly using Python and Django. As an Irish citizen I am eligible to work in the UK.\n\n## Technical Skills\n\n*Programming:* Javascript, Python\n<br>\n*Scripting:* Bash, Python\n<br>\n*Databases:* MySQL, PostgreSQL\n<br>\n*Web:* CSS, Django, HTML, React\n<br>\n*Version Control:* Git\n<br>\n*Management:* Jira, Pivotal Tracker\n\n## Portfolio\n\nExamples of my work can be found via links on this page: [ahernp.com/pages/portfolio](/pages/portfolio).\n\n## Education\n\n**1987-1990** BA Computer Studies, University College Cork: \n\n* Majored in Information Technology; Minored in Geography. \n\n**2006-2007** MSc Computer Science, University College Cork: \n\n* *Subjects* &ndash; Computer Security, Mobile Applications and Artificial Intelligence.\n* *Projects* &ndash; Building a University Timetabling tool using Constraint-Based programming techniques and modelling an adaptive Spam filtering system.\n\n## Experience\n\n**2016-** at Affectv in London:\n\n> Working as a Web Developer on an in-house web application.\n\n> * Maintained a legacy client-side application written using AngularJS.\n> * Supported the implementation and deployment of targeted advertising campaigns.\n\n**2014-2016** at Festicket in London:\n\n> Worked as a Web Developer maintaining and enhancing the festicket.com website.\n\n> * Integrated Booking Protect (refund protection) into the Festicket purchase process via an API.\n> * Wrote reporting logic to provide B2B communication to suppliers.\nWrote and maintained automated Unit Tests using `py.test`.\n> * Used a sprint-based Agile approach to deliver changes to festicket.com.\n> * Provided IT support to staff: Set-up PCs and accounts for new joiners; Offboarded leavers.\n> * Created and maintained an internal company wiki to document standards and procedures.\n\n**2012-2014** at Digitalis Reputations in London:\n\n> Worked as a Web Developer migrating an existing in-house tool onto the Django web framework. \n\n**2011-2012** at ReportLab in London:\n\n> Built several web sites which enable organisations to provide links to PDF output which is dynamically generated from their own data sets using the Reportlab core product.\n\n> My team has also built a Django-based wizard which allows users to buy foreign exchange. This has been rolled out across several financial institutions.\n\n> Built web sites in direct collaboration with the Clients. Liaised with Clients to manage the interfaces between their systems and Reportlab's.\n\n**2010-2011** at Steel Business Briefing in London:\n\n> Worked as a Web Developer building sites using the Django web framework.\n\n**2008-2010** at Premiere Global Services in Ireland:\n\n> Worked as a Web Technical Specialist supporting clients using web-meeting products: Adobe Connect, Microsoft Live Meeting & Webex.\n\n**2006-2007** sabbatical in Ireland:\n\n> Attended a full-time taught MSc course at UCC titled: Intelligent Systems for Business and Manufacturing.\n\n> Learned to drive.\n\n**1990-2006** at Natwest Bank in London:\n\n> For seven years I worked on a Live Support Team, helping to keep vital bank systems running. This included two years on the Helpdesk dealing with problems reported by non-IT staff across the countrywide branch network.\n\n> For several of those years I also worked as a duty-programmer. This involved working at night to see that the batch programs completed successfully and dealing immediately with any problems that arose.\n\n> The remainder of my time was spent on application development teams.\n\n> As a member of Application Development teams I participated in the end-to-end process of designing, documenting, building and implementing systems. From collecting requirements from users through writing design documents and implementation plans as well as coding and testing my role covered the full development process. \n\n> Technical Environment: IBM OS390 mainframe."
+        "updated": "2020-03-14T15:45:11.967Z",
+        "content": "# Curriculum Vitae\n\nPaul Ahern, Web Developer\n\n## My Story So Far\n\nHaving worked at Natwest bank in London for 15 years developing Retail Banking applications, using the COBOL programming language, in 2006 I moved back to Ireland to build a place in the country. While there, I attended an MSc course in Artificial Intelligence and worked on a helpdesk supporting web meeting products.\n\nSince September 2010, I have been working in London as a Web Developer mostly using Python and Django. As an Irish citizen I am eligible to work in the UK.\n\n## Technical Skills\n\n*Programming:* Javascript, Python\n<br>\n*Scripting:* Bash, Python\n<br>\n*Databases:* MySQL, PostgreSQL\n<br>\n*Web:* CSS, Django, HTML, React\n<br>\n*Version Control:* Git\n<br>\n*Project Management:* Jira, Pivotal Tracker\n\n## Portfolio\n\nExamples of my work are available on this page: [ahernp.com/pages/portfolio](/pages/portfolio).\n\n## Education\n\n**1987-1990** BA Computer Studies, University College Cork: \n\n* Majored in Information Technology; Minored in Geography. \n\n**2006-2007** MSc Computer Science, University College Cork: \n\n* *Subjects* &ndash; Computer Security, Mobile Applications and Artificial Intelligence.\n* *Projects* &ndash; Building a University Timetabling tool using Constraint-Based programming techniques and modelling an adaptive Spam filtering system.\n\n## Experience\n\n**2016-** at Affectv in London:\n\n> Working as a Web Developer on an in-house web application.\n\n> * Implemented new web application written in Django and React.\n> * Maintained a legacy client-side application written using AngularJS.\n> * Supported the implementation and deployment of targeted advertising campaigns.\n\n**2014-2016** at Festicket in London:\n\n> Worked as a Web Developer maintaining and enhancing the festicket.com website.\n\n> * Integrated Booking Protect (refund protection) into the Festicket purchase process via an API.\n> * Wrote reporting logic to provide B2B communication to suppliers.\nWrote and maintained automated Unit Tests using `py.test`.\n> * Used a sprint-based Agile approach to deliver changes to festicket.com.\n> * Provided IT support to staff: Set-up PCs and accounts for new joiners; Offboarded leavers.\n> * Created and maintained an internal company wiki to document standards and procedures.\n\n**2012-2014** at Digitalis Reputations in London:\n\n> Worked as a Web Developer migrating an existing in-house tool onto the Django web framework. \n\n**2011-2012** at ReportLab in London:\n\n> Built several web sites which enable organisations to provide links to PDF output which is dynamically generated from their own data sets using the Reportlab core product.\n\n> My team has also built a Django-based wizard which allows users to buy foreign exchange. This has been rolled out across several financial institutions.\n\n> Built web sites in direct collaboration with the Clients. Liaised with Clients to manage the interfaces between their systems and Reportlab's.\n\n**2010-2011** at Steel Business Briefing in London:\n\n> Worked as a Web Developer building sites using the Django web framework.\n\n**2008-2010** at Premiere Global Services in Ireland:\n\n> Worked as a Web Technical Specialist supporting clients using web-meeting products: Adobe Connect, Microsoft Live Meeting & Webex.\n\n**2006-2007** sabbatical in Ireland:\n\n> Attended a full-time taught MSc course at UCC titled: Intelligent Systems for Business and Manufacturing.\n\n> Learned to drive.\n\n**1990-2006** at Natwest Bank in London:\n\n> For seven years I worked on a Live Support Team, helping to keep vital bank systems running. This included two years on the Helpdesk dealing with problems reported by non-IT staff across the countrywide branch network.\n\n> For several of those years I also worked as a duty-programmer. This involved working at night to see that the batch programs completed successfully and dealing immediately with any problems that arose.\n\n> The remainder of my time was spent on application development teams.\n\n> As a member of Application Development teams I participated in the end-to-end process of designing, documenting, building and implementing systems. From collecting requirements from users through writing design documents and implementation plans as well as coding and testing my role covered the full development process. \n\n> Technical Environment: IBM OS390 mainframe."
     }
 },
 {
@@ -1754,8 +1754,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/analysis/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006r4vz",
         "description": "Programme examining the ideas and forces which shape public policy in Britain and abroad, presented by distinguished writers, journalists and academics.",
-        "published_time": "2020-03-02T21:00:00Z",
-        "last_polled_time": "2020-03-02T21:17:04.171Z",
+        "published_time": "2020-03-09T21:00:00Z",
+        "last_polled_time": "2020-03-09T21:17:03.650Z",
         "group": 4
     }
 },
@@ -1767,8 +1767,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/fricomedy/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02pc9pj",
         "description": "Download the best satirical comedy from Radio 4, every Friday. Features The News Quiz, The Now Show, Dead Ringers and Lobby Land.",
-        "published_time": "2020-03-06T19:00:00Z",
-        "last_polled_time": "2020-03-06T19:17:10.028Z",
+        "published_time": "2020-03-13T18:58:00Z",
+        "last_polled_time": "2020-03-13T19:17:10.361Z",
         "group": 4
     }
 },
@@ -1793,8 +1793,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qykl",
         "description": "Melvyn Bragg and guests discuss the history of ideas",
-        "published_time": "2020-03-05T10:15:00Z",
-        "last_polled_time": "2020-03-05T11:17:11.913Z",
+        "published_time": "2020-03-12T10:15:00Z",
+        "last_polled_time": "2020-03-12T11:17:12.119Z",
         "group": 4
     }
 },
@@ -1806,8 +1806,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/law/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006tgy1",
         "description": "Joshua Rozenberg presents Radio 4&#x27;s long-running legal magazine programme, featuring reports and discussion on matters relating to law",
-        "published_time": "2020-03-03T16:30:00Z",
-        "last_polled_time": "2020-03-03T17:17:20.943Z",
+        "published_time": "2020-03-11T17:52:00Z",
+        "last_polled_time": "2020-03-11T18:17:14.005Z",
         "group": 4
     }
 },
@@ -1819,8 +1819,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/media/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b00dv9hq",
         "description": "Social media, anti-social media, breaking news, faking news: this is the programme about a revolution in media, with Amol Rajan, the BBC&#x27;s media editor. New episode every Wednesday",
-        "published_time": "2020-03-04T17:23:00Z",
-        "last_polled_time": "2020-03-04T18:17:29.400Z",
+        "published_time": "2020-03-11T17:25:00Z",
+        "last_polled_time": "2020-03-11T18:17:26.091Z",
         "group": 4
     }
 },
@@ -1832,8 +1832,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/bottomline/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006sz6t",
         "description": "Evan Davis hosts the business conversation show with people at the top giving insight into what matters",
-        "published_time": "2020-03-05T20:30:00Z",
-        "last_polled_time": "2020-03-05T21:17:20.724Z",
+        "published_time": "2020-03-12T21:01:00Z",
+        "last_polled_time": "2020-03-12T21:17:21.296Z",
         "group": 4
     }
 },
@@ -1845,8 +1845,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "Radio 4&#x27;s weekly assessment of developments at Westminster",
-        "published_time": "2020-03-07T11:30:00Z",
-        "last_polled_time": "2020-03-07T12:17:27.584Z",
+        "published_time": "2020-03-14T11:30:00Z",
+        "last_polled_time": "2020-03-14T12:17:27.825Z",
         "group": 3
     }
 },
@@ -1858,8 +1858,8 @@
         "xml_url": "http://feedproxy.google.com/linuxtoday/linux",
         "link": "https://www.linuxtoday.com/",
         "description": "",
-        "published_time": "2020-03-09T19:12:09Z",
-        "last_polled_time": "2020-03-09T19:17:14.408Z",
+        "published_time": "2020-03-14T15:14:19Z",
+        "last_polled_time": "2020-03-14T15:17:14.995Z",
         "group": 5
     }
 },
@@ -1872,7 +1872,7 @@
         "link": "https://www.schneier.com/blog/",
         "description": "A blog covering security and security technology.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:21.255Z",
+        "last_polled_time": "2020-03-14T15:17:20.958Z",
         "group": 5
     }
 },
@@ -1898,7 +1898,7 @@
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python Web framework.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:23.241Z",
+        "last_polled_time": "2020-03-14T15:17:23.376Z",
         "group": 5
     }
 },
@@ -1924,7 +1924,7 @@
         "link": "https://slatestarcodex.com",
         "description": "SELF-RECOMMENDING!",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:22.319Z",
+        "last_polled_time": "2020-03-14T15:17:21.988Z",
         "group": 2
     }
 },
@@ -1937,7 +1937,7 @@
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable is a weekly dive into geeky media we love, including movies, books, TV, comics, and more, featuring a rotating panel of guests and hosted by Jason Snell.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:26.471Z",
+        "last_polled_time": "2020-03-14T15:17:26.568Z",
         "group": 2
     }
 },
@@ -1950,7 +1950,7 @@
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:05.397Z",
+        "last_polled_time": "2020-03-14T15:17:05.323Z",
         "group": 5
     }
 },
@@ -1962,8 +1962,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p02dbd4m/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p02dbd4m",
         "description": "Global experts and decision makers discuss, debate and analyse a key news story.",
-        "published_time": "2020-03-06T09:00:00Z",
-        "last_polled_time": "2020-03-06T10:17:25.768Z",
+        "published_time": "2020-03-13T09:00:00Z",
+        "last_polled_time": "2020-03-13T09:17:28.188Z",
         "group": 4
     }
 },
@@ -1989,7 +1989,7 @@
         "link": "https://www.bbc.co.uk/news/",
         "description": "BBC News - UK Politics",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:04.531Z",
+        "last_polled_time": "2020-03-14T15:17:04.432Z",
         "group": 3
     }
 },
@@ -2002,7 +2002,7 @@
         "link": "https://www.theregister.co.uk/",
         "description": "Biting the hand that feeds IT \u2014 sci/tech news and views for the world",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:29.074Z",
+        "last_polled_time": "2020-03-14T15:17:29.092Z",
         "group": 5
     }
 },
@@ -2015,7 +2015,7 @@
         "link": "https://www.scottadamssays.com",
         "description": "Scott Adams is best known as the creator of the Dilbert comic strip. But in his daily (sometimes twice daily) podcasts, Adams uses his training as a hypnotist and a lifelong student of persuasion to analyse current events (mostly Trump-related) through a persuasion lense. In so doing, Adams offers you a new way to understand your reality. You can also expect to pick up some valuable persuasion techniques along the way.&lt;br /&gt;\n&lt;br /&gt;\nThese podcasts are the audio channels from Adams&#x27; popular Periscope videos. If you hear pauses and interruptions, Adams is probably reading comments as they come across his Periscope screen. Adams&#x27; Periscope listeners requested that he convert the Periscope videos into podcast files so they can be played offline and also use less battery power.&lt;br /&gt;\n&lt;br /&gt;\nMost of what you will hear is spontaneous, unrehearsed and casual. The best way to listen is while sipping your favorite beverage.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:06.518Z",
+        "last_polled_time": "2020-03-14T15:17:06.466Z",
         "group": 2
     }
 },
@@ -2040,8 +2040,8 @@
         "xml_url": "http://www.bbc.co.uk/programmes/p04z203l/episodes/downloads.rss",
         "link": "http://www.bbc.co.uk/programmes/p04z203l",
         "description": "Nick Robinson talks about what\u2019s really going on in British politics.",
-        "published_time": "2020-03-06T12:57:00Z",
-        "last_polled_time": "2020-03-06T13:17:14.966Z",
+        "published_time": "2020-03-13T17:45:00Z",
+        "last_polled_time": "2020-03-13T18:17:15.002Z",
         "group": 4
     }
 },
@@ -2053,8 +2053,8 @@
         "xml_url": "https://rss.acast.com/thehistoryofbyzantium",
         "link": "https://thehistoryofbyzantium.com/",
         "description": "A podcast telling the story of the Roman (Byzantine) Empire from 476 AD to 1453",
-        "published_time": "2020-03-08T20:04:07Z",
-        "last_polled_time": "2020-03-08T20:17:20.984Z",
+        "published_time": "2020-03-13T23:36:17Z",
+        "last_polled_time": "2020-03-14T00:17:22.690Z",
         "group": 1
     }
 },
@@ -2079,8 +2079,8 @@
         "xml_url": "https://www.latrobe.edu.au/marketing/assets/podcasts/rssfeeds/caesar.xml",
         "link": "http://www.latrobe.edu.au",
         "description": "\u201cGreat empires are not maintained by timidity.\u201d - Tacitus. A podcast series looking at the rulers of the ancient Roman empire, by Dr Rhiannon Evans, Dr Caillan Davenport and Matt Smith.",
-        "published_time": "2020-02-26T02:50:43Z",
-        "last_polled_time": "2020-02-26T03:17:13.041Z",
+        "published_time": "2020-03-12T02:19:32Z",
+        "last_polled_time": "2020-03-12T03:17:09.502Z",
         "group": 1
     }
 },
@@ -2093,7 +2093,7 @@
         "link": "https://latenightlinux.com",
         "description": "Late Night Linux is a podcast that takes a look at what&#x27;s happening with Linux and the wider tech industry. Every two weeks, Joe, F\u00e9lim, Graham and Will discuss the latest news and releases, and the broader issues and trends in the world of free and open source software. Expect drinking, swearing, strong opinions and Will being told to shut up about Ubuntu.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:13.994Z",
+        "last_polled_time": "2020-03-14T15:17:14.484Z",
         "group": 5
     }
 },
@@ -2106,7 +2106,7 @@
         "link": "http://www.hellointernet.fm/",
         "description": "CGP Grey and Brady Haran talk about YouTube, life, work, whatever.",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:12.087Z",
+        "last_polled_time": "2020-03-14T15:17:12.725Z",
         "group": 4
     }
 },
@@ -2118,8 +2118,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/p05299nl.rss",
         "link": "http://www.bbc.co.uk/programmes/p05299nl",
         "description": "The podcast formerly known as Brexitcast. Adam Fleming, Laura Kuenssberg, Katya Adler, Chris Mason and friends chat about the news, including how Brexit is going.",
-        "published_time": "2020-03-05T22:23:00Z",
-        "last_polled_time": "2020-03-05T23:17:14.432Z",
+        "published_time": "2020-03-12T23:32:00Z",
+        "last_polled_time": "2020-03-13T00:17:15.798Z",
         "group": 3
     }
 },
@@ -2132,7 +2132,7 @@
         "link": "http://scholars-stage.blogspot.com/",
         "description": "",
         "published_time": null,
-        "last_polled_time": "2020-03-09T19:17:29.449Z",
+        "last_polled_time": "2020-03-14T15:17:29.473Z",
         "group": null
     }
 },
@@ -2157,8 +2157,8 @@
         "xml_url": "https://pythonbytes.fm/episodes/rss",
         "link": "https://pythonbytes.fm/",
         "description": "Python Bytes is a weekly podcast hosted by Michael Kennedy and\n            Brian Okken. The show is a short discussion on the headlines and noteworthy news\n            in the Python, developer, and data science space.",
-        "published_time": "2020-03-05T08:00:00Z",
-        "last_polled_time": "2020-03-05T19:17:16.499Z",
+        "published_time": "2020-03-13T08:00:00Z",
+        "last_polled_time": "2020-03-13T17:17:17.562Z",
         "group": 5
     }
 },
@@ -2183,8 +2183,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/p06pzmr4.rss",
         "link": "http://www.bbc.co.uk/programmes/p06pzmr4",
         "description": "One big question about one big story from the news - and beyond - every weekday. Tina Daheley and Matthew Price search for answers that will change the way we see the world.",
-        "published_time": "2020-03-09T17:41:00Z",
-        "last_polled_time": "2020-03-09T18:17:05.133Z",
+        "published_time": "2020-03-13T14:52:00Z",
+        "last_polled_time": "2020-03-13T15:17:04.382Z",
         "group": 4
     }
 },
@@ -2235,8 +2235,21 @@
         "xml_url": "https://www.listennotes.com/c/r/8f5766a667b94778be267c782cc8cc91",
         "link": "http://www.bbc.co.uk/programmes/p07h19zz",
         "description": "Join old pals and BBC journalists Emily Maitlis and Jon Sopel for the latest gossip from the campaign trail of the 2020 US presidential election race.",
-        "published_time": "2020-03-09T18:48:00Z",
-        "last_polled_time": "2020-03-09T19:17:03.618Z",
+        "published_time": "2020-03-11T19:00:00Z",
+        "last_polled_time": "2020-03-11T19:17:03.040Z",
+        "group": 3
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 294,
+    "fields": {
+        "title": "The Coronavirus Podcast",
+        "xml_url": "https://podcasts.files.bbci.co.uk/p085f9hw.rss",
+        "link": "http://www.bbc.co.uk/programmes/p085f9hw",
+        "description": "BBC News brings you the latest on the global coronavirus outbreak, featuring correspondents and expert guests. More: http://www.bbc.co.uk/health",
+        "published_time": "2020-03-13T23:06:00Z",
+        "last_polled_time": "2020-03-14T00:17:21.490Z",
         "group": 3
     }
 }
