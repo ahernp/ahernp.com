@@ -157,8 +157,6 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 
     entry_on_database.save()
 
-    return entry_on_database
-
 
 def poll_feed(feed_from_database, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
@@ -182,8 +180,7 @@ def poll_feed(feed_from_database, verbose=False):
             )
 
             if created:
-                updated_entry = update_entry_on_database(entry_on_database, entry_from_xml)
-                if updated_entry is not None:
-                    num_new_entries += 1
+                update_entry_on_database(entry_on_database, entry_from_xml)
+                num_new_entries += 1
 
     return num_new_entries
