@@ -15,20 +15,32 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
-    def get_xml_time(xml_feed):
-        xml_time = None
-        if hasattr(xml_feed.feed, "published_parsed"):
-            xml_time = xml_feed.feed.published_parsed
-        elif hasattr(xml_feed.feed, "updated_parsed"):
-            xml_time = xml_feed.feed.updated_parsed
-        elif len(xml_feed.entries) > 0:
-            if hasattr(xml_feed.entries[0], "published_parsed"):
-                xml_time = xml_feed.entries[0].published_parsed
-            elif hasattr(xml_feed.entries[0], "updated_parsed"):
-                xml_time = xml_feed.entries[0].updated_parsed
-        return xml_time
+def get_xml_time(xml_object):
+    xml_time = None
+    if hasattr(xml_object.feed, "published_parsed"):
+        xml_time = xml_object.feed.published_parsed
+    elif hasattr(xml_object.feed, "updated_parsed"):
+        xml_time = xml_object.feed.updated_parsed
+    elif len(xml_object.entries) > 0:
+        if hasattr(xml_object.entries[0], "published_parsed"):
+            xml_time = xml_object.entries[0].published_parsed
+        elif hasattr(xml_object.entries[0], "updated_parsed"):
+            xml_time = xml_object.entries[0].updated_parsed
 
+    if xml_time is not None:
+        xml_time = datetime.fromtimestamp(mktime(xml_time))
+
+        try:
+            xml_time = pytz.timezone(settings.TIME_ZONE).localize(
+                xml_time, is_dst=None
+            )
+        except pytz.exceptions.AmbiguousTimeError:
+            pytz_timezone = pytz.timezone(settings.TIME_ZONE)
+            xml_time = pytz_timezone.localize(xml_time, is_dst=False)
+    return xml_time
+
+
+def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
     if hasattr(feed_from_xml.feed, "bozo_exception"):
         msg = (
             f"Feedreader poll_feeds found Malformed feed, "
@@ -51,21 +63,13 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
             print(msg)
         return
 
-    published_time = datetime.fromtimestamp(mktime(xml_time))
-
-    try:
-        published_time = pytz.timezone(settings.TIME_ZONE).localize(
-            published_time, is_dst=None
-        )
-    except pytz.exceptions.AmbiguousTimeError:
-        pytz_timezone = pytz.timezone(settings.TIME_ZONE)
-        published_time = pytz_timezone.localize(published_time, is_dst=False)
     if (
         feed_from_database.published_time
-        and feed_from_database.published_time >= published_time
+        and feed_from_database.published_time >= xml_time
     ):
         return
-    feed_from_database.published_time = published_time
+
+    feed_from_database.published_time = xml_time
 
     for attr in ["title", "title_detail", "link"]:
         if not hasattr(feed_from_xml.feed, attr):
@@ -118,28 +122,12 @@ def skip_entry(entry_from_xml, verbose):
 
 
 def update_entry_on_database(entry_on_database, entry_from_xml):
-    if hasattr(entry_from_xml, "published_parsed"):
-        if entry_from_xml.published_parsed is None:
-            published_time = timezone.now()
-        else:
-            published_time = datetime.fromtimestamp(
-                mktime(entry_from_xml.published_parsed)
-            )
+    xml_time = get_xml_time(entry_from_xml)
 
-            try:
-                published_time = pytz.timezone(settings.TIME_ZONE).localize(
-                    published_time, is_dst=None
-                )
-            except pytz.exceptions.AmbiguousTimeError:
-                pytz_timezone = pytz.timezone(settings.TIME_ZONE)
-                published_time = pytz_timezone.localize(published_time, is_dst=False)
-
-            now = timezone.now()
-
-            if published_time > now:
-                published_time = now
-
-        entry_on_database.published_time = published_time
+    if xml_time is not None and entry_on_database.published_time < xml_time:
+        entry_on_database.published_time = xml_time
+    else:
+        return
 
     if entry_from_xml.title_detail.type == "text/plain":
         entry_on_database.title = html.escape(entry_from_xml.title)
@@ -164,6 +152,8 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 
     entry_on_database.save()
 
+    return entry_on_database
+
 
 def poll_feed(feed_from_database, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
@@ -187,7 +177,8 @@ def poll_feed(feed_from_database, verbose=False):
             )
 
             if created:
-                update_entry_on_database(entry_on_database, entry_from_xml)
-                num_new_entries += 1
+                updated_entry = update_entry_on_database(entry_on_database, entry_from_xml)
+                if updated_entry is not None:
+                    num_new_entries += 1
 
     return num_new_entries
