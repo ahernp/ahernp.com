@@ -133,8 +133,6 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 
     if xml_time is not None and entry_on_database.published_time < xml_time:
         entry_on_database.published_time = xml_time
-    else:
-        return
 
     if entry_from_xml.title_detail.type == "text/plain":
         entry_on_database.title = html.escape(entry_from_xml.title)
