@@ -16,6 +16,19 @@ logger = logging.getLogger(__name__)
 
 
 def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
+    def get_xml_time(xml_feed):
+        xml_time = None
+        if hasattr(xml_feed.feed, "published_parsed"):
+            xml_time = xml_feed.feed.published_parsed
+        elif hasattr(xml_feed.feed, "updated_parsed"):
+            xml_time = xml_feed.feed.updated_parsed
+        elif len(xml_feed.entries) > 0:
+            if hasattr(xml_feed.entries[0], "published_parsed"):
+                xml_time = xml_feed.entries[0].published_parsed
+            elif hasattr(xml_feed.entries[0], "updated_parsed"):
+                xml_time = xml_feed.entries[0].updated_parsed
+        return xml_time
+
     if hasattr(feed_from_xml.feed, "bozo_exception"):
         msg = (
             f"Feedreader poll_feeds found Malformed feed, "
@@ -27,26 +40,32 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
             print(msg)
         return
 
-    if hasattr(feed_from_xml.feed, "published_parsed"):
-        if feed_from_xml.feed.published_parsed is None:
-            published_time = timezone.now()
-        else:
-            published_time = datetime.fromtimestamp(
-                mktime(feed_from_xml.feed.published_parsed)
-            )
-        try:
-            published_time = pytz.timezone(settings.TIME_ZONE).localize(
-                published_time, is_dst=None
-            )
-        except pytz.exceptions.AmbiguousTimeError:
-            pytz_timezone = pytz.timezone(settings.TIME_ZONE)
-            published_time = pytz_timezone.localize(published_time, is_dst=False)
-        if (
-            feed_from_database.published_time
-            and feed_from_database.published_time >= published_time
-        ):
-            return
-        feed_from_database.published_time = published_time
+    xml_time = get_xml_time(feed_from_xml)
+
+    if xml_time is None:
+        msg = (
+            f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no published or updated time'
+        )
+        logger.error(msg)
+        if verbose:
+            print(msg)
+        return
+
+    published_time = datetime.fromtimestamp(mktime(xml_time))
+
+    try:
+        published_time = pytz.timezone(settings.TIME_ZONE).localize(
+            published_time, is_dst=None
+        )
+    except pytz.exceptions.AmbiguousTimeError:
+        pytz_timezone = pytz.timezone(settings.TIME_ZONE)
+        published_time = pytz_timezone.localize(published_time, is_dst=False)
+    if (
+        feed_from_database.published_time
+        and feed_from_database.published_time >= published_time
+    ):
+        return
+    feed_from_database.published_time = published_time
 
     for attr in ["title", "title_detail", "link"]:
         if not hasattr(feed_from_xml.feed, attr):
