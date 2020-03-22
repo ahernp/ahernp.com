@@ -17,15 +17,22 @@ logger = logging.getLogger(__name__)
 
 def get_xml_time(xml_object):
     xml_time = None
-    if hasattr(xml_object.feed, "published_parsed"):
-        xml_time = xml_object.feed.published_parsed
-    elif hasattr(xml_object.feed, "updated_parsed"):
-        xml_time = xml_object.feed.updated_parsed
-    elif len(xml_object.entries) > 0:
-        if hasattr(xml_object.entries[0], "published_parsed"):
-            xml_time = xml_object.entries[0].published_parsed
-        elif hasattr(xml_object.entries[0], "updated_parsed"):
-            xml_time = xml_object.entries[0].updated_parsed
+    if hasattr(xml_object, "feed"):
+        if hasattr(xml_object.feed, "published_parsed"):
+            xml_time = xml_object.feed.published_parsed
+        elif hasattr(xml_object.feed, "updated_parsed"):
+            xml_time = xml_object.feed.updated_parsed
+        elif len(xml_object.entries) > 0:
+            if hasattr(xml_object.entries[0], "published_parsed"):
+                xml_time = xml_object.entries[0].published_parsed
+            elif hasattr(xml_object.entries[0], "updated_parsed"):
+                xml_time = xml_object.entries[0].updated_parsed
+    else:
+        if hasattr(xml_object, "published_parsed"):
+            xml_time = xml_object.published_parsed
+        elif hasattr(xml_object, "updated_parsed"):
+            xml_time = xml_object.updated_parsed
+
 
     if xml_time is not None:
         xml_time = datetime.fromtimestamp(mktime(xml_time))
