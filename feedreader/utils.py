@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 
 def get_xml_time(xml_object):
     xml_time = None
+
     if hasattr(xml_object, "feed"):
         if hasattr(xml_object.feed, "published_parsed"):
             xml_time = xml_object.feed.published_parsed
@@ -33,7 +34,6 @@ def get_xml_time(xml_object):
         elif hasattr(xml_object, "updated_parsed"):
             xml_time = xml_object.updated_parsed
 
-
     if xml_time is not None:
         xml_time = datetime.fromtimestamp(mktime(xml_time))
 
@@ -44,6 +44,7 @@ def get_xml_time(xml_object):
         except pytz.exceptions.AmbiguousTimeError:
             pytz_timezone = pytz.timezone(settings.TIME_ZONE)
             xml_time = pytz_timezone.localize(xml_time, is_dst=False)
+
     return xml_time
 
 
@@ -127,11 +128,23 @@ def skip_entry(entry_from_xml, verbose):
         logger.warning(msg)
         return True
 
+    xml_time = get_xml_time(entry_from_xml)
+
+    if xml_time is None:
+        msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has a no published or updated time'
+        if verbose:
+            print(msg)
+        logger.warning(msg)
+        return True
+
 
 def update_entry_on_database(entry_on_database, entry_from_xml):
     xml_time = get_xml_time(entry_from_xml)
 
-    if xml_time is not None and entry_on_database.published_time < xml_time:
+    if xml_time is None:
+        return
+
+    if entry_on_database.published_time < xml_time:
         entry_on_database.published_time = xml_time
 
     if entry_from_xml.title_detail.type == "text/plain":
