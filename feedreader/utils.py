@@ -167,7 +167,7 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
                 entry_on_database.media_link = link.href
                 break
 
-    entry.read_flag = False
+    entry_on_database.read_flag = False
 
     entry_on_database.save()
 
