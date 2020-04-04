@@ -35,7 +35,7 @@ class Feed(models.Model):
             super(Feed, self).save(*args, **kwargs)
             from feedreader.utils import poll_feed
 
-            poll_feed(self)
+            poll_feed(self, initial=True)
 
     def get_absolute_url(self):
         return reverse("feed-recent-entries", kwargs={"feed_id": self.id})

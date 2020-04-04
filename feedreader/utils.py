@@ -114,7 +114,7 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
     return feed_from_database
 
 
-def skip_entry(entry_from_xml, verbose):
+def skip_entry(entry_from_xml, initial=False, verbose=False):
     for attr in ["title", "title_detail", "link", "description"]:
         if not hasattr(entry_from_xml, attr):
             msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has no {attr}'
@@ -139,7 +139,7 @@ def skip_entry(entry_from_xml, verbose):
         logger.warning(msg)
         return True
 
-    if xml_time < (timezone.now() - AGE_WINDOW):
+    if not initial and (xml_time < (timezone.now() - AGE_WINDOW)):
         return True
 
 
@@ -179,7 +179,7 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
     return entry_on_database
 
 
-def poll_feed(feed_from_database, verbose=False):
+def poll_feed(feed_from_database, initial=False, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
     updated_feed = update_feed_on_database(feed_from_database, feed_from_xml, verbose)
     num_new_entries = 0
@@ -193,7 +193,7 @@ def poll_feed(feed_from_database, verbose=False):
         entries_from_xml = feed_from_xml.entries[: settings.MAX_ENTRIES_SAVED]
 
         for i, entry_from_xml in enumerate(entries_from_xml):
-            if skip_entry(entry_from_xml, verbose):
+            if skip_entry(entry_from_xml, initial, verbose):
                 continue
 
             entry_on_database, created = Entry.objects.get_or_create(
