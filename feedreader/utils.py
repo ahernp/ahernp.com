@@ -195,6 +195,7 @@ def poll_feed(feed_from_database, verbose=False):
 
             if created:
                 update_entry_on_database(entry_on_database, entry_from_xml)
+                logger.info(f"Created #{entry_on_database.id}: {entry_on_database.title}")
                 num_new_entries += 1
 
     return num_new_entries
