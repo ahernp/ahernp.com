@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 from time import mktime
 
 import feedparser
@@ -13,6 +13,8 @@ from .models import Entry
 import logging
 
 logger = logging.getLogger(__name__)
+
+AGE_WINDOW = timedelta(days=settings.MAX_DAYS_AGE)
 
 
 def get_xml_time(xml_object):
@@ -137,6 +139,9 @@ def skip_entry(entry_from_xml, verbose):
         logger.warning(msg)
         return True
 
+    if xml_time < (timezone.now() - AGE_WINDOW):
+        return True
+
 
 def update_entry_on_database(entry_on_database, entry_from_xml):
     xml_time = get_xml_time(entry_from_xml)
@@ -171,6 +176,8 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 
     entry_on_database.save()
 
+    return entry_on_database
+
 
 def poll_feed(feed_from_database, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
@@ -194,8 +201,8 @@ def poll_feed(feed_from_database, verbose=False):
             )
 
             if created:
-                update_entry_on_database(entry_on_database, entry_from_xml)
-                logger.info(f"Created #{entry_on_database.id}: {entry_on_database.title}")
-                num_new_entries += 1
+                updated_entry = update_entry_on_database(entry_on_database, entry_from_xml)
+                if updated_entry is not None:
+                    num_new_entries += 1
 
     return num_new_entries
