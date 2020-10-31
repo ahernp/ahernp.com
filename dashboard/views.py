@@ -11,7 +11,7 @@ SHELL_COMMANDS = [
     ShellCommand("hostname", "hostname"),
     ShellCommand("commit", "git log -n 1"),
     ShellCommand("packages", "pip freeze"),
-    ShellCommand("python", "python --version"),
+    ShellCommand("python", "python3 --version"),
 ]
 
 # Flags in settings: Their expected values.
