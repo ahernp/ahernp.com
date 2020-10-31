@@ -9,6 +9,14 @@
     <h1>Dashboard</h1>
     <div class="pure-g gutters">
         <div class="pure-u-1-2">
+            <h2>Flags</h2>
+            {% for flag in project_state.settings_flags %}
+                <p>
+                    <span {% if flag.actual != flag.expected %}class="highlight"{% endif %}>
+                        {{ flag.name }}: {{flag.actual}}
+                    </span>
+                </p>
+            {% endfor %}
             <h2>Version Information</h2>
             <p>
                 <span class="strong">Hostname:</span>
@@ -19,21 +27,13 @@
                 {{ project_state.python }}
             </p>
             <p>
-                <span class="strong">Packages:</span>
-                {{ project_state.packages|safe }}
-            </p>
-            <p>
                 <span class="strong">Last Commit:</span>
                 {{ project_state.commit|safe }}
             </p>
-            <h2>Flags</h2>
-            {% for flag in project_state.settings_flags %}
-                <p>
-                    <span {% if flag.actual != flag.expected %}class="highlight"{% endif %}>
-                        {{ flag.name }}: {{flag.actual}}
-                    </span>
-                </p>
-            {% endfor %}
+            <p>
+                <span class="strong">Packages:</span>
+                {{ project_state.packages|safe }}
+            </p>
         </div>
         <div class="pure-u-1-2">
             <h2>Log Entries</h2>
