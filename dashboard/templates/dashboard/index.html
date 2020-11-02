@@ -23,6 +23,10 @@
                 {{ project_state.hostname }}
             </p>
             <p>
+                <span class="strong">Django:</span>
+                {{ project_state.django }}
+            </p>
+            <p>
                 <span class="strong">Python:</span>
                 {{ project_state.python }}
             </p>
@@ -31,8 +35,8 @@
                 {{ project_state.commit|safe }}
             </p>
             <p>
-                <span class="strong">Packages:</span>
-                {{ project_state.packages|safe }}
+                <span class="strong">Requirements:</span>
+                {{ project_state.requirements|safe }}
             </p>
         </div>
         <div class="pure-u-1-2">

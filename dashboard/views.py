@@ -1,5 +1,6 @@
 from collections import namedtuple
 
+import django
 from django.conf import settings
 from django.views.generic.base import TemplateView
 
@@ -10,7 +11,7 @@ ShellCommand = namedtuple("ShellCommand", "label command")
 SHELL_COMMANDS = [
     ShellCommand("hostname", "hostname"),
     ShellCommand("commit", "git log -n 1"),
-    ShellCommand("packages", "pip freeze"),
+    ShellCommand("requirements", "cat requirements.txt"),
     ShellCommand("python", "python3 --version"),
 ]
 
@@ -19,7 +20,7 @@ SETTINGS_FLAGS = [("DEBUG", False)]
 
 
 def project_state_at_startup():
-    data = {}
+    data = {"django": django.get_version()}
 
     cwd = settings.BASE_DIR
     for shell_command in SHELL_COMMANDS:
