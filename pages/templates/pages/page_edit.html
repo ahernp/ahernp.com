@@ -11,7 +11,7 @@
         float: left;
     }
 
-    div.preview {
+    div#preview {
         width: 44%;
         float: left;
         padding-left: 1em;
@@ -35,15 +35,11 @@
 
 {% block content %}
     <h1>Edit Markdown</h1>
-    <div>
-        <button onclick="savePage()">Save</button>
-        <div class="markdown">
-            <textarea id="markdown" onblur="previewPage()">{{ object.content }}</textarea>
-        </div>
-        <div class="preview">
-            <div id="preview">{{ object.content_as_html }}</div>
-        </div>
+    <button onclick="savePage()">Save</button>
+    <div class="markdown">
+        <textarea id="markdown" onblur="previewPage()">{{ object.content }}</textarea>
     </div>
+    <div id="preview">{{ object.content_as_html }}</div>
 {% endblock %}
 
 {% block navlinks %}
