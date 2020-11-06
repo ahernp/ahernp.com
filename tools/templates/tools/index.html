@@ -8,11 +8,11 @@
 
 {% block content %}
     <h1>Tools</h1>
-    <div id="react-tools"></div>
+    <div id="svelte-tools"></div>
 {% endblock %}
 
 {% block extrascriptlibraries %}
-    <script src="{% static "js/tools-20190619.min.js" %}"></script>
+    <script defer src="{% static "js/tools/bundle.js" %}"></script>
 {% endblock %}
 
 {% block extrascript %}
