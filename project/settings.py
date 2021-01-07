@@ -140,4 +140,4 @@ MAX_DAYS_SHOWN = 1
 MAX_DAYS_AGE = 3
 
 
-REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
+REST_FRAMEWORK = {"DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema"}
