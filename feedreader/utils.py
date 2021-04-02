@@ -40,9 +40,7 @@ def get_xml_time(xml_object):
         xml_time = datetime.fromtimestamp(mktime(xml_time))
 
         try:
-            xml_time = pytz.timezone(settings.TIME_ZONE).localize(
-                xml_time, is_dst=None
-            )
+            xml_time = pytz.timezone(settings.TIME_ZONE).localize(xml_time, is_dst=None)
         except pytz.exceptions.AmbiguousTimeError:
             pytz_timezone = pytz.timezone(settings.TIME_ZONE)
             xml_time = pytz_timezone.localize(xml_time, is_dst=False)
@@ -65,9 +63,7 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
     xml_time = get_xml_time(feed_from_xml)
 
     if xml_time is None:
-        msg = (
-            f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no published or updated time'
-        )
+        msg = f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no published or updated time'
         logger.error(msg)
         if verbose:
             print(msg)
@@ -83,9 +79,7 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
 
     for attr in ["title", "title_detail", "link"]:
         if not hasattr(feed_from_xml.feed, attr):
-            msg = (
-                f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}'
-            )
+            msg = f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}'
             logger.error(msg)
             if verbose:
                 print(msg)
@@ -201,7 +195,9 @@ def poll_feed(feed_from_database, initial=False, verbose=False):
             )
 
             if created:
-                updated_entry = update_entry_on_database(entry_on_database, entry_from_xml)
+                updated_entry = update_entry_on_database(
+                    entry_on_database, entry_from_xml
+                )
                 if updated_entry is not None:
                     num_new_entries += 1
 

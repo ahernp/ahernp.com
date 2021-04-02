@@ -47,6 +47,10 @@ class Command(BaseCommand):
                 entry.delete()
 
             if verbose and (num_new_entries or entries):
-                print(f"{num_new_entries} new entries; Deleted {len(entries)} entries from feed {feed.title}")
+                print(
+                    f"{num_new_entries} new entries; Deleted {len(entries)} entries from feed {feed.title}"
+                )
 
-        logger.info(f"Feedreader poll_feeds completed successfully ({num_new_entries_total} new entries found)")
+        logger.info(
+            f"Feedreader poll_feeds completed successfully ({num_new_entries_total} new entries found)"
+        )
