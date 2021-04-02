@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>{% block title %}{% endblock %}</title>
     	{% load static %}
@@ -34,7 +34,7 @@
                 <p>Generated {% now "Y-m-d H:i:s" %}</p>
             {% endblock %}
         </div>
-        <div id="content">
+        <div id="content" role="main">
             {% if messages %}
                 <ul class="messagelist">
                     {% for message in messages %}
