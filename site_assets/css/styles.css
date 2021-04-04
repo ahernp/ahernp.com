@@ -84,10 +84,18 @@ button {
 
 @media screen and (orientation: portrait) {
     #navigator {
-        font-size: 2vw;
+        border-bottom: 1px #ccc solid;
+        display: flex;
+        font-size: 3vw;
         height: auto;
         position: initial;
         width: 100%;
+    }
+
+    #navigator > * {
+        padding: 1vw;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
@@ -101,9 +109,20 @@ button {
 
 #content {
     display: block;
-    margin-left: 14vw;
     margin-right: 1vw;
     padding-top: 1vh;
+}
+
+@media screen and (orientation: landscape) {
+    #content {
+        margin-left: 14vw;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #content {
+        margin-left: 1vw;
+    }
 }
 
 .published-date {
