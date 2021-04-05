@@ -16,13 +16,14 @@
     <body>
         <div id="navigator" role="navigation">
             <a id="logo" href="{% url "homepage" %}">
-                <img alt="Logo" src="{% static "ahernp.svg" %}" title="Homepage" />
+                <img alt="Ahernp logo, links to Homepage" src="{% static "ahernp.svg" %}" title="Links to Homepage" />
             </a>
             <form action="{% url 'search' %}" method="GET">
-                <input                                      
-                    id="search_string"         
-                    type="text"                           
-                    name="search"                         
+                <input
+                    id="search_string"
+                    type="text"
+                    name="search"
+                    aria-label="Search"
                     placeholder="Search"
                     {% if search_string %}value="{{ search_string }}"{% endif %}
                     autofocus>
