@@ -1,15 +1,14 @@
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
 from .models import Quiz
 
 
-class QuizListView(LoginRequiredMixin, ListView):
+class QuizListView(ListView):
     model = Quiz
 
 
-class QuizDetailView(LoginRequiredMixin, DetailView):
+class QuizDetailView(DetailView):
     model = Quiz
 
     def get_context_data(self, **kwargs):
