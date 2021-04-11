@@ -1,11 +1,10 @@
+from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils.encoding import force_text
 from django.utils.safestring import mark_safe
 
 import markdown
-
-MARKDOWN_EXTENSIONS = ["extra", "tables", "toc"]
 
 
 class Page(models.Model):
@@ -20,7 +19,7 @@ class Page(models.Model):
         return mark_safe(
             markdown.markdown(
                 force_text(self.content),
-                extensions=MARKDOWN_EXTENSIONS,
+                extensions=settings.MARKDOWN_EXTENSIONS,
                 safe_mode=False,
             )
         )

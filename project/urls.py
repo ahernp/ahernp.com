@@ -13,4 +13,5 @@ urlpatterns = [
     path("core/", include("core.urls")),
     path("timers/", include("timers.urls")),
     path("tools/", include("tools.urls")),
+    path("quiz/", include("quiz.urls")),
 ]

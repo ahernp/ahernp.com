@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% load markdown_extras %}
+
+{% block title %}{{ object.title }}{% endblock %}
+
+{% block extrastyle %}
+.correct {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+.incorrect {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ object.title }}</h1>
+    <p>Topics:</p>
+    <ol>
+        {% for topic in topics %}
+            <li><a href="#topic{{ topic.topic.id }}">{{ topic.topic }}</a></li>
+        {% endfor %}
+    </ol>
+    {% for topic in topics %}
+        <h2 id="topic{{ topic.topic.id }}">{{ topic.topic }}</h2>
+        <ol>
+        {% for question in topic.questions %}
+            <li>{{ question.question }}
+                <p{% if quiz.show_answers and question.correct_answer == 'a' %} class="correct"{% endif %}>
+                    <input type="radio" id="answer{{question.id}}a" name="answer{{question.id}}"
+                        value="a" onclick="setCookie('answer{{question.id}}', 'a')">
+                    <label for="answer{{question.id}}a">a) {{ question.answer_a }}</label>
+                    {% if quiz.show_answers and question.correct_answer == 'a' %}<b>Correct</b>{% endif %}
+                </p>
+                <p{% if quiz.show_answers and question.correct_answer == 'b' %} class="correct"{% endif %}>
+                    <input type="radio" id="answer{{question.id}}b" name="answer{{question.id}}"
+                        value="b" onclick="setCookie('answer{{question.id}}', 'b')">
+                    <label for="answer{{question.id}}b">b) {{ question.answer_b }}</label>
+                    {% if quiz.show_answers and question.correct_answer == 'b' %}<b>Correct</b>{% endif %}
+                </p>
+                <p{% if quiz.show_answers and question.correct_answer == 'c' %} class="correct"{% endif %}>
+                    <input type="radio" id="answer{{question.id}}c" name="answer{{question.id}}"
+                        value="c" onclick="setCookie('answer{{question.id}}', 'c')">
+                    <label for="answer{{question.id}}c">c) {{ question.answer_c }}</label>
+                    {% if quiz.show_answers and question.correct_answer == 'c' %}<b>Correct</b>{% endif %}
+                </p>
+                <p{% if quiz.show_answers and question.correct_answer == 'd' %} class="correct"{% endif %}>
+                    <input type="radio" id="answer{{question.id}}d" name="answer{{question.id}}"
+                        value="d" onclick="setCookie('answer{{question.id}}', 'd')">
+                    <label for="answer{{question.id}}d">d) {{ question.answer_d }}</label>
+                    {% if quiz.show_answers and question.correct_answer == 'd' %}<b>Correct</b>{% endif %}
+                </p>
+                {% if quiz.show_answers and question.notes %}
+                    <h3>Notes</h3>
+                    {{ question.notes | markdown | safe }}
+                {% endif %}
+            </li>
+        {% endfor %}
+        </ol>
+    {% endfor %}
+{% endblock %}
+
+{% block navlinks %}
+    <p><a href="{% url 'quiz-list' %}">Quizes</a></p>
+    <p><a href="{% url 'admin:quiz_quiz_change' object.id %}">Admin</a></p>
+    <p><button onclick="location.href='/quiz/questions/{{object.id}}';">Check Answers</button></p>
+    <p>{{ object.question_set.all | length }} Questions</p>
+    <p><span id="number-of-answers"></span> Answered</p>
+    {% if quiz.show_answers %}
+        <p><span id="number-of-correct-answers"></span> Correct</p>
+    {% endif %}
+{% endblock %}
+
+{% block navinfo %}{% endblock %}
+
+{% block extrascript %}
+    const numberOfQuestions = {{ object.question_set.all | length }};
+
+    let numberOfAnswers = 0;
+    let answers = {}
+
+    function getAnswers() {
+        numberOfAnswers = 0;
+        answers = document.cookie.split('; ').reduce((prev, current) => {
+            const [name, value] = current.split('=');
+            if (name !== 'csrftoken') {
+                prev[name] = value;
+                numberOfAnswers += 1;
+            }
+            return prev
+        }, {});
+        $('#number-of-answers').text(numberOfAnswers);
+    }
+
+    getAnswers();
+
+    const thirtyDaysInSeconds = 30*24*60*60;
+
+    function setCookie(name, value) {
+        document.cookie = name + '=' + value +
+            '; max-age=' + thirtyDaysInSeconds +
+            '; SameSite=Strict';
+        getAnswers();
+    }
+
+    let answer;
+    let numberOfCorrectAnswers = 0;
+    {% for question in object.question_set.all %}
+        answer = answers['answer{{question.id}}'];
+        if (answer) {
+            $("input[name=answer{{question.id}}][value=" + answer + "]").prop('checked', true);
+        }
+        {% if quiz.show_answers %}
+            if (answer === '{{question.correct_answer}}') {
+                numberOfCorrectAnswers += 1;
+            }
+            if (answer !== '{{question.correct_answer}}') {
+                $('#answer{{question.id}}' + answer).parent().addClass("incorrect");
+                $('#answer{{question.id}}' + answer).parent().append("<b>Wrong</b>");
+            }
+        {% endif %}
+    {% endfor %}
+    {% if quiz.show_answers %}
+        $('#number-of-correct-answers').text(numberOfCorrectAnswers);
+    {% endif %}
+{% endblock %}

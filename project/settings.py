@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "timers.apps.TimersConfig",
     "tools.apps.ToolsConfig",
+    "quiz.apps.QuizConfig",
 ]
 
 MIDDLEWARE = [
@@ -129,6 +130,8 @@ LOGIN_URL = "/admin/login"
 SITE_NAME = "ahernp.com"
 HOMEPAGE_SLUG = "ahernp-com"
 BLOG_ROOT_SLUG = "blog"
+
+MARKDOWN_EXTENSIONS = ["extra", "tables", "toc"]
 
 # Dashboard
 LOG_ENTRIES_TO_SHOW = 5
