@@ -11,6 +11,13 @@
 .incorrect {
     background-color: rgba(255, 0, 0, 0.2);
 }
+.pure-g {
+    margin-top: 0.5em 0;
+    padding: 0.5em;
+}
+.pure-u-1-24 {
+    text-align: center;
+}
 {% endblock %}
 
 {% block content %}
@@ -29,30 +36,46 @@
         <ol>
         {% for question in topic.questions %}
             <li>{{ question.question }}
-                <p{% if quiz.show_answers and question.correct_answer == 'a' %} class="correct"{% endif %}>
-                    <input type="radio" id="answer{{question.id}}a" name="answer{{question.id}}"
-                        value="a" onclick="setCookie('answer{{question.id}}', 'a')">
-                    <label for="answer{{question.id}}a">a) {{ question.answer_a }}</label>
-                    {% if quiz.show_answers and question.correct_answer == 'a' %}<b>Correct</b>{% endif %}
-                </p>
-                <p{% if quiz.show_answers and question.correct_answer == 'b' %} class="correct"{% endif %}>
-                    <input type="radio" id="answer{{question.id}}b" name="answer{{question.id}}"
-                        value="b" onclick="setCookie('answer{{question.id}}', 'b')">
-                    <label for="answer{{question.id}}b">b) {{ question.answer_b }}</label>
-                    {% if quiz.show_answers and question.correct_answer == 'b' %}<b>Correct</b>{% endif %}
-                </p>
-                <p{% if quiz.show_answers and question.correct_answer == 'c' %} class="correct"{% endif %}>
-                    <input type="radio" id="answer{{question.id}}c" name="answer{{question.id}}"
-                        value="c" onclick="setCookie('answer{{question.id}}', 'c')">
-                    <label for="answer{{question.id}}c">c) {{ question.answer_c }}</label>
-                    {% if quiz.show_answers and question.correct_answer == 'c' %}<b>Correct</b>{% endif %}
-                </p>
-                <p{% if quiz.show_answers and question.correct_answer == 'd' %} class="correct"{% endif %}>
-                    <input type="radio" id="answer{{question.id}}d" name="answer{{question.id}}"
-                        value="d" onclick="setCookie('answer{{question.id}}', 'd')">
-                    <label for="answer{{question.id}}d">d) {{ question.answer_d }}</label>
-                    {% if quiz.show_answers and question.correct_answer == 'd' %}<b>Correct</b>{% endif %}
-                </p>
+                <div class="pure-g{% if quiz.show_answers and question.correct_answer == 'a' %} correct{% endif %}">
+                    <div class="pure-u-1-24">
+                        <input type="radio" id="answer{{question.id}}a" name="answer{{question.id}}"
+                            value="a" onclick="setCookie('answer{{question.id}}', 'a')">
+                    </div>
+                    <div class="pure-u-23-24">
+                        <label for="answer{{question.id}}a">a) {{ question.answer_a }}</label>
+                        {% if quiz.show_answers and question.correct_answer == 'a' %}<b>Correct</b>{% endif %}
+                    </div>
+                </div>
+                <div class="pure-g{% if quiz.show_answers and question.correct_answer == 'b' %} correct{% endif %}">
+                    <div class="pure-u-1-24">
+                        <input type="radio" id="answer{{question.id}}b" name="answer{{question.id}}"
+                            value="b" onclick="setCookie('answer{{question.id}}', 'b')">
+                    </div>
+                    <div class="pure-u-23-24">
+                        <label for="answer{{question.id}}b">b) {{ question.answer_b }}</label>
+                        {% if quiz.show_answers and question.correct_answer == 'b' %}<b>Correct</b>{% endif %}
+                    </div>
+                </div>
+                <div class="pure-g{% if quiz.show_answers and question.correct_answer == 'c' %} correct{% endif %}">
+                    <div class="pure-u-1-24">
+                        <input type="radio" id="answer{{question.id}}c" name="answer{{question.id}}"
+                            value="c" onclick="setCookie('answer{{question.id}}', 'c')">
+                    </div>
+                    <div class="pure-u-23-24">
+                        <label for="answer{{question.id}}c">c) {{ question.answer_c }}</label>
+                        {% if quiz.show_answers and question.correct_answer == 'c' %}<b>Correct</b>{% endif %}
+                    </div>
+                </div>
+                <div class="pure-g{% if quiz.show_answers and question.correct_answer == 'd' %} correct{% endif %}">
+                    <div class="pure-u-1-24">
+                        <input type="radio" id="answer{{question.id}}d" name="answer{{question.id}}"
+                            value="d" onclick="setCookie('answer{{question.id}}', 'd')">
+                    </div>
+                    <div class="pure-u-23-24">
+                        <label for="answer{{question.id}}d">d) {{ question.answer_d }}</label>
+                        {% if quiz.show_answers and question.correct_answer == 'd' %}<b>Correct</b>{% endif %}
+                    </div>
+                </div>
                 {% if quiz.show_answers and question.notes %}
                     <h3>Notes</h3>
                     {{ question.notes | markdown | safe }}
@@ -104,26 +127,35 @@
             '; max-age=' + thirtyDaysInSeconds +
             '; SameSite=Strict';
         getAnswers();
+        checkAnswers();
     }
 
     let answer;
     let numberOfCorrectAnswers = 0;
+
+    function checkAnswers() {
+        {% if quiz.show_answers %}
+            numberOfCorrectAnswers = 0;
+            {% for question in object.question_set.all %}
+                answer = answers['answer{{question.id}}'];
+                if (answer === '{{question.correct_answer}}') {
+                    numberOfCorrectAnswers += 1;
+                }
+                if (answer !== '{{question.correct_answer}}') {
+                    $('#answer{{question.id}}' + answer).parent().parent().addClass("incorrect");
+                    $(`label[for='answer{{question.id}}${answer}'`).parent().append(" <b>Wrong</b>");
+                }
+            {% endfor %}
+            $('#number-of-correct-answers').text(numberOfCorrectAnswers);
+        {% endif %}
+    }
+
     {% for question in object.question_set.all %}
         answer = answers['answer{{question.id}}'];
         if (answer) {
             $("input[name=answer{{question.id}}][value=" + answer + "]").prop('checked', true);
         }
-        {% if quiz.show_answers %}
-            if (answer === '{{question.correct_answer}}') {
-                numberOfCorrectAnswers += 1;
-            }
-            if (answer !== '{{question.correct_answer}}') {
-                $('#answer{{question.id}}' + answer).parent().addClass("incorrect");
-                $('#answer{{question.id}}' + answer).parent().append("<b>Wrong</b>");
-            }
-        {% endif %}
     {% endfor %}
-    {% if quiz.show_answers %}
-        $('#number-of-correct-answers').text(numberOfCorrectAnswers);
-    {% endif %}
+
+    checkAnswers();
 {% endblock %}
