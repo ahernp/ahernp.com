@@ -83,7 +83,7 @@
         numberOfAnswers = 0;
         answers = document.cookie.split('; ').reduce((prev, current) => {
             const [name, value] = current.split('=');
-            if (name !== 'csrftoken') {
+            if (name.startsWith('answer')) {
                 prev[name] = value;
                 numberOfAnswers += 1;
             }
