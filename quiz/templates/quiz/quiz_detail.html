@@ -63,7 +63,7 @@
 {% block navlinks %}
     <p><a href="{% url 'quiz-list' %}">Quizes</a></p>
     <p><a href="{% url 'admin:quiz_quiz_change' object.id %}">Admin</a></p>
-    <p><button onclick="location.href='/quiz/questions/{{object.id}}';">Check Answers</button></p>
+    <p><button onclick="location.href='{% url 'quiz-detail' object.id %}';">Check Answers</button></p>
     <p>{{ object.question_set.all | length }} Questions</p>
     <p><span id="number-of-answers"></span> Answered</p>
     {% if quiz.show_answers %}
