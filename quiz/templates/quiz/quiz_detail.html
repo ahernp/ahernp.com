@@ -18,7 +18,10 @@
     <p>Topics:</p>
     <ol>
         {% for topic in topics %}
-            <li><a href="#topic{{ topic.topic.id }}">{{ topic.topic }}</a></li>
+            <li>
+                <a href="#topic{{ topic.topic.id }}">{{ topic.topic }}</a>
+                ({{ topic.questions | length }} questions)
+            </li>
         {% endfor %}
     </ol>
     {% for topic in topics %}
