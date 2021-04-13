@@ -14,6 +14,7 @@ class Quiz(models.Model):
     show_answers = models.BooleanField()
 
     class Meta:
+        verbose_name_plural = "Quizes"
         ordering = ["title"]
 
     def __str__(self):
