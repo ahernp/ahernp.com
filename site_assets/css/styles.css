@@ -99,6 +99,12 @@ button {
     }
 }
 
+@media print {
+    .noprint {
+       display: none !important;
+    }
+}
+
 #logo img {
     width: 8vw;
 }
