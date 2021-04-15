@@ -19,22 +19,25 @@
     text-align: center;
 }
 {% endblock %}
-
 {% block content %}
     <h1>{{ object.title }}</h1>
+
+    {% regroup object.question_set.all by topic as topic_list %}
+
     <p>Topics:</p>
     <ol>
-        {% for topic in topics %}
+        {% for topic in topic_list %}
             <li>
-                <a href="#topic{{ topic.topic.id }}">{{ topic.topic }}</a>
-                ({{ topic.questions | length }} questions)
+                <a href="#topic{{ topic.grouper.id }}">{{ topic.grouper }}</a>
+                ({{ topic.list | length }} questions)
             </li>
         {% endfor %}
     </ol>
-    {% for topic in topics %}
-        <h2 id="topic{{ topic.topic.id }}">{{ topic.topic }}</h2>
+
+    {% for topic in topic_list %}
+        <h2 id="topic{{ topic.grouper.id }}">{{ topic.grouper }}</h2>
         <ol>
-        {% for question in topic.questions %}
+        {% for question in topic.list %}
             <li>{{ question.question }}
                 <div class="pure-g{% if quiz.show_answers and question.correct_answer == 'a' %} correct{% endif %}">
                     <div class="pure-u-1-24">
