@@ -168,10 +168,11 @@ input[type="radio"] {
                 let answerId;
                 ['a', 'b', 'c', 'd'].forEach((answerIdSuffix) => {
                     answerId = `label[for='${questionId}${answerIdSuffix}']`;
-                    if (answerIdSuffix === localAnswer && localAnswer === correctAnswer) {
+                    if (answerIdSuffix === correctAnswer) {
                         $(answerId).parent().addClass("correct");
                         $(answerId).parent().append(" <b>Correct</b>");
-                    } else if (answerIdSuffix === localAnswer && localAnswer !== undefined) {
+                    }
+                    if (answerIdSuffix === localAnswer && answerIdSuffix !== correctAnswer && localAnswer !== undefined) {
                         $(answerId).parent().addClass("incorrect");
                         $(answerId).parent().append(" <b>Wrong</b>");
                     }
