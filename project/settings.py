@@ -123,6 +123,8 @@ LOGGING = {
     },
 }
 
+DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
+
 TIME_ZONE = "Europe/London"
 
 LOGIN_URL = "/admin/login"
