@@ -48,7 +48,7 @@ def get_xml_time(xml_object):
     return xml_time
 
 
-def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
+def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose):
     if hasattr(feed_from_xml.feed, "bozo_exception"):
         msg = (
             f"Feedreader poll_feeds found Malformed feed, "
@@ -70,7 +70,8 @@ def update_feed_on_database(feed_from_database, feed_from_xml, verbose):
         return
 
     if (
-        feed_from_database.published_time
+        not initial
+        and feed_from_database.published_time
         and feed_from_database.published_time >= xml_time
     ):
         return
@@ -175,7 +176,9 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 
 def poll_feed(feed_from_database, initial=False, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
-    updated_feed = update_feed_on_database(feed_from_database, feed_from_xml, verbose)
+    updated_feed = update_feed_on_database(
+        feed_from_database, feed_from_xml, initial, verbose
+    )
     num_new_entries = 0
 
     if updated_feed:

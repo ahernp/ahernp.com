@@ -23,9 +23,17 @@ class Command(BaseCommand):
             default=False,
             help="Print progress on command line",
         )
+        parser.add_argument(
+            "--initial",
+            action="store_true",
+            dest="initial",
+            default=False,
+            help="Initialise data for feeds",
+        )
 
     def handle(self, *args, **options):
         verbose = options["verbose"]
+        initial = options["initial"]
         feeds = Feed.objects.all()
         num_feeds = len(feeds)
         num_new_entries_total = 0
@@ -37,7 +45,7 @@ class Command(BaseCommand):
             if verbose:
                 print(f"({count}/{num_feeds}) Processing Feed: {feed.title}")
 
-            num_new_entries = poll_feed(feed, verbose)
+            num_new_entries = poll_feed(feed, initial, verbose)
             num_new_entries_total += num_new_entries
 
             # Remove older entries
