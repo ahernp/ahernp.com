@@ -17,6 +17,12 @@ logger = logging.getLogger(__name__)
 AGE_WINDOW = timedelta(days=settings.MAX_DAYS_AGE)
 
 
+def log_and_display_message(message, verbose=False):
+    logger.error(msg)
+    if verbose:
+        print(msg)
+
+
 def get_xml_time(xml_object):
     xml_time = None
 
@@ -50,23 +56,21 @@ def get_xml_time(xml_object):
 
 def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose):
     if hasattr(feed_from_xml.feed, "bozo_exception"):
-        msg = (
+        message = (
             f"Feedreader poll_feeds found Malformed feed, "
             f'"{feed_from_database.xml_url}": '
             f"{feed_from_xml.feed.bozo_exception}"
         )
-        logger.error(msg)
-        if verbose:
-            print(msg)
+        log_and_display_message(message, verbose)
         return
 
     xml_time = get_xml_time(feed_from_xml)
 
     if xml_time is None:
-        msg = f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no published or updated time'
-        logger.error(msg)
-        if verbose:
-            print(msg)
+        log_and_display_message(
+            f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no published or updated time',
+            verbose,
+        )
         return
 
     if (
@@ -80,10 +84,10 @@ def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose)
 
     for attr in ["title", "title_detail", "link"]:
         if not hasattr(feed_from_xml.feed, attr):
-            msg = f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}'
-            logger.error(msg)
-            if verbose:
-                print(msg)
+            log_and_display_message(
+                f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}',
+                verbose,
+            )
             return
 
     if feed_from_xml.feed.title_detail.type == "text/plain":
@@ -110,28 +114,40 @@ def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose)
 
 
 def skip_entry(entry_from_xml, initial=False, verbose=False):
-    for attr in ["title", "title_detail", "link", "description"]:
+    for attr in ["title", "title_detail", "links", "description"]:
         if not hasattr(entry_from_xml, attr):
-            msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has no {attr}'
-            logger.warning(msg)
-            if verbose:
-                print(msg)
+            log_and_display_message(
+                f"Feedreader poll_feeds. Entry has no {attr}: {entry_from_xml}", verbose
+            )
             return True
 
+    if len(entry_from_xml.links) == 0:
+        log_and_display_message(
+            f"Feedreader poll_feeds. Entry has an empty list of links: {entry_from_xml}",
+            verbose,
+        )
+        return True
+
+    if not hasattr(entry_from_xml.links[0], "href"):
+        log_and_display_message(
+            f"Feedreader poll_feeds. First links of Entry has no href: {entry_from_xml}",
+            verbose,
+        )
+        return True
+
     if entry_from_xml.title == "":
-        msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has a blank title'
-        if verbose:
-            print(msg)
-        logger.warning(msg)
+        log_and_display_message(
+            f"Feedreader poll_feeds. Entry has a blank title: {entry_from_xml}", verbose
+        )
         return True
 
     xml_time = get_xml_time(entry_from_xml)
 
     if xml_time is None:
-        msg = f'Feedreader poll_feeds. Entry "{entry_from_xml.link}" has a no published or updated time'
-        if verbose:
-            print(msg)
-        logger.warning(msg)
+        log_and_display_message(
+            f"Feedreader poll_feeds. Entry has a no published or updated time: {entry_from_xml}",
+            verbose,
+        )
         return True
 
     if not initial and (xml_time < (timezone.now() - AGE_WINDOW)):
@@ -194,7 +210,7 @@ def poll_feed(feed_from_database, initial=False, verbose=False):
                 continue
 
             entry_on_database, created = Entry.objects.get_or_create(
-                feed=updated_feed, link=entry_from_xml.link
+                feed=updated_feed, link=entry_from_xml.links[0].href
             )
 
             if created:
