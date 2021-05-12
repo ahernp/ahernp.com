@@ -209,8 +209,14 @@ def poll_feed(feed_from_database, initial=False, verbose=False):
             if skip_entry(entry_from_xml, initial, verbose):
                 continue
 
+            link = (
+                entry_from_xml.link
+                if hasattr(entry_from_xml, "link")
+                else entry_from_xml.links[0].href
+            )
+
             entry_on_database, created = Entry.objects.get_or_create(
-                feed=updated_feed, link=entry_from_xml.links[0].href
+                feed=updated_feed, link=link
             )
 
             if created:
