@@ -22,7 +22,7 @@ class FeedAdmin(admin.ModelAdmin):
                     ("xml_url", "group"),
                     ("title", "link"),
                     ("description",),
-                    ("published_time", "last_polled_time"),
+                    ("published_time", "last_polled_time", "always_load"),
                 )
             },
         ),

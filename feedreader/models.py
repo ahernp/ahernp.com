@@ -20,6 +20,7 @@ class Feed(models.Model):
     published_time = models.DateTimeField(blank=True, null=True)
     last_polled_time = models.DateTimeField(blank=True, null=True)
     group = models.ForeignKey(Group, on_delete=models.CASCADE, blank=True, null=True)
+    always_load = models.BooleanField(default=False)
 
     class Meta:
         ordering = ["title"]
