@@ -18,9 +18,9 @@ AGE_WINDOW = timedelta(days=settings.MAX_DAYS_AGE)
 
 
 def log_and_display_message(message, verbose=False):
-    logger.error(msg)
+    logger.error(message)
     if verbose:
-        print(msg)
+        print(message)
 
 
 def get_xml_time(xml_object):

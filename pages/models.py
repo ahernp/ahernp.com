@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.urls import reverse
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.utils.safestring import mark_safe
 
 import markdown
@@ -18,7 +18,7 @@ class Page(models.Model):
     def content_as_html(self):
         return mark_safe(
             markdown.markdown(
-                force_text(self.content),
+                force_str(self.content),
                 extensions=settings.MARKDOWN_EXTENSIONS,
                 safe_mode=False,
             )
