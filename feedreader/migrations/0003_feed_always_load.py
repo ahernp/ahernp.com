@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('feedreader', '0002_entry_media_link'),
+        ("feedreader", "0002_entry_media_link"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='feed',
-            name='always_load',
+            model_name="feed",
+            name="always_load",
             field=models.BooleanField(default=False),
         ),
     ]

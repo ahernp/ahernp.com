@@ -13,7 +13,7 @@ def run_shell_command(command, cwd):
 
 
 class Headline(Func):
-    """ Show postgresql text search matches in context """
+    """Show postgresql text search matches in context"""
 
     function = "ts_headline"
 

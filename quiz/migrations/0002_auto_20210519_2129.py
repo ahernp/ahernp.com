@@ -6,16 +6,16 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('quiz', '0001_initial'),
+        ("quiz", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='question',
-            options={'ordering': ['quiz', 'topic', 'question']},
+            name="question",
+            options={"ordering": ["quiz", "topic", "question"]},
         ),
         migrations.AlterModelOptions(
-            name='quiz',
-            options={'ordering': ['title'], 'verbose_name_plural': 'Quizes'},
+            name="quiz",
+            options={"ordering": ["title"], "verbose_name_plural": "Quizes"},
         ),
     ]
