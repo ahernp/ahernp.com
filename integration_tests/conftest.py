@@ -3,9 +3,11 @@ import pytest
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 
+USER_EMAIL = "a@b.com"
+USER_PASSWORD = "secret"
 
-@pytest.fixture(scope="module")
-def browser():
+
+def get_chrome_options():
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -13,7 +15,30 @@ def browser():
     chrome_prefs = {}
     chrome_prefs["profile.default_content_settings"] = {"images": 2}
     options.experimental_options["prefs"] = chrome_prefs
-    browser = webdriver.Chrome(options=options)
+    return options
+
+
+@pytest.fixture(scope="module")
+def browser():
+    browser = webdriver.Chrome(options=get_chrome_options())
+
+    yield browser
+    browser.quit()
+
+
+@pytest.fixture
+def admin_client_browser(admin_client, live_server):
+    sessionid = admin_client.cookies["sessionid"]
+    cookie = {
+        "name": sessionid.key,
+        "value": sessionid.value,
+        "path": "/",
+        "secure": False,
+    }
+    browser = webdriver.Chrome(options=get_chrome_options())
+    browser.get(live_server.url)
+    browser.delete_cookie("sessionid")
+    browser.add_cookie(cookie)
 
     yield browser
     browser.quit()
