@@ -36,6 +36,7 @@ def admin_client_browser(admin_client, live_server):
         "secure": False,
     }
     browser = webdriver.Chrome(options=get_chrome_options())
+    browser.implicitly_wait(3)  # Wait for elements to appear
     browser.get(live_server.url)
     browser.delete_cookie("sessionid")
     browser.add_cookie(cookie)

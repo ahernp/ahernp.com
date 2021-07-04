@@ -1,8 +1,13 @@
 import pytest
 
+import time
+
 from django.urls import reverse
 
 from pages.factories import PageFactory
+from pages.models import Page
+
+PAGE_TITLE = "Page Title"
 
 
 @pytest.mark.django_db
@@ -20,7 +25,6 @@ def test_page_list(browser, live_server):
 
 @pytest.mark.django_db
 def test_page_detail(browser, live_server):
-    PAGE_TITLE = "Page Title"
     page = PageFactory.create(content=f"# {PAGE_TITLE}")
     relative_url = reverse("page-detail", kwargs={"slug": page.slug})
     browser.get(f"{live_server.url}{relative_url}")
@@ -30,10 +34,28 @@ def test_page_detail(browser, live_server):
 
 
 @pytest.mark.django_db
-def test_admin(admin_client_browser, live_server):
-    url = f"{live_server.url}/admin/"
-    admin_client_browser.get(url)
+def test_page_edit(admin_client_browser, live_server):
+    page = PageFactory.create(content=f"# {PAGE_TITLE}")
+    relative_url = reverse("page-detail", kwargs={"slug": page.slug})
+    admin_client_browser.get(f"{live_server.url}{relative_url}")
+    admin_client_browser.find_element_by_link_text("Edit").click()
 
     h1 = admin_client_browser.find_element_by_css_selector("h1")
-    assert h1.text == "Django administration"
-    assert admin_client_browser.current_url == url
+    assert h1.text == "Edit Markdown"
+
+    # Edit page content
+    textarea = admin_client_browser.find_element_by_id("markdown")
+    textarea.clear()
+    edited_content = f"## {PAGE_TITLE}"
+    textarea.send_keys(edited_content)
+
+    # Preview edited page content
+    admin_client_browser.find_element_by_id("preview-button").click()
+    h2 = admin_client_browser.find_element_by_css_selector("h2")
+    assert h2.text == PAGE_TITLE
+
+    # Save edited page content
+    admin_client_browser.find_element_by_xpath('//button[text()="Save"]').click()
+    time.sleep(1)  # Wait for change to be saved to database
+    page_from_database = Page.objects.get(pk=page.id)
+    assert page_from_database.content == edited_content
