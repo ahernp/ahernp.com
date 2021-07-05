@@ -3,9 +3,6 @@ import pytest
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 
-USER_EMAIL = "a@b.com"
-USER_PASSWORD = "secret"
-
 
 def get_chrome_options():
     options = Options()
