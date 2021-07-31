@@ -1,4 +1,5 @@
 <script>
+    import { copyToClipboard } from '../utils';
     let input = 'Record3\nRecord4\nRecord4\nRecord1';
     const placeholder = 'Record1\nRecord3\nRecord4';
 
@@ -29,7 +30,8 @@
     </p>
     <p>
         <label>Output:<br />
-            <textarea rows="4" cols="56" value={output} readOnly placeholder={placeholder}></textarea>
+            <textarea id="output" rows="4" cols="56" value={output} readOnly placeholder={placeholder}></textarea>
+            <button on:click={() => copyToClipboard("output")}>Copy</button>
         </label>
     </p>
 </main>

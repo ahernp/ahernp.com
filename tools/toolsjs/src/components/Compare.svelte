@@ -1,4 +1,5 @@
 <script>
+    import { copyToClipboard } from '../utils';
     let input1 = 'Record1\nRecord3\nRecord4';
     let input2 = 'Record1\nRecord2\nRecord3';
     let output = 'Results: 2 matches; 1 inserts; 1 deletes.\nI:Record2\nD:Record4';
@@ -55,7 +56,8 @@
     <button on:click={sortAndCompare}>Sort &amp; Compare</button>
     <p>
         <label>Output:<br />
-            <textarea rows="4" cols="56" value={output} readOnly></textarea>
+            <textarea id="output" rows="4" cols="56" value={output} readOnly></textarea>
+            <button on:click={() => copyToClipboard("output")}>Copy</button>
         </label>
     </p>
     <p>If a line in First Input is missing from Second Input then it is included in Output with the prefix "D:".</p>

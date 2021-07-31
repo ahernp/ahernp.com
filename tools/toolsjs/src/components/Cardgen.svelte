@@ -1,4 +1,5 @@
 <script>
+    import { copyToClipboard } from '../utils';
     let data = '#Name,#URL,#Description\nGoogle,www.google.com,Search engine.\nAmazon,www.amazon.co.uk,Bookshop.';
     let delimiter = ',';
     let template = '<li>#Name <a href="https://#URL" title="#Description"> #URL</a>#Description</li>';
@@ -41,7 +42,8 @@
     <button on:click={generateCards}>Generate Cards</button>
     <p>
         <label>Output:<br />
-            <textarea rows="4" cols="56" value={output} readOnly></textarea>
+            <textarea id="output" rows="4" cols="56" value={output} readOnly></textarea>
+            <button on:click={() => copyToClipboard("output")}>Copy</button>
         </label>
     </p>
 </main>

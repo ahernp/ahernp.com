@@ -1,15 +1,9 @@
 <script>
+    import { copyToClipboard } from '../utils';
     let input = 'Once upon a time.';
     let uppercase = 'ONCE UPON A TIME.';
     let lowercase = 'once upon a time.';
     let slug = 'once-upon-a-time';
-
-    function copyToClipboard(id) {
-        let copyText = document.getElementById(id);
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        document.execCommand("copy");
-    }
 
     function slugify(e) {
         let str = input.replace(/^\s+|\s+$/g, '');
