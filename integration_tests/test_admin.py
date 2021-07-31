@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.mark.django_db
 def test_admin(admin_client_browser, live_server):
     url = f"{live_server.url}/admin/"
