@@ -6,4 +6,4 @@ Written in Django with some Javascript widgets. Visit [here](http://ahernp.com/p
 
 *Maximum functionality for minimum developer effort.*
 
-Tested with `pytest`.
+Tested on Ubuntu 20.04 with `pytest`.
