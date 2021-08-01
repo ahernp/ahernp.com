@@ -23,7 +23,6 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "timers.apps.TimersConfig",
     "tools.apps.ToolsConfig",
-    "quiz.apps.QuizConfig",
 ]
 
 MIDDLEWARE = [

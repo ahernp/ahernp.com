@@ -58,14 +58,6 @@ tr.odd:hover {
     background-color: #ace;
 }
 
-button {
-    color: #fff;
-    background-color: #046;
-    font-size: 3vh;
-    padding: 5px;
-    border-radius: 10px;
-}
-
 #navigator {
     display: block;
     padding: 1vh 2vw;

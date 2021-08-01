@@ -33,8 +33,8 @@
         "title": "ahernp.com",
         "slug": "ahernp-com",
         "parent": 719,
-        "updated": "2021-07-12T06:10:11.782Z",
-        "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](https://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](https://isabellebidou.com \"Isabelle Bidou\")\n[metager](https://metager.org \"Private Search Engine\")\n\nApps:\n[Calibre](https://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](https://www.geany.org \"Text editor\")\n[Inkscape](https://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](https://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](https://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](https://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](https://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](https://oreilly.com/ebooks/ \"IT Books\")\n[PG](https://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](https://www.dilbert.com \"Today's Dilbert comic\")\n[Far Side](https://www.thefarside.com/)\n[Garfield](https://www.gocomics.com/garfield/ \"Today's Garfield comic\")\n[Matt](https://www.telegraph.co.uk/)\n[xkcd](https://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](https://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](https://uk.gamersgate.com \"GamersGate\")\n[GOG](https://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](https://store.steampowered.com/?snr=1_4_4__global-header \"Steam Shop\")\n\nMedia:\n[BBC](https://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](https://www.bbc.co.uk/iplayer/added)\n[RT](https://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](https://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com)\n\nMisc:\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](https://www.openstreetmap.org/)\n[MPS](https://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](https://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1621188900&zoom=9&lon=-0.03&lat=51.53 \"London rainfall radar\")\n[TfL](https://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](https://www.allwrite.nl/ \"Pens\")\n[BM](https://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](https://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](https://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n\nThis Site:\n[Django](https://www.djangoproject.com/ \"Web development framework\")\n[Svelte](https://svelte.dev/ \"Javascript frontend framework\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](https://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](https://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[Archive](/blog/archive)\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n[West Cork](/pages/west-cork)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Planting](/pages/2010-planting)\n\nThis Site:\n[Dashboard](/dashboard)\n[Site Map](/pages)\n\n[Tools](/tools):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader/?read_flag=False)\n[Timers](/timers)\n[Quizes](/quiz)\n\n</div>"
+        "updated": "2021-08-01T06:50:45.730Z",
+        "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](https://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](https://isabellebidou.com \"Isabelle Bidou\")\n[metager](https://metager.org \"Private Search Engine\")\n\nApps:\n[Calibre](https://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](https://www.geany.org \"Text editor\")\n[Inkscape](https://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[ABE](https://www.abebooks.co.uk/ \"Advanced Book Exchange\")\n[Amazon](https://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](https://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](https://www.baen.com/ \"Baen book publisher\")\n[O'Reilly](https://oreilly.com/ebooks/ \"IT Books\")\n[PG](https://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Dilbert](https://www.dilbert.com \"Today's Dilbert comic\")\n[Far Side](https://www.thefarside.com/)\n[Garfield](https://www.gocomics.com/garfield/ \"Today's Garfield comic\")\n[Matt](https://www.telegraph.co.uk/)\n[xkcd](https://xkcd.com/ \"IT Comic\")\n\nGames:\n[BOC](https://www.orienteering.ie/boc \"Bishopstown Orienteering Club\")\n[GG](https://uk.gamersgate.com \"GamersGate\")\n[GOG](https://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](https://store.steampowered.com/?snr=1_4_4__global-header \"Steam Shop\")\n\nMedia:\n[BBC](https://www.bbc.co.uk/weather/2643743?day=0 \"BBC Weather\")\n[iPlayer](https://www.bbc.co.uk/iplayer/added)\n[RT](https://www.radiotimes.com/radio/radio-listings \"Radio Times\")\n[Revolutions](https://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com)\n\nMisc:\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](https://www.openstreetmap.org/)\n[MPS](https://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Radar](https://www.metoffice.gov.uk/public/weather/observation/rainfall-radar#?map=Rainfall&fcTime=1621188900&zoom=9&lon=-0.03&lat=51.53 \"London rainfall radar\")\n[TfL](https://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](https://www.allwrite.nl/ \"Pens\")\n[BM](https://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](https://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](https://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n\nThis site:\n[Django](https://www.djangoproject.com/ \"Web development framework\")\n[Svelte](https://svelte.dev/ \"Javascript frontend framework\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](https://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](https://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[Archive](/blog/archive)\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n[West Cork](/pages/west-cork)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Planting](/pages/2010-planting)\n\nThis site:\n[Dashboard](/dashboard)\n[Site map](/pages)\n\n[Tools](/tools \"Text manipulation tools\"):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader/?read_flag=False)\n[Timers](/timers)\n\n</div>"
     }
 },
 {
@@ -1920,8 +1920,8 @@
         "xml_url": "http://feeds.theincomparable.com/theincomparable",
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable is a weekly dive into geeky media we love, including movies, books, TV, comics, and more, featuring a rotating panel of guests and hosted by Jason Snell.",
-        "published_time": "2021-07-17T23:40:57Z",
-        "last_polled_time": "2021-07-18T00:17:19.639Z",
+        "published_time": "2021-07-31T21:48:54Z",
+        "last_polled_time": "2021-07-31T22:17:20.079Z",
         "group": 2,
         "always_load": false
     }
@@ -1934,8 +1934,8 @@
         "xml_url": "http://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
-        "published_time": "2021-07-31T13:46:00Z",
-        "last_polled_time": "2021-07-31T14:17:04.767Z",
+        "published_time": "2021-07-31T22:59:29Z",
+        "last_polled_time": "2021-08-01T00:17:04.595Z",
         "group": 5,
         "always_load": false
     }
@@ -1976,8 +1976,8 @@
         "xml_url": "http://feeds.bbci.co.uk/news/politics/rss.xml",
         "link": "https://www.bbc.co.uk/news/",
         "description": "BBC News - UK Politics",
-        "published_time": "2021-07-31T14:12:05Z",
-        "last_polled_time": "2021-07-31T14:17:04.374Z",
+        "published_time": "2021-08-01T06:14:31Z",
+        "last_polled_time": "2021-08-01T06:17:04.983Z",
         "group": 3,
         "always_load": false
     }
@@ -1990,8 +1990,8 @@
         "xml_url": "http://www.theregister.co.uk/headlines.atom",
         "link": "https://www.theregister.com/",
         "description": "Biting the hand that feeds IT — Enterprise Technology News and Analysis",
-        "published_time": "2021-07-31T13:06:10Z",
-        "last_polled_time": "2021-07-31T13:17:23.732Z",
+        "published_time": "2021-07-31T17:52:14Z",
+        "last_polled_time": "2021-07-31T18:17:23.451Z",
         "group": 5,
         "always_load": false
     }
@@ -2004,8 +2004,8 @@
         "xml_url": "https://www.scottadamssays.com/feed/podcast/",
         "link": "https://www.scottadamssays.com",
         "description": "Scott Adams is best known as the creator of the Dilbert comic strip. But in his daily (sometimes twice daily) podcasts, Adams uses his training as a hypnotist and a lifelong student of persuasion to analyse current events (mostly Trump-related) through a persuasion lense. In so doing, Adams offers you a new way to understand your reality. You can also expect to pick up some valuable persuasion techniques along the way.&lt;br /&gt;\n&lt;br /&gt;\nThese podcasts are the audio channels from Adams&#x27; popular Periscope videos. If you hear pauses and interruptions, Adams is probably reading comments as they come across his Periscope screen. Adams&#x27; Periscope listeners requested that he convert the Periscope videos into podcast files so they can be played offline and also use less battery power.&lt;br /&gt;\n&lt;br /&gt;\nMost of what you will hear is spontaneous, unrehearsed and casual. The best way to listen is while sipping your favorite beverage.",
-        "published_time": "2021-07-30T16:11:29Z",
-        "last_polled_time": "2021-07-30T16:17:05.737Z",
+        "published_time": "2021-07-31T16:29:03Z",
+        "last_polled_time": "2021-07-31T17:17:05.518Z",
         "group": 2,
         "always_load": false
     }
@@ -2074,8 +2074,8 @@
         "xml_url": "http://scholars-stage.blogspot.com/feeds/posts/default",
         "link": "https://scholars-stage.org",
         "description": "",
-        "published_time": "2021-07-22T23:55:56Z",
-        "last_polled_time": "2021-07-23T00:17:24.048Z",
+        "published_time": "2021-08-01T03:53:03Z",
+        "last_polled_time": "2021-08-01T04:17:23.803Z",
         "group": 1,
         "always_load": false
     }
@@ -2172,8 +2172,8 @@
         "xml_url": "https://anchor.fm/s/8e3ae9c/podcast/rss",
         "link": "https://anchor.fm/tenverybigbooks",
         "description": "India, Josh, Peter, and AJ are reading The Malazan Book of the Fallen. A bad idea? Maybe, but we&#x27;ll at least have fun along the way. \nPeter has read the series before, but it&#x27;s Josh, India, and AJ&#x27;s first time.\nJoin us, as we talk through each book and enjoy the works of Steven Erikson.",
-        "published_time": "2021-07-28T19:13:31Z",
-        "last_polled_time": "2021-07-28T19:17:15.087Z",
+        "published_time": "2021-07-31T20:13:31Z",
+        "last_polled_time": "2021-07-31T20:17:15.570Z",
         "group": 2,
         "always_load": false
     }
@@ -2257,7 +2257,7 @@
         "link": "https://www.youtube.com/channel/UCfCKvREB11-fxyotS1ONgww",
         "description": "",
         "published_time": "2017-10-27T18:31:09Z",
-        "last_polled_time": "2021-07-31T14:17:09.449Z",
+        "last_polled_time": "2021-08-01T06:17:10.148Z",
         "group": 1,
         "always_load": true
     }
@@ -2271,7 +2271,7 @@
         "link": "https://www.youtube.com/channel/UCfZz8F37oSJ2rtcEJHM2kCg",
         "description": "",
         "published_time": "2012-07-10T20:59:55Z",
-        "last_polled_time": "2021-07-31T14:17:14.561Z",
+        "last_polled_time": "2021-08-01T06:17:15.194Z",
         "group": 1,
         "always_load": true
     }
@@ -2285,7 +2285,7 @@
         "link": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
         "description": "",
         "published_time": "2009-10-17T07:13:30Z",
-        "last_polled_time": "2021-07-31T14:17:02.882Z",
+        "last_polled_time": "2021-08-01T06:17:03.617Z",
         "group": 2,
         "always_load": true
     }
@@ -2299,7 +2299,7 @@
         "link": "https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w",
         "description": "",
         "published_time": "2010-08-12T20:12:29Z",
-        "last_polled_time": "2021-07-31T14:17:04.846Z",
+        "last_polled_time": "2021-08-01T06:17:05.334Z",
         "group": 2,
         "always_load": true
     }
@@ -2313,7 +2313,7 @@
         "link": "https://www.youtube.com/channel/UC4mftUX7apmV1vsVXZh7RTw",
         "description": "",
         "published_time": "2009-07-07T20:59:00Z",
-        "last_polled_time": "2021-07-31T14:17:06.205Z",
+        "last_polled_time": "2021-08-01T06:17:06.774Z",
         "group": 1,
         "always_load": true
     }
@@ -2341,7 +2341,7 @@
         "link": "https://www.youtube.com/channel/UCnZ1r94_Ptz_1gN5VBnE0Mg",
         "description": "",
         "published_time": "2018-11-28T17:54:01Z",
-        "last_polled_time": "2021-07-31T14:17:04.988Z",
+        "last_polled_time": "2021-08-01T06:17:05.489Z",
         "group": 2,
         "always_load": true
     }
@@ -2355,7 +2355,7 @@
         "link": "https://www.youtube.com/channel/UCN9v4QG3AQEP3zuRvVs2dAg",
         "description": "",
         "published_time": "2017-02-20T14:57:55Z",
-        "last_polled_time": "2021-07-31T14:17:07.162Z",
+        "last_polled_time": "2021-08-01T06:17:07.816Z",
         "group": 1,
         "always_load": true
     }
@@ -2369,7 +2369,7 @@
         "link": "https://www.youtube.com/channel/UCaiL2GDNpLYH6Wokkk1VNcg",
         "description": "",
         "published_time": "2020-09-25T15:48:01Z",
-        "last_polled_time": "2021-07-31T14:17:24.460Z",
+        "last_polled_time": "2021-08-01T06:17:25.338Z",
         "group": 5,
         "always_load": true
     }
@@ -2383,7 +2383,7 @@
         "link": "https://www.youtube.com/channel/UCSfoxYTlCPFfglckBLrjpsA",
         "description": "",
         "published_time": "2007-08-21T02:37:19Z",
-        "last_polled_time": "2021-07-31T14:17:24.549Z",
+        "last_polled_time": "2021-08-01T06:17:25.423Z",
         "group": 2,
         "always_load": true
     }
