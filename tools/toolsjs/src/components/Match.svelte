@@ -47,7 +47,7 @@
     </p>
     <p>
         <label>Output:<br />
-            <textarea id="output" rows="4" cols="56" value={output} readOnly placeholder={placeholder}></textarea>
+            <textarea id="output" rows="4" cols="56" value={output} readOnly></textarea>
             <button on:click={() => copyToClipboard("output")}>Copy</button>
         </label>
     </p>
