@@ -192,38 +192,39 @@ def update_entry_on_database(entry_on_database, entry_from_xml):
 
 def poll_feed(feed_from_database, initial=False, verbose=False):
     feed_from_xml = feedparser.parse(feed_from_database.xml_url)
-    updated_feed = update_feed_on_database(
-        feed_from_database, feed_from_xml, initial, verbose
-    )
+    entries_from_xml = feed_from_xml.entries[: settings.MAX_ENTRIES_SAVED]
     num_new_entries = 0
 
-    if updated_feed:
-        if verbose and feed_from_xml.entries:
-            print(
-                f"{len(feed_from_xml.entries)} entries to process in {updated_feed.title}"
-            )
+    if entries_from_xml:
+        updated_feed = update_feed_on_database(
+            feed_from_database, feed_from_xml, initial, verbose
+        )
 
-        entries_from_xml = feed_from_xml.entries[: settings.MAX_ENTRIES_SAVED]
-
-        for i, entry_from_xml in enumerate(entries_from_xml):
-            if skip_entry(entry_from_xml, initial, verbose):
-                continue
-
-            link = (
-                entry_from_xml.link
-                if hasattr(entry_from_xml, "link")
-                else entry_from_xml.links[0].href
-            )
-
-            entry_on_database, created = Entry.objects.get_or_create(
-                feed=updated_feed, link=link
-            )
-
-            if created:
-                updated_entry = update_entry_on_database(
-                    entry_on_database, entry_from_xml
+        if updated_feed:
+            if verbose and feed_from_xml.entries:
+                print(
+                    f"{len(feed_from_xml.entries)} entries to process in {updated_feed.title}"
                 )
-                if updated_entry is not None:
-                    num_new_entries += 1
+
+            for i, entry_from_xml in enumerate(entries_from_xml):
+                if skip_entry(entry_from_xml, initial, verbose):
+                    continue
+
+                link = (
+                    entry_from_xml.link
+                    if hasattr(entry_from_xml, "link")
+                    else entry_from_xml.links[0].href
+                )
+
+                entry_on_database, created = Entry.objects.get_or_create(
+                    feed=updated_feed, link=link
+                )
+
+                if created:
+                    updated_entry = update_entry_on_database(
+                        entry_on_database, entry_from_xml
+                    )
+                    if updated_entry is not None:
+                        num_new_entries += 1
 
     return num_new_entries
