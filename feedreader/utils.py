@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from time import mktime
 
+import logging
 import feedparser
 import pytz
 
@@ -9,8 +10,6 @@ from django.utils import html
 from django.utils import timezone
 
 from .models import Entry
-
-import logging
 
 logger = logging.getLogger(__name__)
 
@@ -206,7 +205,7 @@ def poll_feed(feed_from_database, initial=False, verbose=False):
                     f"{len(feed_from_xml.entries)} entries to process in {updated_feed.title}"
                 )
 
-            for i, entry_from_xml in enumerate(entries_from_xml):
+            for entry_from_xml in entries_from_xml:
                 if skip_entry(entry_from_xml, initial, verbose):
                     continue
 
