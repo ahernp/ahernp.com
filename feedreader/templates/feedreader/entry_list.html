@@ -84,7 +84,7 @@ img {
                             {% endif %}
                         </div>
                         <h3 class="feed_entry_subtitle">
-                            From {{ entry.feed.title|safe }} on {{ entry.published_time }}
+                            From {{ entry.feed.title|safe }} at {{ entry.published_time|date:"Y-m-d H:i:s" }}
                             {% if not entry.read_flag %}
                                 (unread)
                             {% endif %}
