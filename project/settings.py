@@ -128,7 +128,7 @@ SITE_NAME = "ahernp.com"
 HOMEPAGE_SLUG = "ahernp-com"
 BLOG_ROOT_SLUG = "blog"
 
-MARKDOWN_EXTENSIONS = ["extra", "tables", "toc"]
+MARKDOWN_EXTENSIONS = ["attr_list", "extra", "tables", "toc"]
 
 # Dashboard
 LOG_ENTRIES_TO_SHOW = 5
