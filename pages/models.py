@@ -20,7 +20,6 @@ class Page(models.Model):
             markdown.markdown(
                 force_str(self.content),
                 extensions=settings.MARKDOWN_EXTENSIONS,
-                safe_mode=False,
             )
         )
 
