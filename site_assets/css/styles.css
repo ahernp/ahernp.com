@@ -1,18 +1,48 @@
+:root {
+    --color: #444;
+    --background-color: #fff;
+    --header-link-color: #046;
+    --code-color: #000;
+    --border-color: #ccc;
+    --table-border-color: #000;
+    --table-row-even-background: #ddd;
+    --table-row-hover-background: #ace;
+    --error-color: white;
+    --error-background-color: maroon;
+    --button-color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color: #bbb;
+        --background-color: #000;
+        --header-link-color: #08b;
+        --code-color: #fff;
+        --border-color: #333;
+        --table-border-color: #fff;
+        --table-row-even-background: #222;
+        --table-row-hover-background: #532;
+        --error-color: white;
+        --error-background-color: maroon;
+        --button-color: #444;
+    }
+}
+
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
     font-family: sans-serif;
 }
 
 body  {
     font-size: 1.5vw;
-    background-color: #fff;
-    color: #444;
+    color: var(--color);
+    background-color: var(--background-color);
     margin: 0;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
 
 h1, h2, h3, h4, a, th {
-    color: #046;
+    color: var(--header-link-color);
     margin: 1vh 0;
 }
 
@@ -34,11 +64,14 @@ h4 {
 
 button {
     margin-left: 0.5em;
+    color: var(--button-color);
 }
 
-code {
+
+code, input, textarea {
     font-family: monospace;
-    color: #000;
+    color: var(--code-color);
+    background-color: var(--background-color);
 }
 
 table {
@@ -46,32 +79,32 @@ table {
 }
 
 th, td {
-    border: 1px solid #000;
+    border: 1px solid var(--table-border-color);
     padding: 0 0.5em 0 0.5em;
 }
 
 tr.even {
-    background-color: #ddd;
+    background-color: var(--table-row-even-background);
 }
 
 tr.even:hover {
-    background-color: #ace;
+    background-color: var(--table-row-hover-background);
 }
 
 tr.odd:hover {
-    background-color: #ace;
+    background-color: var(--table-row-hover-background);
 }
 
 #navigator {
     display: block;
     padding: 1vh 2vw;
     margin: 0;
-    background-color: #fff;
+    background-color: var(--background-color);
 }
 
 @media screen and (orientation: landscape) {
     #navigator {
-        border-right: 1px #ccc solid;
+        border-right: 1px var(--border-color) solid;
         height: 100vh;
         position: fixed;
         width: 9vw;
@@ -80,7 +113,7 @@ tr.odd:hover {
 
 @media screen and (orientation: portrait) {
     #navigator {
-        border-bottom: 1px #ccc solid;
+        border-bottom: 1px var(--border-color) solid;
         display: flex;
         font-size: 3vw;
         height: auto;
@@ -136,8 +169,8 @@ tr.odd:hover {
 }
 
 .errorlist, .highlight {
-    background-color: maroon;
-    color: white;
+    background-color: var(--error-background-color);
+    color: var(--error-color);
 }
 
 @media screen and (orientation: portrait) {
@@ -194,4 +227,8 @@ div.column-left p, div.column-right p {
 .pure-g.gutters > [class *=pure-u]{
 	box-sizing: border-box;
 	padding: 0em 0.5em;
+}
+
+table.dataTable tbody tr {
+    background-color: transparent;
 }
