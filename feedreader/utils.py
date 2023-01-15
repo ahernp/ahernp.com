@@ -81,7 +81,7 @@ def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose)
 
     feed_from_database.published_time = xml_time
 
-    for attr in ["title", "title_detail", "link"]:
+    for attr in ["title", "title_detail"]:
         if not hasattr(feed_from_xml.feed, attr):
             log_and_display_message(
                 f'Feedreader poll_feeds. Feed "{feed_from_database.xml_url}" has no {attr}',
@@ -94,7 +94,8 @@ def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose)
     else:
         feed_from_database.title = feed_from_xml.feed.title
 
-    feed_from_database.link = feed_from_xml.feed.link
+    if hasattr(feed_from_xml.feed, "link"):
+        feed_from_database.link = feed_from_xml.feed.link
 
     if hasattr(feed_from_xml.feed, "description_detail") and hasattr(
         feed_from_xml.feed, "description"
