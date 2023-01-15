@@ -38,7 +38,9 @@ img {
                 <p><a href="{% url 'admin:feedreader_feed_change' feed.id %}">Admin</a></p>
                 <p><a href="{{ feed.xml_url }}">Feed</a></p>
                 <p><a href="{% url 'feed-recent-entries' feed.id %}?read_flag=False">Unread</a></p>
-                <p><a href="{{ feed.link }}">Website</a></p>
+                {% if feed.link %}
+                    <p><a href="{{ feed.link }}">Home</a></p>
+                {% endif %}
                 <p>{{ feed.description|safe }}</p>
             {% else %}
                 {% for group_count in counts.group_counts %}

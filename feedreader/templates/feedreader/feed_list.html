@@ -27,7 +27,9 @@
                     <td>{{ feed.group }}</td>
                     <td><a href="{{ feed.xml_url }}">Feed</a></td>
                     <td>
-                        <a href="{{ feed.link }}">Home</a>
+                        {% if feed.link %}
+                            <a href="{{ feed.link }}">Home</a>
+                        {% endif %}
                     </td>
                 </tr>
                 {% endfor %}
