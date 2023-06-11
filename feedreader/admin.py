@@ -4,7 +4,7 @@ from .models import Group, Feed, Entry
 
 
 class FeedAdmin(admin.ModelAdmin):
-    list_display = ["xml_url", "title", "group", "published_time", "last_polled_time"]
+    list_display = ["title", "xml_url", "group", "published_time", "last_polled_time"]
     list_filter = ["group"]
     search_fields = ["link", "title"]
     readonly_fields = [
