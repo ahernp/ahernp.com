@@ -42,8 +42,8 @@
         "title": "ahernp.com",
         "slug": "ahernp-com",
         "parent": 719,
-        "updated": "2023-04-10T11:08:23.902Z",
-        "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](https://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](https://isabellebidou.com \"Isabelle Bidou\")\n[Search](https://search.brave.com \"Private Search Engine\")\n\nApps:\n[Calibre](https://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](https://www.geany.org \"Text editor\")\n[Inkscape](https://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[Amazon](https://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](https://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](https://www.baen.com/ \"Baen book publisher\")\n[Bookshop](https://uk.bookshop.org \"Support Local Bookshops\")\n[PG](https://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Far Side](https://www.thefarside.com/)\n[Garfield](https://www.gocomics.com/garfield/ \"Today's Garfield comic\")\n[Matt](https://www.telegraph.co.uk/)\n[xkcd](https://xkcd.com/ \"IT Comic\")\n\nGames:\n[GOG](https://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](https://store.steampowered.com \"Steam Shop\")\n([ProtonDB](https://www.protondb.com \"Steam linux compatibility\"))\n\nMedia:\n[iPlayer](https://www.bbc.co.uk/iplayer/added)\n[Met](https://www.metoffice.gov.uk/weather/forecast/gcpvp2fvs#?nearestTo=E14%20(United%20Kingdom) \"Met Office\")\n[Radio 4](https://www.bbc.co.uk/sounds/schedules/bbc_radio_fourfm#on-air)\n[Revolutions](https://www.revolutionspodcast.com/ \"by Mike Duncan\")\n[YouTube](https://www.youtube.com)\n\nMisc:\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](https://www.openstreetmap.org/)\n[MPS](https://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Rain](https://www.metoffice.gov.uk/weather/maps-and-charts/rainfall-radar-forecast-map \"Rainfall radar\")\n[TfL](https://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](https://www.allwrite.nl/ \"Pens\")\n[BM](https://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](https://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](https://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n\nThis site:\n[Django](https://www.djangoproject.com/ \"Web development framework\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n[Svelte](https://svelte.dev/ \"Javascript frontend framework\")\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](https://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](https://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[Archive](/blog/archive)\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n[West Cork](/pages/west-cork)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Planting](/pages/2010-planting)\n\nThis site:\n[Dashboard](/dashboard)\n[Site map](/pages)\n\n[Tools](/tools \"Text manipulation tools\"):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader/)\n([unread](/feedreader/?read_flag=False))\n[Timers](/timers)\n\n</div>"
+        "updated": "2023-06-12T20:00:43.774Z",
+        "content": "# Personal Website of Paul Ahern\n\nHere you will find a [Blog](/blog), some [Application Guides](/pages/children/applications), a catalog for my [Library](/pages/children/library) and a [Gallery](/pages/gallery) of photographs.\n\nSee [Rooska](/pages/rooska) for maps and photographs of my mountain.\n\n<div class=\"column-left\" markdown=\"1\">\n\n## External\n\nFavourite:\n[Dictionary](https://dictionary.reference.com \"Dictionary, Thesaurus, etc.\")\n[Isabelle](https://isabellebidou.com \"Isabelle Bidou\")\n[Search](https://search.brave.com \"Private Search Engine\")\n\nApps:\n[Calibre](https://calibre-ebook.com/ \"Ebook Manager\")\n[Geany](https://www.geany.org \"Text editor\")\n[Inkscape](https://inkscape.org/ \"SVG editor\")\n[LastPass](https://lastpass.com/ \"Password Manager\")\n\nBooks:\n[Amazon](https://www.amazon.co.uk/ \"Amazon in the UK\")\n([read](https://read.amazon.com \"Cloud Reader - Kindle Books\"))\n[Baen](https://www.baen.com/ \"Baen book publisher\")\n[Bookshop](https://uk.bookshop.org \"Support Local Bookshops\")\n[PG](https://www.gutenberg.org/ \"Project Gutenberg\")\n\nCartoons:\n[Far Side](https://www.thefarside.com/)\n[Garfield](https://www.gocomics.com/garfield/ \"Today's Garfield comic\")\n[Matt](https://www.telegraph.co.uk/)\n[xkcd](https://xkcd.com/ \"IT Comic\")\n\nGames:\n[GOG](https://www.gog.com/ \"Good Old Games\")\n[Humble](https://www.humblebundle.com \"Humble Indie Bundles\")\n[Steam](https://store.steampowered.com \"Steam Shop\")\n([ProtonDB](https://www.protondb.com \"Steam linux compatibility\"))\n\nMedia:\n[iPlayer](https://www.bbc.co.uk/iplayer/added)\n[Met](https://www.metoffice.gov.uk/weather/forecast/gcpvp2fvs#?nearestTo=E14%20(United%20Kingdom) \"Met Office\")\n[Radio 4](https://www.bbc.co.uk/sounds/schedules/bbc_radio_fourfm#on-air)\n[YouTube](https://www.youtube.com)\n\nMisc:\n[gov.uk](https://www.gov.uk/bank-holidays \"UK Bank Holidays\")\n[Map](https://www.openstreetmap.org/)\n[MPS](https://www.mpsonline.org.uk \"Mail and Telephone preference service\")\n[Rain](https://www.metoffice.gov.uk/weather/maps-and-charts/rainfall-radar-forecast-map \"Rainfall radar\")\n[TfL](https://www.tfl.gov.uk/tube-dlr-overground/status/ \"London Underground Status\")\n[Walks](http://www.walks.com/ \"Guided walks in London\")\n\nShopping:\n[Allwrite](https://www.allwrite.nl/ \"Pens\")\n[BM](https://www.britishmuseum.org/ \"The British Museum\")\n[etsy](https://www.etsy.com/uk/)\n[M&S](https://www.marksandspencer.com \"Marks and Spencer\")\n[Senz](https://www.senzumbrellas.com/ \"Umbrellas\")\n\nSocial:\n[Contacts](https://www.google.com/contacts \"Useful section Google don't provide a link to\")\n[Facebook](https://www.facebook.com/ahernp2 \"My Profile on Facebook\")\n[LinkedIn](https://www.linkedin.com/in/ahernp \"My Profile on LinkedIn\")\n\nThis site:\n[Django](https://www.djangoproject.com/ \"Web development framework\")\n[GitHub](https://github.com/ahernp/ahernp.com)\n[Svelte](https://svelte.dev/ \"Javascript frontend framework\")\n\nWeb:\n[CSS](http://www.cookwood.com/ \"HTML & Cascading Style Sheets\")\n[Gibson](https://grc.com/default.htm \"PC security checks\")\n[PyPI](https://pypi.python.org/pypi \"Python Package Index\")\n[W3Schools](https://w3schools.com/ \"Web standards\")\n\n</div>\n<div class=\"column-right\" markdown=\"1\">\n\n## Internal\n\n[App](/pages/children/applications):\n[Chrome](/pages/google-chrome)\n[Firefox](/pages/firefox)\n[Vim](/pages/vim-editor)\n\n[Blog](/blog):\n[Archive](/blog/archive)\n[RSS](/blog/feed)\n\n[Gallery](/pages/gallery):\n[London](/pages/london)\n[Wallpaper](/pages/wallpaper)\n\n[Library](/pages/children/library):\n[Books](/pages/books)\n[CDs](/pages/cds)\n[DVDs](/pages/dvds)\n[Games](/pages/games)\n\nMisc:\n[MSc](/pages/msc)\n[Twinings Tea](/pages/twinings-tea)\n\n[Personal](/pages/children/personal):\n[CV](/pages/cv)\n[Portfolio](/pages/portfolio)\n[Profile](/pages/profile)\n\n[Ref](/pages/children/reference):\n[Linux](/pages/linux)\n[MySQL](/pages/mysql)\n[Python](/pages/python)\n\n[Rooska](/pages/rooska):\n[Before](/pages/2008-before)\n[Planting](/pages/2010-planting)\n\nThis site:\n[Dashboard](/dashboard)\n[Site map](/pages)\n\n[Tools](/tools \"Text manipulation tools\"):\n[Cardgen](/tools/cardgen)\n[Deduplicate](/tools/deduplicate)\n\n[Feedreader](/feedreader/)\n([unread](/feedreader/?read_flag=False))\n[Timers](/timers)\n\n</div>"
     }
 },
 {
@@ -1043,8 +1043,8 @@
         "title": "London",
         "slug": "london",
         "parent": 726,
-        "updated": "2022-09-18T14:18:22.066Z",
-        "content": "# London\n\n[![Tower Bridge 2006](/media/img/thumb/towerBridge5.jpg \"Tower Bridge 2006\")](/media/img/towerBridge5.jpg)\n[![Gherkin](/media/img/thumb/gherkin.jpg \"Gherkin\")](/media/img/gherkin.jpg)\n[![St Pauls](/media/img/thumb/StPauls.jpg \"St Pauls\")](/media/img/StPauls.jpg)\n[![Turbine Hall](/media/img/thumb/TurbineHall.jpg \"Turbine Hall\")](/media/img/TurbineHall.jpg)\n[![Prescott St](/media/img/thumb/PrescottSt.jpg \"Prescott St\")](/media/img/PrescottSt.jpg)\n[![Tower Bridge Open](/media/img/thumb/rivertraffic.jpg \"Tower Bridge Open\")](/media/img/rivertraffic.jpg)\n[![Goodmans Fields being Demolished](/media/img/thumb/goodmans_demolition.jpg \"Goodmans Fields being Demolished\")](/media/img/goodmans_demolition.jpg)\n[![Palais Royal](/media/img/thumb/Palace.jpg \"Palais Royal\")](/media/img/Palace.jpg)\n[![London Bridge](/media/img/thumb/LondonBridge.jpg \"London Bridge\")](/media/img/LondonBridge.jpg)\n[![Foggy Day](/media/img/thumb/foggy_tower_bridge.jpg \"Foggy Day\")](/media/img/foggy_tower_bridge.jpg)\n[![Mordor-on-Thames](/media/img/thumb/MordorOnThames.jpg \"Mordor-on-Thames\")](/media/img/MordorOnThames.jpg)\n[![Rosy-fingered Dawn](/media/img/thumb/rosyFingeredDawn.jpg \"Rosy-fingered Dawn\")](/media/img/rosyFingeredDawn.jpg)\n[![Pancakes for lunch](/media/img/thumb/pancakes.jpg \"Pancakes for lunch\")](/media/img/pancakes.jpg)\n[![Isle of Dogs at Dawn](/media/img/thumb/DawnIOD.jpg \"Isle of Dogs at Dawn\")](/media/img/DawnIOD.jpg)\n[![Steamboat on Thames](/media/img/thumb/steamboat.png \"Steamboat on Thames\")](/media/img/steamboat.png)\n[![River at Night](/media/img/thumb/RiverAtNight.jpg \"River at Night\")](/media/img/RiverAtNight.jpg)\n[![Riverboat 2021](/media/img/thumb/riverboat2021.png \"Riverboat 2021\")](/media/img/riverboat2021.png)\n[![BoatyMcBoatface 2021](/media/img/thumb/BoatyMcBoatface2021.jpg \"BoatyMcBoatface 2021\")](/media/img/BoatyMcBoatface2021.jpg)\n[![BoatyMcBoatface 2021](/media/img/thumb/BoatyMcBoatface.jpg \"BoatyMcBoatface 2021\")](/media/img/BoatyMcBoatface.jpg)\n[![Millennium Dome 2022](/media/img/thumb/millennium_dome.jpg \"Millennium Dome damaged by storm 2022\")](/media/img/millennium_dome.jpg)\n[![Queue for Elizabeth II's lying in state](/media/img/thumb/LondonQE2Queue.jpg \"Queue for Elizabeth II's lying in state, 17 September 2022\")](/media/img/LondonQE2Queue.jpg)"
+        "updated": "2023-06-23T08:22:09.435Z",
+        "content": "# London\n\n[![Tower Bridge 2006](/media/img/thumb/towerBridge5.jpg \"Tower Bridge 2006\")](/media/img/towerBridge5.jpg)\n[![Gherkin](/media/img/thumb/gherkin.jpg \"Gherkin\")](/media/img/gherkin.jpg)\n[![St Pauls](/media/img/thumb/StPauls.jpg \"St Pauls\")](/media/img/StPauls.jpg)\n[![Turbine Hall](/media/img/thumb/TurbineHall.jpg \"Turbine Hall\")](/media/img/TurbineHall.jpg)\n[![Prescott St](/media/img/thumb/PrescottSt.jpg \"Prescott St\")](/media/img/PrescottSt.jpg)\n[![Tower Bridge Open](/media/img/thumb/rivertraffic.jpg \"Tower Bridge Open\")](/media/img/rivertraffic.jpg)\n[![Goodmans Fields being Demolished](/media/img/thumb/goodmans_demolition.jpg \"Goodmans Fields being Demolished\")](/media/img/goodmans_demolition.jpg)\n[![Palais Royal](/media/img/thumb/Palace.jpg \"Palais Royal\")](/media/img/Palace.jpg)\n[![London Bridge](/media/img/thumb/LondonBridge.jpg \"London Bridge\")](/media/img/LondonBridge.jpg)\n[![Foggy Day](/media/img/thumb/foggy_tower_bridge.jpg \"Foggy Day\")](/media/img/foggy_tower_bridge.jpg)\n[![Mordor-on-Thames](/media/img/thumb/MordorOnThames.jpg \"Mordor-on-Thames\")](/media/img/MordorOnThames.jpg)\n[![Rosy-fingered Dawn](/media/img/thumb/rosyFingeredDawn.jpg \"Rosy-fingered Dawn\")](/media/img/rosyFingeredDawn.jpg)\n[![Pancakes for lunch](/media/img/thumb/pancakes.jpg \"Pancakes for lunch\")](/media/img/pancakes.jpg)\n[![Isle of Dogs at Dawn](/media/img/thumb/DawnIOD.jpg \"Isle of Dogs at Dawn\")](/media/img/DawnIOD.jpg)\n[![Steamboat on Thames](/media/img/thumb/steamboat.png \"Steamboat on Thames\")](/media/img/steamboat.png)\n[![River at Night](/media/img/thumb/RiverAtNight.jpg \"River at Night\")](/media/img/RiverAtNight.jpg)\n[![Riverboat 2021](/media/img/thumb/riverboat2021.png \"Riverboat 2021\")](/media/img/riverboat2021.png)\n[![BoatyMcBoatface 2021](/media/img/thumb/BoatyMcBoatface2021.jpg \"BoatyMcBoatface 2021\")](/media/img/BoatyMcBoatface2021.jpg)\n[![BoatyMcBoatface 2021](/media/img/thumb/BoatyMcBoatface.jpg \"BoatyMcBoatface 2021\")](/media/img/BoatyMcBoatface.jpg)\n[![Millennium Dome 2022](/media/img/thumb/millennium_dome.jpg \"Millennium Dome damaged by storm 2022\")](/media/img/millennium_dome.jpg)\n[![Queue for Elizabeth II's lying in state](/media/img/thumb/LondonQE2Queue.jpg \"Queue for Elizabeth II's lying in state, 17 September 2022\")](/media/img/LondonQE2Queue.jpg)\n[![Mexican navy visits Canary Wharf](/media/img/thumb/MexicanNavyShipCuauhtémoc.jpg \"Mexican navy ship Cuauhtémoc, 23 June 2023\")](/media/img/MexicanNavyShipCuauhtémoc.jpg)"
     }
 },
 {
@@ -1798,7 +1798,7 @@
         "link": "http://www.dancarlin.com",
         "description": "In &quot;Hardcore History&quot; journalist and broadcaster Dan Carlin takes his &quot;Martian&quot;, unorthodox way of thinking and applies it to the past. Was Alexander the Great as bad a person as Adolf Hitler? What would Apaches with modern weapons be like? Will our modern civilization ever fall like civilizations from past eras? This isn&#x27;t academic history (and Carlin isn&#x27;t a historian) but the podcast&#x27;s unique blend of high drama, masterful narration and Twilight Zone-style twists has entertained millions of listeners.",
         "published_time": "2022-03-07T03:08:44Z",
-        "last_polled_time": "2023-06-05T15:17:05.789Z",
+        "last_polled_time": "2023-06-25T07:17:04.533Z",
         "group": 1,
         "always_load": true
     }
@@ -1811,8 +1811,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/analysis/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006r4vz",
         "description": "Programme examining the ideas and forces which shape public policy in Britain and abroad, presented by distinguished writers, journalists and academics.",
-        "published_time": "2023-05-29T20:00:00Z",
-        "last_polled_time": "2023-05-29T20:17:04.963Z",
+        "published_time": "2023-06-19T20:00:00Z",
+        "last_polled_time": "2023-06-19T20:17:04.242Z",
         "group": 4,
         "always_load": false
     }
@@ -1825,8 +1825,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qykl",
         "description": "Melvyn Bragg and guests discuss the ideas, people and events that have shaped our world.",
-        "published_time": "2023-06-01T09:15:00Z",
-        "last_polled_time": "2023-06-01T10:17:16.664Z",
+        "published_time": "2023-06-22T09:15:00Z",
+        "last_polled_time": "2023-06-22T10:17:08.929Z",
         "group": 4,
         "always_load": false
     }
@@ -1839,8 +1839,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/law/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006tgy1",
         "description": "Joshua Rozenberg presents Radio 4&#x27;s long-running legal magazine programme, featuring reports and discussion on matters relating to law",
-        "published_time": "2023-05-30T15:00:00Z",
-        "last_polled_time": "2023-05-30T15:17:12.139Z",
+        "published_time": "2023-06-13T15:30:00Z",
+        "last_polled_time": "2023-06-13T16:17:15.716Z",
         "group": 4,
         "always_load": false
     }
@@ -1853,8 +1853,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/bottomline/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006sz6t",
         "description": "Evan Davis hosts the business conversation show with people at the top giving insight into what matters",
-        "published_time": "2023-03-09T20:55:00Z",
-        "last_polled_time": "2023-03-09T21:17:18.778Z",
+        "published_time": "2023-06-22T20:00:00Z",
+        "last_polled_time": "2023-06-22T20:17:22.730Z",
         "group": 4,
         "always_load": false
     }
@@ -1867,8 +1867,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "Radio 4&#x27;s weekly assessment of developments at Westminster",
-        "published_time": "2023-05-27T10:30:00Z",
-        "last_polled_time": "2023-05-27T11:17:20.109Z",
+        "published_time": "2023-06-24T10:00:00Z",
+        "last_polled_time": "2023-06-24T10:17:23.646Z",
         "group": 3,
         "always_load": false
     }
@@ -1881,8 +1881,8 @@
         "xml_url": "http://www.schneier.com/blog/index.xml",
         "link": "https://www.schneier.com",
         "description": "",
-        "published_time": "2023-06-05T04:17:42Z",
-        "last_polled_time": "2023-06-05T12:17:24.645Z",
+        "published_time": "2023-06-23T14:55:41Z",
+        "last_polled_time": "2023-06-23T15:17:17.218Z",
         "group": 5,
         "always_load": false
     }
@@ -1923,8 +1923,8 @@
         "xml_url": "http://feeds.theincomparable.com/theincomparable",
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable Mothership is the flagship of the Incomparable podcast network. It’s all about geeky media we love, including movies, books, TV, and more, featuring a rotating panel of guests and hosted by Jason Snell and friends.",
-        "published_time": "2023-06-02T15:22:00Z",
-        "last_polled_time": "2023-06-02T16:17:19.946Z",
+        "published_time": "2023-06-23T16:00:00Z",
+        "last_polled_time": "2023-06-23T16:17:26.043Z",
         "group": 2,
         "always_load": false
     }
@@ -1937,23 +1937,9 @@
         "xml_url": "http://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
-        "published_time": "2023-06-05T12:30:52Z",
-        "last_polled_time": "2023-06-05T14:17:04.595Z",
+        "published_time": "2023-06-23T20:31:17Z",
+        "last_polled_time": "2023-06-23T22:17:04.488Z",
         "group": 5,
-        "always_load": false
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 182,
-    "fields": {
-        "title": "The Real Story",
-        "xml_url": "http://www.bbc.co.uk/programmes/p02dbd4m/episodes/downloads.rss",
-        "link": "http://www.bbc.co.uk/programmes/p02dbd4m",
-        "description": "Global experts and decision makers discuss, debate and analyse a key news story.",
-        "published_time": "2023-06-02T14:27:00Z",
-        "last_polled_time": "2023-06-02T15:17:31.986Z",
-        "group": 3,
         "always_load": false
     }
 },
@@ -1965,8 +1951,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moreorless/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02nrss1",
         "description": "Tim Harford and the More or Less team try to make sense of the statistics which surround us. From BBC Radio 4",
-        "published_time": "2023-06-03T05:00:00Z",
-        "last_polled_time": "2023-06-03T05:17:15.920Z",
+        "published_time": "2023-06-24T05:00:00Z",
+        "last_polled_time": "2023-06-24T05:17:10.117Z",
         "group": 4,
         "always_load": false
     }
@@ -1979,8 +1965,8 @@
         "xml_url": "http://www.theregister.co.uk/headlines.atom",
         "link": "https://www.theregister.com/",
         "description": "Biting the hand that feeds IT — Enterprise Technology News and Analysis",
-        "published_time": "2023-06-05T14:33:10Z",
-        "last_polled_time": "2023-06-05T15:17:30.854Z",
+        "published_time": "2023-06-24T14:19:12Z",
+        "last_polled_time": "2023-06-24T15:17:18.391Z",
         "group": 5,
         "always_load": false
     }
@@ -1993,8 +1979,8 @@
         "xml_url": "https://www.latrobe.edu.au/marketing/assets/podcasts/rssfeeds/caesar.xml",
         "link": "http://www.latrobe.edu.au",
         "description": "“Great empires are not maintained by timidity.” - Tacitus. A podcast series looking at the rulers of the ancient Roman empire, by Dr Rhiannon Evans, Dr Caillan Davenport and Matt Smith.",
-        "published_time": "2023-05-12T05:49:29Z",
-        "last_polled_time": "2023-05-12T06:17:08.074Z",
+        "published_time": "2023-06-23T13:46:01Z",
+        "last_polled_time": "2023-06-23T14:17:08.099Z",
         "group": 1,
         "always_load": false
     }
@@ -2006,9 +1992,9 @@
         "title": "Newscast",
         "xml_url": "https://podcasts.files.bbci.co.uk/p05299nl.rss",
         "link": "http://www.bbc.co.uk/programmes/p05299nl",
-        "description": "Analysing the Phillip Schofield interview",
-        "published_time": "2023-06-02T19:49:00Z",
-        "last_polled_time": "2023-06-02T20:17:14.127Z",
+        "description": "Ukrainecast: Is Russia on the verge of a coup?",
+        "published_time": "2023-06-24T14:31:00Z",
+        "last_polled_time": "2023-06-24T15:17:11.670Z",
         "group": 3,
         "always_load": false
     }
@@ -2036,7 +2022,7 @@
         "link": "http://dchhaddendum.libsyn.com/website",
         "description": "Interviews, musings and extra material from the makers of Dan Carlin&#x27;s Hardcore History.  If it did not fit in the HH feed it&#x27;s probably here",
         "published_time": "2023-05-31T16:00:00Z",
-        "last_polled_time": "2023-06-05T15:17:06.420Z",
+        "last_polled_time": "2023-06-25T07:17:05.150Z",
         "group": 1,
         "always_load": true
     }
@@ -2049,9 +2035,9 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b07cblx9.rss",
         "link": "http://www.bbc.co.uk/programmes/b07cblx9",
         "description": "David Aaronovitch presents in-depth explainers on big issues in the news.",
-        "published_time": "2023-05-11T19:30:00Z",
-        "last_polled_time": "2023-05-11T20:17:17.221Z",
-        "group": 4,
+        "published_time": "2023-06-22T19:30:00Z",
+        "last_polled_time": "2023-06-22T20:17:23.244Z",
+        "group": 3,
         "always_load": false
     }
 },
@@ -2062,24 +2048,10 @@
         "title": "Americast",
         "xml_url": "https://www.listennotes.com/c/r/8f5766a667b94778be267c782cc8cc91",
         "link": "http://www.bbc.co.uk/programmes/p07h19zz",
-        "description": "Ron and Elon: A Failed Launch?",
-        "published_time": "2023-06-01T23:13:00Z",
-        "last_polled_time": "2023-06-02T00:17:04.119Z",
+        "description": "The president’s son will plead guilty to tax and gun offences to avoid prison.",
+        "published_time": "2023-06-21T20:34:00Z",
+        "last_polled_time": "2023-06-21T21:17:03.895Z",
         "group": 3,
-        "always_load": false
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 300,
-    "fields": {
-        "title": "Natalie Haynes Stands Up for the Classics",
-        "xml_url": "https://podcasts.files.bbci.co.uk/b077x8pc.rss",
-        "link": "http://www.bbc.co.uk/programmes/b077x8pc",
-        "description": "Natalie Haynes takes a fresh look at the ancient world, creating stand-up routines about figures from ancient Greece and Rome.",
-        "published_time": "2022-09-04T15:30:00Z",
-        "last_polled_time": "2022-09-04T16:17:14.151Z",
-        "group": 1,
         "always_load": false
     }
 },
@@ -2105,8 +2077,8 @@
         "xml_url": "https://acoup.blog/feed/",
         "link": "https://acoup.blog",
         "description": "A look at history and popular culture",
-        "published_time": "2023-06-02T19:12:26Z",
-        "last_polled_time": "2023-06-02T19:17:03.334Z",
+        "published_time": "2023-06-23T03:56:19Z",
+        "last_polled_time": "2023-06-23T04:17:03.560Z",
         "group": 1,
         "always_load": false
     }
@@ -2120,7 +2092,7 @@
         "link": "https://www.youtube.com/channel/UCfCKvREB11-fxyotS1ONgww",
         "description": "",
         "published_time": "2017-10-27T18:31:09Z",
-        "last_polled_time": "2023-06-05T15:17:21.606Z",
+        "last_polled_time": "2023-06-25T07:17:10.045Z",
         "group": 1,
         "always_load": true
     }
@@ -2134,7 +2106,7 @@
         "link": "https://www.youtube.com/channel/UCfZz8F37oSJ2rtcEJHM2kCg",
         "description": "",
         "published_time": "2012-07-10T20:59:55Z",
-        "last_polled_time": "2023-06-05T15:17:26.477Z",
+        "last_polled_time": "2023-06-25T07:17:14.255Z",
         "group": 1,
         "always_load": true
     }
@@ -2148,7 +2120,7 @@
         "link": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
         "description": "",
         "published_time": "2009-10-17T07:13:30Z",
-        "last_polled_time": "2023-06-05T15:17:03.865Z",
+        "last_polled_time": "2023-06-25T07:17:03.058Z",
         "group": 2,
         "always_load": true
     }
@@ -2162,7 +2134,7 @@
         "link": "https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w",
         "description": "",
         "published_time": "2010-08-12T20:12:29Z",
-        "last_polled_time": "2023-06-05T15:17:05.561Z",
+        "last_polled_time": "2023-06-25T07:17:04.246Z",
         "group": 2,
         "always_load": true
     }
@@ -2176,23 +2148,9 @@
         "link": "https://www.youtube.com/channel/UC4mftUX7apmV1vsVXZh7RTw",
         "description": "",
         "published_time": "2009-07-07T20:59:00Z",
-        "last_polled_time": "2023-06-05T15:17:06.592Z",
+        "last_polled_time": "2023-06-25T07:17:05.230Z",
         "group": 1,
         "always_load": true
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 355,
-    "fields": {
-        "title": "MonkeyUser",
-        "xml_url": "https://www.monkeyuser.com/feed.xml",
-        "link": "https://www.monkeyuser.com",
-        "description": "",
-        "published_time": "2023-04-03T00:00:00Z",
-        "last_polled_time": "2023-05-03T08:17:16.947Z",
-        "group": 5,
-        "always_load": false
     }
 },
 {
@@ -2203,23 +2161,9 @@
         "xml_url": "https://rss.acast.com/not-just-the-tudors",
         "link": "https://www.historyhit.com/podcasts/",
         "description": "<p>Professor Suzannah Lipscomb talks about everything from the Aztecs to witches, Velázquez to Shakespeare, Mughal India to the Mayflower. Not, in other words, just the Tudors, but most definitely also the Tudors.</p><p>Each episode Suzannah is joined by historians and experts to reveal incredible stories about one of the most fascinating periods in history.&nbsp; You can also subscribe to our <em>Tudor Tuesday </em>newsletter, <a href=\"https://www.historyhit.com/sign-up-to-history-hit/?utm_source=timelinenewsletter&amp;utm_medium=podcast&amp;utm_campaign=Timeline+Podcast+Campaign\" rel=\"noopener noreferrer\" target=\"_blank\">here &gt;</a></p><br /><hr /><p style=\"color: grey; font-size: 0.75em;\"> Hosted on Acast. See <a href=\"https://acast.com/privacy\" rel=\"noopener noreferrer\" style=\"color: grey;\" target=\"_blank\">acast.com/privacy</a> for more information.</p>",
-        "published_time": "2023-06-05T02:00:03Z",
-        "last_polled_time": "2023-06-05T02:17:13.849Z",
+        "published_time": "2023-06-22T02:00:16Z",
+        "last_polled_time": "2023-06-22T02:17:14.027Z",
         "group": 1,
-        "always_load": false
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 382,
-    "fields": {
-        "title": "A Degree Absolute!",
-        "xml_url": "https://adegreeabsolute.libsyn.com/rss",
-        "link": "http://adegreeabsolute.libsyn.com",
-        "description": "Critics Chris Klimek and Glen Weldon both loved the late-60s British sci-fi series &quot;The Prisoner&quot; in their formative years, but they haven&#x27;t seen it in a long time and they&#x27;re not at all sure how it will play in a 21st century rife with with &quot;alternative facts&quot; and militant individualism at the expense of social responsibility. One thing is certain: Run-DMC were clearly influenced by the vocal patterns of Patrick McGoohan, and that malicious weather balloon is still eerie as hell. Wait, that&#x27;s two things. \n\nJoin them for this illuminating rewatch!",
-        "published_time": "2022-12-28T17:00:00Z",
-        "last_polled_time": "2022-12-28T17:17:03.216Z",
-        "group": 2,
         "always_load": false
     }
 },
@@ -2231,8 +2175,8 @@
         "xml_url": "https://warontherocks.com/feed/",
         "link": "https://warontherocks.com",
         "description": "Great discussions with security, defense, and foreign policy experts recorded over drinks.",
-        "published_time": "2023-06-05T15:14:36Z",
-        "last_polled_time": "2023-06-05T15:17:33.758Z",
+        "published_time": "2023-06-24T12:11:11Z",
+        "last_polled_time": "2023-06-24T12:17:22.864Z",
         "group": 3,
         "always_load": false
     }
@@ -2245,8 +2189,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/620cc95e2641e200137b94d8",
         "link": "https://shows.acast.com/the-rest-is-politics",
         "description": "<p>Two men who’ve been at the heart of the political world - former Downing Street Director of Communications and Strategy Alastair Campbell and cabinet minister Rory Stewart - join forces from across the political divide. The Rest Is Politics lifts the lid on the secrets of Westminster, offering an insider’s view on politics at home and abroad, while bringing back the lost art of disagreeing agreeably.</p><br /><p><strong>Twitter:</strong></p><p><a href=\"https://twitter.com/RestIsPolitics\" rel=\"noopener noreferrer\" target=\"_blank\">@RestIsPolitics</a></p><br /><p><strong>Instagram:</strong></p><p><a href=\"https://www.instagram.com/restispolitics/\" rel=\"noopener noreferrer\" target=\"_blank\">@restispolitics</a></p><br /><p><strong>Email:</strong></p><p>restispolitics@gmail.com</p><br /><hr /><p style=\"color: grey; font-size: 0.75em;\"> Hosted on Acast. See <a href=\"https://acast.com/privacy\" rel=\"noopener noreferrer\" style=\"color: grey;\" target=\"_blank\">acast.com/privacy</a> for more information.</p>",
-        "published_time": "2023-06-01T01:00:24Z",
-        "last_polled_time": "2023-06-01T01:17:23.882Z",
+        "published_time": "2023-06-24T12:36:23Z",
+        "last_polled_time": "2023-06-24T13:17:20.755Z",
         "group": 4,
         "always_load": false
     }
@@ -2259,8 +2203,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/031c2dcb-c66c-42b5-819e-2452031fe4f9",
         "link": "https://play.acast.com/s/the-rest-is-history-podcast",
         "description": "<p>Historians&nbsp;Tom Holland&nbsp;and&nbsp;Dominic Sandbrook&nbsp;are interrogating the past, and attempting to de-tangle the present.</p><br /><p><br /></p><p>They question the nature of Greatness, why the West no longer has civil wars and whether Richard Nixon was more like Caligula or Claudius.&nbsp;</p><p>&nbsp;</p><br /><p>They're distilling the entirety&nbsp;of human history, or, as much as they can fit into about&nbsp;fifty minutes.</p><br /><p><br /></p><p>Join <a href=\"https://feeds.acast.com/public/shows/www.restishistorypod.com\" rel=\"noopener noreferrer\" target=\"_blank\">The Rest Is History Club</a> (www.restishistorypod.com) for ad-free listening to the full archive, weekly bonus episodes, live streamed shows and access to an exclusive chatroom community.</p><br /><p><br /></p><p>Here are some of our favourite episodes to get you started:</p><br /><p><br /></p><p>WATERGATE/NIXON <a href=\"https://t.co/ZKMxsY6X8m\" rel=\"noopener noreferrer\" target=\"_blank\">apple.co/3JrVl5h</a></p><br /><p>ALEXANDER THE GREAT <a href=\"https://t.co/a5EddcghTP\" rel=\"noopener noreferrer\" target=\"_blank\">apple.co/3Q4FaNk</a></p><br /><p>HARDCORE HISTORY'S DAN CARLIN <a href=\"https://t.co/C8uIY8WU6F\" rel=\"noopener noreferrer\" target=\"_blank\">apple.co/3vqkGa3</a></p><br /><p>PUTIN &amp; RUSSIA<strong> </strong><a href=\"https://t.co/3czBERtFde\" rel=\"noopener noreferrer\" target=\"_blank\">apple.co/3zMtLfX</a></p><br /><hr /><p style=\"color: grey; font-size: 0.75em;\"> Hosted on Acast. See <a href=\"https://acast.com/privacy\" rel=\"noopener noreferrer\" style=\"color: grey;\" target=\"_blank\">acast.com/privacy</a> for more information.</p>",
-        "published_time": "2023-06-05T01:00:08Z",
-        "last_polled_time": "2023-06-05T01:17:22.918Z",
+        "published_time": "2023-06-23T01:00:27Z",
+        "last_polled_time": "2023-06-23T01:17:23.721Z",
         "group": 1,
         "always_load": false
     }
@@ -2274,7 +2218,7 @@
         "link": "https://www.youtube.com/channel/UCn1xtOr2wHQwYTxO_KTkqNg",
         "description": "",
         "published_time": "2020-12-03T20:30:08Z",
-        "last_polled_time": "2023-06-05T15:17:24.411Z",
+        "last_polled_time": "2023-06-25T07:17:12.326Z",
         "group": 2,
         "always_load": true
     }
@@ -2287,8 +2231,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/63c14d942c42340011fc0c8e",
         "link": "https://feeds.acast.com/public/shows/leading",
         "description": "<p>Rory Stewart and Alastair Campbell, hosts of Britain's biggest podcast (The Rest Is Politics), have joined forces once again for their new interview podcast, ‘Leading’.</p><br /><p>Every Monday, Rory and Alastair interrogate, converse with, and interview some of the world's biggest names - from both inside and outside of politics - about life, leadership, or leading the way in their chosen field.</p><br /><p>Whether they're sports stars, thought-leaders, presidents or internationally-recognised religious figures, Alastair and Rory lift the lid on the motivation, philosophy and secrets behind their career.</p><br /><p>Tune in to 'Leading' now to hear essential conversation from some of the world's most enthralling individuals.&nbsp;</p><br /><p><a href=\"https://twitter.com/GoalhangerPods\" rel=\"noopener noreferrer\" target=\"_blank\">Goalhanger Podcasts</a></p><br /><hr /><p style=\"color: grey; font-size: 0.75em;\"> Hosted on Acast. See <a href=\"https://acast.com/privacy\" rel=\"noopener noreferrer\" style=\"color: grey;\" target=\"_blank\">acast.com/privacy</a> for more information.</p>",
-        "published_time": "2023-06-05T01:00:05Z",
-        "last_polled_time": "2023-06-05T01:17:12.429Z",
+        "published_time": "2023-06-19T01:00:37Z",
+        "last_polled_time": "2023-06-19T01:17:10.139Z",
         "group": 4,
         "always_load": false
     }
@@ -2301,8 +2245,8 @@
         "xml_url": "https://pod.link/1639561921.rss",
         "link": null,
         "description": "How do empires rise? Why do they fall? And how have they shaped the world around us today?\n\nWilliam Dalrymple and Anita Anand explore the stories, personalities and events of empire over the course of history.\n\nThe first series looks at the British in India, covering the East India Company, the Raj, Gandhi, Independence and Partition.",
-        "published_time": "2023-05-30T01:00:00Z",
-        "last_polled_time": "2023-05-30T01:17:19.362Z",
+        "published_time": "2023-06-21T23:00:00Z",
+        "last_polled_time": "2023-06-21T23:17:08.460Z",
         "group": 1,
         "always_load": false
     }
@@ -2315,79 +2259,37 @@
         "xml_url": "https://feeds.megaphone.fm/ink-stained-wretches",
         "link": "https://nebulouspodcasts.com",
         "description": "Eliana Johnson and Chris Stirewalt love the news business but they hate a lot of what’s happening to it these days. Using their decades of experience in print, digital and TV news they tell the story behind the stories, always on the lookout for bias, sloppy reporting and, well, just plain wretched journalism. Every week they help you to be a better, smarter news consumer.",
-        "published_time": "2023-06-02T08:45:00Z",
-        "last_polled_time": "2023-06-02T09:17:11.822Z",
+        "published_time": "2023-06-23T08:45:00Z",
+        "last_polled_time": "2023-06-23T09:17:12.126Z",
         "group": 4,
         "always_load": false
     }
 },
 {
     "model": "feedreader.feed",
-    "pk": 427,
+    "pk": 447,
     "fields": {
-        "title": "How Did This Get Made?",
-        "xml_url": "https://feeds.simplecast.com/Ao0C24M8",
-        "link": "http://www.earwolf.com/show/how-did-this-get-made/",
-        "description": "Have you ever seen a movie so bad that it&#x27;s amazing? Paul Scheer, June Diane Raphael and Jason Mantzoukas want to hear about it! We&#x27;ll watch it with our funniest friends, and report back to you with the results.",
-        "published_time": "2023-06-05T04:05:00Z",
-        "last_polled_time": "2023-06-05T04:17:12.605Z",
-        "group": 2,
-        "always_load": false
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 431,
-    "fields": {
-        "title": "Mind Killer: A Dune Podcast",
-        "xml_url": "https://feeds.captivate.fm/mindkiller/",
-        "link": "https://www.lsgmedia.net/",
-        "description": "Dean and Matthew of LSG Media have decided to ply their podcasting expertise into the glorious world of Frank Hebert&#x27;s Dune. This podcast will cover the novel in its entirety in chronological order. This is a great companion piece if you&#x27;re a first-time reader or a veteran who wants to go deeper on a chapter by chapter analysis.",
-        "published_time": "2023-04-05T04:39:15Z",
-        "last_polled_time": "2023-05-14T14:47:12.102Z",
+        "title": "FiveThirtyEight Politics",
+        "xml_url": "https://www.espn.com/espnradio/feeds/rss/podcast.xml?id=14554755",
+        "link": "https://fivethirtyeight.com/podcasts/",
+        "description": "Nate Silver and the FiveThirtyEight team cover the latest in politics, tracking the issues and &quot;game-changers&quot; every week.",
+        "published_time": "2023-06-19T17:19:14Z",
+        "last_polled_time": "2023-06-19T17:25:51.036Z",
         "group": 4,
         "always_load": false
     }
 },
 {
     "model": "feedreader.feed",
-    "pk": 438,
+    "pk": 448,
     "fields": {
-        "title": "Page 94: The Private Eye Podcast",
-        "xml_url": "https://www.private-eye.co.uk/rss/itunes/itunes.xml",
-        "link": "https://www.private-eye.co.uk/podcast",
-        "description": "A brand new podcast from Private Eye, the UK&#x27;s number one best-selling current affairs magazine. With Ian Hislop and host Andrew Hunter Murray.",
-        "published_time": "2023-06-05T10:00:00Z",
-        "last_polled_time": "2023-06-05T13:17:17.213Z",
-        "group": 3,
-        "always_load": false
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 442,
-    "fields": {
-        "title": "Front Lines and Frontiers – Tor.com",
-        "xml_url": "https://www.tor.com/tag/front-lines-and-frontiers/feed",
-        "link": "https://www.tor.com",
-        "description": "Science fiction. Fantasy. The universe. And related subjects.",
-        "published_time": "2023-05-26T15:30:59Z",
-        "last_polled_time": "2023-05-30T17:17:10.924Z",
-        "group": 2,
-        "always_load": false
-    }
-},
-{
-    "model": "feedreader.feed",
-    "pk": 444,
-    "fields": {
-        "title": "History on Fire",
-        "xml_url": "http://feeds.podtrac.com/xUnmFXZLuavF",
-        "link": "http://historyonfirepodcast.com/episodes/",
-        "description": "Where history and epic collide--&quot;History on Fire&quot; is a podcast by author and university professor Daniele Bolelli.",
-        "published_time": "2023-06-04T09:09:52Z",
-        "last_polled_time": "2023-06-05T11:41:50.761Z",
-        "group": 1,
+        "title": "Moral Maze",
+        "xml_url": "https://podcasts.files.bbci.co.uk/b006qk11.rss",
+        "link": "http://www.bbc.co.uk/programmes/b006qk11",
+        "description": "Combative, provocative and engaging live debate examining the moral issues behind one of the week&#x27;s news stories. #moralmaze",
+        "published_time": "2023-06-23T11:06:00Z",
+        "last_polled_time": "2023-06-23T12:17:13.608Z",
+        "group": 4,
         "always_load": false
     }
 }
