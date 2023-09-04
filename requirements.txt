@@ -7,4 +7,4 @@ Markdown==3.4.3
 psycopg2-binary==2.9.3
 pytest-django==4.5.2
 selenium==4.8.3
-uWSGI==2.0.21
+uWSGI==2.0.22
