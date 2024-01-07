@@ -1,13 +1,11 @@
+import logging
 from datetime import datetime, timedelta
 from time import mktime
 
-import logging
 import feedparser
 import pytz
-
 from django.conf import settings
-from django.utils import html
-from django.utils import timezone
+from django.utils import html, timezone
 
 from .models import Entry
 

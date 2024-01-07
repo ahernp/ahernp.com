@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.contrib.admin.models import LogEntry, ADDITION, CHANGE, DELETION
+from django.contrib.admin.models import ADDITION, CHANGE, DELETION, LogEntry
 from django.urls import reverse
 from django.utils.html import escape
 from django.utils.safestring import mark_safe

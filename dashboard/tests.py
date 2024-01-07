@@ -1,5 +1,4 @@
 import pytest
-
 from django.urls import reverse
 
 from .views import project_state_at_startup

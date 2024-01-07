@@ -1,11 +1,10 @@
+import logging
 from datetime import timedelta
 
 from django.core.management.base import BaseCommand
 from django.utils import timezone
 
 from ...models import Log
-
-import logging
 
 logger = logging.getLogger(__name__)
 

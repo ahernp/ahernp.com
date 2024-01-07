@@ -1,10 +1,8 @@
-import pytest
-
 import time
 
-from selenium.webdriver.common.by import By
-
+import pytest
 from django.urls import reverse
+from selenium.webdriver.common.by import By
 
 from pages.factories import PageFactory
 from pages.models import Page

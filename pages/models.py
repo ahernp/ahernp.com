@@ -1,10 +1,9 @@
+import markdown
 from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils.encoding import force_str
 from django.utils.safestring import mark_safe
-
-import markdown
 
 
 class Page(models.Model):

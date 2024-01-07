@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Group, Feed, Entry
+from .models import Entry, Feed, Group
 
 
 class FeedAdmin(admin.ModelAdmin):

@@ -1,7 +1,7 @@
-from subprocess import Popen, PIPE
+from subprocess import PIPE, Popen
 
+from django.contrib.postgres.search import Func, Value
 from django.db import models
-from django.contrib.postgres.search import Value, Func
 
 
 def run_shell_command(command, cwd):

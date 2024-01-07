@@ -1,7 +1,6 @@
-import pytest
-
 from unittest.mock import patch
 
+import pytest
 from django.urls import reverse
 
 from .factories import EntryFactory, FeedFactory, GroupFactory

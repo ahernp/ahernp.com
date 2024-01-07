@@ -1,7 +1,6 @@
 from django.urls import path
 
-from . import views
-from . import rss
+from . import rss, views
 
 urlpatterns = [
     path("", views.BlogPageLatestView.as_view(), name="blogpage-latest"),

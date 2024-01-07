@@ -1,13 +1,13 @@
 """
 This command polls all of the Feeds and removes old entries.
 """
+import logging
+
 from django.conf import settings
 from django.core.management.base import BaseCommand
 
-from ...models import Feed, Entry
+from ...models import Entry, Feed
 from ...utils import poll_feed
-
-import logging
 
 logger = logging.getLogger(__name__)
 

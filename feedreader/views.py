@@ -1,11 +1,10 @@
 import collections
 
+from django.conf import settings
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404, redirect
 from django.views.generic.base import View
 from django.views.generic.list import ListView
-
-from django.conf import settings
 
 from .forms import ToggleEntryReadForm
 from .models import Entry, Feed, Group

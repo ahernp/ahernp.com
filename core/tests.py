@@ -1,11 +1,11 @@
-import pytest
-
 import datetime
 
+import pytest
 from django.urls import reverse
 from django.utils import timezone
 
 from pages.factories import PageFactory
+
 from .factories import LogFactory
 
 

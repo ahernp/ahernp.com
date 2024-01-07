@@ -1,15 +1,17 @@
-from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
 from django.conf import settings
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.postgres.search import (SearchQuery, SearchRank,
+                                            SearchVector)
 from django.db.models import F
 from django.urls import reverse
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView
 
-from .forms import UploadForm
-from .utils import Headline, run_shell_command
 from feedreader.models import Entry
 from pages.models import Page
+
+from .forms import UploadForm
+from .utils import Headline, run_shell_command
 
 
 class SearchView(TemplateView):
