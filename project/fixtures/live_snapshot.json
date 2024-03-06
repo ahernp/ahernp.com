@@ -1809,7 +1809,7 @@
         "link": "http://www.dancarlin.com",
         "description": "In &quot;Hardcore History&quot; journalist and broadcaster Dan Carlin takes his &quot;Martian&quot;, unorthodox way of thinking and applies it to the past. Was Alexander the Great as bad a person as Adolf Hitler? What would Apaches with modern weapons be like? Will our modern civilization ever fall like civilizations from past eras? This isn&#x27;t academic history (and Carlin isn&#x27;t a historian) but the podcast&#x27;s unique blend of high drama, masterful narration and Twilight Zone-style twists has entertained millions of listeners.",
         "published_time": "2023-11-19T20:14:53Z",
-        "last_polled_time": "2024-02-24T19:17:05.572Z",
+        "last_polled_time": "2024-03-04T10:17:06.280Z",
         "group": 1,
         "always_load": true
     }
@@ -1822,8 +1822,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/analysis/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006r4vz",
         "description": "<p>Programme examining the ideas and forces which shape public policy in Britain and abroad, presented by distinguished writers, journalists and academics.</p>",
-        "published_time": "2024-02-19T21:00:00Z",
-        "last_polled_time": "2024-02-19T21:17:04.900Z",
+        "published_time": "2024-02-26T21:00:00Z",
+        "last_polled_time": "2024-02-26T21:17:05.719Z",
         "group": 4,
         "always_load": false
     }
@@ -1836,8 +1836,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/iot/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qykl",
         "description": "<p>Melvyn Bragg and guests discuss the ideas, people and events that have shaped our world.</p>",
-        "published_time": "2024-02-22T10:15:00Z",
-        "last_polled_time": "2024-02-22T11:17:11.860Z",
+        "published_time": "2024-02-29T10:15:00Z",
+        "last_polled_time": "2024-02-29T11:17:10.762Z",
         "group": 4,
         "always_load": false
     }
@@ -1864,8 +1864,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/bottomline/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006sz6t",
         "description": "<p>Evan Davis hosts the business conversation show with insights from the people at the top.</p>",
-        "published_time": "2024-02-22T20:59:00Z",
-        "last_polled_time": "2024-02-22T21:18:32.431Z",
+        "published_time": "2024-02-29T20:59:00Z",
+        "last_polled_time": "2024-02-29T21:17:20.004Z",
         "group": 4,
         "always_load": false
     }
@@ -1878,8 +1878,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "<p>Radio 4's weekly assessment of developments at Westminster</p>",
-        "published_time": "2024-02-24T11:30:00Z",
-        "last_polled_time": "2024-02-24T12:17:23.811Z",
+        "published_time": "2024-03-02T11:30:00Z",
+        "last_polled_time": "2024-03-02T12:17:27.377Z",
         "group": 3,
         "always_load": false
     }
@@ -1892,8 +1892,8 @@
         "xml_url": "http://www.schneier.com/blog/index.xml",
         "link": "https://www.schneier.com",
         "description": "",
-        "published_time": "2024-02-23T21:38:53Z",
-        "last_polled_time": "2024-02-23T22:17:22.883Z",
+        "published_time": "2024-03-01T16:51:43Z",
+        "last_polled_time": "2024-03-01T22:17:24.085Z",
         "group": 5,
         "always_load": false
     }
@@ -1920,8 +1920,8 @@
         "xml_url": "https://www.djangoproject.com/rss/weblog/",
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python web framework.",
-        "published_time": "2024-02-11T04:25:18Z",
-        "last_polled_time": "2024-02-11T05:17:16.851Z",
+        "published_time": "2024-03-04T08:55:55Z",
+        "last_polled_time": "2024-03-04T09:17:21.210Z",
         "group": 5,
         "always_load": false
     }
@@ -1934,8 +1934,8 @@
         "xml_url": "http://feeds.theincomparable.com/theincomparable",
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable Mothership is the flagship of the Incomparable podcast network. It’s all about geeky media we love, including movies, books, TV, and more, featuring a rotating panel of guests and hosted by Jason Snell and friends.",
-        "published_time": "2024-02-23T17:00:00Z",
-        "last_polled_time": "2024-02-23T17:17:20.120Z",
+        "published_time": "2024-03-01T05:19:00Z",
+        "last_polled_time": "2024-03-01T06:17:22.320Z",
         "group": 2,
         "always_load": false
     }
@@ -1948,8 +1948,8 @@
         "xml_url": "http://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist for more than a decade. IT news, reviews, and analysis.",
-        "published_time": "2024-02-23T22:20:03Z",
-        "last_polled_time": "2024-02-23T23:17:05.259Z",
+        "published_time": "2024-03-01T21:59:46Z",
+        "last_polled_time": "2024-03-01T23:17:04.773Z",
         "group": 5,
         "always_load": false
     }
@@ -1962,8 +1962,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moreorless/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02nrss1",
         "description": "<p>Tim Harford and the More or Less team try to make sense of the statistics which surround us. From BBC Radio 4</p>",
-        "published_time": "2024-02-24T06:00:00Z",
-        "last_polled_time": "2024-02-24T06:17:15.722Z",
+        "published_time": "2024-03-02T06:00:00Z",
+        "last_polled_time": "2024-03-02T06:17:11.941Z",
         "group": 4,
         "always_load": false
     }
@@ -1989,9 +1989,9 @@
         "title": "Newscast",
         "xml_url": "https://podcasts.files.bbci.co.uk/p05299nl.rss",
         "link": "http://www.bbc.co.uk/programmes/p05299nl",
-        "description": "<p>The UK’s flagship daily news podcast from the BBC, Newscast dives into the day’s big stories so you’re never out of your depth.\n \nNewscast picks the brains of BBC News experts so you’re ready if someone picks yours, covering the latest developments in politics in Westminster and beyond, what the cost of living means for the money in your pocket and the impact of climate change.\n \nCan Rishi Sunak bring down inflation? Will Sir Keir Starmer and the Labour Party win the next general election? What will be uncovered in the Covid inquiry and what's happening at the COP28 climate change conference? Newscast will give you all the best insights from BBC News so you’re across all the day’s top stories. \n \nNewscast is hosted by trusted journalists including Adam Fleming, BBC Political Editor Chris Mason, Laura Kuenssberg and Paddy O’Connell. Joined by special guests, including Lyse Doucet, Katya Adler, Marianna Spring, John Simpson and Victoria Derbyshire among others.\n \nWith potentially just under a year until the general election, Newscast will track all the developments from Westminster - as well as following all the big developments around the world, from Israel-Gaza, Ukraine to the United States.\n \nCatch Newscast seven-days a week and watch on BBC One at 23:40 on Thursday night or later on BBC iPlayer\n \nGET IN TOUCH:\nYou can join our Newscast online community here: https://tinyurl.com/newscastcommunityhere\nSend us a message or voicenote via WhatsApp to 03301239480\nEmail Newscast@bbc.co.uk\nOr us #Newscast</p>",
-        "published_time": "2024-02-24T17:34:00Z",
-        "last_polled_time": "2024-02-24T18:18:21.163Z",
+        "description": "<p>The UK’s flagship daily news podcast from the BBC, Newscast dives into the day’s big stories so you’re never out of your depth.\n \nNewscast picks the brains of BBC News experts so you’re ready if someone picks yours, covering the latest developments in politics in Westminster and beyond, what the cost of living means for the money in your pocket and the impact of climate change.\n \nCan Rishi Sunak bring down inflation? Will Sir Keir Starmer and the Labour Party win the next general election? Newscast will give you all the best insights from BBC News so you’re across all the day’s top stories. \n \nNewscast is hosted by trusted journalists including Adam Fleming, BBC Political Editor Chris Mason, Laura Kuenssberg and Paddy O’Connell. Joined by special guests, including Lyse Doucet, Katya Adler, Marianna Spring, John Simpson and Victoria Derbyshire among others.\n \nWith potentially just under a year until the general election, Newscast will track all the developments from Westminster - as well as following all the big developments around the world, from Israel-Gaza, Ukraine to the United States.\n \nCatch Newscast seven-days a week and watch on BBC One at 23:40 on Thursday night or later on BBC iPlayer\n \nGET IN TOUCH:\nYou can join our Newscast online community here: https://tinyurl.com/newscastcommunityhere\nSend us a message or voicenote via WhatsApp to 03301239480\nEmail Newscast@bbc.co.uk\nOr us #Newscast</p>",
+        "published_time": "2024-03-03T12:40:00Z",
+        "last_polled_time": "2024-03-03T13:17:14.008Z",
         "group": 3,
         "always_load": false
     }
@@ -2019,7 +2019,7 @@
         "link": "http://dchhaddendum.libsyn.com/website",
         "description": "Interviews, musings and extra material from the makers of Dan Carlin&#x27;s Hardcore History.  If it did not fit in the HH feed it&#x27;s probably here",
         "published_time": "2024-02-16T00:17:00Z",
-        "last_polled_time": "2024-02-24T19:17:06.203Z",
+        "last_polled_time": "2024-03-04T10:17:06.930Z",
         "group": 1,
         "always_load": true
     }
@@ -2032,8 +2032,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b07cblx9.rss",
         "link": "http://www.bbc.co.uk/programmes/b07cblx9",
         "description": "<p>David Aaronovitch and a panel of experts and insiders present in-depth explainers on big issues in the news</p>",
-        "published_time": "2024-02-22T20:30:00Z",
-        "last_polled_time": "2024-02-22T21:18:33.103Z",
+        "published_time": "2024-02-28T17:18:00Z",
+        "last_polled_time": "2024-02-28T18:17:19.642Z",
         "group": 3,
         "always_load": false
     }
@@ -2046,8 +2046,8 @@
         "xml_url": "https://www.listennotes.com/c/r/8f5766a667b94778be267c782cc8cc91",
         "link": "http://www.bbc.co.uk/programmes/p07h19zz",
         "description": "<p>The authoritative weekly US news and politics podcast from BBC News, Americast investigates the social and cultural issues that define America today.</p><p>Is Joe Biden too old to win another go in the White House? What does Donald Trump’s latest criminal charge mean for the Republican campaign? And why have issues such as LGBT rights, global warming and the war effort in Ukraine become so divisive across the US political spectrum? From foreign policy to pop culture, Americast keeps you up to date and in the know about the stories that matter with on-the-ground insights from right across the US.</p><p>Americast is hosted by trusted journalists including the BBC’s North America editor Sarah Smith, North America correspondent Anthony Zurcher, presenter Justin Webb, and disinformation and social media correspondent, Marianna Spring. Joined by special guests each week such as former chief medical adviser to the president, Dr Anthony Fauci, former FBI director James Comey, CNN anchor and author Jake Tapper, Succession actress J Smith-Cameron, and Suruthi Bala and Hannah Maguire from podcast RedHanded, they look at America through an international lens, trying to make sense of the increasingly polarised political debate.</p><p>Each week on Americast, Marianna Spring also brings listeners the latest update on BBC Undercover Voters, the award-winning investigation into the content that is recommended to US voters on social media. Marianna has created undercover voters – multiple social media accounts belonging to different characters who sit across the US political divide. By tracking the content that is pushed at each of them, this investigation will cover a turbulent time for US politics with speculation over a Trump bid for the presidency and Biden facing domestic and international challenges.</p><p>GET IN TOUCH:\n• Join our online community: https://discord.gg/qSrxqNcmRB\n• Send us a message or voice note via WhatsApp to +44 330 123 9480\n• Email Americast@bbc.co.uk\n• Or use #Americast</p><p>Find out more about our award-winning \"undercover voters\" here: bbc.in/3lFddSF.</p>",
-        "published_time": "2024-02-22T23:48:00Z",
-        "last_polled_time": "2024-02-23T00:17:04.845Z",
+        "published_time": "2024-02-29T21:38:00Z",
+        "last_polled_time": "2024-02-29T22:17:04.500Z",
         "group": 3,
         "always_load": false
     }
@@ -2074,8 +2074,8 @@
         "xml_url": "https://acoup.blog/feed/",
         "link": "https://acoup.blog",
         "description": "A look at history and popular culture",
-        "published_time": "2024-02-23T20:16:34Z",
-        "last_polled_time": "2024-02-23T20:17:03.591Z",
+        "published_time": "2024-03-01T21:54:31Z",
+        "last_polled_time": "2024-03-01T22:17:03.437Z",
         "group": 1,
         "always_load": false
     }
@@ -2089,7 +2089,7 @@
         "link": "https://www.youtube.com/channel/UCfCKvREB11-fxyotS1ONgww",
         "description": "",
         "published_time": "2017-10-27T18:31:09Z",
-        "last_polled_time": "2024-02-24T19:17:12.125Z",
+        "last_polled_time": "2024-03-04T10:18:03.676Z",
         "group": 1,
         "always_load": true
     }
@@ -2103,7 +2103,7 @@
         "link": "https://www.youtube.com/channel/UCfZz8F37oSJ2rtcEJHM2kCg",
         "description": "",
         "published_time": "2012-07-10T20:59:55Z",
-        "last_polled_time": "2024-02-24T19:17:17.707Z",
+        "last_polled_time": "2024-03-04T10:18:11.016Z",
         "group": 1,
         "always_load": true
     }
@@ -2117,7 +2117,7 @@
         "link": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
         "description": "",
         "published_time": "2009-10-17T07:13:30Z",
-        "last_polled_time": "2024-02-24T19:17:03.041Z",
+        "last_polled_time": "2024-03-04T10:17:03.865Z",
         "group": 2,
         "always_load": true
     }
@@ -2131,7 +2131,7 @@
         "link": "https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w",
         "description": "",
         "published_time": "2010-08-12T20:12:29Z",
-        "last_polled_time": "2024-02-24T19:17:04.755Z",
+        "last_polled_time": "2024-03-04T10:17:05.640Z",
         "group": 2,
         "always_load": true
     }
@@ -2145,7 +2145,7 @@
         "link": "https://www.youtube.com/channel/UC4mftUX7apmV1vsVXZh7RTw",
         "description": "",
         "published_time": "2009-07-07T20:59:00Z",
-        "last_polled_time": "2024-02-24T19:17:06.371Z",
+        "last_polled_time": "2024-03-04T10:17:07.061Z",
         "group": 1,
         "always_load": true
     }
@@ -2158,8 +2158,8 @@
         "xml_url": "https://rss.acast.com/not-just-the-tudors",
         "link": "https://www.historyhit.com/podcasts/",
         "description": "<p>Professor Suzannah Lipscomb talks about everything from the Aztecs to witches, Velázquez to Shakespeare, Mughal India to the Mayflower. Not, in other words, just the Tudors, but most definitely also the Tudors.</p><p>Each episode Suzannah is joined by historians and experts to reveal incredible stories about one of the most fascinating periods in history.</p>",
-        "published_time": "2024-02-22T03:00:35Z",
-        "last_polled_time": "2024-02-22T03:17:14.714Z",
+        "published_time": "2024-03-04T03:00:54Z",
+        "last_polled_time": "2024-03-04T03:17:15.415Z",
         "group": 1,
         "always_load": false
     }
@@ -2172,8 +2172,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/620cc95e2641e200137b94d8",
         "link": "http://therestispolitics.com/",
         "description": "Two men who’ve been at the heart of the political world - former Downing Street Director of Communications and Strategy Alastair Campbell and cabinet minister Rory Stewart - join forces from across the political divide. The Rest Is Politics lifts the lid on the secrets of Westminster, offering an insider’s view on politics at home and abroad, while bringing back the lost art of disagreeing agreeably.\n\nOctober Election Tour - buy tickets:\nwww.aegpresents.co.uk/event/the-rest-is-politics\n\nTwitter:\n@RestIsPolitics\n\nInstagram:\n@restispolitics\n\nEmail:\nrestispolitics@gmail.com",
-        "published_time": "2024-02-22T00:10:00Z",
-        "last_polled_time": "2024-02-22T00:17:23.765Z",
+        "published_time": "2024-02-29T00:10:00Z",
+        "last_polled_time": "2024-02-29T00:17:22.403Z",
         "group": 4,
         "always_load": false
     }
@@ -2186,8 +2186,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/031c2dcb-c66c-42b5-819e-2452031fe4f9",
         "link": "http://therestishistory.com",
         "description": "The world’s most popular history podcast, with Tom Holland and Dominic Sandbrook.\n\n\nThey question the nature of Greatness, why the West no longer has civil wars and whether Richard Nixon was more like Caligula or Claudius. They&#x27;re distilling the entirety of human history, or, as much as they can fit into about fifty minutes.\n\n\nJoin The Rest Is History Club (www.restishistorypod.com) for ad-free listening to the full archive, weekly bonus episodes, live streamed shows and access to an exclusive chatroom community.\n\n\nHere are some of our favourite episodes to get you started:\n\n\nWATERGATE/NIXON apple.co/3JrVl5h\n\nALEXANDER THE GREAT apple.co/3Q4FaNk\n\nHARDCORE HISTORY&#x27;S DAN CARLIN apple.co/3vqkGa3\n\nPUTIN &amp; RUSSIA apple.co/3zMtLfX",
-        "published_time": "2024-02-22T00:10:00Z",
-        "last_polled_time": "2024-02-22T00:17:22.634Z",
+        "published_time": "2024-03-04T00:10:00Z",
+        "last_polled_time": "2024-03-04T00:17:22.148Z",
         "group": 1,
         "always_load": false
     }
@@ -2201,7 +2201,7 @@
         "link": "https://www.youtube.com/channel/UCn1xtOr2wHQwYTxO_KTkqNg",
         "description": "",
         "published_time": "2020-12-03T20:30:08Z",
-        "last_polled_time": "2024-02-24T19:17:15.291Z",
+        "last_polled_time": "2024-03-04T10:18:07.952Z",
         "group": 2,
         "always_load": true
     }
@@ -2214,8 +2214,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/63c14d942c42340011fc0c8e",
         "link": "http://therestispolitics.com/",
         "description": "Rory Stewart and Alastair Campbell, hosts of Britain&#x27;s biggest podcast (The Rest Is Politics), have joined forces once again for their new interview podcast, ‘Leading’.\n\nEvery Monday, Rory and Alastair interrogate, converse with, and interview some of the world&#x27;s biggest names - from both inside and outside of politics - about life, leadership, or leading the way in their chosen field.\n\nWhether they&#x27;re sports stars, thought-leaders, presidents or internationally-recognised religious figures, Alastair and Rory lift the lid on the motivation, philosophy and secrets behind their career.\n\nTune in to &#x27;Leading&#x27; now to hear essential conversation from some of the world&#x27;s most enthralling individuals. \n\nGoalhanger Podcasts",
-        "published_time": "2024-02-19T00:10:00Z",
-        "last_polled_time": "2024-02-19T00:17:10.096Z",
+        "published_time": "2024-03-04T00:10:00Z",
+        "last_polled_time": "2024-03-04T00:17:10.218Z",
         "group": 4,
         "always_load": false
     }
@@ -2228,8 +2228,8 @@
         "xml_url": "https://pod.link/1639561921.rss",
         "link": null,
         "description": "How do empires rise? Why do they fall? And how have they shaped the world around us today?\n\nWilliam Dalrymple and Anita Anand explore the stories, personalities and events of empire over the course of history.",
-        "published_time": "2024-02-22T00:30:00Z",
-        "last_polled_time": "2024-02-22T01:17:16.910Z",
+        "published_time": "2024-02-29T00:30:00Z",
+        "last_polled_time": "2024-02-29T01:17:09.721Z",
         "group": 1,
         "always_load": false
     }
@@ -2242,8 +2242,8 @@
         "xml_url": "https://feeds.megaphone.fm/ink-stained-wretches",
         "link": "https://nebulouspodcasts.com",
         "description": "Eliana Johnson and Chris Stirewalt love the news business but they hate a lot of what’s happening to it these days. Using their decades of experience in print, digital and TV news they tell the story behind the stories, always on the lookout for bias, sloppy reporting and, well, just plain wretched journalism. Every week they help you to be a better, smarter news consumer.",
-        "published_time": "2024-02-23T09:45:00Z",
-        "last_polled_time": "2024-02-23T10:17:11.869Z",
+        "published_time": "2024-03-01T09:45:00Z",
+        "last_polled_time": "2024-03-01T10:17:10.349Z",
         "group": 4,
         "always_load": false
     }
@@ -2256,8 +2256,8 @@
         "xml_url": "https://www.espn.com/espnradio/feeds/rss/podcast.xml?id=14554755",
         "link": "https://fivethirtyeight.com/podcasts/",
         "description": "The 538 team covers the latest in politics, tracking the issues and &quot;game-changers&quot; every week.",
-        "published_time": "2024-02-22T23:13:40Z",
-        "last_polled_time": "2024-02-22T23:17:09.672Z",
+        "published_time": "2024-02-28T22:23:24Z",
+        "last_polled_time": "2024-02-28T23:17:10.111Z",
         "group": 4,
         "always_load": false
     }
@@ -2270,8 +2270,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b006qk11.rss",
         "link": "http://www.bbc.co.uk/programmes/b006qk11",
         "description": "<p>Combative, provocative and engaging live debate examining the moral issues behind one of the week's news stories. #moralmaze</p>",
-        "published_time": "2024-02-01T11:26:00Z",
-        "last_polled_time": "2024-02-01T12:17:13.713Z",
+        "published_time": "2024-02-26T12:59:00Z",
+        "last_polled_time": "2024-02-26T13:17:12.143Z",
         "group": 4,
         "always_load": false
     }
@@ -2299,7 +2299,7 @@
         "link": "https://www.youtube.com/channel/UCM4WQMBj4xE6InwuJU_AZBg",
         "description": "",
         "published_time": "2020-05-31T15:26:33Z",
-        "last_polled_time": "2024-02-24T19:17:26.282Z",
+        "last_polled_time": "2024-03-04T10:18:20.496Z",
         "group": 2,
         "always_load": true
     }
@@ -2340,8 +2340,8 @@
         "xml_url": "https://feeds.megaphone.fm/therestismoney",
         "link": null,
         "description": "Robert Peston and Steph McGovern follow the money to bring you insightful stories from the world of business and finance. \n\nWho’s making money and who’s spending it? Who’s investing, and who’s innovating? How will AI affect the way we work and why are Saudi Arabia buying up sport? How can the UK economy recover its productivity and adapt for the future?\n\nSteph and Robert tap their extensive business contacts to answer these questions and decode the jargon to help make sense of the financial world.",
-        "published_time": "2024-02-23T00:00:00Z",
-        "last_polled_time": "2024-02-23T00:18:38.555Z",
+        "published_time": "2024-03-01T00:00:00Z",
+        "last_polled_time": "2024-03-01T00:17:23.038Z",
         "group": 4,
         "always_load": false
     }
@@ -2355,7 +2355,7 @@
         "link": "https://www.youtube.com/channel/UCMAJEIm9a_NGhD7BgWDMoXw",
         "description": "",
         "published_time": "2013-11-09T20:26:01Z",
-        "last_polled_time": "2024-02-24T19:17:11.437Z",
+        "last_polled_time": "2024-03-04T10:18:02.817Z",
         "group": 2,
         "always_load": true
     }
@@ -2368,8 +2368,8 @@
         "xml_url": "https://feeds.megaphone.fm/school-of-war",
         "link": "https://nebulouspodcasts.com",
         "description": "This podcast seeks to learn what war teaches. There has been a steady decline in the study of military history and its associated theoretical discipline, strategy.This podcast seeks to fill that gap through in-depth interviews on military and diplomatic history.  Our guests have included former Secretary of State Mike Pompeo, the Cold War historian John Lewis Gaddis, and China Select Committee chairman Mike Gallagher. We discuss the battlefield commanders, diplomats, strategists, policymakers, and statesmen who have had to make wartime decisions in the ancient and modern eras.The subject of an episode may be an historical battle, campaign, or conflict; the conduct of policy in the course of a major international incident; the work of a famous strategist; the nature of a famous weapon; or the legacy of an important military commander or political leader.  \n\nAaron MacLean is a senior fellow at the Foundation for Defense of Democracies. He has worked as a foreign policy advisor and legislative director to Sen. Tom Cotton of Arkansas and spent seven years in the U.S. Marine Corps.\n\nVisit our Substack for episode transcripts\nFollow along on Instagram",
-        "published_time": "2024-02-20T11:00:00Z",
-        "last_polled_time": "2024-02-20T11:17:23.543Z",
+        "published_time": "2024-02-27T11:00:00Z",
+        "last_polled_time": "2024-02-27T11:17:18.948Z",
         "group": 1,
         "always_load": false
     }
@@ -2382,8 +2382,8 @@
         "xml_url": "https://feeds.megaphone.fm/GLT2052042801",
         "link": null,
         "description": "The Rest Is Entertainment pulls back the curtain on television, movies, journalism and more with Richard Osman and Marina Hyde using their years of knowledge, enviable contact book and wit to bring you what’s hot, and what’s not in the world of entertainment.",
-        "published_time": "2024-02-22T00:10:00Z",
-        "last_polled_time": "2024-02-22T00:17:21.198Z",
+        "published_time": "2024-02-29T00:10:00Z",
+        "last_polled_time": "2024-02-29T00:17:20.260Z",
         "group": 4,
         "always_load": false
     }
