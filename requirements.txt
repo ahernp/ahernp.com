@@ -1,10 +1,10 @@
 coreapi==2.3.3
-djangorestframework==3.14.0
+djangorestframework==3.15.2
 Django==5.0.7
 factory-boy==3.2.1
 feedparser==6.0.10
-Markdown==3.4.3
+Markdown==3.6
 psycopg2-binary==2.9.3
 pytest-django==4.5.2
 selenium==4.8.3
-uWSGI==2.0.21
+uWSGI==2.0.26
