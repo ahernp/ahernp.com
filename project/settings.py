@@ -15,7 +15,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "rest_framework",
     "blog.apps.BlogConfig",
     "core.apps.CoreConfig",
     "dashboard.apps.DashboardConfig",
@@ -138,6 +137,3 @@ MAX_ENTRIES_SAVED = 100
 MAX_ENTRIES_SHOWN = 100
 MAX_DAYS_SHOWN = 1
 MAX_DAYS_AGE = 3
-
-
-REST_FRAMEWORK = {"DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema"}
