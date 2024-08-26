@@ -1,4 +1,3 @@
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
@@ -25,8 +24,3 @@ class PageListView(ListView):
 
 class PageDetailView(DetailView):
     model = Page
-
-
-class PageEditView(LoginRequiredMixin, DetailView):
-    model = Page
-    template_name = "pages/page_edit.html"

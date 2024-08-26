@@ -9,6 +9,5 @@ urlpatterns = [
         views.PageListView.as_view(),
         name="page-list-filter",
     ),
-    path("edit/<slug:slug>/", views.PageEditView.as_view(), name="page-edit"),
     path("<slug:slug>/", views.PageDetailView.as_view(), name="page-detail"),
 ]
