@@ -14,14 +14,14 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color: #bbb;
-        --background-color: #000;
-        --header-link-color: #08b;
-        --code-color: #fff;
-        --border-color: #333;
-        --table-border-color: #fff;
-        --table-row-even-background: #222;
-        --table-row-hover-background: #532;
+        --color: #d8dee9;
+        --background-color: #2e3440;
+        --header-link-color: #81a1c1;
+        --code-color: #bf616a;
+        --border-color: #81a1c1;
+        --table-border-color: #4c566a;
+        --table-row-even-background: #88c0d0;
+        --table-row-hover-background: #4c566a;
         --error-color: white;
         --error-background-color: maroon;
         --button-color: #444;
