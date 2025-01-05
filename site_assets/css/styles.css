@@ -232,3 +232,17 @@ div.column-left p, div.column-right p {
 table.dataTable tbody tr {
     background-color: transparent;
 }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #fff;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    color: var(--color);
+    background-color: var(--background-color);
+
+    input {
+        color: var(--color);
+        background-color: var(--background-color);
+    }
+}
