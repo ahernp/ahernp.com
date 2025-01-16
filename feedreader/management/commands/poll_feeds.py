@@ -1,6 +1,7 @@
 """
 This command polls all of the Feeds and removes old entries.
 """
+
 import logging
 
 from django.conf import settings

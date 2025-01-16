@@ -12,7 +12,7 @@ from .factories import LogFactory
 @pytest.mark.django_db
 def test_search(client):
     page = PageFactory.create()
-    response = client.get(f'{reverse("search")}?search=page')
+    response = client.get(f"{reverse('search')}?search=page")
     assert response.status_code == 200
     assert b"<title>Search Results</title>" in response.content
     assert bytes(f'<a href="{page.get_absolute_url()}">', "utf-8") in response.content

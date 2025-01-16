@@ -1,7 +1,6 @@
 from django.conf import settings
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.postgres.search import (SearchQuery, SearchRank,
-                                            SearchVector)
+from django.contrib.postgres.search import SearchQuery, SearchRank, SearchVector
 from django.db.models import F
 from django.urls import reverse
 from django.views.generic.base import TemplateView

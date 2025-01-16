@@ -34,6 +34,6 @@ def test_list_filter_view(client):
 
 def test_markdown_to_html():
     page = PageFactory.build(content="# Header")
-    assert (
-        page.content_as_html == '<h1 id="header">Header</h1>'
-    ), "Expected content to be convertable to html"
+    assert page.content_as_html == '<h1 id="header">Header</h1>', (
+        "Expected content to be convertable to html"
+    )

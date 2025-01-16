@@ -13,5 +13,5 @@ def test_dashboard(client):
 
 def test_project_state_at_startup():
     project_state = project_state_at_startup()
-    assert type(project_state) == dict
+    assert isinstance(project_state, dict)
     assert len(project_state) == 6
