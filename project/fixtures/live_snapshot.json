@@ -308,8 +308,8 @@
         "title": "Google Chrome",
         "slug": "google-chrome",
         "parent": 723,
-        "updated": "2021-09-10T07:37:19.327Z",
-        "content": "# Google Chrome\n\nDownload from [www.google.com/chrome](http://www.google.com/chrome).\nAlternatively, use [Vivaldi](https://vivaldi.com).\n\nDelete input field history: Navigate to choice with arrow keys; Then press `Shift-Delete`.\n\n\n## Extensions\n\n1. [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb/related):\nAdblocker.\n1. [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd):\nPassword Manager.\n1. [React](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi):\nJavascript React framework Developer Tools.\n1. [Redux](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd):\nJavascript Redux framework Developer Tools.\n1. [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne):\nApply themes to websites.\n1. [Switcheroo](https://chrome.google.com/webstore/detail/switcheroo-redirector/cnmciclhnghalnpfhhleggldniplelbg):\nAll URL redirections.\n1. [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm):\nBlocks ads, trackers and malware sites.\n1. [Visual Event](https://chrome.google.com/webstore/detail/visual-event/pbmmieigblcbldgdokdjpioljjninaim):\nShow what event is bound on each DOM element.\n\nNeed to select Settings > Extensions > Developer Mode to allow synchronising of Extensions and Themes.\n\n## Search\n\nDefault to getting Last Year's results:\n\n1. Open Chrome's Settings Manage Search Engines\n1. Add a new search engine under the list of ''Other search engines'' with the following values.\n    * Name: *Google (recent)*\n    * Keyword: *recent*\n    * URL: `http://www.google.com/search?q=%s&tbs=qdr:y&tbo=1`\n1. Change this to be your default search\nTo use `encrypted.google.com` the URL is `https://encrypted.google.com/search?q=%s`."
+        "updated": "2025-02-26T14:18:12.284Z",
+        "content": "# Google Chrome\r\n\r\nDownload from [www.google.com/chrome](http://www.google.com/chrome).\r\nAlternatively, use [Vivaldi](https://vivaldi.com).\r\n\r\nDelete input field history: Navigate to choice with arrow keys; Then press `Shift-Delete`.\r\n\r\n## Extensions\r\n\r\n1. [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb/related):\r\nAdblocker.\r\n1. [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd):\r\nPassword Manager.\r\n1. [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne):\r\nApply themes to websites.\r\n1. [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm):\r\nBlocks ads, trackers and malware sites.\r\n1. [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh):\r\nAd blocker compatible with Google's MV3 standard.\r\n\r\n## Search\r\n\r\nDefault to getting Last Year's results:\r\n\r\n1. Open Chrome's Settings Manage Search Engines\r\n1. Add a new search engine under the list of ''Other search engines'' with the following values.\r\n    * Name: *Google (recent)*\r\n    * Keyword: *recent*\r\n    * URL: `http://www.google.com/search?q=%s&tbs=qdr:y&tbo=1`\r\n1. Change this to be your default search\r\nTo use `encrypted.google.com` the URL is `https://encrypted.google.com/search?q=%s`."
     }
 },
 {
@@ -1829,7 +1829,7 @@
         "link": "http://www.dancarlin.com",
         "description": "In &quot;Hardcore History&quot; journalist and broadcaster Dan Carlin takes his &quot;Martian&quot;, unorthodox way of thinking and applies it to the past. Was Alexander the Great as bad a person as Adolf Hitler? What would Apaches with modern weapons be like? Will our modern civilization ever fall like civilizations from past eras? This isn&#x27;t academic history (and Carlin isn&#x27;t a historian) but the podcast&#x27;s unique blend of high drama, masterful narration and Twilight Zone-style twists has entertained millions of listeners.",
         "published_time": "2024-06-07T20:14:53Z",
-        "last_polled_time": "2025-02-22T15:17:03.228Z",
+        "last_polled_time": "2025-03-03T07:17:03.845Z",
         "group": 1,
         "always_load": true
     }
@@ -1842,8 +1842,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "<p>Radio 4's weekly assessment of developments at Westminster</p>",
-        "published_time": "2025-02-15T11:30:00Z",
-        "last_polled_time": "2025-02-15T12:17:22.134Z",
+        "published_time": "2025-03-01T11:30:00Z",
+        "last_polled_time": "2025-03-01T12:17:21.793Z",
         "group": 3,
         "always_load": false
     }
@@ -1856,8 +1856,8 @@
         "xml_url": "http://www.schneier.com/blog/index.xml",
         "link": "https://www.schneier.com/",
         "description": "",
-        "published_time": "2025-02-21T15:33:49Z",
-        "last_polled_time": "2025-02-21T16:17:11.869Z",
+        "published_time": "2025-02-28T21:25:21Z",
+        "last_polled_time": "2025-02-28T22:17:10.542Z",
         "group": 5,
         "always_load": false
     }
@@ -1870,8 +1870,8 @@
         "xml_url": "https://www.djangoproject.com/rss/weblog/",
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python web framework.",
-        "published_time": "2025-02-19T07:55:07Z",
-        "last_polled_time": "2025-02-19T11:17:15.395Z",
+        "published_time": "2025-02-24T09:05:03Z",
+        "last_polled_time": "2025-02-24T09:17:13.156Z",
         "group": 5,
         "always_load": false
     }
@@ -1884,8 +1884,8 @@
         "xml_url": "http://feeds.theincomparable.com/theincomparable",
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable Mothership is the flagship of the Incomparable podcast network. It’s all about geeky media we love, including movies, books, TV, and more, featuring a rotating panel of guests and hosted by Jason Snell and friends.",
-        "published_time": "2025-02-21T17:00:00Z",
-        "last_polled_time": "2025-02-21T17:17:19.381Z",
+        "published_time": "2025-02-28T18:00:00Z",
+        "last_polled_time": "2025-02-28T18:17:15.871Z",
         "group": 2,
         "always_load": false
     }
@@ -1898,8 +1898,8 @@
         "xml_url": "http://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist since 1998. News, reviews, and analysis.",
-        "published_time": "2025-02-21T21:47:32Z",
-        "last_polled_time": "2025-02-21T23:17:03.623Z",
+        "published_time": "2025-02-28T23:18:31Z",
+        "last_polled_time": "2025-03-01T01:17:02.445Z",
         "group": 5,
         "always_load": false
     }
@@ -1912,8 +1912,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moreorless/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02nrss1",
         "description": "<p>Tim Harford and the More or Less team try to make sense of the statistics which surround us. From BBC Radio 4</p>",
-        "published_time": "2025-02-22T06:00:00Z",
-        "last_polled_time": "2025-02-22T06:17:10.043Z",
+        "published_time": "2025-03-01T06:00:00Z",
+        "last_polled_time": "2025-03-01T06:17:10.750Z",
         "group": 4,
         "always_load": false
     }
@@ -1926,8 +1926,8 @@
         "xml_url": "https://www.latrobe.edu.au/marketing/assets/podcasts/rssfeeds/caesar.xml",
         "link": "http://www.latrobe.edu.au",
         "description": "“Great empires are not maintained by timidity.” - Tacitus. A podcast series looking at the rulers of the ancient Roman empire, by Dr Rhiannon Evans, Dr Caillan Davenport and Matt Smith.",
-        "published_time": "2025-02-18T01:01:15Z",
-        "last_polled_time": "2025-02-18T01:17:09.934Z",
+        "published_time": "2025-02-24T10:02:34Z",
+        "last_polled_time": "2025-02-24T10:17:07.369Z",
         "group": 1,
         "always_load": false
     }
@@ -1941,7 +1941,7 @@
         "link": "http://dchhaddendum.libsyn.com/website",
         "description": "Interviews, musings and extra material from the makers of Dan Carlin&#x27;s Hardcore History.  If it did not fit in the HH feed it&#x27;s probably here",
         "published_time": "2025-01-13T20:57:00Z",
-        "last_polled_time": "2025-02-22T15:17:03.875Z",
+        "last_polled_time": "2025-03-03T07:17:04.504Z",
         "group": 1,
         "always_load": true
     }
@@ -1982,8 +1982,8 @@
         "xml_url": "https://acoup.blog/feed/",
         "link": "https://acoup.blog",
         "description": "A look at history and popular culture",
-        "published_time": "2025-02-21T16:44:59Z",
-        "last_polled_time": "2025-02-21T17:17:03.921Z",
+        "published_time": "2025-03-02T06:52:38Z",
+        "last_polled_time": "2025-03-02T07:17:02.343Z",
         "group": 1,
         "always_load": false
     }
@@ -1997,7 +1997,7 @@
         "link": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
         "description": "",
         "published_time": "2009-10-17T07:13:30Z",
-        "last_polled_time": "2025-02-22T15:17:02.636Z",
+        "last_polled_time": "2025-03-03T07:17:03.025Z",
         "group": 2,
         "always_load": true
     }
@@ -2011,7 +2011,7 @@
         "link": "https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w",
         "description": "",
         "published_time": "2010-08-12T20:12:29Z",
-        "last_polled_time": "2025-02-22T15:17:02.910Z",
+        "last_polled_time": "2025-03-03T07:17:03.561Z",
         "group": 2,
         "always_load": true
     }
@@ -2024,8 +2024,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/031c2dcb-c66c-42b5-819e-2452031fe4f9",
         "link": "http://therestishistory.com",
         "description": "The world’s most popular history podcast, with Tom Holland and Dominic Sandbrook.\n\nJoin The Rest Is History Club (www.therestishistory.com) for ad-free listening to the full archive, weekly bonus episodes, live streamed shows and access to an exclusive chatroom community.\n\nHere are some of our favourite episodes to get you started:\n\nWATERGATE/NIXON apple.co/3JrVl5h\n\n\nALEXANDER THE GREAT apple.co/3Q4FaNk\n\n\nHARDCORE HISTORY&#x27;S DAN CARLIN apple.co/3vqkGa3\n\n\nPUTIN &amp; RUSSIA apple.co/3zMtLfX",
-        "published_time": "2025-02-20T00:10:00Z",
-        "last_polled_time": "2025-02-20T00:17:21.440Z",
+        "published_time": "2025-03-03T00:10:00Z",
+        "last_polled_time": "2025-03-03T00:17:23.991Z",
         "group": 1,
         "always_load": false
     }
@@ -2052,8 +2052,8 @@
         "xml_url": "https://feeds.megaphone.fm/school-of-war",
         "link": "https://nebulouspodcasts.com",
         "description": "This podcast seeks to learn what war teaches. There has been a steady decline in the study of military history and its associated theoretical discipline, strategy.This podcast seeks to fill that gap through in-depth interviews on military and diplomatic history. Our guests have included former Secretary of State Mike Pompeo, the Cold War historian John Lewis Gaddis, and former China Select Committee chairman Mike Gallagher. We discuss the battlefield commanders, diplomats, strategists, policymakers, and statesmen who have had to make wartime decisions in the ancient and modern eras. The subject of an episode may be an historical battle, campaign, or conflict; the conduct of policy in the course of a major international incident; the work of a famous strategist; the nature of a famous weapon; or the legacy of an important military commander or political leader.  \n\nAaron MacLean is a senior fellow at Hudson Institute. He has worked as a foreign policy advisor and legislative director to Sen. Tom Cotton of Arkansas and spent seven years in the U.S. Marine Corps.\n\nVisit our Substack for episode transcripts\nFollow along on Instagram",
-        "published_time": "2025-02-21T10:30:00Z",
-        "last_polled_time": "2025-02-21T11:17:13.543Z",
+        "published_time": "2025-02-28T10:35:00Z",
+        "last_polled_time": "2025-02-28T11:17:11.263Z",
         "group": 1,
         "always_load": false
     }
@@ -2066,8 +2066,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b00dv9hq.rss",
         "link": "http://www.bbc.co.uk/programmes/b00dv9hq",
         "description": "<p>Social media, anti-social media, breaking news, faking news: this is the programme about a revolution in media.</p>",
-        "published_time": "2025-02-19T17:39:00Z",
-        "last_polled_time": "2025-02-19T18:17:21.394Z",
+        "published_time": "2025-02-26T18:30:00Z",
+        "last_polled_time": "2025-02-26T19:17:17.943Z",
         "group": 3,
         "always_load": false
     }
@@ -2122,8 +2122,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/m0024cp6.rss",
         "link": "http://www.bbc.co.uk/programmes/m0024cp6",
         "description": "<p>In this new series, Helen Lewis and Armando Iannucci investigate which political buzzwords are strong and stable and which are a crock of covfefe.</p><p>Each week Helen and Armando will crack open the political phrasebook and attempt to decode the doublespeak. Why does everything now have to be 'turbo-charged'? What's the difference between a 'pledge' and a 'mission'? Why has my local MP been 'weaponised' and should I be worried?</p><p>You'll be treated to a crash course in the dark arts of political language from two people both baffled and beguiled by it. They'll walk you through the various verbal fiascos of the modern political lexicon so that by the end you'll be oven-ready for an appearance on Newsnight.</p><p>Warning: this podcast features strong political language that some listeners may find nonsensical.</p><p>Produced by Gwyn Rhys Davies. A BBC Studios Audio Production for Radio 4.</p>",
-        "published_time": "2025-02-20T09:45:00Z",
-        "last_polled_time": "2025-02-20T10:17:15.345Z",
+        "published_time": "2025-02-27T09:45:00Z",
+        "last_polled_time": "2025-02-27T10:17:11.476Z",
         "group": 4,
         "always_load": false
     }
