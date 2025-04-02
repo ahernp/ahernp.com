@@ -1,4 +1,4 @@
-Django==5.1.7
+Django==5.2
 factory-boy==3.2.1
 feedparser==6.0.10
 Markdown==3.6
