@@ -1847,7 +1847,7 @@
         "link": "http://www.dancarlin.com",
         "description": "In &quot;Hardcore History&quot; journalist and broadcaster Dan Carlin takes his &quot;Martian&quot;, unorthodox way of thinking and applies it to the past. Was Alexander the Great as bad a person as Adolf Hitler? What would Apaches with modern weapons be like? Will our modern civilization ever fall like civilizations from past eras? This isn&#x27;t academic history (and Carlin isn&#x27;t a historian) but the podcast&#x27;s unique blend of high drama, masterful narration and Twilight Zone-style twists has entertained millions of listeners.",
         "published_time": "2024-06-07T20:14:53Z",
-        "last_polled_time": "2025-11-05T15:17:03.118Z",
+        "last_polled_time": "2025-11-22T16:17:04.672Z",
         "group": 1,
         "always_load": true
     }
@@ -1860,8 +1860,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/wpr/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/b006qjfq",
         "description": "<p>Radio 4's weekly assessment of developments at Westminster</p>",
-        "published_time": "2025-11-01T11:02:00Z",
-        "last_polled_time": "2025-11-01T11:17:22.473Z",
+        "published_time": "2025-11-22T11:00:00Z",
+        "last_polled_time": "2025-11-22T11:17:26.004Z",
         "group": 3,
         "always_load": false
     }
@@ -1874,8 +1874,8 @@
         "xml_url": "http://www.schneier.com/blog/index.xml",
         "link": "https://www.schneier.com/",
         "description": "",
-        "published_time": "2025-10-30T05:23:40Z",
-        "last_polled_time": "2025-11-05T12:17:12.205Z",
+        "published_time": "2025-11-21T17:20:26Z",
+        "last_polled_time": "2025-11-21T19:17:14.863Z",
         "group": 5,
         "always_load": false
     }
@@ -1888,8 +1888,8 @@
         "xml_url": "https://www.djangoproject.com/rss/weblog/",
         "link": "https://www.djangoproject.com/weblog/",
         "description": "Latest news about Django, the Python web framework.",
-        "published_time": "2025-11-05T12:00:00Z",
-        "last_polled_time": "2025-11-05T15:17:18.694Z",
+        "published_time": "2025-11-21T13:00:00Z",
+        "last_polled_time": "2025-11-21T14:17:19.106Z",
         "group": 5,
         "always_load": false
     }
@@ -1902,8 +1902,8 @@
         "xml_url": "http://feeds.theincomparable.com/theincomparable",
         "link": "https://www.theincomparable.com/theincomparable/",
         "description": "The Incomparable Mothership is the flagship of the Incomparable podcast network. It’s all about geeky media we love, including movies, books, TV, and more, featuring a rotating panel of guests and hosted by Jason Snell and friends.",
-        "published_time": "2025-10-30T19:00:00Z",
-        "last_polled_time": "2025-10-30T19:17:20.975Z",
+        "published_time": "2025-11-21T17:10:00Z",
+        "last_polled_time": "2025-11-21T17:17:23.166Z",
         "group": 2,
         "always_load": false
     }
@@ -1916,8 +1916,8 @@
         "xml_url": "http://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
         "link": "https://arstechnica.com",
         "description": "Serving the Technologist since 1998. News, reviews, and analysis.",
-        "published_time": "2025-11-03T18:53:19Z",
-        "last_polled_time": "2025-11-03T20:17:02.712Z",
+        "published_time": "2025-11-22T00:26:31Z",
+        "last_polled_time": "2025-11-22T02:17:03.458Z",
         "group": 5,
         "always_load": false
     }
@@ -1930,8 +1930,8 @@
         "xml_url": "http://downloads.bbc.co.uk/podcasts/radio4/moreorless/rss.xml",
         "link": "http://www.bbc.co.uk/programmes/p02nrss1",
         "description": "<p>Tim Harford explains - and sometimes debunks - the numbers and statistics used in political debate, the news and everyday life</p>",
-        "published_time": "2025-10-31T17:00:00Z",
-        "last_polled_time": "2025-10-31T17:17:09.747Z",
+        "published_time": "2025-11-22T06:00:00Z",
+        "last_polled_time": "2025-11-22T06:17:10.483Z",
         "group": 4,
         "always_load": false
     }
@@ -1958,8 +1958,8 @@
         "xml_url": "http://dchhaddendum.libsyn.com/rss",
         "link": "http://dchhaddendum.libsyn.com/website",
         "description": "Interviews, musings and extra material from the makers of Dan Carlin&#x27;s Hardcore History.  If it did not fit in the HH feed it&#x27;s probably here",
-        "published_time": "2025-11-04T19:28:06Z",
-        "last_polled_time": "2025-11-05T15:17:03.654Z",
+        "published_time": "2025-11-22T14:53:06Z",
+        "last_polled_time": "2025-11-22T16:17:05.220Z",
         "group": 1,
         "always_load": true
     }
@@ -1972,8 +1972,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b07cblx9.rss",
         "link": "http://www.bbc.co.uk/programmes/b07cblx9",
         "description": "<p>David Aaronovitch and a panel of experts and insiders present in-depth explainers on big issues in the news</p>",
-        "published_time": "2025-10-30T16:09:00Z",
-        "last_polled_time": "2025-10-30T16:17:18.620Z",
+        "published_time": "2025-11-20T13:48:00Z",
+        "last_polled_time": "2025-11-20T14:17:21.598Z",
         "group": 3,
         "always_load": false
     }
@@ -2000,8 +2000,8 @@
         "xml_url": "https://acoup.blog/feed/",
         "link": "https://acoup.blog",
         "description": "A look at history and popular culture",
-        "published_time": "2025-10-31T18:42:32Z",
-        "last_polled_time": "2025-10-31T19:17:02.466Z",
+        "published_time": "2025-11-22T15:18:06Z",
+        "last_polled_time": "2025-11-22T16:17:02.566Z",
         "group": 1,
         "always_load": false
     }
@@ -2015,7 +2015,7 @@
         "link": "https://www.youtube.com/channel/UCE1jXbVAGJQEORz9nZqb5bQ",
         "description": "",
         "published_time": "2009-10-17T07:13:30Z",
-        "last_polled_time": "2025-11-05T15:17:02.441Z",
+        "last_polled_time": "2025-11-22T16:17:02.693Z",
         "group": 2,
         "always_load": true
     }
@@ -2029,7 +2029,7 @@
         "link": "https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w",
         "description": "",
         "published_time": "2010-08-12T20:12:29Z",
-        "last_polled_time": "2025-11-05T15:17:02.765Z",
+        "last_polled_time": "2025-11-22T16:17:04.379Z",
         "group": 2,
         "always_load": true
     }
@@ -2042,8 +2042,8 @@
         "xml_url": "https://feeds.acast.com/public/shows/031c2dcb-c66c-42b5-819e-2452031fe4f9",
         "link": "http://therestishistory.com",
         "description": "Take a deep dive into History’s biggest moments with Tom Holland &amp; Dominic Sandbrook.\n\n\n\nExplore the stories of History’s most brutal rulers, deadly battles, and world-changing events. From the rise and fall of the Roman Empire, the Nazi conquest of Europe, and Hitler’s evil master plan for world domination, to the French Revolution, the sinking of the Titanic, or the Norman Conquest of England in 1066, Tom and Dominic bring the past to life with gripping storytelling and expert analysis, as they unpack the high-drama moments that shaped our world.\n\n\n\nJoin The Rest Is History Club: Unlock the full experience of the show – with exclusive bonus episodes, ad-free listening, early access to every series and live show tickets, a members-only newsletter, discounted books from the show, and access to our private Discord chatroom. Sign up directly at therestishistory.com. \n\n\n\nFor more Goalhanger Podcasts, head to www.goalhanger.com.",
-        "published_time": "2025-11-03T00:05:00Z",
-        "last_polled_time": "2025-11-03T00:17:23.001Z",
+        "published_time": "2025-11-20T00:05:00Z",
+        "last_polled_time": "2025-11-20T00:17:25.979Z",
         "group": 1,
         "always_load": false
     }
@@ -2056,8 +2056,8 @@
         "xml_url": "https://feeds.megaphone.fm/school-of-war",
         "link": "https://nebulouspodcasts.com",
         "description": "This podcast seeks to learn what war teaches. There has been a steady decline in the study of military history and its associated theoretical discipline, strategy.This podcast seeks to fill that gap through in-depth interviews on military and diplomatic history. Our guests have included former Secretary of State Mike Pompeo, the Cold War historian John Lewis Gaddis, and former China Select Committee chairman Mike Gallagher. We discuss the battlefield commanders, diplomats, strategists, policymakers, and statesmen who have had to make wartime decisions in the ancient and modern eras. The subject of an episode may be an historical battle, campaign, or conflict; the conduct of policy in the course of a major international incident; the work of a famous strategist; the nature of a famous weapon; or the legacy of an important military commander or political leader.  \n\nAaron MacLean is a senior fellow at Hudson Institute. He has worked as a foreign policy advisor and legislative director to Sen. Tom Cotton of Arkansas and spent seven years in the U.S. Marine Corps.\n\nVisit our Substack for episode transcripts\nFollow along on Instagram",
-        "published_time": "2025-11-04T10:30:00Z",
-        "last_polled_time": "2025-11-04T11:17:21.589Z",
+        "published_time": "2025-11-21T10:30:00Z",
+        "last_polled_time": "2025-11-21T11:17:16.592Z",
         "group": 1,
         "always_load": false
     }
@@ -2070,8 +2070,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/b00dv9hq.rss",
         "link": "http://www.bbc.co.uk/programmes/b00dv9hq",
         "description": "<p>Social media, anti-social media, breaking news, faking news: this is the programme about a revolution in media.</p>",
-        "published_time": "2025-10-29T17:40:00Z",
-        "last_polled_time": "2025-10-29T18:17:23.802Z",
+        "published_time": "2025-11-19T17:27:00Z",
+        "last_polled_time": "2025-11-19T18:17:25.350Z",
         "group": 3,
         "always_load": false
     }
@@ -2112,8 +2112,8 @@
         "xml_url": "https://feeds.libsyn.com/553832/rss",
         "link": "https://sites.libsyn.com/553832",
         "description": "Bestselling authors and historians Mike Duncan and Alexis Coe are far-flung buddies who slice through centuries with the sharpness of a guillotine. In this wide-ranging series, Duncan, best-known for The History of Rome and Revolutions, and Coe, a presidential historian and senior fellow leave no stone unturned, no sacred cow un-tipped.",
-        "published_time": "2025-10-31T22:28:58Z",
-        "last_polled_time": "2025-10-31T23:17:15.727Z",
+        "published_time": "2025-11-22T03:18:38Z",
+        "last_polled_time": "2025-11-22T04:17:23.962Z",
         "group": 1,
         "always_load": false
     }
@@ -2126,8 +2126,8 @@
         "xml_url": "https://podcasts.files.bbci.co.uk/m0024cp6.rss",
         "link": "http://www.bbc.co.uk/programmes/m0024cp6",
         "description": "<p>Armando Iannucci hosts the programme that gives you a cast-iron guarantee to be laser-focused on decoding the baffling world of political language.</p><p>Each week he'll be joined by a guest to crack open the political phrasebook and attempt to demystify the doublespeak. Why does everything now have to be 'turbo-charged'? What's the difference between a 'pledge' and a 'mission'? Why has my local MP been 'weaponised' and should I be worried?</p><p>You'll be treated to a crash course in the dark arts of political language from people on the inside who are both baffled and beguiled by it. They'll walk you through the various verbal fiascos of the modern political lexicon so that by the end you'll be oven-ready for an appearance on Newsnight.</p><p>Armando's erstwhile partner in de-baffling political lexicon, Helen Lewis, is away working in the United States in the autumn and so her seat will be kept warm by a rotating cast of co-hosts.</p><p>Listen to Strong Message Here on Thursdays on Radio 4 at 9.45am, and an extended version is available on BBC Sounds.</p><p>Produced by Gwyn Rhys Davies. A BBC Studios Production for BBC Radio 4.</p>",
-        "published_time": "2025-10-30T09:45:00Z",
-        "last_polled_time": "2025-10-30T11:17:15.749Z",
+        "published_time": "2025-11-20T09:45:00Z",
+        "last_polled_time": "2025-11-20T10:17:16.356Z",
         "group": 4,
         "always_load": false
     }
@@ -2140,8 +2140,8 @@
         "xml_url": "https://feed.podbean.com/goodfellows/feed.xml",
         "link": "https://goodfellows.podbean.com",
         "description": "In uncertain times what’s needed is not just clarity about today’s pandemic, but insight into the challenges that lie ahead as America recovers and returns to normal. GoodFellows, a weekly Hoover Institution broadcast, features senior fellows John Cochrane, Niall Ferguson, and H.R. McMaster discussing the social, economic, and geostrategic ramifications of this changed world.",
-        "published_time": "2025-10-29T20:00:00Z",
-        "last_polled_time": "2025-10-29T20:17:08.599Z",
+        "published_time": "2025-11-14T04:00:00Z",
+        "last_polled_time": "2025-11-14T04:17:09.520Z",
         "group": 3,
         "always_load": false
     }
@@ -2154,8 +2154,8 @@
         "xml_url": "https://netassessment.libsyn.com/rss",
         "link": "https://warontherocks.com",
         "description": "Hosts Melanie Marlowe and Christopher Preble debate their way through some of the toughest and most contentious topics related to war, international relations, and strategy. This podcast is brought to you by War on the Rocks.",
-        "published_time": "2025-10-31T21:59:24Z",
-        "last_polled_time": "2025-10-31T22:17:11.728Z",
+        "published_time": "2025-11-13T13:06:19Z",
+        "last_polled_time": "2025-11-13T13:19:12.971Z",
         "group": 4,
         "always_load": false
     }
@@ -2182,8 +2182,8 @@
         "xml_url": "https://access.acast.com/rss/6851792d002f9da49a7fbef5/default",
         "link": "https://shows.acast.com/quiteright",
         "description": "<p>Welcome to <em>Quite right!, </em>the new podcast from <em>The Spectator</em> that searches for sanity and common sense in a world which increasingly seems devoid of both. Each week from September, join Michael Gove, editor of <em>The Spectator</em>, and Madeline Grant, assistant editor of <em>The Spectator</em>, for a mixture of politics, culture and mischief as they unpack the stories that most piqued their interest, amusement or exasperation.</p><br /><p>For more podcasts from The <em>Spectator:</em> <a href=\"https://www.spectator.co.uk/podcasts/\" rel=\"noopener noreferrer\" target=\"_blank\">spectator.co.uk/podcasts</a></p><br /><p>Subscribe to <em>The Spectator</em>: <a href=\"https://www.spectator.co.uk/subscribe/\" rel=\"noopener noreferrer\" target=\"_blank\">spectator.co.uk/subscribe</a></p>\n\n<hr /><p style=\"color: grey; font-size: 0.75em;\"> Hosted on Acast. See <a href=\"https://acast.com/privacy\" rel=\"noopener noreferrer\" style=\"color: grey;\" target=\"_blank\">acast.com/privacy</a> for more information.</p>",
-        "published_time": "2025-11-05T00:01:00Z",
-        "last_polled_time": "2025-11-05T00:17:12.656Z",
+        "published_time": "2025-11-21T00:01:11Z",
+        "last_polled_time": "2025-11-21T14:17:13.743Z",
         "group": 4,
         "always_load": false
     }
@@ -2196,9 +2196,37 @@
         "xml_url": "https://anchor.fm/s/1044f16a4/podcast/rss",
         "link": "https://podcasters.spotify.com/pod/show/antonia-west5",
         "description": "Welcome to The History Book Buffs. For reviews and chat about history books, fact and fiction, hosted by award-winning historian Roger Moorhouse, and novelist and critic Antonia Senior. \n\n🔎 Discover new and classic titles, with two history-obsessed writers\n💬 Join a community of readers who love history as much as you do\nSubscribe and turn on notifications to explore the past with us!",
-        "published_time": "2025-10-30T04:17:24Z",
-        "last_polled_time": "2025-10-30T05:17:19.948Z",
+        "published_time": "2025-11-21T08:04:20Z",
+        "last_polled_time": "2025-11-21T10:17:23.949Z",
         "group": 1,
+        "always_load": false
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 516,
+    "fields": {
+        "title": "Odd Lots",
+        "xml_url": "https://omny.fm/shows/odd-lots/playlists/podcast.rss",
+        "link": "https://bloomberg.com/podcasts/odd_lots",
+        "description": "Bloomberg&#x27;s Joe Weisenthal and Tracy Alloway explore the most interesting topics in finance, markets and economics. Join the conversation every Monday and Thursday.",
+        "published_time": "2025-11-22T09:00:00Z",
+        "last_polled_time": "2025-11-22T09:17:14.290Z",
+        "group": 4,
+        "always_load": false
+    }
+},
+{
+    "model": "feedreader.feed",
+    "pk": 517,
+    "fields": {
+        "title": "Battle Lines",
+        "xml_url": "https://feeds.acast.com/public/shows/battle-lines-israel-gaza",
+        "link": "https://shows.acast.com/battle-lines",
+        "description": "<p>Battle Lines is The Telegraph’s defence, security and foreign affairs podcast. It offers expert analysis and on-the-ground reporting from around the world, everywhere from China and the United States to the Middle East and Europe.</p><br /><p>Three times a week, veteran foreign correspondents Roland Oliphant and Venetia Rainey bring you on-the-ground dispatches from the world’s most volatile regions and informed analysis from world-class experts.</p><br /><p>Every Wednesday on Battle Lines x Global Health Security they’re joined by Arthur Scott-Geddes to look at the intersection between health and security, from bioweapons to warzone diseases to frontline medicine.&nbsp;You can watch these episodes <a href=\"https://www.youtube.com/playlist?list=PLJnf_DDTfIVCaWbKZbRUi1KVej5VziwNy\" rel=\"noopener noreferrer\" target=\"_blank\">here</a>.</p><br /><p>Whether it’s the Russia-Ukraine war, the Israel-Gaza conflict, Chinese aggression in the Indo-Pacific, tensions between India and Pakistan, or the civil war in Sudan, Battle Lines covers the world’s most critical flashpoints with depth and clarity.</p><br /><p>When will China invade Taiwan? Can Donald Trump bring peace to the Middle East? What should Europe do to help Ukraine beat Russia? Is Iran building a nuclear bomb? What is the point of NATO? Can the United Kingdom still defend itself?&nbsp;</p><br /><p>Created by David Knowles, Battle Lines answers all these questions and more, bringing together the best of The Telegraph’s international, geopolitical, and conflict reporting in one place.</p><br /><p>Don’t forget to follow and leave a review to stay updated on the latest in global conflict and foreign affairs.</p><br /><p>Battle Lines: Global Health Security is supported by the Bill and Melinda Gates Foundation.</p><hr /><p style=\"color: grey; font-size: 0.75em;\"> Hosted on Acast. See <a href=\"https://acast.com/privacy\" rel=\"noopener noreferrer\" style=\"color: grey;\" target=\"_blank\">acast.com/privacy</a> for more information.</p>",
+        "published_time": "2025-11-21T06:02:00Z",
+        "last_polled_time": "2025-11-22T13:31:02.121Z",
+        "group": 3,
         "always_load": false
     }
 }
