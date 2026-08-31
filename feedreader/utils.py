@@ -1,11 +1,12 @@
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from time import mktime
 
 import feedparser
 import pytz
 from django.conf import settings
-from django.utils import html, timezone
+from django.utils import html
+from django.utils import timezone as django_timezone
 
 from .models import Entry
 
@@ -40,7 +41,7 @@ def get_xml_time(xml_object):
             xml_time = xml_object.updated_parsed
 
     if xml_time is not None:
-        xml_time = datetime.fromtimestamp(mktime(xml_time))
+        xml_time = datetime.fromtimestamp(mktime(xml_time), tz=timezone.utc)
 
         try:
             xml_time = pytz.timezone(settings.TIME_ZONE).localize(xml_time, is_dst=None)
@@ -105,7 +106,7 @@ def update_feed_on_database(feed_from_database, feed_from_xml, initial, verbose)
     else:
         feed_from_database.description = ""
 
-    feed_from_database.last_polled_time = timezone.now()
+    feed_from_database.last_polled_time = django_timezone.now()
     feed_from_database.save()
 
     return feed_from_database
@@ -148,7 +149,7 @@ def skip_entry(entry_from_xml, initial=False, verbose=False):
         )
         return True
 
-    if not initial and (xml_time < (timezone.now() - AGE_WINDOW)):
+    if not initial and (xml_time < (django_timezone.now() - AGE_WINDOW)):
         return True
 
 

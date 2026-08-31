@@ -10,13 +10,13 @@ from .forms import ToggleEntryReadForm
 from .models import Entry, Feed, Group
 
 
-class FeedCount(object):
+class FeedCount:
     def __init__(self, feed):
         self.feed = feed
         self.total_count = 0
 
 
-class GroupCount(object):
+class GroupCount:
     def __init__(self, group):
         self.group = group
         self.feed_counts = []

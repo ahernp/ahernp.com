@@ -31,9 +31,9 @@ class Feed(models.Model):
     def save(self, *args, **kwargs):
         try:
             Feed.objects.get(xml_url=self.xml_url)
-            super(Feed, self).save(*args, **kwargs)
+            super().save(*args, **kwargs)
         except Feed.DoesNotExist:
-            super(Feed, self).save(*args, **kwargs)
+            super().save(*args, **kwargs)
             from feedreader.utils import poll_feed
 
             poll_feed(self, initial=True)

@@ -64,8 +64,7 @@ class UploadView(LoginRequiredMixin, FormView):
         with open(
             f"{settings.MEDIA_ROOT}/{upload_file_type}/{upload_file.name}", "wb+"
         ) as destination:
-            for chunk in upload_file.chunks():
-                destination.write(chunk)
+            destination.writelines(upload_file.chunks())
         return super().form_valid(form)
 
     def get_context_data(self, **kwargs):

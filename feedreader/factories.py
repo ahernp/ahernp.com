@@ -8,7 +8,7 @@ class GroupFactory(factory.django.DjangoModelFactory):
         model = Group
 
     id = factory.Sequence(lambda n: n)
-    name = factory.Sequence(lambda n: "Group %s" % n)
+    name = factory.Sequence(lambda n: f"Group {n}")
 
 
 class FeedFactory(factory.django.DjangoModelFactory):
@@ -16,10 +16,10 @@ class FeedFactory(factory.django.DjangoModelFactory):
         model = Feed
 
     id = factory.Sequence(lambda n: n)
-    title = factory.Sequence(lambda n: "Feed %s" % n)
-    xml_url = factory.Sequence(lambda n: "feed-%s-xmlurl" % n)
-    link = factory.Sequence(lambda n: "feed-%s-link" % n)
-    description = factory.Sequence(lambda n: "Feed %s description" % n)
+    title = factory.Sequence(lambda n: f"Feed {n}")
+    xml_url = factory.Sequence(lambda n: f"feed-{n}-xmlurl")
+    link = factory.Sequence(lambda n: f"feed-{n}-link")
+    description = factory.Sequence(lambda n: f"Feed {n} description")
 
 
 class EntryFactory(factory.django.DjangoModelFactory):
@@ -28,6 +28,6 @@ class EntryFactory(factory.django.DjangoModelFactory):
 
     id = factory.Sequence(lambda n: n)
     feed = factory.SubFactory(FeedFactory)
-    title = factory.Sequence(lambda n: "Entry %s" % n)
-    link = factory.Sequence(lambda n: "entry-%s-link" % n)
-    description = factory.Sequence(lambda n: "Entry %s description" % n)
+    title = factory.Sequence(lambda n: f"Entry {n}")
+    link = factory.Sequence(lambda n: f"entry-{n}-link")
+    description = factory.Sequence(lambda n: f"Entry {n} description")

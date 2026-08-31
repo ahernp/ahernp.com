@@ -9,5 +9,5 @@ class TimerFactory(factory.django.DjangoModelFactory):
         model = Timer
 
     target = factory.LazyFunction(timezone.now)
-    label = factory.Sequence(lambda n: "Timer %s" % n)
-    slug = factory.Sequence(lambda n: "timer-%s" % n)
+    label = factory.Sequence(lambda n: f"Timer {n}")
+    slug = factory.Sequence(lambda n: f"timer-{n}")
