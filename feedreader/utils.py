@@ -3,7 +3,6 @@ from datetime import datetime, timedelta, timezone
 from time import mktime
 
 import feedparser
-import pytz
 from django.conf import settings
 from django.utils import html
 from django.utils import timezone as django_timezone
@@ -42,12 +41,6 @@ def get_xml_time(xml_object):
 
     if xml_time is not None:
         xml_time = datetime.fromtimestamp(mktime(xml_time), tz=timezone.utc)
-
-        try:
-            xml_time = pytz.timezone(settings.TIME_ZONE).localize(xml_time, is_dst=None)
-        except pytz.exceptions.AmbiguousTimeError:
-            pytz_timezone = pytz.timezone(settings.TIME_ZONE)
-            xml_time = pytz_timezone.localize(xml_time, is_dst=False)
 
     return xml_time
 
